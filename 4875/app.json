@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.facebook.testing.screenshot.examples",
+    "label" : null,
+    "icon" : null,
+    "versionName" : null,
+    "versionCode" : null,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "22",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "22",
+    "platformBuildVersionName" : "5.1.1-1819727",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.WRITE_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : null,
+  "dexClasses" : 5,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" package=\"com.facebook.testing.screenshot.examples\" platformBuildVersionCode=\"22\" platformBuildVersionName=\"5.1.1-1819727\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"22\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<application android:debuggable=\"true\" />\n</manifest>\n",
+  "fileSize" : 5124,
+  "crc32" : 3133537094,
+  "sha256" : "4585e91f0053f31cf3e7b800048c1e4df8c32cdebf26bd12132a2178ed72aaa4",
+  "buildTime" : 1547988671000
+}

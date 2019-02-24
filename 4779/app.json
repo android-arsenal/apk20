@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.luxiliu.android.sample.labellayout",
+    "label" : "LabelLayout Demo",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.4.2",
+    "versionCode" : 2018031102,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAC3ElEQVR42u2ZTW8SQRjHe9P4QfRe48lr/RbtQRM9+BKtevCt0QQvHusdj74cNLHlImLR0FIrtOwspGHDLrv00BtJSa+Fx3lgIQ1x5313U8MkT2gD7Pz+PDPP/Gdmbm7WZi395vv++U6nfi0IrEwQ2LkgIA597dHX/iiGfzuj96wMfha/kzr4wUHtCgV6R+GOaIBkHOF38RmJg3c69mXft/IK0P+KAT4Lnxk7+OFh9QIdBm9ppyeG4E/Hie+TVewjFvh2m1yinTRiAJ+OhudZFw0PmdpV+uBuAvDj6GKfJuGPE4Qfx7G2iHDYdFOAn2RCeTiNJmwiY547J5Qmdlht9Dr3auBWi+BW+OGRzcjnYHWSrvO6pbJdL0P18TJsLy6KxdISSwSyzEtYA71FCuEry/e50OVbN6F84/rkf8xWdBasvIQ9IIO44TcfPYDv3z5DYe3DRARLADIJ2Y7Q26jBN8Tgh7/+q+fQbO5AnZSGmRAQQMPOcl2lojGTgh+PeevNa9h98URoCI0NYKvVOseYvGiJE4CPCAEBgIys4ZNJC15UADKyan9OGv6hGXhxAXaOIQB3TenAiwsgDisDvbTgJTLQY2Wgnxa8RAb6ygLihN+6dwdazT+6AhhDqF2T8zYy8Hdvw0buE3jU/OkOIYdlEeKC/7H+Efb3f4tWP0epjHruHpRePosJflti7WGW0eiFjLpB+FVcg9LK07R+ef5CxrMSrrsLPzf0RajDo5WwF7TMnK4IHXiumRO106oiNOH5dlpmQyMrQh9ecEMjs6UUFaFWbRS3lLKbep4IE/DSm/pRFsiqaAdRIgzByx+rqBxsTUSEix16GxPwygdbKkeLQxHFdSh8fQ+F/BcT8F3tk2rZw13P2wNCSuA4lfQPd/+L4/Vxw1Se2QuO0xM7rE5n74ppat8wHy52A1OXfNJ13tw1q51Vv2a1s6lcs043dIhyF932AtdVztqsJdP+AnXpW64XRTUTAAAAAElFTkSuQmCC",
+    "file" : true
+  },
+  "dexClasses" : 1299,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"2018031102\" android:versionName=\"1.4.2\" package=\"com.luxiliu.android.sample.labellayout\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"27\" />\n\t<application android:theme=\"resourceId:0x7f0c0005\" android:label=\"LabelLayout Demo\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"res/xml/backup_descriptor.xml\">\n\t\t<activity android:name=\"com.luxiliu.android.sample.labellayout.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1382186,
+  "crc32" : 1268142557,
+  "sha256" : "3087e9c0137d745ebc14d86dad06d2d2ee546137773728f40e94c29ad8020a4c",
+  "buildTime" : 1539481120000
+}

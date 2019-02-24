@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.github.anastr.spongeboblist",
+    "label" : "SpongebobList",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "11",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "24",
+    "platformBuildVersionName" : "7.0",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1805,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.github.anastr.spongeboblist\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"11\" android:targetSdkVersion=\"24\" />\n\t<application android:theme=\"resourceId:0x7f08008f\" android:label=\"SpongebobList\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.github.anastr.spongeboblist.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 3615944,
+  "crc32" : 81965555,
+  "sha256" : "1c635721cada4832297fee09defb60f41de523319fb1bf217873dda13361a82b",
+  "buildTime" : 1539482333000
+}

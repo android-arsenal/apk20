@@ -1,0 +1,40 @@
+{
+  "meta" : {
+    "packageName" : "vn.tiki.ab.test",
+    "label" : null,
+    "icon" : null,
+    "versionName" : null,
+    "versionCode" : null,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "15",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "24",
+    "platformBuildVersionName" : "7.0",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE", "android.permission.WAKE_LOCK", "com.google.android.c2dm.permission.RECEIVE", "vn.tiki.ab.test.permission.C2D_MESSAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ {
+      "name" : "vn.tiki.ab.test.permission.C2D_MESSAGE",
+      "label" : null,
+      "icon" : null,
+      "description" : null,
+      "group" : null,
+      "protectionLevel" : null
+    } ]
+  },
+  "icon" : null,
+  "dexClasses" : 6179,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" package=\"vn.tiki.ab.test\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"15\" />\n\t<instrumentation android:label=\"Tests for vn.tiki.ab.test\" android:name=\"android.support.test.runner.AndroidJUnitRunner\" android:targetPackage=\"vn.tiki.ab.test\" android:handleProfiling=\"false\" android:functionalTest=\"false\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"android.permission.WAKE_LOCK\" />\n\t<uses-permission android:name=\"com.google.android.c2dm.permission.RECEIVE\" />\n\t<permission android:name=\"vn.tiki.ab.test.permission.C2D_MESSAGE\" android:protectionLevel=\"0x2\" />\n\t<uses-permission android:name=\"vn.tiki.ab.test.permission.C2D_MESSAGE\" />\n\t<application android:debuggable=\"true\">\n\t\t<uses-library android:name=\"android.test.runner\" />\n\t\t<receiver android:name=\"com.google.android.gms.measurement.AppMeasurementReceiver\" android:enabled=\"true\" android:exported=\"false\" />\n\t\t<receiver android:name=\"com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver\" android:permission=\"android.permission.INSTALL_PACKAGES\" android:enabled=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"com.android.vending.INSTALL_REFERRER\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t\t<service android:name=\"com.google.android.gms.measurement.AppMeasurementService\" android:enabled=\"true\" android:exported=\"false\" />\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"com.google.android.gms.common.api.GoogleApiActivity\" android:exported=\"false\" />\n\t\t<receiver android:name=\"com.google.firebase.iid.FirebaseInstanceIdReceiver\" android:permission=\"com.google.android.c2dm.permission.SEND\" android:exported=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"com.google.android.c2dm.intent.RECEIVE\" />\n\t\t\t\t<action android:name=\"com.google.android.c2dm.intent.REGISTRATION\" />\n\t\t\t\t<category android:name=\"vn.tiki.ab.test\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t\t<receiver android:name=\"com.google.firebase.iid.FirebaseInstanceIdInternalReceiver\" android:exported=\"false\" />\n\t\t<service android:name=\"com.google.firebase.iid.FirebaseInstanceIdService\" android:exported=\"true\">\n\t\t\t<intent-filter android:priority=\"-500\">\n\t\t\t\t<action android:name=\"com.google.firebase.INSTANCE_ID_EVENT\" />\n\t\t\t</intent-filter>\n\t\t</service>\n\t\t<provider android:name=\"com.google.firebase.provider.FirebaseInitProvider\" android:exported=\"false\" android:authorities=\"vn.tiki.ab.test.firebaseinitprovider\" android:initOrder=\"100\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"9877000\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2859739,
+  "crc32" : 2961596823,
+  "sha256" : "d99376cf472b5d699dc0fbc440fc0ee2cd2c3988521952f53e7e7ebe8308c3f9",
+  "buildTime" : 1539513795000
+}

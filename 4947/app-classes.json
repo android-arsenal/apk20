@@ -1,0 +1,4 @@
+{
+  "com.whygraphics.gifview" : [ "BuildConfig", "MainActivity", "MainActivity$1", "R", "R$attr", "R$color", "R$dimen", "R$id", "R$integer", "R$layout", "R$mipmap", "R$string", "R$style", "R$styleable" ],
+  "com.whygraphics.gifview.gif" : [ "GIF", "GIFView", "GIFView$1", "GIFView$2", "GIFView$3", "GIFView$4", "GIFView$5", "GIFView$AsyncSettingOfGif", "GIFView$CannotInitGifException", "GIFView$OnSettingGifListener", "GIFView$OwnOnSettingGifListener", "MovieGIF", "MovieGIF$1", "MovieGIF$2", "MovieGIF$InputStreamIsEmptyOrUnavailableException", "MovieGIF$InputStreamIsNull", "MovieGIF$OnFrameReadyListener" ]
+}

@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.merkmod.myapplication",
+    "label" : "Achievement Toast Sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "17",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAMHklEQVRo3u2Zy49k91XHP+f3u6+6VdVd/e4Zj8d2MmPHOI6wEwGxSAJBssgisElExApQEEs2IAELZIk1fwBCSLBBgg3KAiHxUASRiR3j2M4kjieemcRju+fRj+nqety6j9/vsLh3Zqqrq6d7CAsk/JNKpXur7v2dx/ec8z3nBx+tj9b/7yUn/eGtv/+DJ4I4+t0oab+QLiyct3GwYDB4Xw2Lotwtx5Pr+Xh4uZhUr44Ptv/9ha//1d7sO1566SXzq8/11pba0ZMS26ejIHhSJHzcGDljA5ZEgrYEATaKBxK0biQrm+9ZE4WIC9++9MrffPqF3/lnQB9WAXnt7/7ot9c3lv+8d3ap1+6liE7q90gAxBCmYLtUhSMfTqgqzWyUfBi02nsmbokR2mLpGkhV7YIRQhUHvgIqwIFWoAr4KZEMoKjCe+/vfevCM1/5YvPAkRXM3vjGN/5248Vf+ezv55ODCzK88eVWr53YMAR1KEW9YbOx4kD3MaGj1fMALaS4AMPaXqrgPaqKmM58Ex67LCIhvYXOxjNra8kPtreH8/5lZq8Ne38Y6I//uJPsfrW9GiYmKFE/wPsdtNpG3S7q9lE/BJ+BFqCu8bA2Fi2aT9n85o9DwDErAJOA6dAKgotf+9qnXzwOLbMK2O2trRTNmw2ltrwfg8+n3Pw/Wf50ISkRmBSkDRIhQSDOuYXTKiBZVhZIXP+kDtUx6OShhFfnG1wfunnCUwYkBtNuFBDwY0TusLHSMXNknasAzjNCLGhZC+/ze+5X53HjHJ+Xx4rh8py9y99lfPPGodfr/BhEXYUbZ0BUCy9xvbfbR/0O1pb88i988k//4s9+47HTKKCTouyj5RHYuHHG8PIrjK59k9G7L5PfunEMCjxxfECUmCZb3X1zE/zTm3lP/3v/yva3/5rR9e8DFvwQdfugY9AKEc/6E2uPfXx99U/mGfyIAq+9fqlSn1HHQQMbVcbX3yT21+gsQBp/iB18Bzc8OJo7opTuxV8jXLlYB/L0yzU/hHctC4L+a7TlBn73DVTHteHI6/11AlrQWeuy+Uj6BSA8EUIHe4MVtDyUNVwxwU7eIQgMRgQbdwlsheQ358SWon6I+sEcvFSNEgISYlqrtJ7+Kumjn6P95JebrDapv/2Ee3JoSW958fzv/ebnz59UB6QsMjMrkglD4t46Nukh6SaIQbMDbOcc+pDZHS1QiREsqiV28zl08/nG2mPQrIHb4fcGYRC242ANuDL94xEPVGUlsyKJCTC9J9F8Hz24ir/1bQi6kKw/nOyAYlGfNR5SFN8I31h+xvu1lClVWTEejWXW5UcqcZ6X++o8YmeU6D2FtB+HYoAEi9BaRn3/IWuBqeNCLKoW8ZM6XeJq6zM/u4mx7O3s62g4rk6CkI4mxbXBcMTiYnykEGkYQrjcXJ5SeK+4rEBLBziklSJxjIgBzVCfN7DxiFhqy5n7xU8dqhE/eW9r9MblD7Zm3XNEgdt3+q/v7Q7Gi4tx+tNSXTeekN++ivp9TH4bI4L3KbL4DPHmI6ipwI9qBRrydphjNvWHlFu37tz6/tW9g5M84G/f7u9WXvrAqRTQylHs9UE90coSEtTYc9mEyY03iJMhVitM1ELLEer2KfvfZJx/ivT840DNcH3uUBdj06MBXJU5BwfZdlNIHuwBwE1KX6oqIie2C/Svvsn49uuYdJVO/ik65y8CSnHre8RsEQbLIMtQ3IQgwdiS0EYU/dcp9ttEvdpOJkkQaaN+/6gnJ2MmJbvz+Mw8fqFl7vKp6sPo/fcZXLuML6ojNECHl1laDFlqe6LyR0CELwpsuUXY3gAjwABJ1pDkDNgI01qi1V3GDz+sq2+961zhAXxVUnqdq0Aw74EiL/P73GbMePdVojhCJ6sQrdzPDjag98gFRD3ih9B5AjUG0RHxys+AGyJxAFVR49vlYLtQHWBtSRwUIOGJRM9XOZWnP4+Tz1NAkzS6Z2qbpKx87BcxJkG6j6J6uMLKxs8h+aiOu9ZZcLeRIEbkAGyTtq1BNETLQdONKQQLmHDhVGXQuwLv5WCeAnMpamK0dR//glk4C92VI8LfTRiatNG4g7ptMC0IN1E1YBSxCfgQLQ/qGuBzCGJwY2htNJxrCu9DpdjOqQYzVFy1f1oFJAlteqQZOZHPVyAhIp2aC/WeQzXFD3+Cjq5AdrPe3udQZnU8dDabHjtETIq6FjK4SiJXsb5CXRcxKWCI4sidCkLdbjcOfNl96KSvDrG9mk1KAEbQ9hnE9cFVEC6Az1A1SLyBrj6P6hCxi/cC2cgIMftgFrGhg3gF1QNMmCLG2tM09XLh/MZGHGjntFXWT0qwJaa1UjNNEQRBdYSEbXT5M8hkG8oRSIws9dC4DTpBZMbRYRt6z8JkH0k28eJAwQQBaWy7p5pKPHth41mxJjhR9qJifP1tyuF1vKR0z3+GaHmlpuz+AFEPJkD9PhoZiHsNNZ4gBIebnWlHpuegc7E2hh/VQkYRrTjszuuLj0wlfv7p9WfjTvfEmVdx+x3C8i0WF3IWFweU/R+iGoOOG0+ENZzucfp6/iO2cz/3zycg4IfNc42VWwntNF6ZJ9SsGezySvtivLhad0UPWKHdx8YBBDE2SrGS3RsCiNhGkPEUL1KynW202qK1+ijh0unDzNiAtdXl9VN54JFHNs8FcfvE8Ydd+gQSdZEgAHWY9kVEMqTJKuqH91vHShnu7CHuXUL3A6rdV/FZdvr5pyhnzq1uzsuasx4wq6tLZ+uKLccPo8RA+hhsdqAsIVhBowB1txGTNI2Ja1pHgyszWsmAOFxHfAnlHbyvHirJbWwunv/S5y50/ulbV7JjPfDrL35yZWExWccXU4xW8ZNias4jdaBqgQYJ2n4UHyrqdhAJaotrs4cEoJ4gadFaXMMkizU3MhHmRC8fXu2lhaUvffaZL8zCaFoBeerMmSejJExrDNf/y/b2ONi+SX4wumdRkagOMrPYjBDHdbGTpIGOTL1ewYRouIQ6j0QbyOoX0agzh5p7it3B3Pra6i3R6y18fvbHaQhJGsmaDVPEBPfQYxKhHQUEnU0gA4K6kTdp04SMQXNE4qZil1MT7LvF06BhG5aevx8fUwF+TwERNAya4dbhGBGr9Hrdp5oU5uYqUKgLvHOoOqSxYtxZr3k6FXjlbrMsEjdpcoJgwCSouzPV9wZTc6EmnvzogeTNWCFeSI8IXw/BDKrV8mwOPhTEVV5JmY1qa+poapbTn8K0IjZFfZPv1dWTZHwjsGmU9FP0fXZOqqhX8He/uX+t9+97f7fNNJi0w7Ufv68PVODSe7vFzvvvsf6Jn0XVzzkLEcCiTvDlGKoxeI/Hg+ujlaK+QNWg3qEE9RYS1g39XYarCuJRBecrRMAEFpUQUEzUxmFxTgmTmCiK6F+/xq3tfvfs2bPLW1tbw7kKvHVl74PXv3upWHvsY9HCcq9xXYkS1PMcFFWHdwOqbIDLh5STjHw8Ip9kePWIsWAsYkNEDMZIk8EqRAyqig0sYZIQp13CtEuULhK2OwRxiAlSMGEdNz6nHGfcufIW7/7Xy7zxo1s6NWrXWQU0y7L+P/zHta3N5X95/Oy5c3RWNwiiEFVDWVTk44xRf4fRwS6jUUY2KcmLirx0eK941Zl5wrzhliIIRsBaQxwFJFFAEge0koS03SWME8QYqklGNupzc3fIK5duVpeu7PzncFxtHwchLcvy1nfe3vnHpfY7X3/q/M04TQKMEdQrpfOUlZKXFcOs0p39SbF3kBf7w6IcZVU1zivn/F3cSWOjZiyiXu+eOAlgjJEoNDaJrO22wrCTBuFSJwkWOlHQTqy1pvac857+sNArH/QHb17d/7dBpn+ZZdn+gw754na7/bSv8t/aWE5+qRUFC8aK9V59XroiL9xknFXjQVYeOM/QGDMGnDFGpAa4zORpnRny3D3N86q1Tt57D1hVjUU0jkObJoGNjJXQO83HefVh4fQ1a+3LZVleBcbTzb3M4UZJkiSbVVU9aq1drKpKACciOVCIyASYiEjV3FdVna5ccmQydSjVi5tRqBlp5gAmiqJQVS0gIuKKohgDg+Zz5JxLjjl6DZuPnQqYaQvqrACnPLrVB1zLTLpjar9jTwrlpzkE/19Yeoq9lY/W/+H13zHzSO9JklboAAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 1728,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.merkmod.myapplication\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"17\" android:targetSdkVersion=\"25\" />\n\t<application android:theme=\"resourceId:0x7f08009c\" android:label=\"Achievement Toast Sample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.merkmod.myapplication.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1485218,
+  "crc32" : 2171516184,
+  "sha256" : "4d0cf212764910559e9d3f709863074291b4c6040845925e9920ffa362e02264",
+  "buildTime" : 1521975058000
+}

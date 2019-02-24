@@ -1,0 +1,9 @@
+2016-12-25 00:18:05,724 INFO  DownloadService - Downloading "https://github.com/DaVikingCode/Citrus-Engine/archive/master.zip", attempt 3
+2016-12-25 00:18:09,675 INFO  DownloadService - Downloaded https://github.com/DaVikingCode/Citrus-Engine/archive/master.zip, attempt 3
+2016-12-25 00:18:09,676 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2016-12-25 00:18:09,695 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1482603485530-0/master.zip: false
+2016-12-25 00:18:09,695 INFO  FullProcessService - Archive with sources does not contain any build script
+2016-12-25 00:18:09,695 ERROR FullProcessService - Could not find directory with sources
+2016-12-25 00:18:09,695 ERROR FullProcessService - Project will not be processed
+2016-12-25 00:18:09,695 ERROR FullProcessService - Project build has not produced APK file
+2016-12-25 00:18:09,715 ERROR FullProcessService - Could not find generated or existed APK file

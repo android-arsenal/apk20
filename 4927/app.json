@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "co.ceryle.fitgridview.sample",
+    "label" : "FitGridView",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1700,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"co.ceryle.fitgridview.sample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"25\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.1\" />\n\t<application android:theme=\"resourceId:0x7f0800a3\" android:label=\"FitGridView\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"co.ceryle.fitgridview.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1491182,
+  "crc32" : 107210204,
+  "sha256" : "98af6576155e7f66c98b21a996c38e71dcc9287d950856b933bf05ea3f31e954",
+  "buildTime" : 1521960596000
+}

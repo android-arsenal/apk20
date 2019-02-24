@@ -1,0 +1,4 @@
+{
+  "im.delight.android.examples.webview" : [ "BuildConfig", "MainActivity", "MainActivity$1", "MainActivity$2", "R", "R$drawable", "R$id", "R$layout", "R$string", "R$style" ],
+  "im.delight.android.webview" : [ "AdvancedWebView", "AdvancedWebView$1", "AdvancedWebView$2", "AdvancedWebView$3", "AdvancedWebView$Browsers", "AdvancedWebView$Listener", "BuildConfig", "R" ]
+}

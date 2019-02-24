@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "hp.harsh.permissionacceptor",
+    "label" : "PermissionAcceptor",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "8",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.CAMERA", "android.permission.ACCESS_FINE_LOCATION" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAByFBMVEUAAAAAqOwAqOwAqOwApukFo+MWp+EcqeEEo+MApuoBpOYgqeE5s+VGvOw/vO9AvO9FvOw4s+UfqeEBpecAp+sUpuE+tuc9tucSpuEAp+ogqeBCu+1Cu+weqOAdqOBCvO5CvO0bp+AAqOsOpeJCuusMpeM2suQ0seMRpeFDvO4qreJcxvFdxvJbxvEorOI6tOVkyfL///9VxPEApOZDuelmyfJXxPFBuOgApecBo+VGu+tEuuoAo+VFuuoApeg7tOYwr+NJv/CP2PaQ2PaO1/ZEvu8truMbqOFBvO8Yp+EBpOc/t+c9teYGpOMdqeEpreIur+MeqeEHpONBvO4Ypt8ysONEu+wzsOMPpeIwruIuq94nqd9Uw/FQwvAprOEBpegCpec1seM0rd4zrd6c3Pf+//9LwPA0sOMqrOEoqt8tqt2f3vdNwfAvruIQpeFEvOwPpeEXpt8ap+EIpOMvr+M/tucXp+EaqOF80fSN1/bG6/qV2vZaxfHn9/09tubm9v2T2fZWxPFgyPKw4/hszPNHv/ArreKg3vcSpeE0seQ3suQMpeIcqOBMwPAfqOBpy/IhqeATpuEVpuFFvO0hquECpOYdqeIGo+Nuex/SAAAAmHRSTlMA9v/5/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wBttSsAAAISSURBVEjHzdVnVxNBFAZgHAcwgu8SM4prggsJikQlKCihYwFRUMCCWLFX7BgVLNh7V/y7zmzEZKeR4yfeT7N77nPO7p1WVLQgs4gUmMV/wb8XtLiktLRkScgogmBpWfkyAE5FeHmkAMBWrMRcnMpVbD7gro4iL7EqZgdsjYdAqmviVpCIQUrtWhug66CkLmQB6z0V1CcsIAlnw8ZANgENZkBTaNwsZQvCrhE0NWOrDLahJW0ErW060N5kBB2dOtBsBl2VOtBNjYD1YPuOnYHs6kVf3NzW3Y46D/17REk8rgV7B1QwGHH37R8aHh4aOeCqa6nmoFzvHUocHs0OR4+MMRnQo1K9c+w4X4+9J3hOAtFT4/J+OH0m8BvO2XPi+bzo14WL/PlSRN5x45erc/XRK1d9f83v8IQYXg/Je5rdqLs59823bmeXbx7w7iiHAHHvjiQnJ5O8K+lByAD3IgrI9T3TrwLnvhZkVR/w4CHPlA+mxfARepgR0G7gsbS2pvGkywj4/tCAzg4zaNeBtlYjSLfoAN8fJuCGgacSmEGKGgFpAJ4953nh174Uw1d4bW4rGavPzsObvHnw3lpA6J0K3lMLIB9qZRBLEBtgH73c0vgkPsg//82AuJ/FfTHxhadRnP5fXWIHhH3L3UgY+M7IfICfDGXlFaL6R+rnL+2lqIYWZ2ZnM7+p4RYtIP97sS+w/AE9ZJo+ntx6UgAAAABJRU5ErkJggg==",
+    "file" : true
+  },
+  "dexClasses" : 1483,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"hp.harsh.permissionacceptor\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"8\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.CAMERA\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />\n\t<application android:theme=\"resourceId:0x7f090081\" android:label=\"PermissionAcceptor\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"hp.harsh.permissionacceptor.activity.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"hp.harsh.permissionacceptor.activity.PermissionDemoActivity\" />\n\t\t<activity android:name=\"hp.harsh.permissionacceptor.activity.FragmentActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1174732,
+  "crc32" : 1446243627,
+  "sha256" : "48bf073e45bd1f81b3b589e1bb8f97956455e0f1d6f91ac4ecae594c0bff6c0d",
+  "buildTime" : 1539466324000
+}

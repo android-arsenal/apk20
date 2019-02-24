@@ -1,0 +1,335 @@
+2018-10-15 00:11:52,089 INFO  DownloadService - Downloading "https://github.com/10uroi/OXSwipe/archive/master.zip", attempt 3
+2018-10-15 00:11:52,548 INFO  DownloadService - Downloaded https://github.com/10uroi/OXSwipe/archive/master.zip, attempt 3
+2018-10-15 00:11:52,548 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/master.zip": 97 KB
+2018-10-15 00:11:52,549 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-15 00:11:52,554 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/master.zip: true
+2018-10-15 00:11:52,554 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src'.
+2018-10-15 00:11:52,571 INFO  FullProcessService - Size of directory with sources: 104 KB
+2018-10-15 00:11:52,571 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src]
+2018-10-15 00:11:52,618 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/.git/
+
+2018-10-15 00:11:52,620 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/gradlew
+2018-10-15 00:11:52,623 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/oxswipe/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/build.gradle
+2018-10-15 00:11:52,626 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/oxswipe/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/settings.gradle
+2018-10-15 00:11:52,626 INFO  ProjectBuildService - Remote scripts: none
+2018-10-15 00:11:52,626 INFO  ProjectFixService - Fixing project...
+2018-10-15 00:11:52,632 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/app/local.properties
+2018-10-15 00:11:52,633 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-10-15 00:11:52,633 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/oxswipe/local.properties
+2018-10-15 00:11:52,634 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/oxswipe/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-10-15 00:11:52,634 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/local.properties
+2018-10-15 00:11:52,635 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-10-15 00:11:52,635 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-10-15 00:11:52,635 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-10-15 00:11:52,636 INFO  ProjectFixService - Project was maybe fixed
+2018-10-15 00:11:52,636 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-15 00:11:52,636 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-15 00:11:54,791 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-10-15 00:11:54,791 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-10-15 00:11:54,791 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-10-15 00:11:54,792 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-10-15 00:11:56,353 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-10-15 00:11:56,354 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/app/build.gradle' line: 1
+
+* What went wrong:
+A problem occurred evaluating root project 'app'.
+> Plugin with id 'com.android.application' not found.
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.GradleScriptException: A problem occurred evaluating root project 'app'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:93)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:177)
+	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:182)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:38)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:25)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:55)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:540)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:93)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:33)
+	at org.gradle.initialization.DefaultGradleLauncher$2.run(DefaultGradleLauncher.java:124)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:121)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.plugins.UnknownPluginException: Plugin with id 'com.android.application' not found.
+	at org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.java:110)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyType(DefaultObjectConfigurationAction.java:113)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$200(DefaultObjectConfigurationAction.java:36)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$3.run(DefaultObjectConfigurationAction.java:80)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:136)
+	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
+	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
+	at org.gradle.api.Script$apply.callCurrent(Unknown Source)
+	at build_dddh9pi6fgmq1gtp1zuwxaodb.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/app/build.gradle:1)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
+	... 50 more
+
+
+BUILD FAILED
+
+Total time: 1.385 secs
+
+2018-10-15 00:11:56,357 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-15 00:11:56,357 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/oxswipe/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-15 00:12:03,503 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-10-15 00:12:03,504 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-15 00:12:03,504 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/oxswipe/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-15 00:12:15,792 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:oxswipe:preBuild UP-TO-DATE
+:oxswipe:preDebugBuild UP-TO-DATE
+:oxswipe:checkDebugManifest
+:oxswipe:preDebugAndroidTestBuild UP-TO-DATE
+:oxswipe:preDebugUnitTestBuild UP-TO-DATE
+:oxswipe:preReleaseBuild UP-TO-DATE
+:oxswipe:preReleaseUnitTestBuild UP-TO-DATE
+:oxswipe:prepareComAndroidSupportAnimatedVectorDrawable2501Library
+:oxswipe:prepareComAndroidSupportAppcompatV72501Library
+:oxswipe:prepareComAndroidSupportSupportCompat2501Library
+:oxswipe:prepareComAndroidSupportSupportCoreUi2501Library
+:oxswipe:prepareComAndroidSupportSupportCoreUtils2501Library
+:oxswipe:prepareComAndroidSupportSupportFragment2501Library
+:oxswipe:prepareComAndroidSupportSupportMediaCompat2501Library
+:oxswipe:prepareComAndroidSupportSupportV42501Library
+:oxswipe:prepareComAndroidSupportSupportVectorDrawable2501Library
+:oxswipe:prepareDebugDependencies
+:oxswipe:compileDebugAidl
+:oxswipe:compileDebugNdk UP-TO-DATE
+:oxswipe:compileLint
+:oxswipe:copyDebugLint UP-TO-DATE
+:oxswipe:compileDebugRenderscript
+:oxswipe:generateDebugBuildConfig
+:oxswipe:generateDebugResValues
+:oxswipe:generateDebugResources
+:oxswipe:mergeDebugResources
+:oxswipe:processDebugManifest
+:oxswipe:processDebugResources
+:oxswipe:generateDebugSources
+:oxswipe:incrementalDebugJavaCompilationSafeguard
+:oxswipe:compileDebugJavaWithJavac
+:oxswipe:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:oxswipe:extractDebugAnnotations
+:oxswipe:mergeDebugShaders
+:oxswipe:compileDebugShaders
+:oxswipe:generateDebugAssets
+:oxswipe:mergeDebugAssets
+:oxswipe:mergeDebugProguardFiles
+:oxswipe:packageDebugRenderscript UP-TO-DATE
+:oxswipe:packageDebugResources
+:oxswipe:processDebugJavaRes UP-TO-DATE
+:oxswipe:transformResourcesWithMergeJavaResForDebug
+:oxswipe:transformClassesAndResourcesWithSyncLibJarsForDebug
+:oxswipe:mergeDebugJniLibFolders
+:oxswipe:transformNative_libsWithMergeJniLibsForDebug
+:oxswipe:transformNative_libsWithSyncJniLibsForDebug
+:oxswipe:bundleDebug
+:oxswipe:compileDebugSources
+:oxswipe:assembleDebug
+:oxswipe:checkReleaseManifest
+:oxswipe:prepareReleaseDependencies
+:oxswipe:compileReleaseAidl
+:oxswipe:compileReleaseNdk UP-TO-DATE
+:oxswipe:copyReleaseLint UP-TO-DATE
+:oxswipe:compileReleaseRenderscript
+:oxswipe:generateReleaseBuildConfig
+:oxswipe:generateReleaseResValues
+:oxswipe:generateReleaseResources
+:oxswipe:mergeReleaseResources
+:oxswipe:processReleaseManifest
+:oxswipe:processReleaseResources
+:oxswipe:generateReleaseSources
+:oxswipe:incrementalReleaseJavaCompilationSafeguard
+:oxswipe:compileReleaseJavaWithJavac
+:oxswipe:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:oxswipe:extractReleaseAnnotations
+:oxswipe:mergeReleaseShaders
+:oxswipe:compileReleaseShaders
+:oxswipe:generateReleaseAssets
+:oxswipe:mergeReleaseAssets
+:oxswipe:mergeReleaseProguardFiles
+:oxswipe:packageReleaseRenderscript UP-TO-DATE
+:oxswipe:packageReleaseResources
+:oxswipe:processReleaseJavaRes UP-TO-DATE
+:oxswipe:transformResourcesWithMergeJavaResForRelease
+:oxswipe:transformClassesAndResourcesWithSyncLibJarsForRelease
+:oxswipe:mergeReleaseJniLibFolders
+:oxswipe:transformNative_libsWithMergeJniLibsForRelease
+:oxswipe:transformNative_libsWithSyncJniLibsForRelease
+:oxswipe:bundleRelease
+:oxswipe:compileReleaseSources
+:oxswipe:assembleRelease
+:oxswipe:assemble
+:oxswipe:build
+
+BUILD SUCCESSFUL
+
+Total time: 11.624 secs
+
+2018-10-15 00:12:15,868 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-15 00:12:15,869 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-15 00:12:23,567 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-10-15 00:12:23,567 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-15 00:12:23,567 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537112080-0/src/OXSwipe-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-15 00:12:32,203 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:oxswipe:preBuild UP-TO-DATE
+:oxswipe:preDebugBuild UP-TO-DATE
+:oxswipe:checkDebugManifest
+:oxswipe:preDebugAndroidTestBuild UP-TO-DATE
+:oxswipe:preDebugUnitTestBuild UP-TO-DATE
+:oxswipe:preReleaseBuild UP-TO-DATE
+:oxswipe:preReleaseUnitTestBuild UP-TO-DATE
+:oxswipe:prepareComAndroidSupportAnimatedVectorDrawable2501Library UP-TO-DATE
+:oxswipe:prepareComAndroidSupportAppcompatV72501Library UP-TO-DATE
+:oxswipe:prepareComAndroidSupportSupportCompat2501Library UP-TO-DATE
+:oxswipe:prepareComAndroidSupportSupportCoreUi2501Library UP-TO-DATE
+:oxswipe:prepareComAndroidSupportSupportCoreUtils2501Library UP-TO-DATE
+:oxswipe:prepareComAndroidSupportSupportFragment2501Library UP-TO-DATE
+:oxswipe:prepareComAndroidSupportSupportMediaCompat2501Library UP-TO-DATE
+:oxswipe:prepareComAndroidSupportSupportV42501Library UP-TO-DATE
+:oxswipe:prepareComAndroidSupportSupportVectorDrawable2501Library UP-TO-DATE
+:oxswipe:prepareDebugDependencies
+:oxswipe:compileDebugAidl UP-TO-DATE
+:oxswipe:compileDebugNdk UP-TO-DATE
+:oxswipe:compileLint UP-TO-DATE
+:oxswipe:copyDebugLint UP-TO-DATE
+:oxswipe:compileDebugRenderscript UP-TO-DATE
+:oxswipe:generateDebugBuildConfig UP-TO-DATE
+:oxswipe:generateDebugResValues UP-TO-DATE
+:oxswipe:generateDebugResources UP-TO-DATE
+:oxswipe:mergeDebugResources UP-TO-DATE
+:oxswipe:processDebugManifest UP-TO-DATE
+:oxswipe:processDebugResources UP-TO-DATE
+:oxswipe:generateDebugSources UP-TO-DATE
+:oxswipe:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:oxswipe:compileDebugJavaWithJavac UP-TO-DATE
+:oxswipe:extractDebugAnnotations UP-TO-DATE
+:oxswipe:mergeDebugShaders UP-TO-DATE
+:oxswipe:compileDebugShaders UP-TO-DATE
+:oxswipe:generateDebugAssets UP-TO-DATE
+:oxswipe:mergeDebugAssets UP-TO-DATE
+:oxswipe:mergeDebugProguardFiles UP-TO-DATE
+:oxswipe:packageDebugRenderscript UP-TO-DATE
+:oxswipe:packageDebugResources UP-TO-DATE
+:oxswipe:processDebugJavaRes UP-TO-DATE
+:oxswipe:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:oxswipe:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:oxswipe:mergeDebugJniLibFolders UP-TO-DATE
+:oxswipe:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:oxswipe:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:oxswipe:bundleDebug UP-TO-DATE
+:oxswipe:compileDebugSources UP-TO-DATE
+:oxswipe:assembleDebug UP-TO-DATE
+:oxswipe:checkReleaseManifest
+:oxswipe:prepareReleaseDependencies
+:oxswipe:compileReleaseAidl UP-TO-DATE
+:oxswipe:compileReleaseNdk UP-TO-DATE
+:oxswipe:copyReleaseLint UP-TO-DATE
+:oxswipe:compileReleaseRenderscript UP-TO-DATE
+:oxswipe:generateReleaseBuildConfig UP-TO-DATE
+:oxswipe:generateReleaseResValues UP-TO-DATE
+:oxswipe:generateReleaseResources UP-TO-DATE
+:oxswipe:mergeReleaseResources UP-TO-DATE
+:oxswipe:processReleaseManifest UP-TO-DATE
+:oxswipe:processReleaseResources UP-TO-DATE
+:oxswipe:generateReleaseSources UP-TO-DATE
+:oxswipe:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:oxswipe:compileReleaseJavaWithJavac UP-TO-DATE
+:oxswipe:extractReleaseAnnotations UP-TO-DATE
+:oxswipe:mergeReleaseShaders UP-TO-DATE
+:oxswipe:compileReleaseShaders UP-TO-DATE
+:oxswipe:generateReleaseAssets UP-TO-DATE
+:oxswipe:mergeReleaseAssets UP-TO-DATE
+:oxswipe:mergeReleaseProguardFiles UP-TO-DATE
+:oxswipe:packageReleaseRenderscript UP-TO-DATE
+:oxswipe:packageReleaseResources UP-TO-DATE
+:oxswipe:processReleaseJavaRes UP-TO-DATE
+:oxswipe:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:oxswipe:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:oxswipe:mergeReleaseJniLibFolders UP-TO-DATE
+:oxswipe:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:oxswipe:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:oxswipe:bundleRelease UP-TO-DATE
+:oxswipe:compileReleaseSources UP-TO-DATE
+:oxswipe:assembleRelease UP-TO-DATE
+:oxswipe:assemble UP-TO-DATE
+:oxswipe:build
+
+BUILD SUCCESSFUL
+
+Total time: 8.034 secs
+
+2018-10-15 00:12:32,277 ERROR FullProcessService - Project build has not produced APK file
+2018-10-15 00:12:32,338 ERROR FullProcessService - Could not find generated or existed APK file

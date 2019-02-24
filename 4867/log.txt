@@ -1,0 +1,207 @@
+2018-12-26 14:55:23,174 INFO  DownloadService - Downloading "https://github.com/zhukic/Sectioned-RecyclerView/archive/master.zip", attempt 3
+2018-12-26 14:55:47,197 INFO  DownloadService - Downloaded https://github.com/zhukic/Sectioned-RecyclerView/archive/master.zip, attempt 3
+2018-12-26 14:55:47,198 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/master.zip": 8 MB
+2018-12-26 14:55:47,198 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-26 14:55:47,204 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/master.zip: true
+2018-12-26 14:55:47,205 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src'.
+2018-12-26 14:55:47,309 INFO  FullProcessService - Size of directory with sources: 8 MB
+2018-12-26 14:55:47,309 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src]
+2018-12-26 14:55:47,335 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src/.git/
+
+2018-12-26 14:55:47,339 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src/Sectioned-RecyclerView-master/gradlew
+2018-12-26 14:55:47,345 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src/Sectioned-RecyclerView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src/Sectioned-RecyclerView-master/sectioned-recyclerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src/Sectioned-RecyclerView-master/build.gradle
+2018-12-26 14:55:47,350 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src/Sectioned-RecyclerView-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src/Sectioned-RecyclerView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src/Sectioned-RecyclerView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src/Sectioned-RecyclerView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src/Sectioned-RecyclerView-master/sectioned-recyclerview/build.gradle
+2018-12-26 14:55:47,351 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2018-12-26 14:56:47,355 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle"
+org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-26 14:56:47,355 INFO  ProjectBuildService - Remote scripts: none
+2018-12-26 14:56:47,355 INFO  ProjectFixService - Fixing project...
+2018-12-26 14:56:47,365 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src/Sectioned-RecyclerView-master/sample/local.properties
+2018-12-26 14:56:47,367 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src/Sectioned-RecyclerView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-12-26 14:56:47,368 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src/Sectioned-RecyclerView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-12-26 14:56:47,369 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src/Sectioned-RecyclerView-master/sectioned-recyclerview/local.properties
+2018-12-26 14:56:47,372 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src/Sectioned-RecyclerView-master/sectioned-recyclerview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-12-26 14:56:47,372 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src/Sectioned-RecyclerView-master/sectioned-recyclerview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-12-26 14:56:47,373 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src/Sectioned-RecyclerView-master/local.properties
+2018-12-26 14:56:47,373 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10-all.zip
+2018-12-26 14:56:47,374 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10-bin.zip)
+2018-12-26 14:56:47,376 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src/Sectioned-RecyclerView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-12-26 14:56:47,376 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src/Sectioned-RecyclerView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-12-26 14:56:47,377 INFO  ProjectFixService - Project was maybe fixed
+2018-12-26 14:56:47,377 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-26 14:56:47,377 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src/Sectioned-RecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src/Sectioned-RecyclerView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-26 14:56:55,537 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-12-26 14:56:55,538 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-26 14:56:55,538 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src/Sectioned-RecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src/Sectioned-RecyclerView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-26 14:57:29,439 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :sample:checkDebugClasspath
+> Task :sample:preBuild UP-TO-DATE
+> Task :sectioned-recyclerview:preBuild UP-TO-DATE
+> Task :sectioned-recyclerview:preDebugBuild UP-TO-DATE
+> Task :sectioned-recyclerview:checkDebugManifest
+> Task :sectioned-recyclerview:processDebugManifest
+> Task :sample:preDebugBuild
+> Task :sectioned-recyclerview:compileDebugAidl NO-SOURCE
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :sectioned-recyclerview:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:prepareLintJar
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sectioned-recyclerview:compileDebugRenderscript
+> Task :sectioned-recyclerview:generateDebugResValues
+> Task :sectioned-recyclerview:generateDebugResources
+> Task :sectioned-recyclerview:packageDebugResources
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src/Sectioned-RecyclerView-master/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:2352: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:splitsDiscoveryTaskDebug
+> Task :sectioned-recyclerview:generateDebugRFile
+> Task :sample:processDebugResources
+> Task :sample:generateDebugSources
+> Task :sectioned-recyclerview:generateDebugBuildConfig
+> Task :sectioned-recyclerview:prepareLintJar
+> Task :sectioned-recyclerview:generateDebugSources
+> Task :sectioned-recyclerview:javaPreCompileDebug
+> Task :sectioned-recyclerview:compileDebugJavaWithJavac
+> Task :sectioned-recyclerview:processDebugJavaRes NO-SOURCE
+> Task :sectioned-recyclerview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugNdk NO-SOURCE
+> Task :sample:compileDebugSources
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sectioned-recyclerview:mergeDebugShaders
+> Task :sectioned-recyclerview:compileDebugShaders
+> Task :sectioned-recyclerview:generateDebugAssets
+> Task :sectioned-recyclerview:packageDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :sample:transformDexArchiveWithDexMergerForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :sectioned-recyclerview:compileDebugNdk NO-SOURCE
+> Task :sectioned-recyclerview:mergeDebugJniLibFolders
+> Task :sectioned-recyclerview:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sectioned-recyclerview:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sectioned-recyclerview:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:checkDebugLibraries
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:validateSigningDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:checkReleaseClasspath
+> Task :sectioned-recyclerview:preReleaseBuild UP-TO-DATE
+> Task :sectioned-recyclerview:checkReleaseManifest
+> Task :sectioned-recyclerview:processReleaseManifest
+> Task :sample:preReleaseBuild
+> Task :sectioned-recyclerview:compileReleaseAidl NO-SOURCE
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :sectioned-recyclerview:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sectioned-recyclerview:compileReleaseRenderscript
+> Task :sectioned-recyclerview:generateReleaseResValues
+> Task :sectioned-recyclerview:generateReleaseResources
+> Task :sectioned-recyclerview:packageReleaseResources
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src/Sectioned-RecyclerView-master/sample/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml:2352: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:splitsDiscoveryTaskRelease
+> Task :sectioned-recyclerview:generateReleaseRFile
+> Task :sample:processReleaseResources
+> Task :sample:generateReleaseSources
+> Task :sectioned-recyclerview:generateReleaseBuildConfig
+> Task :sectioned-recyclerview:generateReleaseSources
+> Task :sectioned-recyclerview:javaPreCompileRelease
+> Task :sectioned-recyclerview:compileReleaseJavaWithJavac
+> Task :sectioned-recyclerview:processReleaseJavaRes NO-SOURCE
+> Task :sectioned-recyclerview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseNdk NO-SOURCE
+> Task :sample:compileReleaseSources
+
+> Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/38b5a95aa6daeec2ed03850e1f96cf65/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :sectioned-recyclerview:mergeReleaseShaders
+> Task :sectioned-recyclerview:compileReleaseShaders
+> Task :sectioned-recyclerview:generateReleaseAssets
+> Task :sectioned-recyclerview:packageReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :sample:transformDexArchiveWithDexMergerForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sectioned-recyclerview:compileReleaseNdk NO-SOURCE
+> Task :sectioned-recyclerview:mergeReleaseJniLibFolders
+> Task :sectioned-recyclerview:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sectioned-recyclerview:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sectioned-recyclerview:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:checkReleaseLibraries
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+BUILD SUCCESSFUL in 33s
+90 actionable tasks: 90 executed
+
+2018-12-26 14:57:29,544 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545810923171-0/src/Sectioned-RecyclerView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

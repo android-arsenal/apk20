@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "io.github.krtkush.lineartimeproject",
+    "label" : "Linear Timer",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.1",
+    "versionCode" : 2,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1309,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"2\" android:versionName=\"1.0.1\" package=\"io.github.krtkush.lineartimeproject\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"27\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"Linear Timer\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"io.github.krtkush.lineartimeproject.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"io.github.krtkush.lineartimeproject.About\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1466835,
+  "crc32" : 2572523644,
+  "sha256" : "57da5dfa8ce06ac01be6af1baaa77a654b0e3fc24e9aabe8226a01911ae5bc90",
+  "buildTime" : 1539458423000
+}

@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "fr.arnaudguyon.multitabstacks",
+    "label" : "Tab Stacker",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "0.8",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 840,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"0.8\" package=\"fr.arnaudguyon.multitabstacks\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"27\" />\n\t<application android:theme=\"resourceId:0x7f0c0000\" android:label=\"Tab Stacker\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"fr.arnaudguyon.tabstackerapp.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 611839,
+  "crc32" : 282714756,
+  "sha256" : "70567b88e7d90779fb5b31d7c01b827f095091dcf732d4b0824632826ce4b8e8",
+  "buildTime" : 1525962031000
+}

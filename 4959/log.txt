@@ -1,0 +1,158 @@
+2018-10-14 02:20:02,223 INFO  DownloadService - Downloading "https://github.com/krtkush/LinearTimer/archive/master.zip", attempt 3
+2018-10-14 02:20:03,066 INFO  DownloadService - Downloaded https://github.com/krtkush/LinearTimer/archive/master.zip, attempt 3
+2018-10-14 02:20:03,066 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458402220-0/master.zip": 543 KB
+2018-10-14 02:20:03,066 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-14 02:20:03,072 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458402220-0/master.zip: true
+2018-10-14 02:20:03,072 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458402220-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458402220-0/src'.
+2018-10-14 02:20:03,098 INFO  FullProcessService - Size of directory with sources: 638 KB
+2018-10-14 02:20:03,098 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458402220-0/src]
+2018-10-14 02:20:03,115 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458402220-0/src/.git/
+
+2018-10-14 02:20:03,118 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458402220-0/src/LinearTimer-master/gradlew
+2018-10-14 02:20:03,121 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458402220-0/src/LinearTimer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458402220-0/src/LinearTimer-master/lineartimer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458402220-0/src/LinearTimer-master/build.gradle
+2018-10-14 02:20:03,125 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458402220-0/src/LinearTimer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458402220-0/src/LinearTimer-master/lineartimer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458402220-0/src/LinearTimer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458402220-0/src/LinearTimer-master/settings.gradle
+2018-10-14 02:20:03,125 INFO  ProjectBuildService - Remote scripts: none
+2018-10-14 02:20:03,125 INFO  ProjectFixService - Fixing project...
+2018-10-14 02:20:03,133 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458402220-0/src/LinearTimer-master/app/local.properties
+2018-10-14 02:20:03,134 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458402220-0/src/LinearTimer-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-14 02:20:03,134 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458402220-0/src/LinearTimer-master/lineartimer/local.properties
+2018-10-14 02:20:03,134 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458402220-0/src/LinearTimer-master/lineartimer/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-14 02:20:03,135 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458402220-0/src/LinearTimer-master/local.properties
+2018-10-14 02:20:03,135 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-10-14 02:20:03,135 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-10-14 02:20:03,136 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458402220-0/src/LinearTimer-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-14 02:20:03,136 INFO  ProjectFixService - Project was maybe fixed
+2018-10-14 02:20:03,136 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-14 02:20:03,136 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458402220-0/src/LinearTimer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458402220-0/src/LinearTimer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-14 02:20:10,098 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-10-14 02:20:10,098 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-14 02:20:10,098 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458402220-0/src/LinearTimer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458402220-0/src/LinearTimer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-14 02:20:30,535 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:lineartimer:preBuild UP-TO-DATE
+:lineartimer:preDebugBuild UP-TO-DATE
+:lineartimer:checkDebugManifest
+:lineartimer:processDebugManifest
+:app:preDebugBuild
+:lineartimer:compileDebugAidl
+:app:compileDebugAidl
+:lineartimer:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:lineartimer:compileDebugRenderscript
+:lineartimer:generateDebugResValues
+:lineartimer:generateDebugResources
+:lineartimer:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:lineartimer:platformAttrExtractor
+:lineartimer:generateDebugBuildConfig
+:lineartimer:prepareLintJar
+:lineartimer:javaPreCompileDebug
+:lineartimer:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:lineartimer:mergeDebugShaders
+:lineartimer:compileDebugShaders
+:lineartimer:generateDebugAssets
+:lineartimer:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:lineartimer:compileDebugNdk NO-SOURCE
+:lineartimer:mergeDebugJniLibFolders
+:lineartimer:transformNativeLibsWithMergeJniLibsForDebug
+:lineartimer:transformNativeLibsWithStripDebugSymbolForDebug
+:lineartimer:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:lineartimer:preReleaseBuild UP-TO-DATE
+:lineartimer:checkReleaseManifest
+:lineartimer:processReleaseManifest
+:app:preReleaseBuild
+:lineartimer:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:lineartimer:generateDebugSources
+:lineartimer:compileDebugJavaWithJavac
+:lineartimer:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:lineartimer:compileReleaseAidl
+:app:compileReleaseAidl
+:lineartimer:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:lineartimer:compileReleaseRenderscript
+:lineartimer:generateReleaseResValues
+:lineartimer:generateReleaseResources
+:lineartimer:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:lineartimer:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:lineartimer:generateReleaseBuildConfig
+:lineartimer:generateReleaseSources
+:lineartimer:javaPreCompileRelease
+:lineartimer:compileReleaseJavaWithJavac
+:lineartimer:processReleaseJavaRes NO-SOURCE
+:lineartimer:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:lineartimer:mergeReleaseShaders
+:lineartimer:compileReleaseShaders
+:lineartimer:generateReleaseAssets
+:lineartimer:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:lineartimer:compileReleaseNdk NO-SOURCE
+:lineartimer:mergeReleaseJniLibFolders
+:lineartimer:transformNativeLibsWithMergeJniLibsForRelease
+:lineartimer:transformNativeLibsWithStripDebugSymbolForRelease
+:lineartimer:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 20s
+91 actionable tasks: 91 executed
+
+2018-10-14 02:20:30,601 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458402220-0/src/LinearTimer-master/app/build/outputs/apk/debug/app-debug.apk

@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "burrows.apps.example.gif",
+    "label" : "Gif Example App",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : "auto",
+    "minSdkVersion" : "21",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : true,
+    "smallScreens" : true,
+    "normalScreens" : true,
+    "largeScreens" : true,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1807,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:installLocation=\"auto\" package=\"burrows.apps.example.gif\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"21\" android:targetSdkVersion=\"25\" />\n\t<supports-screens android:anyDensity=\"true\" android:smallScreens=\"true\" android:normalScreens=\"true\" android:largeScreens=\"true\" android:xlargeScreens=\"true\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0900a7\" android:label=\"Gif Example App\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"burrows.apps.example.gif.App\" android:allowBackup=\"true\" android:hardwareAccelerated=\"true\" android:largeHeap=\"true\" android:supportsRtl=\"true\" android:extractNativeLibs=\"false\" android:fullBackupContent=\"true\">\n\t\t<activity android:name=\"burrows.apps.example.gif.presentation.main.MainActivity\" android:configChanges=\"0xfb0\" android:windowSoftInputMode=\"0x20\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.4.0\" />\n\t\t<meta-data android:name=\"com.bumptech.glide.integration.okhttp3.OkHttpGlideModule\" android:value=\"GlideModule\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1170159,
+  "crc32" : 2711346196,
+  "sha256" : "18f884c1717331e182da07e361ccbfd14c171634569019c34f494e35451bf26f",
+  "buildTime" : 1500222782000
+}

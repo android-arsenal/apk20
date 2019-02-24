@@ -1,0 +1,10 @@
+2018-10-14 01:43:59,841 INFO  DownloadService - Downloading "https://github.com/syedowaisali/crystal-keyboard/archive/master.zip", attempt 3
+2018-10-14 01:44:00,300 INFO  DownloadService - Downloaded https://github.com/syedowaisali/crystal-keyboard/archive/master.zip, attempt 3
+2018-10-14 01:44:00,300 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456239837-0/master.zip": 1 KB
+2018-10-14 01:44:00,301 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-14 01:44:00,306 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456239837-0/master.zip: false
+2018-10-14 01:44:00,306 INFO  FullProcessService - Archive with sources does not contain any build script
+2018-10-14 01:44:00,306 ERROR FullProcessService - Could not find directory with sources
+2018-10-14 01:44:00,306 ERROR FullProcessService - Project will not be processed
+2018-10-14 01:44:00,306 ERROR FullProcessService - Project build has not produced APK file
+2018-10-14 01:44:00,306 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,0 +1,177 @@
+2019-01-20 18:47:31,731 INFO  DownloadService - Downloading "https://github.com/florent37/SingleDateAndTimePicker/archive/master.zip", attempt 3
+2019-01-20 18:47:35,604 INFO  DownloadService - Downloaded https://github.com/florent37/SingleDateAndTimePicker/archive/master.zip, attempt 3
+2019-01-20 18:47:35,605 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/master.zip": 6 MB
+2019-01-20 18:47:35,605 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-20 18:47:35,606 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/master.zip: true
+2019-01-20 18:47:35,607 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src'.
+2019-01-20 18:47:35,695 INFO  FullProcessService - Size of directory with sources: 6 MB
+2019-01-20 18:47:35,695 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src]
+2019-01-20 18:47:35,712 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/.git/
+
+2019-01-20 18:47:35,716 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/gradlew
+2019-01-20 18:47:35,721 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/singledateandtimepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/build.gradle
+2019-01-20 18:47:35,726 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/singledateandtimepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/gradle/install-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/gradle/bintray-java-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/gradle/bintray-android-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/settings.gradle
+2019-01-20 18:47:35,727 INFO  ProjectBuildService - Remote scripts: none
+2019-01-20 18:47:35,727 INFO  ProjectFixService - Fixing project...
+2019-01-20 18:47:35,740 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/app/local.properties
+2019-01-20 18:47:35,743 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-20 18:47:35,744 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-20 18:47:35,745 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/singledateandtimepicker/local.properties
+2019-01-20 18:47:35,749 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/singledateandtimepicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-20 18:47:35,749 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/singledateandtimepicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-20 18:47:35,750 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/local.properties
+2019-01-20 18:47:35,750 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-01-20 18:47:35,751 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-01-20 18:47:35,754 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-20 18:47:35,754 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-20 18:47:35,755 INFO  ProjectFixService - Project was maybe fixed
+2019-01-20 18:47:35,755 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-20 18:47:35,755 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-20 18:47:41,805 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-20 18:47:41,805 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-20 18:47:41,806 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-20 18:48:08,044 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:singledateandtimepicker:preBuild UP-TO-DATE
+:singledateandtimepicker:preDebugBuild UP-TO-DATE
+:singledateandtimepicker:checkDebugManifest
+:singledateandtimepicker:processDebugManifest
+:app:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/com/android/support/transition/27.0.2/transition-27.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design/27.0.2/design-27.0.2.aar
+:singledateandtimepicker:compileDebugAidl
+:app:compileDebugAidl
+:singledateandtimepicker:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:singledateandtimepicker:compileDebugRenderscript
+:singledateandtimepicker:generateDebugResValues
+:singledateandtimepicker:generateDebugResources
+:singledateandtimepicker:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:singledateandtimepicker:platformAttrExtractor
+:singledateandtimepicker:generateDebugBuildConfig
+:singledateandtimepicker:prepareLintJar
+:singledateandtimepicker:javaPreCompileDebug
+:singledateandtimepicker:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:singledateandtimepicker:mergeDebugShaders
+:singledateandtimepicker:compileDebugShaders
+:singledateandtimepicker:generateDebugAssets
+:singledateandtimepicker:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:singledateandtimepicker:compileDebugNdk NO-SOURCE
+:singledateandtimepicker:mergeDebugJniLibFolders
+:singledateandtimepicker:transformNativeLibsWithMergeJniLibsForDebug
+:singledateandtimepicker:transformNativeLibsWithStripDebugSymbolForDebug
+:singledateandtimepicker:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:singledateandtimepicker:preReleaseBuild UP-TO-DATE
+:singledateandtimepicker:checkReleaseManifest
+:singledateandtimepicker:processReleaseManifest
+:app:preReleaseBuild
+:singledateandtimepicker:compileReleaseAidl
+:app:compileReleaseAidl
+:singledateandtimepicker:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:singledateandtimepicker:compileReleaseRenderscript
+:singledateandtimepicker:generateReleaseResValues
+:singledateandtimepicker:generateReleaseResources
+:singledateandtimepicker:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:singledateandtimepicker:generateReleaseBuildConfig
+:singledateandtimepicker:javaPreCompileRelease
+:singledateandtimepicker:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:singledateandtimepicker:mergeReleaseShaders
+:singledateandtimepicker:compileReleaseShaders
+:singledateandtimepicker:generateReleaseAssets
+:singledateandtimepicker:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:singledateandtimepicker:compileReleaseNdk NO-SOURCE
+:singledateandtimepicker:mergeReleaseJniLibFolders
+:singledateandtimepicker:transformNativeLibsWithMergeJniLibsForRelease
+:singledateandtimepicker:transformNativeLibsWithStripDebugSymbolForRelease
+:singledateandtimepicker:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:singledateandtimepicker:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:singledateandtimepicker:generateDebugSources
+:singledateandtimepicker:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/singledateandtimepicker/src/main/java/com/github/florent37/singledateandtimepicker/widget/WheelPicker.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:singledateandtimepicker:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformClassesWithMultidexlistForDebugWarning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:singledateandtimepicker:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:singledateandtimepicker:generateReleaseSources
+:singledateandtimepicker:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/singledateandtimepicker/src/main/java/com/github/florent37/singledateandtimepicker/widget/WheelPicker.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:singledateandtimepicker:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformClassesWithMultidexlistForReleaseWarning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 25s
+91 actionable tasks: 91 executed
+
+2019-01-20 18:48:08,180 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984851727-0/src/SingleDateAndTimePicker-master/app/build/outputs/apk/debug/app-debug.apk

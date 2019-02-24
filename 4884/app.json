@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "org.mym.prettylog",
+    "label" : "PrettyLog",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "2.0.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.READ_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2286,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"2.0.0\" package=\"org.mym.prettylog\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"25\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.1\" />\n\t<application android:theme=\"resourceId:0x7f0900a8\" android:label=\"PrettyLog\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"org.mym.prettylog.PLogApplication\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"org.mym.prettylog.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1932368,
+  "crc32" : 165884477,
+  "sha256" : "01ab7852a82e903d82ee2d1a1cf9eaa61d84dff78aad74198d44eefb195135fa",
+  "buildTime" : 1521962423000
+}

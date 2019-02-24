@@ -1,0 +1,1 @@
+2018-12-13 01:56:43,606 INFO  DownloadService - Downloading "https://github.com/googlesamples/leanback-showcase/archive/master.zip", attempt 3

@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.claudiodegio.sample.msv",
+    "label" : "Msv Sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.2.0",
+    "versionCode" : 3,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABcVBMVEUAAACS26SR36iP4KuP36qQ36qR36qQ36r///+S3quQ4KmQ36qS3qqQ36qL6KKQ36uQ36qN3aiR36qR4auQ36qQ4KqQ36qb4rK568rO8dnX8+DU897H79Sv6MKT4Kyd47TT8t36/vv////w+/SR36ut58D0/Pfy+//I7/+r5/+f4/+j5P+16f/X8//8/v/b9eSX4bD5/fr7/v/B7f+L3f+E2/+Z4f/i9v/l+OuY4bCp5v+F2/+H3P+J3P/Y9P+N3v/f9v/W8/+M3f/r+f/+//636v+t5/+u5//a9OOU4P/x+/+V4a7V8/+n5rvJ7//M8P/e9f+g5LeQ3//6/f/w+/PD7v/L8Nel5f+a4rL1/P/9/f2ewrGLlJ4tPlBonYWhx7QuQFErO04tP1BGaW1gkoOP3qltpoouQVIwRloySl5dj4FGam5ain+O3KlXhHyP3alYh31Wg3uN26hTfnmO26hlmodaiX43UWJ2tpV0s5RjmIaG3CXbAAAAFnRSTlMADk+Ludrw/AE9nu02/guI+CbJQ+bzaR8ZdwAAAjdJREFUSMfVlelb00AQxmmSphe0lGMthSIMpNyFFsKhgFpQ7vvGWykQLXgL+tdbsps0s9ngEz/J+23zvL/s7OzMbE3NHVBAkpWgGgqpQUWWAn9zhyPRGHEoFo2Eb/PXKnWEU51S62mPJ+qJQPWJuNifbCAeakiK/I1NxFNNjQJ/M7lFzS4iaf3/Xqol3dqWaef34KKKs/jvd3SCqa5UN3cOfPIE/aploae3r39gcCgHwyOYSKD803xq+cLomG5qfAImp3B2HfcRVmg82cKDh9MU0GdmIY23UKp3HqH32wGjjx4/YYBenJvX8J1HbCBK89PZM/a08MwC9AVYxFtE7fqk9ZaCXr24ZPv16eX8CgJiVu1KdN0CfTrSKqzhLSQGyHSZhn4MrEMGAzIDaI5IKwxgYAM0Lk8MCNJlGwxiYBO2MBBkgEqXGRhC/u2dXa48VAaE6LK9KzfuBPZgn6vAEAYqeZ2YqfoPctlDD4CFRLqHYbZo+4+On/NdoeJDEzIyCXMLZjFt7+WOX7x8RcSHVuwvU+l5WF5d39jcgezrN2/fvT8pidIqO75pi/mb/tndPySnZ+eG8aEkuDgJ7buyltG2zHx+NCoqX7hLIxATd375BjAuL1zFx8rbpU+fTaJc4svbaiA38cUk2DkcDRRWPMbR128OwtGi1hBw6/ulSfzghoA9ZgRR/az4r675MWMPMgFRNq5+uQdZdVS6id/XglHpfxj7H/f+HxT/T5b/R/Efnl3/D/v/oD/gbbWkIlFMXgAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 2188,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"1.2.0\" package=\"com.claudiodegio.sample.msv\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"25\" />\n\t<application android:theme=\"resourceId:0x7f0800a4\" android:label=\"Msv Sample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.claudiodegio.sample.msv.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f08003b\" android:label=\"Msv Simple\" android:name=\"com.claudiodegio.sample.msv.MatSearchViewActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f08003b\" android:label=\"Msv Suggestion\" android:name=\"com.claudiodegio.sample.msv.MatSearchViewSuggestionActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f08003b\" android:label=\"Msv Filter\" android:name=\"com.claudiodegio.sample.msv.MatSearchViewFilterActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f08003b\" android:label=\"Msv Themed\" android:name=\"com.claudiodegio.sample.msv.ThemedMatSearchViewActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1986816,
+  "crc32" : 2631563344,
+  "sha256" : "07c8751ae5f958633d5399ecec111750f6ef837b037f855d6faeed1291387ff4",
+  "buildTime" : 1513872625000
+}

@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.nightonke.boommenusample",
+    "label" : "BoomMenuButton",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "2.1.0",
+    "versionCode" : 2100,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "25",
+    "platformBuildVersionName" : "7.1.1",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABmFBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmIwhoYBdpYRhOSBECAgDk0jTSwTC2qCrezDOXiyKklyVlXRcyLgsDAwCAdx3WxTHGti1LRRHFtS3XxjGCeR4EBACLgCCxoyjLuy6jliXNvS8HBgHfzTOilSXOvi/v3Dc1MQsxLQtnXxdKRBDMvC+Fex5gWBX04ThZUhT55Tl3bhtCPQ+uoCh6cBuajiPu2zchHgc9OA2HfR+QhSE5NAzbyjIwLArayTIVEwTDtC1HQRC8rStcVRW0pilyaRq4qSpkXBbKui5hWRbx3jfp1zXcyzLj0TTl0zQcGgZDPg+9rivTwjDVxDESEQMQDwPUwzGsnif45Dk/Og47Ng0LCgJVThMIBwFUTRMdGwYfHAYsKAkiACK3AAAALHRSTlMAAwQCEx4dCpbo7JiaAer5/fwXJe8q7icrHCIIqa2w7fCxLAkgQk1LTAULDteb//kAAAFlSURBVEjHY2CgF2BkIgAYUZQzMxM2ElkNkMnCyoYXsLKAlcHUs3NwchEAnBzscB3MDNw6RAAeXqgGRgYWPh1+AUG8QIBfh0+IAeJzJgZhER1BQuYL6oiIApVCNYiRqkFkVMOI0qCrp69vYEiCBgMjYxNTM1KcZG6hY2mkY2VtY2ugo2Nn7+Do5Ozi6ubu4oFTg625p5eOtbedhY+vn49/QGBQcEhoWLhDBE4NkVHRMbEOcTo6zvGOCTo6iUnJKTohqWnpeJykk5Fpr6djmBWenWOok5uHX0N+QWFRcUlpWUF5RWVVtXFNRkF6bV1wSEJaGg4NVfX19Q2NOjqluU3NOjoeLRatOrr1VXFtfu2jiW/EaiC1MBYnzgYJqAZGBkkuYioULilohcLALC1DTJUlKw2v4xhF5eQVRBTwABEFeUUlRkQ1qqyiqqaurq6BAwCl1FRVlJErak0tbQJAS5OZkqYDLQEAVYcHkhuJrc0AAAAASUVORK5CYII=",
+    "file" : true
+  },
+  "dexClasses" : 2333,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"2100\" android:versionName=\"2.1.0\" package=\"com.nightonke.boommenusample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"25\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.0\" />\n\t<application android:theme=\"resourceId:0x7f0900a6\" android:label=\"BoomMenuButton\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.nightonke.boommenusample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"Simple Circle Button\" android:name=\"com.nightonke.boommenusample.SimpleCircleButtonActivity\" />\n\t\t<activity android:label=\"Text Inside Button\" android:name=\"com.nightonke.boommenusample.TextInsideCircleButtonActivity\" />\n\t\t<activity android:label=\"Text Outside Button\" android:name=\"com.nightonke.boommenusample.TextOutsideCircleButtonActivity\" />\n\t\t<activity android:label=\"Ham Button\" android:name=\"com.nightonke.boommenusample.HamButtonActivity\" />\n\t\t<activity android:label=\"Square &amp; Piece Corner Radius\" android:name=\"com.nightonke.boommenusample.SquareAndPieceCornerRadiusActivity\" />\n\t\t<activity android:label=\"Boom\" android:name=\"com.nightonke.boommenusample.BoomExampleActivity\" />\n\t\t<activity android:label=\"Button Place Alignment\" android:name=\"com.nightonke.boommenusample.ButtonPlaceAlignmentActivity\" />\n\t\t<activity android:label=\"Order\" android:name=\"com.nightonke.boommenusample.OrderExampleActivity\" />\n\t\t<activity android:label=\"ActionBar\" android:name=\"com.nightonke.boommenusample.ActionBarActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0900d4\" android:name=\"com.nightonke.boommenusample.ToolBarActivity\" />\n\t\t<activity android:label=\"Draggable\" android:name=\"com.nightonke.boommenusample.DraggableActivity\" />\n\t\t<activity android:label=\"Ease\" android:name=\"com.nightonke.boommenusample.EaseActivity\" />\n\t\t<activity android:label=\"Listener\" android:name=\"com.nightonke.boommenusample.ListenerActivity\" />\n\t\t<activity android:label=\"Control\" android:name=\"com.nightonke.boommenusample.ControlActivity\" />\n\t\t<activity android:label=\"Share\" android:name=\"com.nightonke.boommenusample.ShareActivity\" />\n\t\t<activity android:label=\"List\" android:name=\"com.nightonke.boommenusample.ListViewActivity\" />\n\t\t<activity android:label=\"Recycler View\" android:name=\"com.nightonke.boommenusample.RecyclerViewActivity\" />\n\t\t<activity android:label=\"Fragment\" android:name=\"com.nightonke.boommenusample.FragmentActivity\" />\n\t\t<activity android:label=\"Change Boom Button\" android:name=\"com.nightonke.boommenusample.ChangeBoomButtonActivity\" />\n\t\t<activity android:label=\"3D Animation\" android:name=\"com.nightonke.boommenusample.ThreeDAnimationActivity\" />\n\t\t<activity android:label=\"Custom Position\" android:name=\"com.nightonke.boommenusample.CustomPositionActivity\" />\n\t\t<activity android:label=\"Fade Views\" android:name=\"com.nightonke.boommenusample.FadeViewsActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2001350,
+  "crc32" : 2433162900,
+  "sha256" : "1e6e936c8d5aa23b7ed158bb4e681b98fd16b469ffb0d21934d32dffd56758a6",
+  "buildTime" : 1539466136000
+}

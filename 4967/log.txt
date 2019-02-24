@@ -1,0 +1,167 @@
+2018-10-14 02:16:21,302 INFO  DownloadService - Downloading "https://github.com/AhmadNemati/WindView/archive/master.zip", attempt 3
+2018-10-14 02:16:25,866 INFO  DownloadService - Downloaded https://github.com/AhmadNemati/WindView/archive/master.zip, attempt 3
+2018-10-14 02:16:25,867 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/master.zip": 13 MB
+2018-10-14 02:16:25,867 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-14 02:16:25,868 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/master.zip: true
+2018-10-14 02:16:25,868 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src'.
+2018-10-14 02:16:26,004 INFO  FullProcessService - Size of directory with sources: 14 MB
+2018-10-14 02:16:26,004 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src]
+2018-10-14 02:16:26,021 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src/.git/
+
+2018-10-14 02:16:26,025 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src/WindView-master/gradlew
+2018-10-14 02:16:26,030 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src/WindView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src/WindView-master/windview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src/WindView-master/build.gradle
+2018-10-14 02:16:26,034 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src/WindView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src/WindView-master/windview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src/WindView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src/WindView-master/settings.gradle
+2018-10-14 02:16:26,034 INFO  ProjectBuildService - Remote scripts: none
+2018-10-14 02:16:26,034 INFO  ProjectFixService - Fixing project...
+2018-10-14 02:16:26,044 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src/WindView-master/app/local.properties
+2018-10-14 02:16:26,045 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src/WindView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-14 02:16:26,045 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src/WindView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-14 02:16:26,046 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src/WindView-master/windview/local.properties
+2018-10-14 02:16:26,047 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src/WindView-master/windview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-14 02:16:26,047 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src/WindView-master/windview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-14 02:16:26,048 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src/WindView-master/local.properties
+2018-10-14 02:16:26,048 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-10-14 02:16:26,048 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-10-14 02:16:26,049 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src/WindView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-14 02:16:26,049 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src/WindView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-14 02:16:26,050 INFO  ProjectFixService - Project was maybe fixed
+2018-10-14 02:16:26,050 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-14 02:16:26,050 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src/WindView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src/WindView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-14 02:16:33,441 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-10-14 02:16:33,441 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-14 02:16:33,441 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src/WindView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src/WindView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-14 02:17:05,734 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:windview:preBuild UP-TO-DATE
+:windview:preDebugBuild UP-TO-DATE
+:windview:checkDebugManifest
+:windview:processDebugManifest
+:app:preDebugBuild
+Download https://jcenter.bintray.com/com/mikepenz/materialize/1.0.0/materialize-1.0.0.pom
+Download https://jcenter.bintray.com/com/mikepenz/materialize/1.0.0/materialize-1.0.0.aar
+:windview:compileDebugAidl
+:app:compileDebugAidl
+:windview:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:windview:compileDebugRenderscript
+:windview:generateDebugResValues
+:windview:generateDebugResources
+:windview:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:windview:platformAttrExtractor
+:windview:generateDebugBuildConfig
+:windview:prepareLintJar
+:windview:javaPreCompileDebug
+:windview:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:windview:mergeDebugShaders
+:windview:compileDebugShaders
+:windview:generateDebugAssets
+:windview:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:windview:compileDebugNdk NO-SOURCE
+:windview:mergeDebugJniLibFolders
+:windview:transformNativeLibsWithMergeJniLibsForDebug
+:windview:transformNativeLibsWithStripDebugSymbolForDebug
+:windview:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:windview:preReleaseBuild UP-TO-DATE
+:windview:checkReleaseManifest
+:windview:processReleaseManifest
+:app:preReleaseBuild
+:windview:compileReleaseAidl
+:app:compileReleaseAidl
+:windview:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:windview:compileReleaseRenderscript
+:windview:generateReleaseResValues
+:windview:generateReleaseResources
+:windview:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:windview:generateReleaseBuildConfig
+:windview:javaPreCompileRelease
+:windview:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:windview:mergeReleaseShaders
+:windview:compileReleaseShaders
+:windview:generateReleaseAssets
+:windview:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:windview:compileReleaseNdk NO-SOURCE
+:windview:mergeReleaseJniLibFolders
+:windview:transformNativeLibsWithMergeJniLibsForRelease
+:windview:transformNativeLibsWithStripDebugSymbolForRelease
+:windview:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:windview:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:windview:generateDebugSources
+:windview:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src/WindView-master/windview/src/main/java/com/github/ahmadnemati/wind/WindView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:windview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:windview:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:windview:generateReleaseSources
+:windview:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src/WindView-master/windview/src/main/java/com/github/ahmadnemati/wind/WindView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:windview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 31s
+91 actionable tasks: 91 executed
+
+2018-10-14 02:17:05,823 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458181300-0/src/WindView-master/app/build/outputs/apk/debug/app-debug.apk

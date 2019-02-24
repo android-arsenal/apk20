@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "io.t28.shade.example",
+    "label" : "Shade",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "0.9.0",
+    "versionCode" : 900,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAMAAACf4xmcAAABMlBMVEUAAACXp6+UpbGRpa+RpK6qqv+Tp6+SprCRpa6Qpa+fr6+RpK6QpK+RpK6TprOQpa+QpK6Urq6RpK6QpK6Sp7GRpa6SqraZzMyRpa+QpbCQpK+QpK+XrrmTpK+QprCZprNJV10oMjpcbXKQpa90hpA4RU2QpK+qqsaVqK6Qpa+QpK4tOkCFmKKSpq6Rpa9eb3dNWmKRpK+SrbaMoKsnNDopNTuNoayQpK+Spa9HVVxkdH2Rp7CRpa+BlZ4wPUKQpK6Qpa////84RU0nMjh7jJaSpbGQprGSqrCRpa6RpK+Spa6RpK+WpbSStraRpK+QprCQpbCRpK6Tp7GRpa6Rp6+Qpa6RpK6Rpa+WpbSZrbiRpq+RpK+QpK6Vqr+Rpq6RpK6Rpa+SqLKRpK+/v7+QpK4mMjjefhYqAAAAZHRSTlMAID6s0ANAZ9HrEGiP+ii2/RO3mEvwFQXZcXPYFkmaFHtmL7i/3tsJKfvr78l+kMHL9RzX/PvcpmnOvzrSxezvywG2zL1bLiq+klLsEQfeanrTGvNDoa74IhmGeeYMX8r+OKAEYkwP8QAAASBJREFUOMud1NdSwlAQBuDQFJAgHXsFIWDB3gsWBBTpKDZU1vd/BZPsXjnHPWf8LzNf/mQ2Oatp/4vDqcRcbo+CGgEYlSuPF8Dnl7IxMBOQKb/PYnpQwgJgZ5xXQR1ZKMyyCCqIsipGKp7gVHKC2CRbNkVqOsmpmTixWbZsDlSmMR9CpS8sYpbEbhlZ6huTXskIWdawVC5PbBXWxHXrFtsgVQDY3Przu2/voNrdM2/ZF9cdABxS2ZH9nsfif/LklNTZuc0uikLnvLzCXNMMb9gZlgxUxi3LylRWYVWV1N09p2oPxOpsWYNUkz3XrTaxDlvWJdXTVNjjE8/6+NBn2dF/sdTrm4zZA3mXryVzvIOiwpIrf3yqbMzSl9oCHv6+8AP6SW/0NUX4ZgAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 1952,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"900\" android:versionName=\"0.9.0\" package=\"io.t28.shade.example\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"25\" />\n\t<application android:theme=\"resourceId:0x7f08008e\" android:label=\"Shade\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"io.t28.shade.example.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1452072,
+  "crc32" : 2892348691,
+  "sha256" : "e6a957932b794c5991a867f426dfd5c416ee05a1e49deeefde6155b1690c7da6",
+  "buildTime" : 1521959418000
+}

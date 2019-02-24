@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.percolate.mentions.sample",
+    "label" : "Mentions",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2393,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.percolate.mentions.sample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"25\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.1\" />\n\t<application android:theme=\"resourceId:0x7f0900a3\" android:label=\"Mentions\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Mentions\" android:name=\"com.percolate.mentions.sample.activities.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1846775,
+  "crc32" : 1366495505,
+  "sha256" : "2570120af7fe358ccfa986b721362a2c4e3440f8c3ed9b0aecf53784c4fb758a",
+  "buildTime" : 1527357455000
+}

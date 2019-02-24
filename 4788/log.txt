@@ -1,0 +1,182 @@
+2018-12-25 11:25:36,222 INFO  DownloadService - Downloading "https://github.com/smart-fun/Perm/archive/master.zip", attempt 3
+2018-12-25 11:25:36,938 INFO  DownloadService - Downloaded https://github.com/smart-fun/Perm/archive/master.zip, attempt 3
+2018-12-25 11:25:36,939 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711936214-0/master.zip": 68 KB
+2018-12-25 11:25:36,939 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-25 11:25:36,944 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711936214-0/master.zip: true
+2018-12-25 11:25:36,945 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711936214-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711936214-0/src'.
+2018-12-25 11:25:36,957 INFO  FullProcessService - Size of directory with sources: 95 KB
+2018-12-25 11:25:36,957 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711936214-0/src]
+2018-12-25 11:25:36,974 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711936214-0/src/.git/
+
+2018-12-25 11:25:36,976 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711936214-0/src/Perm-master/gradlew
+2018-12-25 11:25:36,978 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711936214-0/src/Perm-master/perm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711936214-0/src/Perm-master/build.gradle
+2018-12-25 11:25:36,979 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711936214-0/src/Perm-master/perm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711936214-0/src/Perm-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711936214-0/src/Perm-master/settings.gradle
+2018-12-25 11:25:36,980 INFO  ProjectBuildService - Remote scripts: none
+2018-12-25 11:25:36,980 INFO  ProjectFixService - Fixing project...
+2018-12-25 11:25:36,984 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711936214-0/src/Perm-master/perm/local.properties
+2018-12-25 11:25:36,985 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711936214-0/src/Perm-master/perm/build.gradle": [buildToolsVersion=28.0.1,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-25 11:25:36,985 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711936214-0/src/Perm-master/local.properties
+2018-12-25 11:25:36,986 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-12-25 11:25:36,986 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-12-25 11:25:36,987 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711936214-0/src/Perm-master/build.gradle": [buildToolsVersion=28.0.1,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-25 11:25:36,988 INFO  ProjectFixService - Project was maybe fixed
+2018-12-25 11:25:36,988 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-25 11:25:36,988 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711936214-0/src/Perm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711936214-0/src/Perm-master/perm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-25 11:25:43,958 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-12-25 11:25:43,958 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-12-25 11:25:43,958 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711936214-0/src/Perm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711936214-0/src/Perm-master/perm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-12-25 11:25:53,078 INFO  SysUtils - Configuration on demand is an incubating feature.
+:perm:preBuild UP-TO-DATE
+:perm:preDebugBuild UP-TO-DATE
+:perm:compileDebugAidl
+:perm:compileDebugRenderscript
+:perm:checkDebugManifest
+:perm:generateDebugBuildConfig
+:perm:generateDebugResValues
+:perm:generateDebugResources
+:perm:packageDebugResources
+:perm:platformAttrExtractor
+:perm:processDebugManifest
+:perm:prepareLintJar
+:perm:javaPreCompileDebug
+:perm:mergeDebugConsumerProguardFiles
+:perm:mergeDebugShaders
+:perm:compileDebugShaders
+:perm:generateDebugAssets
+:perm:packageDebugAssets
+:perm:packageDebugRenderscript NO-SOURCE
+:perm:processDebugJavaRes NO-SOURCE
+:perm:compileDebugNdk NO-SOURCE
+:perm:mergeDebugJniLibFolders
+:perm:transformNativeLibsWithMergeJniLibsForDebug
+:perm:transformNativeLibsWithStripDebugSymbolForDebug
+:perm:transformNativeLibsWithSyncJniLibsForDebug
+:perm:preReleaseBuild UP-TO-DATE
+:perm:compileReleaseAidl
+:perm:compileReleaseRenderscript
+:perm:checkReleaseManifest
+:perm:generateReleaseBuildConfig
+:perm:generateReleaseResValues
+:perm:generateReleaseResources
+:perm:packageReleaseResources
+:perm:processReleaseManifest
+:perm:javaPreCompileRelease
+:perm:mergeReleaseConsumerProguardFiles
+:perm:mergeReleaseShaders
+:perm:compileReleaseShaders
+:perm:generateReleaseAssets
+:perm:packageReleaseAssets
+:perm:packageReleaseRenderscript NO-SOURCE
+:perm:processReleaseJavaRes NO-SOURCE
+:perm:compileReleaseNdk NO-SOURCE
+:perm:mergeReleaseJniLibFolders
+:perm:transformNativeLibsWithMergeJniLibsForRelease
+:perm:transformNativeLibsWithStripDebugSymbolForRelease
+:perm:transformNativeLibsWithSyncJniLibsForRelease
+:perm:mergeReleaseResources
+:perm:verifyReleaseResources
+:perm:generateDebugRFile
+:perm:generateDebugSources
+:perm:compileDebugJavaWithJavac
+:perm:extractDebugAnnotations
+:perm:transformResourcesWithMergeJavaResForDebug
+:perm:transformClassesAndResourcesWithSyncLibJarsForDebug
+:perm:bundleDebug
+:perm:compileDebugSources
+:perm:assembleDebug
+:perm:generateReleaseRFile
+:perm:generateReleaseSources
+:perm:compileReleaseJavaWithJavac
+:perm:extractReleaseAnnotations
+:perm:transformResourcesWithMergeJavaResForRelease
+:perm:transformClassesAndResourcesWithSyncLibJarsForRelease
+:perm:bundleRelease
+:perm:compileReleaseSources
+:perm:assembleRelease
+:perm:assemble
+:perm:build
+
+BUILD SUCCESSFUL in 8s
+48 actionable tasks: 48 executed
+
+2018-12-25 11:25:53,101 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-25 11:25:53,101 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711936214-0/src/Perm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711936214-0/src/Perm-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-25 11:25:58,333 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-12-25 11:25:58,333 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-12-25 11:25:58,334 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711936214-0/src/Perm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711936214-0/src/Perm-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-12-25 11:26:04,110 INFO  SysUtils - Configuration on demand is an incubating feature.
+:perm:preBuild UP-TO-DATE
+:perm:preDebugBuild UP-TO-DATE
+:perm:compileDebugAidl UP-TO-DATE
+:perm:compileDebugRenderscript UP-TO-DATE
+:perm:checkDebugManifest UP-TO-DATE
+:perm:generateDebugBuildConfig UP-TO-DATE
+:perm:generateDebugResValues UP-TO-DATE
+:perm:generateDebugResources UP-TO-DATE
+:perm:packageDebugResources UP-TO-DATE
+:perm:platformAttrExtractor UP-TO-DATE
+:perm:processDebugManifest UP-TO-DATE
+:perm:generateDebugRFile UP-TO-DATE
+:perm:prepareLintJar UP-TO-DATE
+:perm:generateDebugSources UP-TO-DATE
+:perm:javaPreCompileDebug UP-TO-DATE
+:perm:compileDebugJavaWithJavac UP-TO-DATE
+:perm:extractDebugAnnotations UP-TO-DATE
+:perm:mergeDebugConsumerProguardFiles UP-TO-DATE
+:perm:mergeDebugShaders UP-TO-DATE
+:perm:compileDebugShaders UP-TO-DATE
+:perm:generateDebugAssets UP-TO-DATE
+:perm:packageDebugAssets UP-TO-DATE
+:perm:packageDebugRenderscript NO-SOURCE
+:perm:processDebugJavaRes NO-SOURCE
+:perm:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:perm:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:perm:compileDebugNdk NO-SOURCE
+:perm:mergeDebugJniLibFolders UP-TO-DATE
+:perm:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:perm:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:perm:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:perm:bundleDebug UP-TO-DATE
+:perm:compileDebugSources UP-TO-DATE
+:perm:assembleDebug UP-TO-DATE
+:perm:preReleaseBuild UP-TO-DATE
+:perm:compileReleaseAidl UP-TO-DATE
+:perm:compileReleaseRenderscript UP-TO-DATE
+:perm:checkReleaseManifest UP-TO-DATE
+:perm:generateReleaseBuildConfig UP-TO-DATE
+:perm:generateReleaseResValues UP-TO-DATE
+:perm:generateReleaseResources UP-TO-DATE
+:perm:packageReleaseResources UP-TO-DATE
+:perm:processReleaseManifest UP-TO-DATE
+:perm:generateReleaseRFile UP-TO-DATE
+:perm:generateReleaseSources UP-TO-DATE
+:perm:javaPreCompileRelease UP-TO-DATE
+:perm:compileReleaseJavaWithJavac UP-TO-DATE
+:perm:extractReleaseAnnotations UP-TO-DATE
+:perm:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:perm:mergeReleaseShaders UP-TO-DATE
+:perm:compileReleaseShaders UP-TO-DATE
+:perm:generateReleaseAssets UP-TO-DATE
+:perm:packageReleaseAssets UP-TO-DATE
+:perm:packageReleaseRenderscript NO-SOURCE
+:perm:processReleaseJavaRes NO-SOURCE
+:perm:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:perm:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:perm:compileReleaseNdk NO-SOURCE
+:perm:mergeReleaseJniLibFolders UP-TO-DATE
+:perm:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:perm:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:perm:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:perm:bundleRelease UP-TO-DATE
+:perm:compileReleaseSources UP-TO-DATE
+:perm:mergeReleaseResources UP-TO-DATE
+:perm:verifyReleaseResources UP-TO-DATE
+:perm:assembleRelease UP-TO-DATE
+:perm:assemble UP-TO-DATE
+:perm:build
+
+BUILD SUCCESSFUL in 5s
+48 actionable tasks: 48 up-to-date
+
+2018-12-25 11:26:04,137 ERROR FullProcessService - Project build has not produced APK file
+2018-12-25 11:26:04,160 ERROR FullProcessService - Could not find generated or existed APK file

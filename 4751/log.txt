@@ -1,0 +1,176 @@
+2018-10-15 13:03:37,621 INFO  DownloadService - Downloading "https://github.com/yingLanNull/HideKeyboard/archive/master.zip", attempt 3
+2018-10-15 13:03:42,368 INFO  DownloadService - Downloaded https://github.com/yingLanNull/HideKeyboard/archive/master.zip, attempt 3
+2018-10-15 13:03:42,369 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/master.zip": 2 MB
+2018-10-15 13:03:42,369 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-15 13:03:42,371 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/master.zip: true
+2018-10-15 13:03:42,371 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src'.
+2018-10-15 13:03:42,411 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-10-15 13:03:42,411 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src]
+2018-10-15 13:03:42,429 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/.git/
+
+2018-10-15 13:03:42,432 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/gradlew
+2018-10-15 13:03:42,435 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/hidekeyboard/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/build.gradle
+2018-10-15 13:03:42,437 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/hidekeyboard/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/settings.gradle
+2018-10-15 13:03:42,438 INFO  ProjectBuildService - Remote scripts: none
+2018-10-15 13:03:42,438 INFO  ProjectFixService - Fixing project...
+2018-10-15 13:03:42,445 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/demo/local.properties
+2018-10-15 13:03:42,445 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/demo/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=24]
+2018-10-15 13:03:42,446 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/hidekeyboard/local.properties
+2018-10-15 13:03:42,446 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/hidekeyboard/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=24]
+2018-10-15 13:03:42,447 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/local.properties
+2018-10-15 13:03:42,447 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-10-15 13:03:42,448 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-10-15 13:03:42,449 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=24]
+2018-10-15 13:03:42,449 INFO  ProjectFixService - Project was maybe fixed
+2018-10-15 13:03:42,449 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-15 13:03:42,450 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-15 13:03:49,637 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-10-15 13:03:49,637 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-15 13:03:49,637 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-15 13:04:11,995 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'androidTestCompile' is obsolete and has been replaced with 'androidTestImplementation' and 'androidTestApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'androidTestApi' is obsolete and has been replaced with 'androidTestImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: The specified Android SDK Build Tools version (26.0.2) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.4.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '26.0.2'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: The specified Android SDK Build Tools version (26.0.2) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.4.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '26.0.2'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+:demo:preBuild UP-TO-DATE
+:hidekeyboard:preBuild UP-TO-DATE
+:hidekeyboard:preDebugBuild UP-TO-DATE
+:hidekeyboard:checkDebugManifest
+:hidekeyboard:processDebugManifest
+:demo:preDebugBuild
+:hidekeyboard:compileDebugAidl
+:demo:compileDebugAidl
+:hidekeyboard:packageDebugRenderscript NO-SOURCE
+:demo:compileDebugRenderscript
+:demo:checkDebugManifest
+:demo:generateDebugBuildConfig
+:demo:prepareLintJar
+:demo:mainApkListPersistenceDebug
+:demo:generateDebugResValues
+:demo:generateDebugResources
+:hidekeyboard:compileDebugRenderscript
+:hidekeyboard:generateDebugResValues
+:hidekeyboard:generateDebugResources
+:hidekeyboard:packageDebugResources
+:demo:mergeDebugResources
+:demo:createDebugCompatibleScreenManifests
+:demo:processDebugManifest
+:demo:splitsDiscoveryTaskDebug
+:hidekeyboard:platformAttrExtractor
+:hidekeyboard:generateDebugBuildConfig
+:hidekeyboard:prepareLintJar
+:hidekeyboard:javaPreCompileDebug
+:hidekeyboard:processDebugJavaRes NO-SOURCE
+:demo:compileDebugNdk NO-SOURCE
+:demo:mergeDebugShaders
+:demo:compileDebugShaders
+:demo:generateDebugAssets
+:hidekeyboard:mergeDebugShaders
+:hidekeyboard:compileDebugShaders
+:hidekeyboard:generateDebugAssets
+:hidekeyboard:packageDebugAssets
+:demo:mergeDebugAssets
+:demo:mergeDebugJniLibFolders
+:hidekeyboard:compileDebugNdk NO-SOURCE
+:hidekeyboard:mergeDebugJniLibFolders
+:hidekeyboard:transformNativeLibsWithMergeJniLibsForDebug
+:hidekeyboard:transformNativeLibsWithStripDebugSymbolForDebug
+:hidekeyboard:transformNativeLibsWithIntermediateJniLibsForDebug
+:demo:processDebugJavaRes NO-SOURCE
+:demo:validateSigningDebug
+:hidekeyboard:preReleaseBuild UP-TO-DATE
+:hidekeyboard:checkReleaseManifest
+:hidekeyboard:processReleaseManifest
+:demo:preReleaseBuild
+:hidekeyboard:compileReleaseAidl
+:demo:compileReleaseAidl
+:hidekeyboard:packageReleaseRenderscript NO-SOURCE
+:demo:compileReleaseRenderscript
+:demo:checkReleaseManifest
+:demo:generateReleaseBuildConfig
+:demo:mainApkListPersistenceRelease
+:demo:generateReleaseResValues
+:demo:generateReleaseResources
+:hidekeyboard:compileReleaseRenderscript
+:hidekeyboard:generateReleaseResValues
+:hidekeyboard:generateReleaseResources
+:hidekeyboard:packageReleaseResources
+:demo:mergeReleaseResources
+:demo:createReleaseCompatibleScreenManifests
+:demo:processReleaseManifest
+:demo:splitsDiscoveryTaskRelease
+:hidekeyboard:generateReleaseBuildConfig
+:hidekeyboard:javaPreCompileRelease
+:hidekeyboard:processReleaseJavaRes NO-SOURCE
+:demo:compileReleaseNdk NO-SOURCE
+:demo:mergeReleaseShaders
+:demo:compileReleaseShaders
+:demo:generateReleaseAssets
+:hidekeyboard:mergeReleaseShaders
+:hidekeyboard:compileReleaseShaders
+:hidekeyboard:generateReleaseAssets
+:hidekeyboard:packageReleaseAssets
+:demo:mergeReleaseAssets
+:demo:mergeReleaseJniLibFolders
+:hidekeyboard:compileReleaseNdk NO-SOURCE
+:hidekeyboard:mergeReleaseJniLibFolders
+:hidekeyboard:transformNativeLibsWithMergeJniLibsForRelease
+:hidekeyboard:transformNativeLibsWithStripDebugSymbolForRelease
+:hidekeyboard:transformNativeLibsWithIntermediateJniLibsForRelease
+:demo:processReleaseJavaRes NO-SOURCE
+:hidekeyboard:generateDebugRFile
+:demo:processDebugResources
+:demo:generateDebugSources
+:hidekeyboard:generateDebugSources
+:hidekeyboard:compileDebugJavaWithJavac
+:hidekeyboard:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:demo:javaPreCompileDebug
+:demo:compileDebugJavaWithJavac
+:demo:compileDebugSources
+:demo:transformClassesWithDexBuilderForDebug
+:demo:transformDexArchiveWithExternalLibsDexMergerForDebug
+:demo:transformDexArchiveWithDexMergerForDebug
+:demo:transformNativeLibsWithMergeJniLibsForDebug
+:demo:transformNativeLibsWithStripDebugSymbolForDebug
+:demo:transformResourcesWithMergeJavaResForDebug
+:demo:packageDebug
+:demo:assembleDebug
+:hidekeyboard:generateReleaseRFile
+:demo:processReleaseResources
+:demo:generateReleaseSources
+:hidekeyboard:generateReleaseSources
+:hidekeyboard:compileReleaseJavaWithJavac
+:hidekeyboard:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:demo:javaPreCompileRelease
+:demo:compileReleaseJavaWithJavac
+:demo:compileReleaseSources
+:demo:lintVitalRelease
+:demo:transformClassesWithDexBuilderForRelease
+:demo:transformDexArchiveWithExternalLibsDexMergerForRelease
+:demo:transformDexArchiveWithDexMergerForRelease
+:demo:transformNativeLibsWithMergeJniLibsForRelease
+:demo:transformNativeLibsWithStripDebugSymbolForRelease
+:demo:transformResourcesWithMergeJavaResForRelease
+:demo:packageRelease
+:demo:assembleRelease
+:demo:assemble
+:demo:build
+
+BUILD SUCCESSFUL in 22s
+91 actionable tasks: 91 executed
+
+2018-10-15 13:04:12,057 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/demo/build/outputs/apk/release/demo-release-unsigned.apk
