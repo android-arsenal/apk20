@@ -1,32 +1,32 @@
-2018-10-14 02:44:51,913 INFO  DownloadService - Downloading "https://github.com/lawloretienne/TinderStack/archive/master.zip", attempt 3
-2018-10-14 02:44:59,560 INFO  DownloadService - Downloaded https://github.com/lawloretienne/TinderStack/archive/master.zip, attempt 3
-2018-10-14 02:44:59,560 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459891907-0/master.zip": 20 MB
-2018-10-14 02:44:59,560 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-14 02:44:59,562 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459891907-0/master.zip: true
-2018-10-14 02:44:59,562 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459891907-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459891907-0/src'.
-2018-10-14 02:44:59,717 INFO  FullProcessService - Size of directory with sources: 21 MB
-2018-10-14 02:44:59,717 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459891907-0/src]
-2018-10-14 02:44:59,734 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459891907-0/src/.git/
+2019-04-01 12:41:26,265 INFO  DownloadService - Downloading "https://github.com/lawloretienne/TinderStack/archive/master.zip", attempt 3
+2019-04-01 12:41:50,259 INFO  DownloadService - Downloaded https://github.com/lawloretienne/TinderStack/archive/master.zip, attempt 3
+2019-04-01 12:41:50,259 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097286260-0/master.zip": 20 MB
+2019-04-01 12:41:50,259 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-01 12:41:50,260 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097286260-0/master.zip: true
+2019-04-01 12:41:50,260 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097286260-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097286260-0/src'.
+2019-04-01 12:41:50,419 INFO  FullProcessService - Size of directory with sources: 21 MB
+2019-04-01 12:41:50,419 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097286260-0/src]
+2019-04-01 12:41:50,441 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097286260-0/src/.git/
 
-2018-10-14 02:44:59,737 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459891907-0/src/TinderStack-master/gradlew
-2018-10-14 02:44:59,740 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459891907-0/src/TinderStack-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459891907-0/src/TinderStack-master/build.gradle
-2018-10-14 02:44:59,742 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459891907-0/src/TinderStack-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459891907-0/src/TinderStack-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459891907-0/src/TinderStack-master/settings.gradle
-2018-10-14 02:44:59,742 INFO  ProjectBuildService - Remote scripts: none
-2018-10-14 02:44:59,742 INFO  ProjectFixService - Fixing project...
-2018-10-14 02:44:59,749 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459891907-0/src/TinderStack-master/app/local.properties
-2018-10-14 02:44:59,749 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459891907-0/src/TinderStack-master/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2018-10-14 02:44:59,750 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459891907-0/src/TinderStack-master/local.properties
-2018-10-14 02:44:59,750 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2018-10-14 02:44:59,750 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2018-10-14 02:44:59,751 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459891907-0/src/TinderStack-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2018-10-14 02:44:59,751 INFO  ProjectFixService - Project was maybe fixed
-2018-10-14 02:44:59,751 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 02:44:59,751 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459891907-0/src/TinderStack-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459891907-0/src/TinderStack-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 02:45:09,709 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 02:45:09,709 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 02:45:09,710 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 02:45:09,710 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459891907-0/src/TinderStack-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459891907-0/src/TinderStack-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 02:45:16,588 ERROR SysUtils - Could not process external command
+2019-04-01 12:41:50,444 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097286260-0/src/TinderStack-master/gradlew
+2019-04-01 12:41:50,448 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097286260-0/src/TinderStack-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097286260-0/src/TinderStack-master/build.gradle
+2019-04-01 12:41:50,451 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097286260-0/src/TinderStack-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097286260-0/src/TinderStack-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097286260-0/src/TinderStack-master/settings.gradle
+2019-04-01 12:41:50,451 INFO  ProjectBuildService - Remote scripts: none
+2019-04-01 12:41:50,452 INFO  ProjectFixService - Fixing project...
+2019-04-01 12:41:50,460 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097286260-0/src/TinderStack-master/app/local.properties
+2019-04-01 12:41:50,460 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097286260-0/src/TinderStack-master/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2019-04-01 12:41:50,460 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097286260-0/src/TinderStack-master/local.properties
+2019-04-01 12:41:50,461 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-04-01 12:41:50,461 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-04-01 12:41:50,462 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097286260-0/src/TinderStack-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2019-04-01 12:41:50,462 INFO  ProjectFixService - Project was maybe fixed
+2019-04-01 12:41:50,462 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:41:50,462 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097286260-0/src/TinderStack-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097286260-0/src/TinderStack-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:41:59,515 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:41:59,515 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:41:59,515 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:41:59,515 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097286260-0/src/TinderStack-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097286260-0/src/TinderStack-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:42:05,305 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -54,7 +54,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 02:45:16,588 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:42:05,305 INFO  SysUtils - Configuration on demand is an incubating feature.
 The JavaCompile.setDependencyCacheDir() method has been deprecated and is scheduled to be removed in Gradle 4.0.
 	at org.gradle.api.tasks.compile.JavaCompile.setDependencyCacheDir(JavaCompile.java:241)
 	at com.android.build.gradle.tasks.factory.AndroidJavaCompile_Decorated.setDependencyCacheDir(Unknown Source)
@@ -262,15 +262,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.521 secs
+Total time: 5.498 secs
 
-2018-10-14 02:45:16,592 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 02:45:16,592 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459891907-0/src/TinderStack-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459891907-0/src/TinderStack-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 02:45:23,210 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 02:45:23,210 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 02:45:23,211 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 02:45:23,211 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459891907-0/src/TinderStack-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459891907-0/src/TinderStack-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 02:45:30,303 ERROR SysUtils - Could not process external command
+2019-04-01 12:42:05,309 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:42:05,310 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097286260-0/src/TinderStack-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097286260-0/src/TinderStack-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:42:10,925 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:42:10,925 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:42:10,925 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:42:10,925 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097286260-0/src/TinderStack-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097286260-0/src/TinderStack-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:42:16,765 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -298,7 +298,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 02:45:30,303 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:42:16,765 INFO  SysUtils - Configuration on demand is an incubating feature.
 The JavaCompile.setDependencyCacheDir() method has been deprecated and is scheduled to be removed in Gradle 4.0.
 	at org.gradle.api.tasks.compile.JavaCompile.setDependencyCacheDir(JavaCompile.java:241)
 	at com.android.build.gradle.tasks.factory.AndroidJavaCompile_Decorated.setDependencyCacheDir(Unknown Source)
@@ -506,7 +506,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.837 secs
+Total time: 5.598 secs
 
-2018-10-14 02:45:30,307 ERROR FullProcessService - Project build has not produced APK file
-2018-10-14 02:45:30,310 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-01 12:42:16,769 ERROR FullProcessService - Project build has not produced APK file
+2019-04-01 12:42:16,773 ERROR FullProcessService - Could not find generated or existed APK file

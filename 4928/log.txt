@@ -1,34 +1,34 @@
-2018-10-14 03:40:32,608 INFO  DownloadService - Downloading "https://github.com/BeppiMenozzi/BalloonPopup/archive/master.zip", attempt 3
-2018-10-14 03:40:33,309 INFO  DownloadService - Downloaded https://github.com/BeppiMenozzi/BalloonPopup/archive/master.zip, attempt 3
-2018-10-14 03:40:33,310 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/master.zip": 324 KB
-2018-10-14 03:40:33,310 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-14 03:40:33,315 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/master.zip: true
-2018-10-14 03:40:33,316 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src'.
-2018-10-14 03:40:33,347 INFO  FullProcessService - Size of directory with sources: 356 KB
-2018-10-14 03:40:33,347 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src]
-2018-10-14 03:40:33,366 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/.git/
+2019-04-01 12:49:30,847 INFO  DownloadService - Downloading "https://github.com/BeppiMenozzi/BalloonPopup/archive/master.zip", attempt 3
+2019-04-01 12:49:34,100 INFO  DownloadService - Downloaded https://github.com/BeppiMenozzi/BalloonPopup/archive/master.zip, attempt 3
+2019-04-01 12:49:34,100 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/master.zip": 324 KB
+2019-04-01 12:49:34,100 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-01 12:49:34,105 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/master.zip: true
+2019-04-01 12:49:34,106 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src'.
+2019-04-01 12:49:34,133 INFO  FullProcessService - Size of directory with sources: 356 KB
+2019-04-01 12:49:34,133 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src]
+2019-04-01 12:49:34,150 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/.git/
 
-2018-10-14 03:40:33,369 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/gradlew
-2018-10-14 03:40:33,373 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/balloonpopup_library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/balloonpopup_sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/build.gradle
-2018-10-14 03:40:33,377 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/balloonpopup_library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/balloonpopup_sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/settings.gradle
-2018-10-14 03:40:33,377 INFO  ProjectBuildService - Remote scripts: none
-2018-10-14 03:40:33,377 INFO  ProjectFixService - Fixing project...
-2018-10-14 03:40:33,386 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/balloonpopup_library/local.properties
-2018-10-14 03:40:33,386 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/balloonpopup_library/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
-2018-10-14 03:40:33,387 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/balloonpopup_sample/local.properties
-2018-10-14 03:40:33,387 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/balloonpopup_sample/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
-2018-10-14 03:40:33,387 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/local.properties
-2018-10-14 03:40:33,388 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-14 03:40:33,388 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-14 03:40:33,389 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
-2018-10-14 03:40:33,390 INFO  ProjectFixService - Project was maybe fixed
-2018-10-14 03:40:33,390 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 03:40:33,390 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/balloonpopup_library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 03:40:42,193 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 03:40:42,193 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 03:40:42,193 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 03:40:42,193 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/balloonpopup_library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 03:40:55,456 ERROR SysUtils - Could not process external command
+2019-04-01 12:49:34,154 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/gradlew
+2019-04-01 12:49:34,158 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/balloonpopup_library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/balloonpopup_sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/build.gradle
+2019-04-01 12:49:34,161 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/balloonpopup_library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/balloonpopup_sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/settings.gradle
+2019-04-01 12:49:34,161 INFO  ProjectBuildService - Remote scripts: none
+2019-04-01 12:49:34,161 INFO  ProjectFixService - Fixing project...
+2019-04-01 12:49:34,170 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/balloonpopup_library/local.properties
+2019-04-01 12:49:34,170 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/balloonpopup_library/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2019-04-01 12:49:34,170 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/balloonpopup_sample/local.properties
+2019-04-01 12:49:34,171 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/balloonpopup_sample/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2019-04-01 12:49:34,171 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/local.properties
+2019-04-01 12:49:34,171 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-01 12:49:34,172 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-01 12:49:34,172 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2019-04-01 12:49:34,172 INFO  ProjectFixService - Project was maybe fixed
+2019-04-01 12:49:34,172 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:49:34,173 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/balloonpopup_library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:49:41,478 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:49:41,478 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:49:41,479 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:49:41,479 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/balloonpopup_library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:49:52,643 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,8 +41,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -56,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 03:40:55,456 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:49:52,644 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :balloonpopup_library:preBuild UP-TO-DATE
 :balloonpopup_library:preDebugBuild UP-TO-DATE
@@ -90,7 +89,7 @@ Incremental java compilation is an incubating feature.
 :balloonpopup_library:incrementalDebugJavaCompilationSafeguard
 :balloonpopup_library:compileDebugJavaWithJavac
 :balloonpopup_library:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/balloonpopup_library/src/main/java/it/beppi/balloonpopuplibrary/BalloonPopup.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/balloonpopup_library/src/main/java/it/beppi/balloonpopuplibrary/BalloonPopup.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :balloonpopup_library:extractDebugAnnotations
 :balloonpopup_library:mergeDebugShaders
@@ -125,7 +124,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :balloonpopup_library:incrementalReleaseJavaCompilationSafeguard
 :balloonpopup_library:compileReleaseJavaWithJavac
 :balloonpopup_library:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/balloonpopup_library/src/main/java/it/beppi/balloonpopuplibrary/BalloonPopup.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/balloonpopup_library/src/main/java/it/beppi/balloonpopuplibrary/BalloonPopup.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :balloonpopup_library:extractReleaseAnnotations
 :balloonpopup_library:mergeReleaseShaders
@@ -241,15 +240,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 12.626 secs
+Total time: 10.543 secs
 
-2018-10-14 03:40:55,524 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 03:40:55,524 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/balloonpopup_sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 03:41:03,308 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 03:41:03,308 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 03:41:03,309 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 03:41:03,309 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/balloonpopup_sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 03:41:11,070 ERROR SysUtils - Could not process external command
+2019-04-01 12:49:52,716 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:49:52,716 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/balloonpopup_sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:49:58,882 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:49:58,882 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:49:58,882 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:49:58,882 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/balloonpopup_sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:50:04,951 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -262,8 +261,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -277,7 +275,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 03:41:11,071 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:50:04,951 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -388,15 +386,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.169 secs
+Total time: 5.452 secs
 
-2018-10-14 03:41:11,148 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 03:41:11,148 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 03:41:18,776 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 03:41:18,776 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 03:41:18,776 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 03:41:18,776 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539463232605-0/src/BalloonPopup-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 03:41:26,423 ERROR SysUtils - Could not process external command
+2019-04-01 12:50:05,021 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:50:05,021 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:50:11,116 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:50:11,116 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:50:11,116 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:50:11,116 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097770845-0/src/BalloonPopup-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:50:17,408 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -409,8 +407,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -424,7 +421,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 03:41:26,423 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:50:17,408 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -528,14 +525,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 7.02 secs
+Total time: 5.668 secs
 
-2018-10-14 03:41:26,495 ERROR FullProcessService - Project build has not produced APK file
-2018-10-14 03:41:26,563 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-01 12:50:17,479 ERROR FullProcessService - Project build has not produced APK file
+2019-04-01 12:50:17,543 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,36 +1,36 @@
-2018-10-14 02:45:30,343 INFO  DownloadService - Downloading "https://github.com/Luolc/EmojiRain/archive/master.zip", attempt 3
-2018-10-14 02:45:31,548 INFO  DownloadService - Downloaded https://github.com/Luolc/EmojiRain/archive/master.zip, attempt 3
-2018-10-14 02:45:31,548 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/master.zip": 2 MB
-2018-10-14 02:45:31,548 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-14 02:45:31,554 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/master.zip: true
-2018-10-14 02:45:31,554 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src'.
-2018-10-14 02:45:31,596 INFO  FullProcessService - Size of directory with sources: 2 MB
-2018-10-14 02:45:31,596 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src]
-2018-10-14 02:45:31,614 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/.git/
+2019-04-01 12:42:16,801 INFO  DownloadService - Downloading "https://github.com/Luolc/EmojiRain/archive/master.zip", attempt 3
+2019-04-01 12:42:21,411 INFO  DownloadService - Downloaded https://github.com/Luolc/EmojiRain/archive/master.zip, attempt 3
+2019-04-01 12:42:21,412 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/master.zip": 2 MB
+2019-04-01 12:42:21,412 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-01 12:42:21,418 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/master.zip: true
+2019-04-01 12:42:21,419 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src'.
+2019-04-01 12:42:21,463 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-04-01 12:42:21,464 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src]
+2019-04-01 12:42:21,484 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/.git/
 
-2018-10-14 02:45:31,617 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/EmojiRain-master/gradlew
-2018-10-14 02:45:31,621 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/EmojiRain-master/emojirain/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/EmojiRain-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/EmojiRain-master/build.gradle
-2018-10-14 02:45:31,624 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/EmojiRain-master/emojirain/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/EmojiRain-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/EmojiRain-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/EmojiRain-master/settings.gradle
-2018-10-14 02:45:31,624 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
-2018-10-14 02:45:31,731 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
-2018-10-14 02:45:31,731 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
-2018-10-14 02:45:31,731 INFO  ProjectFixService - Fixing project...
-2018-10-14 02:45:31,741 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/EmojiRain-master/emojirain/local.properties
-2018-10-14 02:45:31,742 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/EmojiRain-master/emojirain/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-10-14 02:45:31,742 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/EmojiRain-master/sample/local.properties
-2018-10-14 02:45:31,743 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/EmojiRain-master/sample/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-10-14 02:45:31,743 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/EmojiRain-master/local.properties
-2018-10-14 02:45:31,744 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2018-10-14 02:45:31,744 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2018-10-14 02:45:31,745 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/EmojiRain-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-10-14 02:45:31,745 INFO  ProjectFixService - Project was maybe fixed
-2018-10-14 02:45:31,745 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 02:45:31,745 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/EmojiRain-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/EmojiRain-master/emojirain/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 02:45:44,998 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 02:45:44,998 INFO  ProjectTaskService - Detected possible tasks: 4
-2018-10-14 02:45:44,998 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2018-10-14 02:45:44,998 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/EmojiRain-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/EmojiRain-master/emojirain/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2018-10-14 02:45:51,808 ERROR SysUtils - Could not process external command
+2019-04-01 12:42:21,489 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/EmojiRain-master/gradlew
+2019-04-01 12:42:21,495 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/EmojiRain-master/emojirain/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/EmojiRain-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/EmojiRain-master/build.gradle
+2019-04-01 12:42:21,499 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/EmojiRain-master/emojirain/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/EmojiRain-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/EmojiRain-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/EmojiRain-master/settings.gradle
+2019-04-01 12:42:21,505 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2019-04-01 12:42:22,300 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
+2019-04-01 12:42:22,301 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
+2019-04-01 12:42:22,301 INFO  ProjectFixService - Fixing project...
+2019-04-01 12:42:22,311 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/EmojiRain-master/emojirain/local.properties
+2019-04-01 12:42:22,311 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/EmojiRain-master/emojirain/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-04-01 12:42:22,312 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/EmojiRain-master/sample/local.properties
+2019-04-01 12:42:22,312 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/EmojiRain-master/sample/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-04-01 12:42:22,313 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/EmojiRain-master/local.properties
+2019-04-01 12:42:22,313 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-04-01 12:42:22,314 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-04-01 12:42:22,315 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/EmojiRain-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-04-01 12:42:22,315 INFO  ProjectFixService - Project was maybe fixed
+2019-04-01 12:42:22,315 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:42:22,315 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/EmojiRain-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/EmojiRain-master/emojirain/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:42:34,422 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:42:34,423 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-04-01 12:42:34,423 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-04-01 12:42:34,423 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/EmojiRain-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/EmojiRain-master/emojirain/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-04-01 12:42:42,107 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -58,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 02:45:51,808 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:42:42,107 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -154,15 +154,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.537 secs
+Total time: 7.383 secs
 
-2018-10-14 02:45:51,812 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 02:45:51,813 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/EmojiRain-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/EmojiRain-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 02:45:58,933 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 02:45:58,933 INFO  ProjectTaskService - Detected possible tasks: 4
-2018-10-14 02:45:58,934 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2018-10-14 02:45:58,934 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/EmojiRain-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/EmojiRain-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2018-10-14 02:46:06,433 ERROR SysUtils - Could not process external command
+2019-04-01 12:42:42,113 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:42:42,114 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/EmojiRain-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/EmojiRain-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:42:49,789 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:42:49,789 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-04-01 12:42:49,789 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-04-01 12:42:49,789 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/EmojiRain-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/EmojiRain-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-04-01 12:42:57,085 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -190,7 +190,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 02:46:06,433 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:42:57,085 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -364,15 +364,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.045 secs
+Total time: 6.963 secs
 
-2018-10-14 02:46:06,439 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 02:46:06,439 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/EmojiRain-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/EmojiRain-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 02:46:14,807 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 02:46:14,807 INFO  ProjectTaskService - Detected possible tasks: 4
-2018-10-14 02:46:14,807 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2018-10-14 02:46:14,808 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/EmojiRain-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459930340-0/src/EmojiRain-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2018-10-14 02:46:23,128 ERROR SysUtils - Could not process external command
+2019-04-01 12:42:57,090 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:42:57,090 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/EmojiRain-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/EmojiRain-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:43:03,745 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:43:03,745 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-04-01 12:43:03,745 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-04-01 12:43:03,745 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/EmojiRain-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097336798-0/src/EmojiRain-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-04-01 12:43:09,817 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -400,7 +400,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 02:46:23,128 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:43:09,817 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -498,7 +498,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.881 secs
+Total time: 5.692 secs
 
-2018-10-14 02:46:23,132 ERROR FullProcessService - Project build has not produced APK file
-2018-10-14 02:46:23,136 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-01 12:43:09,822 ERROR FullProcessService - Project build has not produced APK file
+2019-04-01 12:43:09,826 ERROR FullProcessService - Could not find generated or existed APK file
