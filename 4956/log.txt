@@ -1,36 +1,36 @@
-2018-10-14 02:39:26,700 INFO  DownloadService - Downloading "https://github.com/wajahatkarim3/DBFlowManager/archive/master.zip", attempt 3
-2018-10-14 02:39:27,334 INFO  DownloadService - Downloaded https://github.com/wajahatkarim3/DBFlowManager/archive/master.zip, attempt 3
-2018-10-14 02:39:27,334 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/master.zip": 206 KB
-2018-10-14 02:39:27,334 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-14 02:39:27,340 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/master.zip: true
-2018-10-14 02:39:27,340 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src'.
-2018-10-14 02:39:27,361 INFO  FullProcessService - Size of directory with sources: 293 KB
-2018-10-14 02:39:27,361 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src]
-2018-10-14 02:39:27,377 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/.git/
+2019-04-01 12:16:59,469 INFO  DownloadService - Downloading "https://github.com/wajahatkarim3/DBFlowManager/archive/master.zip", attempt 3
+2019-04-01 12:17:00,326 INFO  DownloadService - Downloaded https://github.com/wajahatkarim3/DBFlowManager/archive/master.zip, attempt 3
+2019-04-01 12:17:00,326 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/master.zip": 206 KB
+2019-04-01 12:17:00,326 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-01 12:17:00,327 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/master.zip: true
+2019-04-01 12:17:00,327 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src'.
+2019-04-01 12:17:00,364 INFO  FullProcessService - Size of directory with sources: 293 KB
+2019-04-01 12:17:00,364 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src]
+2019-04-01 12:17:00,414 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/.git/
 
-2018-10-14 02:39:27,381 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Demo/gradlew
-2018-10-14 02:39:27,384 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Demo/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Demo/build.gradle
-2018-10-14 02:39:27,387 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Demo/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Demo/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Library/build.gradle
-2018-10-14 02:39:27,388 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
-2018-10-14 02:39:27,495 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
-2018-10-14 02:39:27,495 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
-2018-10-14 02:39:27,495 INFO  ProjectFixService - Fixing project...
-2018-10-14 02:39:27,506 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Demo/app/local.properties
-2018-10-14 02:39:27,506 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Demo/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-14 02:39:27,507 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Library/local.properties
-2018-10-14 02:39:27,507 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Library/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-14 02:39:27,508 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Demo/local.properties
-2018-10-14 02:39:27,509 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-14 02:39:27,509 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-14 02:39:27,510 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Demo/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-14 02:39:27,510 INFO  ProjectFixService - Project was maybe fixed
-2018-10-14 02:39:27,510 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 02:39:27,510 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Demo/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Demo/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 02:39:46,892 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 02:39:46,892 INFO  ProjectTaskService - Detected possible tasks: 4
-2018-10-14 02:39:46,892 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2018-10-14 02:39:46,892 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Demo/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Demo/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2018-10-14 02:39:54,926 ERROR SysUtils - Could not process external command
+2019-04-01 12:17:00,419 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Demo/gradlew
+2019-04-01 12:17:00,425 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Demo/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Demo/build.gradle
+2019-04-01 12:17:00,431 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Demo/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Demo/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Library/build.gradle
+2019-04-01 12:17:00,432 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2019-04-01 12:17:00,526 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
+2019-04-01 12:17:00,526 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
+2019-04-01 12:17:00,526 INFO  ProjectFixService - Fixing project...
+2019-04-01 12:17:00,541 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Demo/app/local.properties
+2019-04-01 12:17:00,542 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Demo/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-04-01 12:17:00,542 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Library/local.properties
+2019-04-01 12:17:00,543 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Library/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-04-01 12:17:00,544 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Demo/local.properties
+2019-04-01 12:17:00,544 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-01 12:17:00,545 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-01 12:17:00,546 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Demo/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-04-01 12:17:00,546 INFO  ProjectFixService - Project was maybe fixed
+2019-04-01 12:17:00,546 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:17:00,546 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Demo/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Demo/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:17:18,188 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:17:18,188 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-04-01 12:17:18,188 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-04-01 12:17:18,189 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Demo/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Demo/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-04-01 12:17:31,599 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -43,8 +43,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -58,7 +57,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 02:39:54,926 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:17:31,599 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -151,22 +150,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 47 more
 
 
 BUILD FAILED
 
-Total time: 7.398 secs
+Total time: 12.703 secs
 
-2018-10-14 02:39:54,931 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 02:39:54,931 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Demo/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 02:39:57,057 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 02:39:57,057 INFO  ProjectTaskService - Detected possible tasks: 4
-2018-10-14 02:39:57,057 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2018-10-14 02:39:57,058 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Demo/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2018-10-14 02:39:58,618 ERROR SysUtils - Could not process external command
+2019-04-01 12:17:31,605 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:17:31,605 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Demo/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:17:34,590 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:17:34,590 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-04-01 12:17:34,591 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-04-01 12:17:34,591 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Demo/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-04-01 12:17:37,204 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -179,8 +178,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -194,12 +192,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 02:39:58,618 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:17:37,204 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Library/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Library/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating root project 'DBFlowManager-Library'.
@@ -270,22 +268,22 @@ Caused by: org.gradle.api.plugins.UnknownPluginException: Plugin with id 'com.an
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply.callCurrent(Unknown Source)
-	at build_90bob9d54nzzmx0wzkozu90ak.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Library/build.gradle:1)
+	at build_2be849a6ihzisz6tytk12rj61.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Library/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 50 more
 
 
 BUILD FAILED
 
-Total time: 1.402 secs
+Total time: 2.359 secs
 
-2018-10-14 02:39:58,622 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 02:39:58,622 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Demo/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 02:40:06,730 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 02:40:06,730 INFO  ProjectTaskService - Detected possible tasks: 4
-2018-10-14 02:40:06,730 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2018-10-14 02:40:06,730 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Demo/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459566696-0/src/DBFlowManager-master/DBFlowManager-Demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2018-10-14 02:40:15,912 ERROR SysUtils - Could not process external command
+2019-04-01 12:17:37,209 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:17:37,210 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Demo/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:17:55,601 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:17:55,601 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-04-01 12:17:55,601 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-04-01 12:17:55,602 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Demo/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095819466-0/src/DBFlowManager-master/DBFlowManager-Demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-04-01 12:18:10,939 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -298,8 +296,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -313,7 +310,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 02:40:15,912 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:18:10,939 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -414,7 +411,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 8.55 secs
+Total time: 14.489 secs
 
-2018-10-14 02:40:15,917 ERROR FullProcessService - Project build has not produced APK file
-2018-10-14 02:40:15,922 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-01 12:18:10,945 ERROR FullProcessService - Project build has not produced APK file
+2019-04-01 12:18:10,949 ERROR FullProcessService - Could not find generated or existed APK file

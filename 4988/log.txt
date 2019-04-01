@@ -1,43 +1,43 @@
-2018-10-14 01:44:26,642 INFO  DownloadService - Downloading "https://github.com/AleksanderMielczarek/RealmRepository/archive/master.zip", attempt 3
-2018-10-14 01:44:27,122 INFO  DownloadService - Downloaded https://github.com/AleksanderMielczarek/RealmRepository/archive/master.zip, attempt 3
-2018-10-14 01:44:27,122 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/master.zip": 168 KB
-2018-10-14 01:44:27,122 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-14 01:44:27,128 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/master.zip: true
-2018-10-14 01:44:27,128 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src'.
-2018-10-14 01:44:27,164 INFO  FullProcessService - Size of directory with sources: 219 KB
-2018-10-14 01:44:27,164 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src]
-2018-10-14 01:44:27,181 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/.git/
+2019-04-01 12:04:46,538 INFO  DownloadService - Downloading "https://github.com/AleksanderMielczarek/RealmRepository/archive/master.zip", attempt 3
+2019-04-01 12:04:49,888 INFO  DownloadService - Downloaded https://github.com/AleksanderMielczarek/RealmRepository/archive/master.zip, attempt 3
+2019-04-01 12:04:49,889 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/master.zip": 168 KB
+2019-04-01 12:04:49,889 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-01 12:04:49,890 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/master.zip: true
+2019-04-01 12:04:49,890 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src'.
+2019-04-01 12:04:49,931 INFO  FullProcessService - Size of directory with sources: 219 KB
+2019-04-01 12:04:49,931 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src]
+2019-04-01 12:04:49,956 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/.git/
 
-2018-10-14 01:44:27,186 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/gradlew
-2018-10-14 01:44:27,191 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/realmrepository/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/realmrepository-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/realmrepository-processor/build.gradle
-2018-10-14 01:44:27,196 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/realmrepository/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/realmrepository-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/realmrepository-processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/settings.gradle
-2018-10-14 01:44:27,196 INFO  ProjectBuildService - Remote scripts: none
-2018-10-14 01:44:27,196 INFO  ProjectFixService - Fixing project...
-2018-10-14 01:44:27,208 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/app/local.properties
-2018-10-14 01:44:27,211 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-14 01:44:27,211 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-14 01:44:27,212 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/realmrepository/local.properties
-2018-10-14 01:44:27,215 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/realmrepository/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-14 01:44:27,215 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/realmrepository/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-14 01:44:27,216 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/local.properties
-2018-10-14 01:44:27,216 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.1-all.zip
-2018-10-14 01:44:27,217 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.1-bin.zip)
-2018-10-14 01:44:27,219 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-14 01:44:27,219 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-14 01:44:27,220 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/realmrepository-annotations/local.properties
-2018-10-14 01:44:27,222 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/realmrepository-annotations/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-14 01:44:27,222 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/realmrepository-annotations/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-14 01:44:27,223 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/realmrepository-processor/local.properties
-2018-10-14 01:44:27,225 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/realmrepository-processor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-14 01:44:27,225 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/realmrepository-processor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-14 01:44:27,226 INFO  ProjectFixService - Project was maybe fixed
-2018-10-14 01:44:27,226 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 01:44:27,226 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 01:45:34,655 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 01:45:34,655 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 01:45:34,656 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 01:45:34,656 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 01:45:41,533 ERROR SysUtils - Could not process external command
+2019-04-01 12:04:49,962 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/gradlew
+2019-04-01 12:04:49,968 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/realmrepository/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/realmrepository-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/realmrepository-processor/build.gradle
+2019-04-01 12:04:49,974 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/realmrepository/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/realmrepository-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/realmrepository-processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/settings.gradle
+2019-04-01 12:04:49,975 INFO  ProjectBuildService - Remote scripts: none
+2019-04-01 12:04:49,975 INFO  ProjectFixService - Fixing project...
+2019-04-01 12:04:49,987 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/app/local.properties
+2019-04-01 12:04:49,989 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-01 12:04:49,990 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-01 12:04:49,991 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/realmrepository/local.properties
+2019-04-01 12:04:49,994 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/realmrepository/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-01 12:04:49,994 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/realmrepository/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-01 12:04:49,995 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/local.properties
+2019-04-01 12:04:49,996 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.1-all.zip
+2019-04-01 12:04:49,996 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.1-bin.zip)
+2019-04-01 12:04:49,999 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-01 12:04:49,999 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-01 12:04:50,000 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/realmrepository-annotations/local.properties
+2019-04-01 12:04:50,003 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/realmrepository-annotations/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-01 12:04:50,003 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/realmrepository-annotations/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-01 12:04:50,003 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/realmrepository-processor/local.properties
+2019-04-01 12:04:50,006 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/realmrepository-processor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-01 12:04:50,006 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/realmrepository-processor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-01 12:04:50,007 INFO  ProjectFixService - Project was maybe fixed
+2019-04-01 12:04:50,007 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:04:50,007 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:05:51,869 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:05:51,869 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:05:51,869 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:05:51,869 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:05:59,023 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -64,7 +64,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 01:45:41,533 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:05:59,025 INFO  SysUtils - Configuration on demand is an incubating feature.
 The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
 WARNING: Module 'com.github.AleksanderMielczarek.Napkin:module:0.5.0' depends on one or more Android Libraries but is a jar
 WARNING: Module 'com.github.AleksanderMielczarek.Napkin:module:0.5.0' depends on one or more Android Libraries but is a jar
@@ -178,15 +178,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.597 secs
+Total time: 6.89 secs
 
-2018-10-14 01:45:41,540 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 01:45:41,541 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/realmrepository/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 01:45:49,002 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 01:45:49,002 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 01:45:49,002 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 01:45:49,002 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/realmrepository/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 01:46:04,059 ERROR SysUtils - Could not process external command
+2019-04-01 12:05:59,034 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:05:59,034 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/realmrepository/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:06:06,506 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:06:06,508 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:06:06,508 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:06:06,508 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/realmrepository/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:06:21,170 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -213,7 +213,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 01:46:04,059 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:06:21,171 INFO  SysUtils - Configuration on demand is an incubating feature.
 The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
 :realmrepository:preBuild UP-TO-DATE
 :realmrepository:preDebugBuild UP-TO-DATE
@@ -401,15 +401,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 14.807 secs
+Total time: 14.393 secs
 
-2018-10-14 01:46:04,141 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 01:46:04,141 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 01:46:10,899 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 01:46:10,899 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 01:46:10,899 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 01:46:10,899 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 01:46:17,769 ERROR SysUtils - Could not process external command
+2019-04-01 12:06:21,255 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:06:21,255 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:06:27,957 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:06:27,957 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:06:27,958 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:06:27,958 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:06:35,165 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -436,7 +436,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 01:46:17,769 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:06:35,165 INFO  SysUtils - Configuration on demand is an incubating feature.
 The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
 WARNING: Module 'com.github.AleksanderMielczarek.Napkin:module:0.5.0' depends on one or more Android Libraries but is a jar
 WARNING: Module 'com.github.AleksanderMielczarek.Napkin:module:0.5.0' depends on one or more Android Libraries but is a jar
@@ -550,15 +550,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.635 secs
+Total time: 6.949 secs
 
-2018-10-14 01:46:17,847 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 01:46:17,848 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/realmrepository-annotations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 01:46:24,977 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 01:46:24,977 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 01:46:24,977 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 01:46:24,977 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/realmrepository-annotations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 01:46:28,221 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:06:35,252 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:06:35,252 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/realmrepository-annotations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:06:42,112 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:06:42,112 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:06:42,112 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:06:42,112 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/realmrepository-annotations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:06:45,596 INFO  SysUtils - Configuration on demand is an incubating feature.
 :realmrepository-annotations:compileJava UP-TO-DATE
 :realmrepository-annotations:processResources UP-TO-DATE
 :realmrepository-annotations:classes UP-TO-DATE
@@ -573,23 +573,20 @@ Total time: 6.635 secs
 
 BUILD SUCCESSFUL
 
-Total time: 3.115 secs
+Total time: 3.342 secs
 
-2018-10-14 01:46:28,299 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 01:46:28,299 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/realmrepository-processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 01:46:35,378 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 01:46:35,378 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 01:46:35,378 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 01:46:35,378 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539456266640-0/src/RealmRepository-master/realmrepository-processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 01:46:43,138 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:06:45,675 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:06:45,675 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/realmrepository-processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:06:52,502 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:06:52,505 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:06:52,505 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:06:52,505 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095086534-0/src/RealmRepository-master/realmrepository-processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:06:56,857 INFO  SysUtils - Configuration on demand is an incubating feature.
 :realmrepository-annotations:compileJava UP-TO-DATE
 :realmrepository-annotations:processResources UP-TO-DATE
 :realmrepository-annotations:classes UP-TO-DATE
 :realmrepository-annotations:jar UP-TO-DATE
 :realmrepository-processor:compileJava
-Download https://jcenter.bintray.com/com/google/auto/service/auto-service/1.0-rc2/auto-service-1.0-rc2.pom
-Download https://jcenter.bintray.com/com/google/auto/auto-parent/2/auto-parent-2.pom
-Download https://jcenter.bintray.com/com/google/auto/auto-common/0.3/auto-common-0.3.pom
 :realmrepository-processor:processResources UP-TO-DATE
 :realmrepository-processor:classes
 :realmrepository-processor:jar
@@ -603,7 +600,7 @@ Download https://jcenter.bintray.com/com/google/auto/auto-common/0.3/auto-common
 
 BUILD SUCCESSFUL
 
-Total time: 7.617 secs
+Total time: 4.195 secs
 
-2018-10-14 01:46:43,214 ERROR FullProcessService - Project build has not produced APK file
-2018-10-14 01:46:43,285 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-01 12:06:56,942 ERROR FullProcessService - Project build has not produced APK file
+2019-04-01 12:06:57,025 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,36 +1,37 @@
-2018-10-14 02:42:27,593 INFO  DownloadService - Downloading "https://github.com/garretyoder/Colorful/archive/master.zip", attempt 3
-2018-10-14 02:42:28,598 INFO  DownloadService - Downloaded https://github.com/garretyoder/Colorful/archive/master.zip, attempt 3
-2018-10-14 02:42:28,598 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459747590-0/master.zip": 391 KB
-2018-10-14 02:42:28,598 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-14 02:42:28,603 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459747590-0/master.zip: true
-2018-10-14 02:42:28,604 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459747590-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459747590-0/src'.
-2018-10-14 02:42:28,622 INFO  FullProcessService - Size of directory with sources: 511 KB
-2018-10-14 02:42:28,622 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459747590-0/src]
-2018-10-14 02:42:28,639 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459747590-0/src/.git/
+2019-04-01 12:18:10,985 INFO  DownloadService - Downloading "https://github.com/garretyoder/Colorful/archive/master.zip", attempt 3
+2019-04-01 12:18:18,503 INFO  DownloadService - Downloaded https://github.com/garretyoder/Colorful/archive/master.zip, attempt 3
+2019-04-01 12:18:18,504 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095890981-0/master.zip": 391 KB
+2019-04-01 12:18:18,504 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-01 12:18:18,504 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095890981-0/master.zip: true
+2019-04-01 12:18:18,504 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095890981-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095890981-0/src'.
+2019-04-01 12:18:18,524 INFO  FullProcessService - Size of directory with sources: 511 KB
+2019-04-01 12:18:18,524 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095890981-0/src]
+2019-04-01 12:18:18,567 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095890981-0/src/.git/
 
-2018-10-14 02:42:28,641 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459747590-0/src/Colorful-master/gradlew
-2018-10-14 02:42:28,643 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459747590-0/src/Colorful-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459747590-0/src/Colorful-master/build.gradle
-2018-10-14 02:42:28,644 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459747590-0/src/Colorful-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459747590-0/src/Colorful-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459747590-0/src/Colorful-master/settings.gradle
-2018-10-14 02:42:28,644 INFO  ProjectBuildService - Remote scripts: none
-2018-10-14 02:42:28,644 INFO  ProjectFixService - Fixing project...
-2018-10-14 02:42:28,648 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459747590-0/src/Colorful-master/library/local.properties
-2018-10-14 02:42:28,649 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459747590-0/src/Colorful-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-10-14 02:42:28,649 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459747590-0/src/Colorful-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-10-14 02:42:28,650 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459747590-0/src/Colorful-master/local.properties
-2018-10-14 02:42:28,650 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5-all.zip
-2018-10-14 02:42:28,650 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.5-bin.zip)
-2018-10-14 02:42:28,651 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459747590-0/src/Colorful-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-10-14 02:42:28,651 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459747590-0/src/Colorful-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-10-14 02:42:28,652 INFO  ProjectFixService - Project was maybe fixed
-2018-10-14 02:42:28,652 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 02:42:28,652 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459747590-0/src/Colorful-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459747590-0/src/Colorful-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 02:42:42,005 INFO  ProjectTaskService - Detected possible tasks: 65
-2018-10-14 02:42:42,005 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-10-14 02:42:42,005 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459747590-0/src/Colorful-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459747590-0/src/Colorful-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-10-14 02:43:06,681 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:18:18,569 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095890981-0/src/Colorful-master/gradlew
+2019-04-01 12:18:18,573 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095890981-0/src/Colorful-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095890981-0/src/Colorful-master/build.gradle
+2019-04-01 12:18:18,575 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095890981-0/src/Colorful-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095890981-0/src/Colorful-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095890981-0/src/Colorful-master/settings.gradle
+2019-04-01 12:18:18,576 INFO  ProjectBuildService - Remote scripts: none
+2019-04-01 12:18:18,576 INFO  ProjectFixService - Fixing project...
+2019-04-01 12:18:18,583 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095890981-0/src/Colorful-master/library/local.properties
+2019-04-01 12:18:18,584 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095890981-0/src/Colorful-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-04-01 12:18:18,584 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095890981-0/src/Colorful-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-04-01 12:18:18,586 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095890981-0/src/Colorful-master/local.properties
+2019-04-01 12:18:18,586 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5-all.zip
+2019-04-01 12:18:18,587 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.5-bin.zip)
+2019-04-01 12:18:18,588 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095890981-0/src/Colorful-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-04-01 12:18:18,588 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095890981-0/src/Colorful-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-04-01 12:18:18,589 INFO  ProjectFixService - Project was maybe fixed
+2019-04-01 12:18:18,589 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:18:18,589 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095890981-0/src/Colorful-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095890981-0/src/Colorful-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:18:51,958 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-04-01 12:18:51,958 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-04-01 12:18:51,959 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095890981-0/src/Colorful-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095890981-0/src/Colorful-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-04-01 12:19:43,010 INFO  SysUtils - Configuration on demand is an incubating feature.
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
 :library:compileDebugAidl
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.2.41/kotlin-stdlib-jdk7-1.2.41.pom
 :library:compileDebugRenderscript
 :library:checkDebugManifest
 :library:generateDebugBuildConfig
@@ -43,15 +44,40 @@
 :library:mergeDebugConsumerProguardFiles
 :library:mergeDebugShaders
 :library:compileDebugShaders
+:library:generateDebugRFile
+:library:compileDebugKotlin
+:library:generateDebugSources
+:library:javaPreCompileDebug
+:library:compileDebugJavaWithJavac
+:library:extractDebugAnnotations
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.2/lint-gradle-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.2/uast-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.2/intellij-core-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.2/lint-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.2/kotlin-compiler-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.2/lint-kotlin-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.2/lint-checks-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.2/lint-api-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.2/lint-kotlin-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.2/uast-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.2/intellij-core-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.2/lint-checks-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.2/kotlin-compiler-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.2/lint-api-26.1.2.jar
 :library:generateDebugAssets
 :library:packageDebugAssets
 :library:packageDebugRenderscript NO-SOURCE
 :library:processDebugJavaRes NO-SOURCE
+:library:transformResourcesWithMergeJavaResForDebug
+:library:transformClassesAndResourcesWithSyncLibJarsForDebug
 :library:compileDebugNdk NO-SOURCE
 :library:mergeDebugJniLibFolders
 :library:transformNativeLibsWithMergeJniLibsForDebug
 :library:transformNativeLibsWithStripDebugSymbolForDebug
 :library:transformNativeLibsWithSyncJniLibsForDebug
+:library:bundleDebug
+:library:compileDebugSources
+:library:assembleDebug
 :library:preReleaseBuild UP-TO-DATE
 :library:compileReleaseAidl
 :library:compileReleaseRenderscript
@@ -61,6 +87,12 @@
 :library:generateReleaseResources
 :library:packageReleaseResources
 :library:processReleaseManifest
+:library:generateReleaseRFile
+:library:compileReleaseKotlin
+:library:generateReleaseSources
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavac
+:library:extractReleaseAnnotations
 :library:mergeReleaseConsumerProguardFiles
 :library:mergeReleaseShaders
 :library:compileReleaseShaders
@@ -68,47 +100,30 @@
 :library:packageReleaseAssets
 :library:packageReleaseRenderscript NO-SOURCE
 :library:processReleaseJavaRes NO-SOURCE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
 :library:compileReleaseNdk NO-SOURCE
 :library:mergeReleaseJniLibFolders
 :library:transformNativeLibsWithMergeJniLibsForRelease
 :library:transformNativeLibsWithStripDebugSymbolForRelease
 :library:transformNativeLibsWithSyncJniLibsForRelease
-:library:mergeReleaseResources
-:library:verifyReleaseResources
-:library:generateDebugRFile
-:library:compileDebugKotlin
-:library:generateDebugSources
-:library:javaPreCompileDebug
-:library:compileDebugJavaWithJavac
-:library:extractDebugAnnotations
-:library:transformResourcesWithMergeJavaResForDebug
-:library:transformClassesAndResourcesWithSyncLibJarsForDebug
-:library:bundleDebug
-:library:compileDebugSources
-:library:assembleDebug
-:library:generateReleaseRFile
-:library:compileReleaseKotlin
-:library:generateReleaseSources
-:library:javaPreCompileRelease
-:library:compileReleaseJavaWithJavac
-:library:extractReleaseAnnotations
-:library:transformResourcesWithMergeJavaResForRelease
-:library:transformClassesAndResourcesWithSyncLibJarsForRelease
 :library:bundleRelease
 :library:compileReleaseSources
+:library:mergeReleaseResources
+:library:verifyReleaseResources
 :library:assembleRelease
 :library:assemble
 :library:build
 
-BUILD SUCCESSFUL in 24s
+BUILD SUCCESSFUL in 50s
 50 actionable tasks: 50 executed
 
-2018-10-14 02:43:06,738 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 02:43:06,738 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459747590-0/src/Colorful-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459747590-0/src/Colorful-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 02:43:13,218 INFO  ProjectTaskService - Detected possible tasks: 64
-2018-10-14 02:43:13,218 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-10-14 02:43:13,218 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459747590-0/src/Colorful-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539459747590-0/src/Colorful-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-10-14 02:43:20,925 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:19:43,091 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:19:43,091 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095890981-0/src/Colorful-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095890981-0/src/Colorful-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:19:56,148 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-04-01 12:19:56,148 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-04-01 12:19:56,148 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095890981-0/src/Colorful-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095890981-0/src/Colorful-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-04-01 12:20:08,554 INFO  SysUtils - Configuration on demand is an incubating feature.
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
 :library:compileDebugAidl UP-TO-DATE
@@ -181,8 +196,8 @@ BUILD SUCCESSFUL in 24s
 :library:assemble UP-TO-DATE
 :library:build
 
-BUILD SUCCESSFUL in 7s
+BUILD SUCCESSFUL in 12s
 50 actionable tasks: 50 up-to-date
 
-2018-10-14 02:43:20,989 ERROR FullProcessService - Project build has not produced APK file
-2018-10-14 02:43:21,052 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-01 12:20:08,617 ERROR FullProcessService - Project build has not produced APK file
+2019-04-01 12:20:08,673 ERROR FullProcessService - Could not find generated or existed APK file

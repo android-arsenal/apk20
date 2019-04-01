@@ -1,38 +1,38 @@
-2018-10-14 02:15:26,597 INFO  DownloadService - Downloading "https://github.com/FireZenk/Naviganto/archive/master.zip", attempt 3
-2018-10-14 02:15:27,055 INFO  DownloadService - Downloaded https://github.com/FireZenk/Naviganto/archive/master.zip, attempt 3
-2018-10-14 02:15:27,055 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/master.zip": 134 KB
-2018-10-14 02:15:27,055 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-14 02:15:27,061 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/master.zip: true
-2018-10-14 02:15:27,061 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src'.
-2018-10-14 02:15:27,086 INFO  FullProcessService - Size of directory with sources: 162 KB
-2018-10-14 02:15:27,087 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src]
-2018-10-14 02:15:27,105 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/.git/
+2019-04-01 12:12:10,144 INFO  DownloadService - Downloading "https://github.com/FireZenk/Naviganto/archive/master.zip", attempt 3
+2019-04-01 12:12:15,668 INFO  DownloadService - Downloaded https://github.com/FireZenk/Naviganto/archive/master.zip, attempt 3
+2019-04-01 12:12:15,668 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/master.zip": 134 KB
+2019-04-01 12:12:15,668 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-01 12:12:15,668 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/master.zip: true
+2019-04-01 12:12:15,669 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src'.
+2019-04-01 12:12:15,695 INFO  FullProcessService - Size of directory with sources: 162 KB
+2019-04-01 12:12:15,695 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src]
+2019-04-01 12:12:15,726 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/.git/
 
-2018-10-14 02:15:27,108 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/gradlew
-2018-10-14 02:15:27,112 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/processor/build.gradle
-2018-10-14 02:15:27,116 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/settings.gradle
-2018-10-14 02:15:27,116 INFO  ProjectBuildService - Remote scripts: none
-2018-10-14 02:15:27,116 INFO  ProjectFixService - Fixing project...
-2018-10-14 02:15:27,125 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/sample/local.properties
-2018-10-14 02:15:27,126 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/sample/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-14 02:15:27,126 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/local.properties
-2018-10-14 02:15:27,127 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-14 02:15:27,127 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-14 02:15:27,129 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-14 02:15:27,130 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/annotations/local.properties
-2018-10-14 02:15:27,131 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/annotations/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-14 02:15:27,132 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/library/local.properties
-2018-10-14 02:15:27,133 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/library/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-14 02:15:27,134 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/processor/local.properties
-2018-10-14 02:15:27,135 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/processor/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-14 02:15:27,135 INFO  ProjectFixService - Project was maybe fixed
-2018-10-14 02:15:27,135 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 02:15:27,135 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 02:15:33,343 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 02:15:33,343 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 02:15:33,343 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 02:15:33,343 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 02:15:39,291 ERROR SysUtils - Could not process external command
+2019-04-01 12:12:15,731 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/gradlew
+2019-04-01 12:12:15,735 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/processor/build.gradle
+2019-04-01 12:12:15,740 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/settings.gradle
+2019-04-01 12:12:15,740 INFO  ProjectBuildService - Remote scripts: none
+2019-04-01 12:12:15,740 INFO  ProjectFixService - Fixing project...
+2019-04-01 12:12:15,750 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/sample/local.properties
+2019-04-01 12:12:15,750 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/sample/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-04-01 12:12:15,751 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/local.properties
+2019-04-01 12:12:15,751 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-01 12:12:15,752 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-01 12:12:15,753 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-04-01 12:12:15,754 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/annotations/local.properties
+2019-04-01 12:12:15,756 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/annotations/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-04-01 12:12:15,756 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/library/local.properties
+2019-04-01 12:12:15,758 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/library/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-04-01 12:12:15,758 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/processor/local.properties
+2019-04-01 12:12:15,761 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/processor/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-04-01 12:12:15,761 INFO  ProjectFixService - Project was maybe fixed
+2019-04-01 12:12:15,761 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:12:15,761 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:12:25,217 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:12:25,217 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:12:25,217 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:12:25,218 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:12:35,075 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -45,8 +45,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -60,7 +59,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 02:15:39,291 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:12:35,075 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -171,15 +170,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.35 secs
+Total time: 9.215 secs
 
-2018-10-14 02:15:39,294 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 02:15:39,294 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 02:15:45,236 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 02:15:45,236 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 02:15:45,237 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 02:15:45,237 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 02:15:51,136 ERROR SysUtils - Could not process external command
+2019-04-01 12:12:35,081 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:12:35,081 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:12:41,504 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:12:41,504 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:12:41,504 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:12:41,504 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:12:47,982 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -192,8 +191,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -207,7 +205,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 02:15:51,136 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:12:47,982 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -318,15 +316,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.306 secs
+Total time: 5.844 secs
 
-2018-10-14 02:15:51,141 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 02:15:51,141 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/annotations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 02:15:57,250 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 02:15:57,250 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 02:15:57,250 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 02:15:57,250 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/annotations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 02:16:01,101 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:12:47,987 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:12:47,987 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/annotations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:12:54,818 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:12:54,818 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:12:54,818 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:12:54,818 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/annotations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:12:59,039 INFO  SysUtils - Configuration on demand is an incubating feature.
 :annotations:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
 1 warning
 
@@ -343,15 +341,15 @@ Total time: 5.306 secs
 
 BUILD SUCCESSFUL
 
-Total time: 3.334 secs
+Total time: 3.614 secs
 
-2018-10-14 02:16:01,106 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 02:16:01,106 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 02:16:07,369 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 02:16:07,369 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 02:16:07,369 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 02:16:07,369 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 02:16:11,654 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:12:59,044 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:12:59,044 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:13:06,052 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:13:06,052 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:13:06,052 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:13:06,052 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:13:10,654 INFO  SysUtils - Configuration on demand is an incubating feature.
 :annotations:compileJava UP-TO-DATE
 :annotations:processResources UP-TO-DATE
 :annotations:classes UP-TO-DATE
@@ -376,15 +374,15 @@ Total time: 3.334 secs
 
 BUILD SUCCESSFUL
 
-Total time: 3.779 secs
+Total time: 4.121 secs
 
-2018-10-14 02:16:11,659 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 02:16:11,659 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 02:16:17,852 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 02:16:17,852 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 02:16:17,852 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 02:16:17,852 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458126593-0/src/Naviganto-master/processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 02:16:21,254 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:13:10,661 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:13:10,662 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:13:17,491 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:13:17,491 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:13:17,491 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:13:17,492 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095530141-0/src/Naviganto-master/processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:13:21,587 INFO  SysUtils - Configuration on demand is an incubating feature.
 :annotations:compileJava UP-TO-DATE
 :annotations:processResources UP-TO-DATE
 :annotations:classes UP-TO-DATE
@@ -403,7 +401,7 @@ Total time: 3.779 secs
 
 BUILD SUCCESSFUL
 
-Total time: 2.899 secs
+Total time: 3.593 secs
 
-2018-10-14 02:16:21,259 ERROR FullProcessService - Project build has not produced APK file
-2018-10-14 02:16:21,263 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-01 12:13:21,595 ERROR FullProcessService - Project build has not produced APK file
+2019-04-01 12:13:21,602 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,39 +1,39 @@
-2018-10-14 02:20:38,446 INFO  DownloadService - Downloading "https://github.com/t28hub/shade/archive/master.zip", attempt 3
-2018-10-14 02:20:39,099 INFO  DownloadService - Downloaded https://github.com/t28hub/shade/archive/master.zip, attempt 3
-2018-10-14 02:20:39,099 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/master.zip": 187 KB
-2018-10-14 02:20:39,099 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-14 02:20:39,105 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/master.zip: true
-2018-10-14 02:20:39,105 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src'.
-2018-10-14 02:20:39,150 INFO  FullProcessService - Size of directory with sources: 331 KB
-2018-10-14 02:20:39,150 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src]
-2018-10-14 02:20:39,165 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/.git/
+2019-04-01 12:14:09,782 INFO  DownloadService - Downloading "https://github.com/t28hub/shade/archive/master.zip", attempt 3
+2019-04-01 12:14:11,634 INFO  DownloadService - Downloaded https://github.com/t28hub/shade/archive/master.zip, attempt 3
+2019-04-01 12:14:11,635 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/master.zip": 187 KB
+2019-04-01 12:14:11,635 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-01 12:14:11,640 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/master.zip: true
+2019-04-01 12:14:11,641 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src'.
+2019-04-01 12:14:11,683 INFO  FullProcessService - Size of directory with sources: 331 KB
+2019-04-01 12:14:11,683 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src]
+2019-04-01 12:14:11,701 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/.git/
 
-2018-10-14 02:20:39,170 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/gradlew
-2018-10-14 02:20:39,174 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/shade/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/shade-processor/build.gradle
-2018-10-14 02:20:39,179 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/shade/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/shade-processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/settings.gradle
-2018-10-14 02:20:39,179 INFO  ProjectBuildService - Remote scripts: none
-2018-10-14 02:20:39,179 INFO  ProjectFixService - Fixing project...
-2018-10-14 02:20:39,189 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/example/local.properties
-2018-10-14 02:20:39,191 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-14 02:20:39,192 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-14 02:20:39,193 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/shade/local.properties
-2018-10-14 02:20:39,195 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/shade/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-14 02:20:39,195 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/shade/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-14 02:20:39,196 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/local.properties
-2018-10-14 02:20:39,197 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.1-bin.zip
-2018-10-14 02:20:39,200 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-14 02:20:39,200 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-14 02:20:39,201 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/shade-processor/local.properties
-2018-10-14 02:20:39,203 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/shade-processor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-14 02:20:39,203 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/shade-processor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-14 02:20:39,204 INFO  ProjectFixService - Project was maybe fixed
-2018-10-14 02:20:39,204 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 02:20:39,204 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 02:21:25,318 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 02:21:25,318 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 02:21:25,318 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 02:21:25,318 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 02:21:32,025 ERROR SysUtils - Could not process external command
+2019-04-01 12:14:11,706 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/gradlew
+2019-04-01 12:14:11,711 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/shade/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/shade-processor/build.gradle
+2019-04-01 12:14:11,716 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/shade/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/shade-processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/settings.gradle
+2019-04-01 12:14:11,717 INFO  ProjectBuildService - Remote scripts: none
+2019-04-01 12:14:11,717 INFO  ProjectFixService - Fixing project...
+2019-04-01 12:14:11,729 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/example/local.properties
+2019-04-01 12:14:11,732 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-01 12:14:11,732 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-01 12:14:11,733 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/shade/local.properties
+2019-04-01 12:14:11,736 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/shade/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-01 12:14:11,736 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/shade/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-01 12:14:11,737 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/local.properties
+2019-04-01 12:14:11,737 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.1-bin.zip
+2019-04-01 12:14:11,740 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-01 12:14:11,740 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-01 12:14:11,741 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/shade-processor/local.properties
+2019-04-01 12:14:11,747 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/shade-processor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-01 12:14:11,748 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/shade-processor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-01 12:14:11,749 INFO  ProjectFixService - Project was maybe fixed
+2019-04-01 12:14:11,749 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:14:11,749 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:14:41,219 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:14:41,219 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:14:41,219 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:14:41,219 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:14:48,832 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -60,7 +60,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 02:21:32,026 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:14:48,832 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
 
@@ -170,15 +170,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.456 secs
+Total time: 7.312 secs
 
-2018-10-14 02:21:32,033 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 02:21:32,033 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/shade/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 02:21:40,230 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 02:21:40,230 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 02:21:40,230 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 02:21:40,230 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/shade/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 02:21:51,547 ERROR SysUtils - Could not process external command
+2019-04-01 12:14:48,843 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:14:48,843 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/shade/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:14:58,610 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:14:58,610 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:14:58,610 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:14:58,610 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/shade/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:15:11,332 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -205,7 +205,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 02:21:51,547 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:15:11,332 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
 :shade:preBuild UP-TO-DATE
@@ -374,15 +374,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 11.042 secs
+Total time: 12.457 secs
 
-2018-10-14 02:21:51,560 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 02:21:51,560 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 02:21:59,059 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 02:21:59,059 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 02:21:59,059 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 02:21:59,059 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 02:22:06,606 ERROR SysUtils - Could not process external command
+2019-04-01 12:15:11,348 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:15:11,348 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:15:20,608 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:15:20,609 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:15:20,609 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:15:20,609 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:15:27,706 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -409,7 +409,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 02:22:06,606 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:15:27,706 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
 
@@ -519,15 +519,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.212 secs
+Total time: 6.642 secs
 
-2018-10-14 02:22:06,620 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 02:22:06,621 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/shade-processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 02:22:14,505 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 02:22:14,505 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 02:22:14,505 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 02:22:14,506 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539458438438-0/src/shade-master/shade-processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 02:22:38,371 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:15:27,727 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:15:27,727 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/shade-processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:15:37,653 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:15:37,653 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:15:37,653 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:15:37,653 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095649780-0/src/shade-master/shade-processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:16:10,645 INFO  SysUtils - Configuration on demand is an incubating feature.
 :shade-processor:compileJava
 :shade-processor:processResources UP-TO-DATE
 :shade-processor:classes
@@ -537,26 +537,21 @@ Total time: 7.212 secs
 :shade-processor:sourcesJar
 :shade-processor:assemble
 :shade-processor:compileTestJava
-Download https://jcenter.bintray.com/org/assertj/assertj-core/3.5.2/assertj-core-3.5.2.pom
-Download https://jcenter.bintray.com/com/google/testing/compile/compile-testing/0.10/compile-testing-0.10.pom
-Download https://jcenter.bintray.com/com/google/truth/truth/0.30/truth-0.30.pom
-Download https://jcenter.bintray.com/com/google/truth/truth-parent/0.30/truth-parent-0.30.pom
-Download https://jcenter.bintray.com/com/google/auto/value/auto-value/1.3/auto-value-1.3.pom
-Download https://jcenter.bintray.com/com/google/errorprone/error_prone_annotations/2.0.8/error_prone_annotations-2.0.8.pom
-Download https://jcenter.bintray.com/com/google/errorprone/error_prone_parent/2.0.8/error_prone_parent-2.0.8.pom
 Download https://jcenter.bintray.com/org/assertj/assertj-core/3.5.2/assertj-core-3.5.2.jar
 Download https://jcenter.bintray.com/com/google/testing/compile/compile-testing/0.10/compile-testing-0.10.jar
 Download https://jcenter.bintray.com/com/google/truth/truth/0.30/truth-0.30.jar
+Download https://jcenter.bintray.com/com/google/auto/value/auto-value/1.3/auto-value-1.3.jar
 Download https://jcenter.bintray.com/com/google/errorprone/error_prone_annotations/2.0.8/error_prone_annotations-2.0.8.jar
 :shade-processor:processTestResources
 :shade-processor:testClasses
 :shade-processor:test
+Download https://jcenter.bintray.com/org/jacoco/org.jacoco.agent/0.7.7.201606060606/org.jacoco.agent-0.7.7.201606060606.jar
 :shade-processor:check
 :shade-processor:build
 
 BUILD SUCCESSFUL
 
-Total time: 23.716 secs
+Total time: 32.828 secs
 
-2018-10-14 02:22:38,394 ERROR FullProcessService - Project build has not produced APK file
-2018-10-14 02:22:38,412 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-01 12:16:10,665 ERROR FullProcessService - Project build has not produced APK file
+2019-04-01 12:16:10,685 ERROR FullProcessService - Could not find generated or existed APK file
