@@ -1,39 +1,37 @@
-2018-10-14 19:43:20,068 INFO  DownloadService - Downloading "https://github.com/Yalantis/Multi-Selection/archive/master.zip", attempt 3
-2018-10-14 19:43:25,539 INFO  DownloadService - Downloading "https://github.com/Yalantis/Multi-Selection/archive/master.zip", attempt 2
-2018-10-14 19:43:31,457 INFO  DownloadService - Downloading "https://github.com/Yalantis/Multi-Selection/archive/master.zip", attempt 1
-2018-10-14 19:44:31,716 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-10-14 19:44:32,970 INFO  GithubDownloadService - Default branch of this repository: develop
-2018-10-14 19:44:32,970 INFO  DownloadService - Downloading "https://github.com/Yalantis/Multi-Selection/archive/develop.zip", attempt 3
-2018-10-14 19:45:34,699 DEBUG FullProcessService - Repository https://github.com/Yalantis/Multi-Selection available: true
-2018-10-14 19:45:34,699 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-10-14 19:45:34,699 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Yalantis/Multi-Selection, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src]
-2018-10-14 19:45:39,199 INFO  SysUtils - 
-2018-10-14 19:45:39,211 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/.git": true
-2018-10-14 19:45:39,218 INFO  FullProcessService - Size of directory with sources: 6 MB
-2018-10-14 19:45:39,218 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src]
-2018-10-14 19:45:39,235 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/.git/
+2019-04-05 14:20:31,566 INFO  DownloadService - Downloading "https://github.com/Yalantis/Multi-Selection/archive/master.zip", attempt 3
+2019-04-05 14:21:32,202 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-05 14:21:33,396 INFO  GithubDownloadService - Default branch of this repository: develop
+2019-04-05 14:21:33,396 INFO  DownloadService - Downloading "https://github.com/Yalantis/Multi-Selection/archive/develop.zip", attempt 3
+2019-04-05 14:22:34,978 DEBUG FullProcessService - Repository https://github.com/Yalantis/Multi-Selection available: true
+2019-04-05 14:22:34,978 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-05 14:22:34,979 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Yalantis/Multi-Selection, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src]
+2019-04-05 14:22:39,337 INFO  SysUtils - 
+2019-04-05 14:22:39,347 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/.git": true
+2019-04-05 14:22:39,354 INFO  FullProcessService - Size of directory with sources: 6 MB
+2019-04-05 14:22:39,355 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src]
+2019-04-05 14:22:39,371 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/.git/
 
-2018-10-14 19:45:39,240 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/gradlew
-2018-10-14 19:45:39,245 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/multiselection/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/build.gradle
-2018-10-14 19:45:39,251 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/multiselection/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/settings.gradle
-2018-10-14 19:45:39,251 INFO  ProjectBuildService - Remote scripts: none
-2018-10-14 19:45:39,251 INFO  ProjectFixService - Fixing project...
-2018-10-14 19:45:39,262 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/app/local.properties
-2018-10-14 19:45:39,262 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=17,targetSdkVersion=24]
-2018-10-14 19:45:39,263 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/multiselection/local.properties
-2018-10-14 19:45:39,263 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/multiselection/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=17,targetSdkVersion=24]
-2018-10-14 19:45:39,264 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/local.properties
-2018-10-14 19:45:39,265 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-14 19:45:39,265 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-14 19:45:39,266 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=17,targetSdkVersion=24]
-2018-10-14 19:45:39,266 INFO  ProjectFixService - Project was maybe fixed
-2018-10-14 19:45:39,266 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 19:45:39,266 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 19:45:44,994 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 19:45:44,994 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 19:45:44,994 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 19:45:44,994 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 19:45:50,485 ERROR SysUtils - Could not process external command
+2019-04-05 14:22:39,377 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/gradlew
+2019-04-05 14:22:39,382 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/multiselection/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/build.gradle
+2019-04-05 14:22:39,387 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/multiselection/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/settings.gradle
+2019-04-05 14:22:39,388 INFO  ProjectBuildService - Remote scripts: none
+2019-04-05 14:22:39,388 INFO  ProjectFixService - Fixing project...
+2019-04-05 14:22:39,399 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/app/local.properties
+2019-04-05 14:22:39,399 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=17,targetSdkVersion=24]
+2019-04-05 14:22:39,399 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/multiselection/local.properties
+2019-04-05 14:22:39,399 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/multiselection/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=17,targetSdkVersion=24]
+2019-04-05 14:22:39,400 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/local.properties
+2019-04-05 14:22:39,400 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-05 14:22:39,400 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-05 14:22:39,401 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=17,targetSdkVersion=24]
+2019-04-05 14:22:39,401 INFO  ProjectFixService - Project was maybe fixed
+2019-04-05 14:22:39,401 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 14:22:39,401 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 14:22:44,836 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-05 14:22:44,836 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-05 14:22:44,836 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-05 14:22:44,837 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-05 14:22:50,846 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -46,7 +44,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -60,12 +58,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 19:45:50,485 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 14:22:50,846 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/app/build.gradle' line: 30
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/app/build.gradle' line: 30
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
@@ -144,13 +142,13 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getMissingProperty(AbstractDynamicObject.java:85)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:62)
 	at com.android.build.gradle.internal.dsl.SigningConfig_Decorated.getProperty(Unknown Source)
-	at build_1v4iueotsqizbpb5m9o1i6mwi$_run_closure1$_closure7$_closure10.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/app/build.gradle:30)
+	at build_8nvcsvvisblqw0640b88lt8t2$_run_closure1$_closure7$_closure10.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/app/build.gradle:30)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:60)
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:53)
 	at org.gradle.api.internal.NamedDomainObjectContainerConfigureDelegate._configure(NamedDomainObjectContainerConfigureDelegate.java:40)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:68)
-	at build_1v4iueotsqizbpb5m9o1i6mwi$_run_closure1$_closure7.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/app/build.gradle:29)
+	at build_8nvcsvvisblqw0640b88lt8t2$_run_closure1$_closure7.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/app/build.gradle:29)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:149)
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.configure(AbstractNamedDomainObjectContainer.java:70)
@@ -158,7 +156,7 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:59)
 	at com.android.build.gradle.BaseExtension.signingConfigs(BaseExtension.java:374)
 	at com.android.build.gradle.AppExtension_Decorated.signingConfigs(Unknown Source)
-	at build_1v4iueotsqizbpb5m9o1i6mwi$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/app/build.gradle:28)
+	at build_8nvcsvvisblqw0640b88lt8t2$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/app/build.gradle:28)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.plugins.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:145)
 	at org.gradle.api.internal.plugins.ExtensionsStorage.configureExtension(ExtensionsStorage.java:69)
@@ -167,22 +165,22 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:79)
-	at build_1v4iueotsqizbpb5m9o1i6mwi.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/app/build.gradle:3)
+	at build_8nvcsvvisblqw0640b88lt8t2.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/app/build.gradle:3)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 63 more
 
 
 BUILD FAILED
 
-Total time: 4.925 secs
+Total time: 5.43 secs
 
-2018-10-14 19:45:50,491 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 19:45:50,491 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/multiselection/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 19:45:57,438 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 19:45:57,438 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 19:45:57,438 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 19:45:57,438 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/multiselection/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 19:46:19,538 ERROR SysUtils - Could not process external command
+2019-04-05 14:22:50,854 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 14:22:50,854 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/multiselection/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 14:22:57,572 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-05 14:22:57,577 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-05 14:22:57,578 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-05 14:22:57,578 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/multiselection/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-05 14:23:19,071 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -195,7 +193,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -209,7 +207,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 19:46:19,538 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 14:23:19,077 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :multiselection:preBuild UP-TO-DATE
 :multiselection:preDebugBuild UP-TO-DATE
@@ -243,10 +241,10 @@ Incremental java compilation is an incubating feature.
 :multiselection:generateDebugSources
 :multiselection:incrementalDebugJavaCompilationSafeguard
 :multiselection:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/multiselection/src/main/java/com/yalantis/multiselection/lib/MultiSelectItemAnimator.kt: (200, 13): Name shadowed: fromX
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/multiselection/src/main/java/com/yalantis/multiselection/lib/MultiSelectItemAnimator.kt: (201, 13): Name shadowed: fromY
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/multiselection/src/main/java/com/yalantis/multiselection/lib/adapter/BaseLeftAdapter.kt: (38, 25): The corresponding parameter in the supertype 'BaseAdapter' is named 'items'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/multiselection/src/main/java/com/yalantis/multiselection/lib/adapter/ViewPagerAdapter.kt: (36, 40): Parameter 'pager' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/multiselection/src/main/java/com/yalantis/multiselection/lib/MultiSelectItemAnimator.kt: (200, 13): Name shadowed: fromX
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/multiselection/src/main/java/com/yalantis/multiselection/lib/MultiSelectItemAnimator.kt: (201, 13): Name shadowed: fromY
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/multiselection/src/main/java/com/yalantis/multiselection/lib/adapter/BaseLeftAdapter.kt: (38, 25): The corresponding parameter in the supertype 'BaseAdapter' is named 'items'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/multiselection/src/main/java/com/yalantis/multiselection/lib/adapter/ViewPagerAdapter.kt: (36, 40): Parameter 'pager' is never used
 :multiselection:compileDebugJavaWithJavac
 :multiselection:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
 :multiselection:copyDebugKotlinClasses
@@ -282,10 +280,10 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/
 :multiselection:generateReleaseSources
 :multiselection:incrementalReleaseJavaCompilationSafeguard
 :multiselection:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/multiselection/src/main/java/com/yalantis/multiselection/lib/MultiSelectItemAnimator.kt: (200, 13): Name shadowed: fromX
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/multiselection/src/main/java/com/yalantis/multiselection/lib/MultiSelectItemAnimator.kt: (201, 13): Name shadowed: fromY
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/multiselection/src/main/java/com/yalantis/multiselection/lib/adapter/BaseLeftAdapter.kt: (38, 25): The corresponding parameter in the supertype 'BaseAdapter' is named 'items'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/multiselection/src/main/java/com/yalantis/multiselection/lib/adapter/ViewPagerAdapter.kt: (36, 40): Parameter 'pager' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/multiselection/src/main/java/com/yalantis/multiselection/lib/MultiSelectItemAnimator.kt: (200, 13): Name shadowed: fromX
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/multiselection/src/main/java/com/yalantis/multiselection/lib/MultiSelectItemAnimator.kt: (201, 13): Name shadowed: fromY
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/multiselection/src/main/java/com/yalantis/multiselection/lib/adapter/BaseLeftAdapter.kt: (38, 25): The corresponding parameter in the supertype 'BaseAdapter' is named 'items'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/multiselection/src/main/java/com/yalantis/multiselection/lib/adapter/ViewPagerAdapter.kt: (36, 40): Parameter 'pager' is never used
 :multiselection:compileReleaseJavaWithJavac
 :multiselection:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
 :multiselection:copyReleaseKotlinClasses
@@ -403,15 +401,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 21.473 secs
+Total time: 20.669 secs
 
-2018-10-14 19:46:19,606 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 19:46:19,606 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 19:46:25,429 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 19:46:25,429 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 19:46:25,429 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 19:46:25,429 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 19:46:31,310 ERROR SysUtils - Could not process external command
+2019-04-05 14:23:19,154 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 14:23:19,155 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 14:23:25,696 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-05 14:23:25,696 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-05 14:23:25,696 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-05 14:23:25,696 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-05 14:23:31,756 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -424,7 +422,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -438,12 +436,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 19:46:31,310 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 14:23:31,756 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/app/build.gradle' line: 30
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/app/build.gradle' line: 30
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
@@ -522,13 +520,13 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getMissingProperty(AbstractDynamicObject.java:85)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:62)
 	at com.android.build.gradle.internal.dsl.SigningConfig_Decorated.getProperty(Unknown Source)
-	at build_1v4iueotsqizbpb5m9o1i6mwi$_run_closure1$_closure7$_closure10.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/app/build.gradle:30)
+	at build_8nvcsvvisblqw0640b88lt8t2$_run_closure1$_closure7$_closure10.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/app/build.gradle:30)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:60)
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:53)
 	at org.gradle.api.internal.NamedDomainObjectContainerConfigureDelegate._configure(NamedDomainObjectContainerConfigureDelegate.java:40)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:68)
-	at build_1v4iueotsqizbpb5m9o1i6mwi$_run_closure1$_closure7.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/app/build.gradle:29)
+	at build_8nvcsvvisblqw0640b88lt8t2$_run_closure1$_closure7.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/app/build.gradle:29)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:149)
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.configure(AbstractNamedDomainObjectContainer.java:70)
@@ -536,7 +534,7 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:59)
 	at com.android.build.gradle.BaseExtension.signingConfigs(BaseExtension.java:374)
 	at com.android.build.gradle.AppExtension_Decorated.signingConfigs(Unknown Source)
-	at build_1v4iueotsqizbpb5m9o1i6mwi$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/app/build.gradle:28)
+	at build_8nvcsvvisblqw0640b88lt8t2$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/app/build.gradle:28)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.plugins.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:145)
 	at org.gradle.api.internal.plugins.ExtensionsStorage.configureExtension(ExtensionsStorage.java:69)
@@ -545,14 +543,14 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:79)
-	at build_1v4iueotsqizbpb5m9o1i6mwi.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539521000063-0/src/app/build.gradle:3)
+	at build_8nvcsvvisblqw0640b88lt8t2.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448831564-0/src/app/build.gradle:3)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 63 more
 
 
 BUILD FAILED
 
-Total time: 5.311 secs
+Total time: 5.494 secs
 
-2018-10-14 19:46:31,378 ERROR FullProcessService - Project build has not produced APK file
-2018-10-14 19:46:31,442 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-05 14:23:31,830 ERROR FullProcessService - Project build has not produced APK file
+2019-04-05 14:23:31,891 ERROR FullProcessService - Could not find generated or existed APK file

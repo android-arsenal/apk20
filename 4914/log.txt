@@ -1,37 +1,37 @@
-2018-10-14 04:27:22,815 INFO  DownloadService - Downloading "https://github.com/zawadz88/material-activity-chooser/archive/master.zip", attempt 3
-2018-10-14 04:27:31,457 INFO  DownloadService - Downloaded https://github.com/zawadz88/material-activity-chooser/archive/master.zip, attempt 3
-2018-10-14 04:27:31,457 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/master.zip": 10 MB
-2018-10-14 04:27:31,457 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-14 04:27:31,463 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/master.zip: true
-2018-10-14 04:27:31,464 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src'.
-2018-10-14 04:27:31,569 INFO  FullProcessService - Size of directory with sources: 10 MB
-2018-10-14 04:27:31,569 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src]
-2018-10-14 04:27:31,585 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src/.git/
+2019-04-05 12:45:01,968 INFO  DownloadService - Downloading "https://github.com/zawadz88/material-activity-chooser/archive/master.zip", attempt 3
+2019-04-05 12:45:54,689 INFO  DownloadService - Downloaded https://github.com/zawadz88/material-activity-chooser/archive/master.zip, attempt 3
+2019-04-05 12:45:54,689 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/master.zip": 10 MB
+2019-04-05 12:45:54,690 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-05 12:45:54,697 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/master.zip: true
+2019-04-05 12:45:54,697 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src'.
+2019-04-05 12:45:54,795 INFO  FullProcessService - Size of directory with sources: 10 MB
+2019-04-05 12:45:54,795 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src]
+2019-04-05 12:45:54,813 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src/.git/
 
-2018-10-14 04:27:31,590 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src/material-activity-chooser-master/gradlew
-2018-10-14 04:27:31,595 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src/material-activity-chooser-master/material-activity-chooser/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src/material-activity-chooser-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src/material-activity-chooser-master/build.gradle
-2018-10-14 04:27:31,599 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src/material-activity-chooser-master/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src/material-activity-chooser-master/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src/material-activity-chooser-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src/material-activity-chooser-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src/material-activity-chooser-master/sample/code_coverage.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src/material-activity-chooser-master/material-activity-chooser/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src/material-activity-chooser-master/settings.gradle
-2018-10-14 04:27:31,600 INFO  ProjectBuildService - Remote scripts: none
-2018-10-14 04:27:31,600 INFO  ProjectFixService - Fixing project...
-2018-10-14 04:27:31,612 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src/material-activity-chooser-master/material-activity-chooser/local.properties
-2018-10-14 04:27:31,617 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src/material-activity-chooser-master/material-activity-chooser/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-14 04:27:31,617 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src/material-activity-chooser-master/material-activity-chooser/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-14 04:27:31,618 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src/material-activity-chooser-master/sample/local.properties
-2018-10-14 04:27:31,622 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src/material-activity-chooser-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-14 04:27:31,622 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src/material-activity-chooser-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-14 04:27:31,624 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src/material-activity-chooser-master/local.properties
-2018-10-14 04:27:31,624 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2018-10-14 04:27:31,625 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2018-10-14 04:27:31,629 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src/material-activity-chooser-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-14 04:27:31,629 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src/material-activity-chooser-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-14 04:27:31,630 INFO  ProjectFixService - Project was maybe fixed
-2018-10-14 04:27:31,630 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 04:27:31,630 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src/material-activity-chooser-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src/material-activity-chooser-master/material-activity-chooser/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 04:27:40,609 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 04:27:40,609 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 04:27:40,610 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 04:27:40,610 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src/material-activity-chooser-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src/material-activity-chooser-master/material-activity-chooser/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 04:27:46,211 ERROR SysUtils - Could not process external command
+2019-04-05 12:45:54,818 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src/material-activity-chooser-master/gradlew
+2019-04-05 12:45:54,823 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src/material-activity-chooser-master/material-activity-chooser/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src/material-activity-chooser-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src/material-activity-chooser-master/build.gradle
+2019-04-05 12:45:54,827 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src/material-activity-chooser-master/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src/material-activity-chooser-master/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src/material-activity-chooser-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src/material-activity-chooser-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src/material-activity-chooser-master/sample/code_coverage.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src/material-activity-chooser-master/material-activity-chooser/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src/material-activity-chooser-master/settings.gradle
+2019-04-05 12:45:54,828 INFO  ProjectBuildService - Remote scripts: none
+2019-04-05 12:45:54,828 INFO  ProjectFixService - Fixing project...
+2019-04-05 12:45:54,839 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src/material-activity-chooser-master/material-activity-chooser/local.properties
+2019-04-05 12:45:54,843 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src/material-activity-chooser-master/material-activity-chooser/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-05 12:45:54,843 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src/material-activity-chooser-master/material-activity-chooser/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-05 12:45:54,844 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src/material-activity-chooser-master/sample/local.properties
+2019-04-05 12:45:54,848 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src/material-activity-chooser-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-05 12:45:54,848 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src/material-activity-chooser-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-05 12:45:54,849 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src/material-activity-chooser-master/local.properties
+2019-04-05 12:45:54,849 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-04-05 12:45:54,850 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-04-05 12:45:54,853 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src/material-activity-chooser-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-05 12:45:54,853 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src/material-activity-chooser-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-05 12:45:54,854 INFO  ProjectFixService - Project was maybe fixed
+2019-04-05 12:45:54,854 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 12:45:54,854 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src/material-activity-chooser-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src/material-activity-chooser-master/material-activity-chooser/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 12:46:00,769 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-05 12:46:00,769 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-05 12:46:00,769 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-05 12:46:00,769 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src/material-activity-chooser-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src/material-activity-chooser-master/material-activity-chooser/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-05 12:46:06,400 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,8 +44,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -59,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 04:27:46,211 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 12:46:06,400 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -167,6 +166,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.304 secs
+Total time: 5.364 secs
 
-2018-10-14 04:27:46,217 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466042810-0/src/material-activity-chooser-master/test-apks/FakeGmail.apk
+2019-04-05 12:46:06,407 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443101966-0/src/material-activity-chooser-master/test-apks/FakeGmail.apk

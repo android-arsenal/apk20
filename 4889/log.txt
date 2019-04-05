@@ -1,32 +1,32 @@
-2018-10-14 16:53:14,228 INFO  DownloadService - Downloading "https://github.com/lowwor/Realtime-Bus/archive/master.zip", attempt 3
-2018-10-14 16:53:17,393 INFO  DownloadService - Downloaded https://github.com/lowwor/Realtime-Bus/archive/master.zip, attempt 3
-2018-10-14 16:53:17,394 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510794224-0/master.zip": 1 MB
-2018-10-14 16:53:17,394 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-14 16:53:17,400 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510794224-0/master.zip: true
-2018-10-14 16:53:17,400 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510794224-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510794224-0/src'.
-2018-10-14 16:53:17,464 INFO  FullProcessService - Size of directory with sources: 2 MB
-2018-10-14 16:53:17,465 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510794224-0/src]
-2018-10-14 16:53:17,481 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510794224-0/src/.git/
+2019-04-05 13:23:59,888 INFO  DownloadService - Downloading "https://github.com/lowwor/Realtime-Bus/archive/master.zip", attempt 3
+2019-04-05 13:24:03,317 INFO  DownloadService - Downloaded https://github.com/lowwor/Realtime-Bus/archive/master.zip, attempt 3
+2019-04-05 13:24:03,317 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445439884-0/master.zip": 1 MB
+2019-04-05 13:24:03,317 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-05 13:24:03,323 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445439884-0/master.zip: true
+2019-04-05 13:24:03,324 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445439884-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445439884-0/src'.
+2019-04-05 13:24:03,381 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-04-05 13:24:03,381 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445439884-0/src]
+2019-04-05 13:24:03,398 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445439884-0/src/.git/
 
-2018-10-14 16:53:17,487 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510794224-0/src/Realtime-Bus-master/gradlew
-2018-10-14 16:53:17,493 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510794224-0/src/Realtime-Bus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510794224-0/src/Realtime-Bus-master/build.gradle
-2018-10-14 16:53:17,499 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510794224-0/src/Realtime-Bus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510794224-0/src/Realtime-Bus-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510794224-0/src/Realtime-Bus-master/settings.gradle
-2018-10-14 16:53:17,499 INFO  ProjectBuildService - Remote scripts: none
-2018-10-14 16:53:17,499 INFO  ProjectFixService - Fixing project...
-2018-10-14 16:53:17,513 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510794224-0/src/Realtime-Bus-master/app/local.properties
-2018-10-14 16:53:17,513 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510794224-0/src/Realtime-Bus-master/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=22]
-2018-10-14 16:53:17,514 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510794224-0/src/Realtime-Bus-master/local.properties
-2018-10-14 16:53:17,515 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-14 16:53:17,515 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-14 16:53:17,517 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510794224-0/src/Realtime-Bus-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=22]
-2018-10-14 16:53:17,517 INFO  ProjectFixService - Project was maybe fixed
-2018-10-14 16:53:17,517 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 16:53:17,517 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510794224-0/src/Realtime-Bus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510794224-0/src/Realtime-Bus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 16:53:25,316 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 16:53:25,316 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 16:53:25,316 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 16:53:25,317 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510794224-0/src/Realtime-Bus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510794224-0/src/Realtime-Bus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 16:53:33,325 ERROR SysUtils - Could not process external command
+2019-04-05 13:24:03,405 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445439884-0/src/Realtime-Bus-master/gradlew
+2019-04-05 13:24:03,411 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445439884-0/src/Realtime-Bus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445439884-0/src/Realtime-Bus-master/build.gradle
+2019-04-05 13:24:03,417 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445439884-0/src/Realtime-Bus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445439884-0/src/Realtime-Bus-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445439884-0/src/Realtime-Bus-master/settings.gradle
+2019-04-05 13:24:03,417 INFO  ProjectBuildService - Remote scripts: none
+2019-04-05 13:24:03,417 INFO  ProjectFixService - Fixing project...
+2019-04-05 13:24:03,430 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445439884-0/src/Realtime-Bus-master/app/local.properties
+2019-04-05 13:24:03,430 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445439884-0/src/Realtime-Bus-master/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=22]
+2019-04-05 13:24:03,430 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445439884-0/src/Realtime-Bus-master/local.properties
+2019-04-05 13:24:03,431 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-05 13:24:03,431 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-05 13:24:03,432 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445439884-0/src/Realtime-Bus-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=22]
+2019-04-05 13:24:03,432 INFO  ProjectFixService - Project was maybe fixed
+2019-04-05 13:24:03,432 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 13:24:03,432 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445439884-0/src/Realtime-Bus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445439884-0/src/Realtime-Bus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 13:24:30,060 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-05 13:24:30,060 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-05 13:24:30,060 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-05 13:24:30,060 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445439884-0/src/Realtime-Bus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445439884-0/src/Realtime-Bus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-05 13:24:36,298 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -39,8 +39,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -54,7 +53,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 16:53:33,325 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 13:24:36,298 INFO  SysUtils - Configuration on demand is an incubating feature.
 fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
 Use '--' to separate paths from revisions, like this:
 'git <command> [<revision>...] -- [<file>...]'
@@ -168,15 +167,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.381 secs
+Total time: 5.612 secs
 
-2018-10-14 16:53:33,334 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 16:53:33,334 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510794224-0/src/Realtime-Bus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510794224-0/src/Realtime-Bus-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 16:53:41,025 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 16:53:41,025 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 16:53:41,025 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 16:53:41,025 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510794224-0/src/Realtime-Bus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510794224-0/src/Realtime-Bus-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 16:53:48,314 ERROR SysUtils - Could not process external command
+2019-04-05 13:24:36,306 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 13:24:36,306 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445439884-0/src/Realtime-Bus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445439884-0/src/Realtime-Bus-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 13:24:42,462 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-05 13:24:42,462 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-05 13:24:42,463 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-05 13:24:42,463 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445439884-0/src/Realtime-Bus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445439884-0/src/Realtime-Bus-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-05 13:24:48,571 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -189,8 +188,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -204,7 +202,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 16:53:48,315 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 13:24:48,571 INFO  SysUtils - Configuration on demand is an incubating feature.
 fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
 Use '--' to separate paths from revisions, like this:
 'git <command> [<revision>...] -- [<file>...]'
@@ -318,7 +316,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.706 secs
+Total time: 5.5 secs
 
-2018-10-14 16:53:48,322 ERROR FullProcessService - Project build has not produced APK file
-2018-10-14 16:53:48,329 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-05 13:24:48,580 ERROR FullProcessService - Project build has not produced APK file
+2019-04-05 13:24:48,587 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,31 +1,31 @@
-2018-10-14 04:30:54,383 INFO  DownloadService - Downloading "https://github.com/nihasKalam07/socketConnections/archive/master.zip", attempt 3
-2018-10-14 04:30:55,153 INFO  DownloadService - Downloaded https://github.com/nihasKalam07/socketConnections/archive/master.zip, attempt 3
-2018-10-14 04:30:55,153 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466254381-0/master.zip": 542 KB
-2018-10-14 04:30:55,153 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-14 04:30:55,155 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466254381-0/master.zip: true
-2018-10-14 04:30:55,155 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466254381-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466254381-0/src'.
-2018-10-14 04:30:55,192 INFO  FullProcessService - Size of directory with sources: 2 MB
-2018-10-14 04:30:55,193 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466254381-0/src]
-2018-10-14 04:30:55,209 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466254381-0/src/.git/
+2019-04-05 12:59:58,262 INFO  DownloadService - Downloading "https://github.com/nihasKalam07/socketConnections/archive/master.zip", attempt 3
+2019-04-05 13:00:00,823 INFO  DownloadService - Downloaded https://github.com/nihasKalam07/socketConnections/archive/master.zip, attempt 3
+2019-04-05 13:00:00,823 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443998257-0/master.zip": 542 KB
+2019-04-05 13:00:00,823 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-05 13:00:00,829 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443998257-0/master.zip: true
+2019-04-05 13:00:00,829 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443998257-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443998257-0/src'.
+2019-04-05 13:00:00,868 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-04-05 13:00:00,868 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443998257-0/src]
+2019-04-05 13:00:00,887 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443998257-0/src/.git/
 
-2018-10-14 04:30:55,212 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466254381-0/src/socketConnections-master/gradlew
-2018-10-14 04:30:55,215 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466254381-0/src/socketConnections-master/build.gradle
-2018-10-14 04:30:55,218 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466254381-0/src/socketConnections-master/build.gradle
-2018-10-14 04:30:55,218 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
-2018-10-14 04:30:55,637 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
-2018-10-14 04:30:55,637 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
-2018-10-14 04:30:55,637 INFO  ProjectFixService - Fixing project...
-2018-10-14 04:30:55,647 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466254381-0/src/socketConnections-master/local.properties
-2018-10-14 04:30:55,647 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.2-all.zip
-2018-10-14 04:30:55,648 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.2-bin.zip)
-2018-10-14 04:30:55,648 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466254381-0/src/socketConnections-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=19,targetSdkVersion=24]
-2018-10-14 04:30:55,648 INFO  ProjectFixService - Project was maybe fixed
-2018-10-14 04:30:55,648 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 04:30:55,649 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466254381-0/src/socketConnections-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466254381-0/src/socketConnections-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 04:31:08,587 INFO  ProjectTaskService - Detected possible tasks: 82
-2018-10-14 04:31:08,587 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-10-14 04:31:08,588 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466254381-0/src/socketConnections-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466254381-0/src/socketConnections-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-10-14 04:31:21,055 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 13:00:00,891 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443998257-0/src/socketConnections-master/gradlew
+2019-04-05 13:00:00,894 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443998257-0/src/socketConnections-master/build.gradle
+2019-04-05 13:00:00,897 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443998257-0/src/socketConnections-master/build.gradle
+2019-04-05 13:00:00,898 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2019-04-05 13:00:01,545 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
+2019-04-05 13:00:01,545 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
+2019-04-05 13:00:01,545 INFO  ProjectFixService - Fixing project...
+2019-04-05 13:00:01,556 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443998257-0/src/socketConnections-master/local.properties
+2019-04-05 13:00:01,556 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.2-all.zip
+2019-04-05 13:00:01,556 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.2-bin.zip)
+2019-04-05 13:00:01,557 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443998257-0/src/socketConnections-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=19,targetSdkVersion=24]
+2019-04-05 13:00:01,557 INFO  ProjectFixService - Project was maybe fixed
+2019-04-05 13:00:01,557 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 13:00:01,557 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443998257-0/src/socketConnections-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443998257-0/src/socketConnections-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 13:00:10,767 INFO  ProjectTaskService - Detected possible tasks: 82
+2019-04-05 13:00:10,768 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-04-05 13:00:10,768 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443998257-0/src/socketConnections-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443998257-0/src/socketConnections-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-04-05 13:00:21,914 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
 	at org.gradle.api.internal.tasks.DefaultTaskInputs.source(DefaultTaskInputs.java:144)
@@ -202,7 +202,7 @@ The TaskInputs.source(Object) method has been deprecated and is scheduled to be 
 
 BUILD SUCCESSFUL
 
-Total time: 12.222 secs
+Total time: 10.865 secs
 
-2018-10-14 04:31:21,147 ERROR FullProcessService - Project build has not produced APK file
-2018-10-14 04:31:21,241 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-05 13:00:21,973 ERROR FullProcessService - Project build has not produced APK file
+2019-04-05 13:00:22,031 ERROR FullProcessService - Could not find generated or existed APK file

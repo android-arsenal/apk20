@@ -1,32 +1,32 @@
-2018-10-14 04:32:44,552 INFO  DownloadService - Downloading "https://github.com/dibakarece/AndroidSonarQubeDemo/archive/master.zip", attempt 3
-2018-10-14 04:32:45,261 INFO  DownloadService - Downloaded https://github.com/dibakarece/AndroidSonarQubeDemo/archive/master.zip, attempt 3
-2018-10-14 04:32:45,261 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466364549-0/master.zip": 361 KB
-2018-10-14 04:32:45,261 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-14 04:32:45,267 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466364549-0/master.zip: true
-2018-10-14 04:32:45,267 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466364549-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466364549-0/src'.
-2018-10-14 04:32:45,305 INFO  FullProcessService - Size of directory with sources: 631 KB
-2018-10-14 04:32:45,305 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466364549-0/src]
-2018-10-14 04:32:45,328 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466364549-0/src/.git/
+2019-04-05 13:01:39,158 INFO  DownloadService - Downloading "https://github.com/dibakarece/AndroidSonarQubeDemo/archive/master.zip", attempt 3
+2019-04-05 13:01:40,722 INFO  DownloadService - Downloaded https://github.com/dibakarece/AndroidSonarQubeDemo/archive/master.zip, attempt 3
+2019-04-05 13:01:40,723 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554444099156-0/master.zip": 361 KB
+2019-04-05 13:01:40,723 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-05 13:01:40,723 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554444099156-0/master.zip: true
+2019-04-05 13:01:40,723 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554444099156-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554444099156-0/src'.
+2019-04-05 13:01:40,750 INFO  FullProcessService - Size of directory with sources: 631 KB
+2019-04-05 13:01:40,750 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554444099156-0/src]
+2019-04-05 13:01:40,768 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554444099156-0/src/.git/
 
-2018-10-14 04:32:45,333 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466364549-0/src/AndroidSonarQubeDemo-master/gradlew
-2018-10-14 04:32:45,336 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466364549-0/src/AndroidSonarQubeDemo-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466364549-0/src/AndroidSonarQubeDemo-master/build.gradle
-2018-10-14 04:32:45,340 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466364549-0/src/AndroidSonarQubeDemo-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466364549-0/src/AndroidSonarQubeDemo-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466364549-0/src/AndroidSonarQubeDemo-master/settings.gradle
-2018-10-14 04:32:45,340 INFO  ProjectBuildService - Remote scripts: none
-2018-10-14 04:32:45,340 INFO  ProjectFixService - Fixing project...
-2018-10-14 04:32:45,350 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466364549-0/src/AndroidSonarQubeDemo-master/app/local.properties
-2018-10-14 04:32:45,351 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466364549-0/src/AndroidSonarQubeDemo-master/app/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-14 04:32:45,351 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466364549-0/src/AndroidSonarQubeDemo-master/local.properties
-2018-10-14 04:32:45,352 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-14 04:32:45,352 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-14 04:32:45,352 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466364549-0/src/AndroidSonarQubeDemo-master/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-14 04:32:45,353 INFO  ProjectFixService - Project was maybe fixed
-2018-10-14 04:32:45,353 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 04:32:45,353 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466364549-0/src/AndroidSonarQubeDemo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466364549-0/src/AndroidSonarQubeDemo-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 04:33:06,115 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 04:33:06,115 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 04:33:06,115 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 04:33:06,115 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466364549-0/src/AndroidSonarQubeDemo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466364549-0/src/AndroidSonarQubeDemo-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 04:33:12,212 ERROR SysUtils - Could not process external command
+2019-04-05 13:01:40,771 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554444099156-0/src/AndroidSonarQubeDemo-master/gradlew
+2019-04-05 13:01:40,774 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554444099156-0/src/AndroidSonarQubeDemo-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554444099156-0/src/AndroidSonarQubeDemo-master/build.gradle
+2019-04-05 13:01:40,777 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554444099156-0/src/AndroidSonarQubeDemo-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554444099156-0/src/AndroidSonarQubeDemo-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554444099156-0/src/AndroidSonarQubeDemo-master/settings.gradle
+2019-04-05 13:01:40,778 INFO  ProjectBuildService - Remote scripts: none
+2019-04-05 13:01:40,778 INFO  ProjectFixService - Fixing project...
+2019-04-05 13:01:40,785 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554444099156-0/src/AndroidSonarQubeDemo-master/app/local.properties
+2019-04-05 13:01:40,785 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554444099156-0/src/AndroidSonarQubeDemo-master/app/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-04-05 13:01:40,786 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554444099156-0/src/AndroidSonarQubeDemo-master/local.properties
+2019-04-05 13:01:40,786 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-05 13:01:40,786 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-05 13:01:40,787 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554444099156-0/src/AndroidSonarQubeDemo-master/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-04-05 13:01:40,787 INFO  ProjectFixService - Project was maybe fixed
+2019-04-05 13:01:40,787 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 13:01:40,787 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554444099156-0/src/AndroidSonarQubeDemo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554444099156-0/src/AndroidSonarQubeDemo-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 13:01:51,807 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-05 13:01:51,807 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-05 13:01:51,807 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-05 13:01:51,808 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554444099156-0/src/AndroidSonarQubeDemo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554444099156-0/src/AndroidSonarQubeDemo-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-05 13:01:57,296 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -39,8 +39,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -54,7 +53,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 04:33:12,212 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 13:01:57,297 INFO  SysUtils - Configuration on demand is an incubating feature.
 The 'sonar-runner' plugin has been deprecated and is scheduled to be removed in Gradle 3.0. please use the official plugin from SonarQube (http://docs.sonarqube.org/display/SONAR/Analyzing+with+Gradle).
 Incremental java compilation is an incubating feature.
 
@@ -159,22 +158,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 5.518 secs
+Total time: 4.917 secs
 
-2018-10-14 04:33:12,217 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 04:33:12,217 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466364549-0/src/AndroidSonarQubeDemo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466364549-0/src/AndroidSonarQubeDemo-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 04:33:18,375 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 04:33:18,376 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 04:33:18,376 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 04:33:18,376 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466364549-0/src/AndroidSonarQubeDemo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466364549-0/src/AndroidSonarQubeDemo-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 04:33:24,465 ERROR SysUtils - Could not process external command
+2019-04-05 13:01:57,302 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 13:01:57,302 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554444099156-0/src/AndroidSonarQubeDemo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554444099156-0/src/AndroidSonarQubeDemo-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 13:02:02,729 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-05 13:02:02,729 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-05 13:02:02,729 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-05 13:02:02,729 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554444099156-0/src/AndroidSonarQubeDemo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554444099156-0/src/AndroidSonarQubeDemo-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-05 13:02:08,213 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -187,8 +186,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -202,7 +200,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 04:33:24,465 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 13:02:08,213 INFO  SysUtils - Configuration on demand is an incubating feature.
 The 'sonar-runner' plugin has been deprecated and is scheduled to be removed in Gradle 3.0. please use the official plugin from SonarQube (http://docs.sonarqube.org/display/SONAR/Analyzing+with+Gradle).
 Incremental java compilation is an incubating feature.
 
@@ -307,14 +305,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 5.498 secs
+Total time: 4.871 secs
 
-2018-10-14 04:33:24,469 ERROR FullProcessService - Project build has not produced APK file
-2018-10-14 04:33:24,473 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-05 13:02:08,218 ERROR FullProcessService - Project build has not produced APK file
+2019-04-05 13:02:08,222 ERROR FullProcessService - Could not find generated or existed APK file

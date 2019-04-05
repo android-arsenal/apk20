@@ -1,34 +1,34 @@
-2018-10-14 16:46:01,774 INFO  DownloadService - Downloading "https://github.com/Livin21/DroidAwesome/archive/master.zip", attempt 3
-2018-10-14 16:46:02,292 INFO  DownloadService - Downloaded https://github.com/Livin21/DroidAwesome/archive/master.zip, attempt 3
-2018-10-14 16:46:02,292 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/master.zip": 254 KB
-2018-10-14 16:46:02,292 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-14 16:46:02,297 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/master.zip: true
-2018-10-14 16:46:02,298 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src'.
-2018-10-14 16:46:02,324 INFO  FullProcessService - Size of directory with sources: 370 KB
-2018-10-14 16:46:02,324 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src]
-2018-10-14 16:46:02,342 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/.git/
+2019-04-05 13:17:08,380 INFO  DownloadService - Downloading "https://github.com/Livin21/DroidAwesome/archive/master.zip", attempt 3
+2019-04-05 13:17:10,926 INFO  DownloadService - Downloaded https://github.com/Livin21/DroidAwesome/archive/master.zip, attempt 3
+2019-04-05 13:17:10,926 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/master.zip": 254 KB
+2019-04-05 13:17:10,926 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-05 13:17:10,928 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/master.zip: true
+2019-04-05 13:17:10,928 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src'.
+2019-04-05 13:17:10,952 INFO  FullProcessService - Size of directory with sources: 370 KB
+2019-04-05 13:17:10,952 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src]
+2019-04-05 13:17:10,969 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/.git/
 
-2018-10-14 16:46:02,345 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/DroidAwesome-master/gradlew
-2018-10-14 16:46:02,349 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/DroidAwesome-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/DroidAwesome-master/droid-awesome/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/DroidAwesome-master/build.gradle
-2018-10-14 16:46:02,352 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/DroidAwesome-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/DroidAwesome-master/droid-awesome/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/DroidAwesome-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/DroidAwesome-master/settings.gradle
-2018-10-14 16:46:02,352 INFO  ProjectBuildService - Remote scripts: none
-2018-10-14 16:46:02,352 INFO  ProjectFixService - Fixing project...
-2018-10-14 16:46:02,361 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/DroidAwesome-master/app/local.properties
-2018-10-14 16:46:02,362 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/DroidAwesome-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-14 16:46:02,362 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/DroidAwesome-master/droid-awesome/local.properties
-2018-10-14 16:46:02,363 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/DroidAwesome-master/droid-awesome/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-14 16:46:02,364 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/DroidAwesome-master/local.properties
-2018-10-14 16:46:02,364 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2018-10-14 16:46:02,365 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2018-10-14 16:46:02,365 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/DroidAwesome-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-14 16:46:02,366 INFO  ProjectFixService - Project was maybe fixed
-2018-10-14 16:46:02,366 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 16:46:02,366 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/DroidAwesome-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/DroidAwesome-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 16:46:10,129 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 16:46:10,129 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 16:46:10,129 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 16:46:10,130 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/DroidAwesome-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/DroidAwesome-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 16:46:17,039 ERROR SysUtils - Could not process external command
+2019-04-05 13:17:10,972 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/DroidAwesome-master/gradlew
+2019-04-05 13:17:10,976 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/DroidAwesome-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/DroidAwesome-master/droid-awesome/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/DroidAwesome-master/build.gradle
+2019-04-05 13:17:10,978 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/DroidAwesome-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/DroidAwesome-master/droid-awesome/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/DroidAwesome-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/DroidAwesome-master/settings.gradle
+2019-04-05 13:17:10,979 INFO  ProjectBuildService - Remote scripts: none
+2019-04-05 13:17:10,979 INFO  ProjectFixService - Fixing project...
+2019-04-05 13:17:10,986 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/DroidAwesome-master/app/local.properties
+2019-04-05 13:17:10,986 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/DroidAwesome-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-04-05 13:17:10,986 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/DroidAwesome-master/droid-awesome/local.properties
+2019-04-05 13:17:10,987 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/DroidAwesome-master/droid-awesome/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-04-05 13:17:10,987 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/DroidAwesome-master/local.properties
+2019-04-05 13:17:10,987 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-04-05 13:17:10,987 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-04-05 13:17:10,988 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/DroidAwesome-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-04-05 13:17:10,988 INFO  ProjectFixService - Project was maybe fixed
+2019-04-05 13:17:10,988 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 13:17:10,988 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/DroidAwesome-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/DroidAwesome-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 13:17:17,525 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-05 13:17:17,525 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-05 13:17:17,525 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-05 13:17:17,525 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/DroidAwesome-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/DroidAwesome-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-05 13:17:23,510 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,8 +41,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -56,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 16:46:17,039 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 13:17:23,511 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -242,15 +241,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.619 secs
+Total time: 5.699 secs
 
-2018-10-14 16:46:17,043 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 16:46:17,043 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/DroidAwesome-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/DroidAwesome-master/droid-awesome/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 16:46:23,613 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 16:46:23,613 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 16:46:23,613 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 16:46:23,613 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/DroidAwesome-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/DroidAwesome-master/droid-awesome/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 16:46:30,697 ERROR SysUtils - Could not process external command
+2019-04-05 13:17:23,514 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 13:17:23,514 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/DroidAwesome-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/DroidAwesome-master/droid-awesome/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 13:17:30,220 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-05 13:17:30,220 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-05 13:17:30,220 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-05 13:17:30,220 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/DroidAwesome-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/DroidAwesome-master/droid-awesome/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-05 13:17:36,532 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -263,8 +262,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -278,7 +276,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 16:46:30,697 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 13:17:36,532 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -386,15 +384,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.799 secs
+Total time: 5.979 secs
 
-2018-10-14 16:46:30,702 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 16:46:30,702 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/DroidAwesome-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/DroidAwesome-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 16:46:37,596 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 16:46:37,596 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 16:46:37,596 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 16:46:37,596 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/DroidAwesome-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539510361770-0/src/DroidAwesome-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 16:46:44,465 ERROR SysUtils - Could not process external command
+2019-04-05 13:17:36,536 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 13:17:36,537 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/DroidAwesome-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/DroidAwesome-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 13:17:42,774 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-05 13:17:42,774 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-05 13:17:42,774 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-05 13:17:42,774 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/DroidAwesome-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445028378-0/src/DroidAwesome-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-05 13:17:49,733 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -407,8 +405,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -422,7 +419,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 16:46:44,465 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 13:17:49,733 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -608,7 +605,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.527 secs
+Total time: 6.551 secs
 
-2018-10-14 16:46:44,469 ERROR FullProcessService - Project build has not produced APK file
-2018-10-14 16:46:44,474 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-05 13:17:49,739 ERROR FullProcessService - Project build has not produced APK file
+2019-04-05 13:17:49,745 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,10 +1,10 @@
-2019-01-20 19:51:37,680 INFO  DownloadService - Downloading "https://github.com/benas/random-beans/archive/master.zip", attempt 3
-2019-01-20 19:51:38,556 INFO  DownloadService - Downloaded https://github.com/benas/random-beans/archive/master.zip, attempt 3
-2019-01-20 19:51:38,556 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988697671-0/master.zip": 501 KB
-2019-01-20 19:51:38,556 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-20 19:51:38,562 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988697671-0/master.zip: false
-2019-01-20 19:51:38,562 INFO  FullProcessService - Archive with sources does not contain any build script
-2019-01-20 19:51:38,562 ERROR FullProcessService - Could not find directory with sources
-2019-01-20 19:51:38,562 ERROR FullProcessService - Project will not be processed
-2019-01-20 19:51:38,562 ERROR FullProcessService - Project build has not produced APK file
-2019-01-20 19:51:38,563 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-05 13:39:59,049 INFO  DownloadService - Downloading "https://github.com/benas/random-beans/archive/master.zip", attempt 3
+2019-04-05 13:40:00,017 INFO  DownloadService - Downloaded https://github.com/benas/random-beans/archive/master.zip, attempt 3
+2019-04-05 13:40:00,017 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446399047-0/master.zip": 460 KB
+2019-04-05 13:40:00,017 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-05 13:40:00,019 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446399047-0/master.zip: false
+2019-04-05 13:40:00,019 INFO  FullProcessService - Archive with sources does not contain any build script
+2019-04-05 13:40:00,019 ERROR FullProcessService - Could not find directory with sources
+2019-04-05 13:40:00,019 ERROR FullProcessService - Project will not be processed
+2019-04-05 13:40:00,019 ERROR FullProcessService - Project build has not produced APK file
+2019-04-05 13:40:00,019 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,31 +1,34 @@
-2018-10-14 19:41:57,618 INFO  DownloadService - Downloading "https://github.com/demoNo/AutoScrollViewPager/archive/master.zip", attempt 3
-2018-10-14 19:41:58,099 INFO  DownloadService - Downloaded https://github.com/demoNo/AutoScrollViewPager/archive/master.zip, attempt 3
-2018-10-14 19:41:58,099 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539520917614-0/master.zip": 164 KB
-2018-10-14 19:41:58,099 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-14 19:41:58,100 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539520917614-0/master.zip: true
-2018-10-14 19:41:58,100 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539520917614-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539520917614-0/src'.
-2018-10-14 19:41:58,110 INFO  FullProcessService - Size of directory with sources: 333 KB
-2018-10-14 19:41:58,110 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539520917614-0/src]
-2018-10-14 19:41:58,127 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539520917614-0/src/.git/
+2019-04-05 14:15:05,759 INFO  DownloadService - Downloading "https://github.com/demoNo/AutoScrollViewPager/archive/master.zip", attempt 3
+2019-04-05 14:16:06,403 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-05 14:16:07,525 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-05 14:16:07,525 INFO  DownloadService - Downloading "https://github.com/demoNo/AutoScrollViewPager/archive/master.zip", attempt 3
+2019-04-05 14:17:09,089 DEBUG FullProcessService - Repository https://github.com/demoNo/AutoScrollViewPager available: true
+2019-04-05 14:17:09,089 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-05 14:17:09,089 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/demoNo/AutoScrollViewPager, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448505756-0/src]
+2019-04-05 14:17:11,083 INFO  SysUtils - 
+2019-04-05 14:17:11,101 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448505756-0/src/.git": true
+2019-04-05 14:17:11,103 INFO  FullProcessService - Size of directory with sources: 333 KB
+2019-04-05 14:17:11,103 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448505756-0/src]
+2019-04-05 14:17:11,119 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448505756-0/src/.git/
 
-2018-10-14 19:41:58,129 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539520917614-0/src/AutoScrollViewPager-master/gradlew
-2018-10-14 19:41:58,130 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539520917614-0/src/AutoScrollViewPager-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539520917614-0/src/AutoScrollViewPager-master/build.gradle
-2018-10-14 19:41:58,132 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539520917614-0/src/AutoScrollViewPager-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539520917614-0/src/AutoScrollViewPager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539520917614-0/src/AutoScrollViewPager-master/settings.gradle
-2018-10-14 19:41:58,132 INFO  ProjectBuildService - Remote scripts: none
-2018-10-14 19:41:58,132 INFO  ProjectFixService - Fixing project...
-2018-10-14 19:41:58,136 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539520917614-0/src/AutoScrollViewPager-master/library/local.properties
-2018-10-14 19:41:58,136 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539520917614-0/src/AutoScrollViewPager-master/library/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
-2018-10-14 19:41:58,137 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539520917614-0/src/AutoScrollViewPager-master/local.properties
-2018-10-14 19:41:58,137 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-14 19:41:58,138 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-14 19:41:58,138 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539520917614-0/src/AutoScrollViewPager-master/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
-2018-10-14 19:41:58,138 INFO  ProjectFixService - Project was maybe fixed
-2018-10-14 19:41:58,139 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 19:41:58,139 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539520917614-0/src/AutoScrollViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539520917614-0/src/AutoScrollViewPager-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 19:42:04,434 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-10-14 19:42:04,434 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-10-14 19:42:04,434 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539520917614-0/src/AutoScrollViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539520917614-0/src/AutoScrollViewPager-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-10-14 19:42:12,702 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 14:17:11,121 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448505756-0/src/gradlew
+2019-04-05 14:17:11,123 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448505756-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448505756-0/src/build.gradle
+2019-04-05 14:17:11,124 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448505756-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448505756-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448505756-0/src/settings.gradle
+2019-04-05 14:17:11,124 INFO  ProjectBuildService - Remote scripts: none
+2019-04-05 14:17:11,124 INFO  ProjectFixService - Fixing project...
+2019-04-05 14:17:11,128 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448505756-0/src/library/local.properties
+2019-04-05 14:17:11,128 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448505756-0/src/library/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2019-04-05 14:17:11,129 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448505756-0/src/local.properties
+2019-04-05 14:17:11,129 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-05 14:17:11,129 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-05 14:17:11,130 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448505756-0/src/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2019-04-05 14:17:11,130 INFO  ProjectFixService - Project was maybe fixed
+2019-04-05 14:17:11,130 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 14:17:11,130 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448505756-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448505756-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 14:17:17,100 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-04-05 14:17:17,100 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-04-05 14:17:17,100 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448505756-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448505756-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-04-05 14:17:24,860 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
@@ -52,7 +55,7 @@ Incremental java compilation is an incubating feature.
 :library:incrementalDebugJavaCompilationSafeguard
 :library:compileDebugJavaWithJavac
 :library:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539520917614-0/src/AutoScrollViewPager-master/library/src/main/java/com/jakewharton/salvage/RecycleBin.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448505756-0/src/library/src/main/java/com/jakewharton/salvage/RecycleBin.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :library:extractDebugAnnotations
 :library:mergeDebugShaders
@@ -87,7 +90,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :library:incrementalReleaseJavaCompilationSafeguard
 :library:compileReleaseJavaWithJavac
 :library:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539520917614-0/src/AutoScrollViewPager-master/library/src/main/java/com/jakewharton/salvage/RecycleBin.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448505756-0/src/library/src/main/java/com/jakewharton/salvage/RecycleBin.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :library:extractReleaseAnnotations
 :library:mergeReleaseShaders
@@ -111,14 +114,14 @@ Note: Recompile with -Xlint:unchecked for details.
 
 BUILD SUCCESSFUL
 
-Total time: 7.692 secs
+Total time: 7.175 secs
 
-2018-10-14 19:42:12,714 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 19:42:12,714 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539520917614-0/src/AutoScrollViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539520917614-0/src/AutoScrollViewPager-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 19:42:19,517 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-10-14 19:42:19,517 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-10-14 19:42:19,517 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539520917614-0/src/AutoScrollViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539520917614-0/src/AutoScrollViewPager-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-10-14 19:42:26,100 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 14:17:24,874 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 14:17:24,874 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448505756-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448505756-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 14:17:30,982 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-04-05 14:17:30,982 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-04-05 14:17:30,982 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448505756-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554448505756-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-04-05 14:17:37,320 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
@@ -198,7 +201,7 @@ Incremental java compilation is an incubating feature.
 
 BUILD SUCCESSFUL
 
-Total time: 6.01 secs
+Total time: 5.708 secs
 
-2018-10-14 19:42:26,112 ERROR FullProcessService - Project build has not produced APK file
-2018-10-14 19:42:26,123 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-05 14:17:37,333 ERROR FullProcessService - Project build has not produced APK file
+2019-04-05 14:17:37,345 ERROR FullProcessService - Could not find generated or existed APK file

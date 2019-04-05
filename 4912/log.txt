@@ -1,12 +1,16 @@
-2018-10-14 04:28:30,075 INFO  DownloadService - Downloading "https://github.com/Nightonke/BoomMenu/archive/master.zip", attempt 3
-2018-10-14 04:28:56,282 INFO  DownloadService - Downloaded https://github.com/Nightonke/BoomMenu/archive/master.zip, attempt 3
-2018-10-14 04:28:56,282 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466110071-0/master.zip": 69 MB
-2018-10-14 04:28:56,282 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-14 04:28:56,290 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466110071-0/master.zip: true
-2018-10-14 04:28:56,291 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466110071-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466110071-0/src'.
-2018-10-14 04:28:56,953 INFO  FullProcessService - Size of directory with sources: 76 MB
-2018-10-14 04:28:56,953 ERROR FullProcessService - Source directory should be less than 50 MB
-2018-10-14 04:28:56,953 ERROR FullProcessService - Project will not be processed
-2018-10-14 04:28:56,953 ERROR FullProcessService - Project build has not produced APK file
-2018-10-14 04:28:56,960 INFO  FullProcessService - Found existed APK file in the project: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466110071-0/src/BoomMenu-master/Apk/BoomMenu V2.1.0.apk
-2018-10-14 04:28:56,960 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539466110071-0/src/BoomMenu-master/Apk/BoomMenu V2.1.0.apk
+2019-04-05 12:47:08,201 INFO  DownloadService - Downloading "https://github.com/Nightonke/BoomMenu/archive/master.zip", attempt 3
+2019-04-05 12:55:43,978 DEBUG DownloadService - Error during downloading "https://github.com/Nightonke/BoomMenu/archive/master.zip": java.net.SocketTimeoutException: Read timed out
+2019-04-05 12:55:43,978 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-05 12:55:45,278 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-05 12:55:45,278 INFO  DownloadService - Downloading "https://github.com/Nightonke/BoomMenu/archive/master.zip", attempt 3
+2019-04-05 12:57:54,670 INFO  DownloadService - Downloaded https://github.com/Nightonke/BoomMenu/archive/master.zip, attempt 3
+2019-04-05 12:57:54,670 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443228198-0/master.zip": 69 MB
+2019-04-05 12:57:54,670 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-05 12:57:54,673 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443228198-0/master.zip: true
+2019-04-05 12:57:54,673 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443228198-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443228198-0/src'.
+2019-04-05 12:57:55,286 INFO  FullProcessService - Size of directory with sources: 76 MB
+2019-04-05 12:57:55,286 ERROR FullProcessService - Source directory should be less than 50 MB
+2019-04-05 12:57:55,286 ERROR FullProcessService - Project will not be processed
+2019-04-05 12:57:55,286 ERROR FullProcessService - Project build has not produced APK file
+2019-04-05 12:57:55,293 INFO  FullProcessService - Found existed APK file in the project: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443228198-0/src/BoomMenu-master/Apk/BoomMenu V2.1.0.apk
+2019-04-05 12:57:55,294 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443228198-0/src/BoomMenu-master/Apk/BoomMenu V2.1.0.apk

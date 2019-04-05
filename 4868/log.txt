@@ -1,34 +1,34 @@
-2018-10-14 17:48:28,688 INFO  DownloadService - Downloading "https://github.com/lvabarajithan/BatteryStatsLibrary/archive/master.zip", attempt 3
-2018-10-14 17:48:29,504 INFO  DownloadService - Downloaded https://github.com/lvabarajithan/BatteryStatsLibrary/archive/master.zip, attempt 3
-2018-10-14 17:48:29,504 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/master.zip": 187 KB
-2018-10-14 17:48:29,504 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-14 17:48:29,510 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/master.zip: true
-2018-10-14 17:48:29,510 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src'.
-2018-10-14 17:48:29,527 INFO  FullProcessService - Size of directory with sources: 215 KB
-2018-10-14 17:48:29,527 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src]
-2018-10-14 17:48:29,545 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/.git/
+2019-04-05 13:41:52,509 INFO  DownloadService - Downloading "https://github.com/lvabarajithan/BatteryStatsLibrary/archive/master.zip", attempt 3
+2019-04-05 13:41:55,177 INFO  DownloadService - Downloaded https://github.com/lvabarajithan/BatteryStatsLibrary/archive/master.zip, attempt 3
+2019-04-05 13:41:55,178 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/master.zip": 187 KB
+2019-04-05 13:41:55,178 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-05 13:41:55,178 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/master.zip: true
+2019-04-05 13:41:55,178 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src'.
+2019-04-05 13:41:55,193 INFO  FullProcessService - Size of directory with sources: 215 KB
+2019-04-05 13:41:55,193 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src]
+2019-04-05 13:41:55,211 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/.git/
 
-2018-10-14 17:48:29,548 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/gradlew
-2018-10-14 17:48:29,551 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/build.gradle
-2018-10-14 17:48:29,553 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/library/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/settings.gradle
-2018-10-14 17:48:29,553 INFO  ProjectBuildService - Remote scripts: none
-2018-10-14 17:48:29,553 INFO  ProjectFixService - Fixing project...
-2018-10-14 17:48:29,559 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/library/local.properties
-2018-10-14 17:48:29,559 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/library/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
-2018-10-14 17:48:29,560 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/sample/local.properties
-2018-10-14 17:48:29,560 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/sample/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
-2018-10-14 17:48:29,561 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/local.properties
-2018-10-14 17:48:29,561 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-10-14 17:48:29,561 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-10-14 17:48:29,563 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
-2018-10-14 17:48:29,563 INFO  ProjectFixService - Project was maybe fixed
-2018-10-14 17:48:29,563 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 17:48:29,563 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 17:48:37,954 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 17:48:37,954 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 17:48:37,954 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 17:48:37,954 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 17:48:43,853 ERROR SysUtils - Could not process external command
+2019-04-05 13:41:55,214 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/gradlew
+2019-04-05 13:41:55,216 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/build.gradle
+2019-04-05 13:41:55,218 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/library/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/settings.gradle
+2019-04-05 13:41:55,219 INFO  ProjectBuildService - Remote scripts: none
+2019-04-05 13:41:55,219 INFO  ProjectFixService - Fixing project...
+2019-04-05 13:41:55,228 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/library/local.properties
+2019-04-05 13:41:55,228 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/library/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-04-05 13:41:55,229 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/sample/local.properties
+2019-04-05 13:41:55,229 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/sample/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-04-05 13:41:55,229 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/local.properties
+2019-04-05 13:41:55,229 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-04-05 13:41:55,230 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-04-05 13:41:55,232 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-04-05 13:41:55,232 INFO  ProjectFixService - Project was maybe fixed
+2019-04-05 13:41:55,232 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 13:41:55,232 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 13:42:02,852 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-05 13:42:02,852 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-05 13:42:02,852 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-05 13:42:02,852 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-05 13:42:17,645 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,8 +41,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -56,13 +55,13 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 17:48:43,853 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 13:42:17,645 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/library/maven-push.gradle' line: 48
+Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/library/maven-push.gradle' line: 48
 
 * What went wrong:
 A problem occurred configuring project ':library'.
@@ -133,7 +132,7 @@ org.gradle.api.ProjectConfigurationException: A problem occurred configuring pro
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 Caused by: groovy.lang.MissingPropertyException: No such property: GROUP for class: org.gradle.api.publication.maven.internal.deployer.DefaultGroovyMavenDeployer
-	at maven_push_8xcz0grbhoky3jmnvq3ch8c1g$_run_closure1$_closure2$_closure6$_closure7.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/library/maven-push.gradle:48)
+	at maven_push_6x8l0wvtff4edcjdut3lv2lee$_run_closure1$_closure2$_closure6$_closure7.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/library/maven-push.gradle:48)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.addRepository(DefaultArtifactRepositoryContainer.java:87)
 	at org.gradle.api.publication.maven.internal.DefaultMavenRepositoryHandlerConvention.mavenDeployer(DefaultMavenRepositoryHandlerConvention.java:43)
@@ -143,7 +142,7 @@ Caused by: groovy.lang.MissingPropertyException: No such property: GROUP for cla
 	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
 	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
 	at org.gradle.api.internal.artifacts.dsl.DefaultRepositoryHandler_Decorated.invokeMethod(Unknown Source)
-	at maven_push_8xcz0grbhoky3jmnvq3ch8c1g$_run_closure1$_closure2$_closure6.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/library/maven-push.gradle:45)
+	at maven_push_6x8l0wvtff4edcjdut3lv2lee$_run_closure1$_closure2$_closure6.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/library/maven-push.gradle:45)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:110)
@@ -153,7 +152,7 @@ Caused by: groovy.lang.MissingPropertyException: No such property: GROUP for cla
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:91)
 	at org.gradle.api.tasks.Upload.repositories(Upload.java:118)
-	at maven_push_8xcz0grbhoky3jmnvq3ch8c1g$_run_closure1$_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/library/maven-push.gradle:44)
+	at maven_push_6x8l0wvtff4edcjdut3lv2lee$_run_closure1$_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/library/maven-push.gradle:44)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:110)
@@ -165,29 +164,29 @@ Caused by: groovy.lang.MissingPropertyException: No such property: GROUP for cla
 	at org.gradle.api.internal.DefaultNamedDomainObjectCollection$ContainerElementsDynamicObject.invokeMethod(DefaultNamedDomainObjectCollection.java:341)
 	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:79)
-	at maven_push_8xcz0grbhoky3jmnvq3ch8c1g$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/library/maven-push.gradle:43)
+	at maven_push_6x8l0wvtff4edcjdut3lv2lee$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/library/maven-push.gradle:43)
 	at org.gradle.listener.ClosureBackedMethodInvocationDispatch.dispatch(ClosureBackedMethodInvocationDispatch.java:40)
 	at org.gradle.listener.ClosureBackedMethodInvocationDispatch.dispatch(ClosureBackedMethodInvocationDispatch.java:25)
 	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 5.406 secs
+Total time: 14.297 secs
 
-2018-10-14 17:48:43,856 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 17:48:43,857 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 17:48:50,080 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 17:48:50,080 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 17:48:50,080 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 17:48:50,080 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 17:48:56,281 ERROR SysUtils - Could not process external command
+2019-04-05 13:42:17,649 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 13:42:17,649 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 13:42:24,094 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-05 13:42:24,094 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-05 13:42:24,094 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-05 13:42:24,094 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-05 13:42:29,848 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -200,8 +199,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -215,13 +213,13 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 17:48:56,281 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 13:42:29,848 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/library/maven-push.gradle' line: 48
+Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/library/maven-push.gradle' line: 48
 
 * What went wrong:
 A problem occurred configuring project ':sample'.
@@ -337,7 +335,7 @@ Caused by: org.gradle.api.ProjectConfigurationException: A problem occurred conf
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 Caused by: groovy.lang.MissingPropertyException: No such property: GROUP for class: org.gradle.api.publication.maven.internal.deployer.DefaultGroovyMavenDeployer
-	at maven_push_8xcz0grbhoky3jmnvq3ch8c1g$_run_closure1$_closure2$_closure6$_closure7.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/library/maven-push.gradle:48)
+	at maven_push_6x8l0wvtff4edcjdut3lv2lee$_run_closure1$_closure2$_closure6$_closure7.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/library/maven-push.gradle:48)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.addRepository(DefaultArtifactRepositoryContainer.java:87)
 	at org.gradle.api.publication.maven.internal.DefaultMavenRepositoryHandlerConvention.mavenDeployer(DefaultMavenRepositoryHandlerConvention.java:43)
@@ -347,7 +345,7 @@ Caused by: groovy.lang.MissingPropertyException: No such property: GROUP for cla
 	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
 	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
 	at org.gradle.api.internal.artifacts.dsl.DefaultRepositoryHandler_Decorated.invokeMethod(Unknown Source)
-	at maven_push_8xcz0grbhoky3jmnvq3ch8c1g$_run_closure1$_closure2$_closure6.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/library/maven-push.gradle:45)
+	at maven_push_6x8l0wvtff4edcjdut3lv2lee$_run_closure1$_closure2$_closure6.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/library/maven-push.gradle:45)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:110)
@@ -357,7 +355,7 @@ Caused by: groovy.lang.MissingPropertyException: No such property: GROUP for cla
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:91)
 	at org.gradle.api.tasks.Upload.repositories(Upload.java:118)
-	at maven_push_8xcz0grbhoky3jmnvq3ch8c1g$_run_closure1$_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/library/maven-push.gradle:44)
+	at maven_push_6x8l0wvtff4edcjdut3lv2lee$_run_closure1$_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/library/maven-push.gradle:44)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:110)
@@ -369,7 +367,7 @@ Caused by: groovy.lang.MissingPropertyException: No such property: GROUP for cla
 	at org.gradle.api.internal.DefaultNamedDomainObjectCollection$ContainerElementsDynamicObject.invokeMethod(DefaultNamedDomainObjectCollection.java:341)
 	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:79)
-	at maven_push_8xcz0grbhoky3jmnvq3ch8c1g$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/library/maven-push.gradle:43)
+	at maven_push_6x8l0wvtff4edcjdut3lv2lee$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/library/maven-push.gradle:43)
 	at org.gradle.listener.ClosureBackedMethodInvocationDispatch.dispatch(ClosureBackedMethodInvocationDispatch.java:40)
 	at org.gradle.listener.ClosureBackedMethodInvocationDispatch.dispatch(ClosureBackedMethodInvocationDispatch.java:25)
 	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
@@ -383,15 +381,15 @@ Caused by: groovy.lang.MissingPropertyException: No such property: GROUP for cla
 
 BUILD FAILED
 
-Total time: 5.702 secs
+Total time: 5.26 secs
 
-2018-10-14 17:48:56,284 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 17:48:56,284 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 17:49:02,635 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 17:49:02,636 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 17:49:02,636 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 17:49:02,636 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 17:49:08,377 ERROR SysUtils - Could not process external command
+2019-04-05 13:42:29,851 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 13:42:29,851 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 13:42:34,961 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-05 13:42:34,961 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-05 13:42:34,961 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-05 13:42:34,961 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-05 13:42:40,866 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -404,8 +402,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -419,13 +416,13 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 17:49:08,377 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 13:42:40,866 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/library/maven-push.gradle' line: 48
+Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/library/maven-push.gradle' line: 48
 
 * What went wrong:
 A problem occurred configuring project ':library'.
@@ -496,7 +493,7 @@ org.gradle.api.ProjectConfigurationException: A problem occurred configuring pro
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 Caused by: groovy.lang.MissingPropertyException: No such property: GROUP for class: org.gradle.api.publication.maven.internal.deployer.DefaultGroovyMavenDeployer
-	at maven_push_8xcz0grbhoky3jmnvq3ch8c1g$_run_closure1$_closure2$_closure6$_closure7.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/library/maven-push.gradle:48)
+	at maven_push_6x8l0wvtff4edcjdut3lv2lee$_run_closure1$_closure2$_closure6$_closure7.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/library/maven-push.gradle:48)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.addRepository(DefaultArtifactRepositoryContainer.java:87)
 	at org.gradle.api.publication.maven.internal.DefaultMavenRepositoryHandlerConvention.mavenDeployer(DefaultMavenRepositoryHandlerConvention.java:43)
@@ -506,7 +503,7 @@ Caused by: groovy.lang.MissingPropertyException: No such property: GROUP for cla
 	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
 	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
 	at org.gradle.api.internal.artifacts.dsl.DefaultRepositoryHandler_Decorated.invokeMethod(Unknown Source)
-	at maven_push_8xcz0grbhoky3jmnvq3ch8c1g$_run_closure1$_closure2$_closure6.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/library/maven-push.gradle:45)
+	at maven_push_6x8l0wvtff4edcjdut3lv2lee$_run_closure1$_closure2$_closure6.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/library/maven-push.gradle:45)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:110)
@@ -516,7 +513,7 @@ Caused by: groovy.lang.MissingPropertyException: No such property: GROUP for cla
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:91)
 	at org.gradle.api.tasks.Upload.repositories(Upload.java:118)
-	at maven_push_8xcz0grbhoky3jmnvq3ch8c1g$_run_closure1$_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/library/maven-push.gradle:44)
+	at maven_push_6x8l0wvtff4edcjdut3lv2lee$_run_closure1$_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/library/maven-push.gradle:44)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:110)
@@ -528,21 +525,21 @@ Caused by: groovy.lang.MissingPropertyException: No such property: GROUP for cla
 	at org.gradle.api.internal.DefaultNamedDomainObjectCollection$ContainerElementsDynamicObject.invokeMethod(DefaultNamedDomainObjectCollection.java:341)
 	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:79)
-	at maven_push_8xcz0grbhoky3jmnvq3ch8c1g$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539514108684-0/src/BatteryStatsLibrary-master/library/maven-push.gradle:43)
+	at maven_push_6x8l0wvtff4edcjdut3lv2lee$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446512506-0/src/BatteryStatsLibrary-master/library/maven-push.gradle:43)
 	at org.gradle.listener.ClosureBackedMethodInvocationDispatch.dispatch(ClosureBackedMethodInvocationDispatch.java:40)
 	at org.gradle.listener.ClosureBackedMethodInvocationDispatch.dispatch(ClosureBackedMethodInvocationDispatch.java:25)
 	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 5.229 secs
+Total time: 5.403 secs
 
-2018-10-14 17:49:08,381 ERROR FullProcessService - Project build has not produced APK file
-2018-10-14 17:49:08,383 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-05 13:42:40,870 ERROR FullProcessService - Project build has not produced APK file
+2019-04-05 13:42:40,873 ERROR FullProcessService - Could not find generated or existed APK file

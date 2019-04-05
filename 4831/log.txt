@@ -1,32 +1,35 @@
-2018-10-14 20:48:59,359 INFO  DownloadService - Downloading "https://github.com/Stocard/KeepActivitiesTile/archive/master.zip", attempt 3
-2018-10-14 20:48:59,847 INFO  DownloadService - Downloaded https://github.com/Stocard/KeepActivitiesTile/archive/master.zip, attempt 3
-2018-10-14 20:48:59,848 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524939354-0/master.zip": 214 KB
-2018-10-14 20:48:59,848 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-14 20:48:59,853 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524939354-0/master.zip: true
-2018-10-14 20:48:59,853 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524939354-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524939354-0/src'.
-2018-10-14 20:48:59,864 INFO  FullProcessService - Size of directory with sources: 264 KB
-2018-10-14 20:48:59,864 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524939354-0/src]
-2018-10-14 20:48:59,881 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524939354-0/src/.git/
+2019-04-05 14:40:52,597 INFO  DownloadService - Downloading "https://github.com/Stocard/KeepActivitiesTile/archive/master.zip", attempt 3
+2019-04-05 14:41:53,203 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-05 14:41:54,585 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-05 14:41:54,585 INFO  DownloadService - Downloading "https://github.com/Stocard/KeepActivitiesTile/archive/master.zip", attempt 3
+2019-04-05 14:42:56,994 DEBUG FullProcessService - Repository https://github.com/Stocard/KeepActivitiesTile available: true
+2019-04-05 14:42:56,994 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-05 14:42:56,994 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Stocard/KeepActivitiesTile, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450052595-0/src]
+2019-04-05 14:43:01,953 INFO  SysUtils - 
+2019-04-05 14:43:01,972 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450052595-0/src/.git": true
+2019-04-05 14:43:01,973 INFO  FullProcessService - Size of directory with sources: 264 KB
+2019-04-05 14:43:01,973 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450052595-0/src]
+2019-04-05 14:43:01,991 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450052595-0/src/.git/
 
-2018-10-14 20:48:59,883 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524939354-0/src/KeepActivitiesTile-master/gradlew
-2018-10-14 20:48:59,884 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524939354-0/src/KeepActivitiesTile-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524939354-0/src/KeepActivitiesTile-master/build.gradle
-2018-10-14 20:48:59,886 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524939354-0/src/KeepActivitiesTile-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524939354-0/src/KeepActivitiesTile-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524939354-0/src/KeepActivitiesTile-master/settings.gradle
-2018-10-14 20:48:59,886 INFO  ProjectBuildService - Remote scripts: none
-2018-10-14 20:48:59,886 INFO  ProjectFixService - Fixing project...
-2018-10-14 20:48:59,890 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524939354-0/src/KeepActivitiesTile-master/app/local.properties
-2018-10-14 20:48:59,891 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524939354-0/src/KeepActivitiesTile-master/app/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=24,targetSdkVersion=25]
-2018-10-14 20:48:59,891 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524939354-0/src/KeepActivitiesTile-master/local.properties
-2018-10-14 20:48:59,892 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-14 20:48:59,892 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-14 20:48:59,893 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524939354-0/src/KeepActivitiesTile-master/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=24,targetSdkVersion=25]
-2018-10-14 20:48:59,893 INFO  ProjectFixService - Project was maybe fixed
-2018-10-14 20:48:59,893 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 20:48:59,893 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524939354-0/src/KeepActivitiesTile-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524939354-0/src/KeepActivitiesTile-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 20:49:06,228 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 20:49:06,229 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 20:49:06,229 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 20:49:06,229 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524939354-0/src/KeepActivitiesTile-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524939354-0/src/KeepActivitiesTile-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 20:49:12,639 ERROR SysUtils - Could not process external command
+2019-04-05 14:43:01,993 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450052595-0/src/gradlew
+2019-04-05 14:43:01,994 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450052595-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450052595-0/src/build.gradle
+2019-04-05 14:43:01,996 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450052595-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450052595-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450052595-0/src/settings.gradle
+2019-04-05 14:43:01,996 INFO  ProjectBuildService - Remote scripts: none
+2019-04-05 14:43:01,996 INFO  ProjectFixService - Fixing project...
+2019-04-05 14:43:02,000 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450052595-0/src/app/local.properties
+2019-04-05 14:43:02,000 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450052595-0/src/app/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=24,targetSdkVersion=25]
+2019-04-05 14:43:02,001 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450052595-0/src/local.properties
+2019-04-05 14:43:02,001 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-05 14:43:02,001 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-05 14:43:02,002 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450052595-0/src/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=24,targetSdkVersion=25]
+2019-04-05 14:43:02,002 INFO  ProjectFixService - Project was maybe fixed
+2019-04-05 14:43:02,002 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 14:43:02,002 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450052595-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450052595-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 14:43:08,811 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-05 14:43:08,811 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-05 14:43:08,811 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-05 14:43:08,811 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450052595-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450052595-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-05 14:43:14,600 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -39,7 +42,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -53,7 +56,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 20:49:12,639 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 14:43:14,600 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -157,13 +160,13 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 5.795 secs
+Total time: 5.193 secs
 
-2018-10-14 20:49:12,641 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524939354-0/src/KeepActivitiesTile-master/app/keep-activities-qs-release.apk
+2019-04-05 14:43:14,602 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450052595-0/src/app/keep-activities-qs-release.apk

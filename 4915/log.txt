@@ -1,39 +1,39 @@
-2019-01-06 20:56:46,086 INFO  DownloadService - Downloading "https://github.com/JavaEden/Android-Clog/archive/master.zip", attempt 3
-2019-01-06 20:56:46,935 INFO  DownloadService - Downloaded https://github.com/JavaEden/Android-Clog/archive/master.zip, attempt 3
-2019-01-06 20:56:46,935 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/master.zip": 123 KB
-2019-01-06 20:56:46,935 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-06 20:56:46,941 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/master.zip: true
-2019-01-06 20:56:46,942 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src'.
-2019-01-06 20:56:46,968 INFO  FullProcessService - Size of directory with sources: 296 KB
-2019-01-06 20:56:46,968 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src]
-2019-01-06 20:56:46,989 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/.git/
+2019-04-05 12:44:12,735 INFO  DownloadService - Downloading "https://github.com/JavaEden/Android-Clog/archive/master.zip", attempt 3
+2019-04-05 12:44:14,099 INFO  DownloadService - Downloaded https://github.com/JavaEden/Android-Clog/archive/master.zip, attempt 3
+2019-04-05 12:44:14,099 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/master.zip": 123 KB
+2019-04-05 12:44:14,099 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-05 12:44:14,105 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/master.zip: true
+2019-04-05 12:44:14,105 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src'.
+2019-04-05 12:44:14,130 INFO  FullProcessService - Size of directory with sources: 296 KB
+2019-04-05 12:44:14,131 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src]
+2019-04-05 12:44:14,150 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/.git/
 
-2019-01-06 20:56:46,993 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/gradlew
-2019-01-06 20:56:46,997 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/AndroidClog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/Clog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/Clog4j/build.gradle
-2019-01-06 20:56:47,001 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/Clog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/AndroidClog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/Clog4j/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/semantic-build-versioning.gradle
-2019-01-06 20:56:47,001 INFO  ProjectBuildService - Remote scripts: none
-2019-01-06 20:56:47,001 INFO  ProjectFixService - Fixing project...
-2019-01-06 20:56:47,010 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/AndroidClog/local.properties
-2019-01-06 20:56:47,014 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/AndroidClog/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=26]
-2019-01-06 20:56:47,014 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/AndroidClog/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=26]
-2019-01-06 20:56:47,016 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/local.properties
-2019-01-06 20:56:47,016 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-bin.zip
-2019-01-06 20:56:47,020 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=26]
-2019-01-06 20:56:47,020 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=26]
-2019-01-06 20:56:47,021 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/Clog/local.properties
-2019-01-06 20:56:47,024 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/Clog/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=26]
-2019-01-06 20:56:47,024 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/Clog/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=26]
-2019-01-06 20:56:47,025 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/Clog4j/local.properties
-2019-01-06 20:56:47,029 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/Clog4j/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=26]
-2019-01-06 20:56:47,029 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/Clog4j/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=26]
-2019-01-06 20:56:47,030 INFO  ProjectFixService - Project was maybe fixed
-2019-01-06 20:56:47,030 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-06 20:56:47,030 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/AndroidClog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-06 20:56:56,597 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-06 20:56:56,598 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-06 20:56:56,598 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-06 20:56:56,598 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/AndroidClog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-06 20:57:03,096 ERROR SysUtils - Could not process external command
+2019-04-05 12:44:14,153 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/gradlew
+2019-04-05 12:44:14,157 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/AndroidClog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/Clog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/Clog4j/build.gradle
+2019-04-05 12:44:14,160 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/Clog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/AndroidClog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/Clog4j/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/semantic-build-versioning.gradle
+2019-04-05 12:44:14,161 INFO  ProjectBuildService - Remote scripts: none
+2019-04-05 12:44:14,161 INFO  ProjectFixService - Fixing project...
+2019-04-05 12:44:14,171 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/AndroidClog/local.properties
+2019-04-05 12:44:14,174 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/AndroidClog/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=26]
+2019-04-05 12:44:14,175 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/AndroidClog/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=26]
+2019-04-05 12:44:14,176 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/local.properties
+2019-04-05 12:44:14,176 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-bin.zip
+2019-04-05 12:44:14,180 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=26]
+2019-04-05 12:44:14,180 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=26]
+2019-04-05 12:44:14,181 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/Clog/local.properties
+2019-04-05 12:44:14,183 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/Clog/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=26]
+2019-04-05 12:44:14,183 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/Clog/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=26]
+2019-04-05 12:44:14,184 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/Clog4j/local.properties
+2019-04-05 12:44:14,187 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/Clog4j/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=26]
+2019-04-05 12:44:14,187 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/Clog4j/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=26]
+2019-04-05 12:44:14,188 INFO  ProjectFixService - Project was maybe fixed
+2019-04-05 12:44:14,188 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 12:44:14,188 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/AndroidClog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 12:44:25,679 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-05 12:44:25,680 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-05 12:44:25,680 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-05 12:44:25,680 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/AndroidClog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-05 12:44:31,709 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -46,27 +46,26 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-06 20:57:03,096 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 12:44:31,709 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/AndroidClog/build.gradle' line: 92
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/AndroidClog/build.gradle' line: 92
 
 * What went wrong:
 A problem occurred evaluating project ':AndroidClog'.
@@ -187,7 +186,7 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:61)
 	at org.gradle.api.internal.project.DefaultProject.property(DefaultProject.java:1032)
 	at org.gradle.api.Project$property$4.call(Unknown Source)
-	at build_3sgvybgi62qdcm3by6gn2ysd$_run_closure8.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/AndroidClog/build.gradle:92)
+	at build_9o2u08qztns4l3adwipx252rm$_run_closure8.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/AndroidClog/build.gradle:92)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -202,22 +201,22 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
-	at build_3sgvybgi62qdcm3by6gn2ysd.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/AndroidClog/build.gradle:91)
+	at build_9o2u08qztns4l3adwipx252rm.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/AndroidClog/build.gradle:91)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 104 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 
-2019-01-06 20:57:03,102 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-06 20:57:03,103 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-06 20:57:09,400 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-06 20:57:09,400 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-06 20:57:09,400 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-06 20:57:09,400 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-06 20:57:16,073 ERROR SysUtils - Could not process external command
+2019-04-05 12:44:31,714 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 12:44:31,714 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 12:44:37,848 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-05 12:44:37,848 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-05 12:44:37,848 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-05 12:44:37,849 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-05 12:44:43,962 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -230,27 +229,26 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-06 20:57:16,073 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 12:44:43,963 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/AndroidClog/build.gradle' line: 92
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/AndroidClog/build.gradle' line: 92
 
 * What went wrong:
 A problem occurred evaluating project ':AndroidClog'.
@@ -371,7 +369,7 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:61)
 	at org.gradle.api.internal.project.DefaultProject.property(DefaultProject.java:1032)
 	at org.gradle.api.Project$property$4.call(Unknown Source)
-	at build_3sgvybgi62qdcm3by6gn2ysd$_run_closure8.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/AndroidClog/build.gradle:92)
+	at build_9o2u08qztns4l3adwipx252rm$_run_closure8.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/AndroidClog/build.gradle:92)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -386,22 +384,22 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
-	at build_3sgvybgi62qdcm3by6gn2ysd.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/AndroidClog/build.gradle:91)
+	at build_9o2u08qztns4l3adwipx252rm.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/AndroidClog/build.gradle:91)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 104 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 
-2019-01-06 20:57:16,079 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-06 20:57:16,079 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/Clog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-06 20:57:21,204 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-06 20:57:21,204 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-06 20:57:21,204 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-06 20:57:21,204 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/Clog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-06 20:57:26,099 ERROR SysUtils - Could not process external command
+2019-04-05 12:44:43,967 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 12:44:43,967 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/Clog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 12:44:48,485 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-05 12:44:48,485 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-05 12:44:48,485 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-05 12:44:48,485 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/Clog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-05 12:44:52,969 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -414,27 +412,26 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-06 20:57:26,099 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 12:44:52,969 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/Clog/build.gradle' line: 129
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/Clog/build.gradle' line: 129
 
 * What went wrong:
 A problem occurred configuring project ':Clog'.
@@ -547,7 +544,7 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:61)
 	at org.gradle.api.internal.project.DefaultProject.property(DefaultProject.java:1032)
 	at org.gradle.api.Project$property$4.call(Unknown Source)
-	at build_chozpuk5leva8r3sy7mndfg30$_run_closure8$_closure13.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/Clog/build.gradle:129)
+	at build_3gu7h27ypxtxjvrv42fm868df$_run_closure8$_closure13.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/Clog/build.gradle:129)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -562,7 +559,7 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
-	at build_chozpuk5leva8r3sy7mndfg30$_run_closure8.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/Clog/build.gradle:128)
+	at build_3gu7h27ypxtxjvrv42fm868df$_run_closure8.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/Clog/build.gradle:128)
 	at org.gradle.configuration.internal.DefaultListenerBuildOperationDecorator$BuildOperationEmittingClosure$1$1.run(DefaultListenerBuildOperationDecorator.java:186)
 	at org.gradle.configuration.internal.DefaultUserCodeApplicationContext.reapply(DefaultUserCodeApplicationContext.java:58)
 	at org.gradle.configuration.internal.DefaultListenerBuildOperationDecorator$BuildOperationEmittingClosure$1.run(DefaultListenerBuildOperationDecorator.java:181)
@@ -598,13 +595,13 @@ See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:com
 
 BUILD FAILED in 4s
 
-2019-01-06 20:57:26,104 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-06 20:57:26,104 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/Clog4j/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-06 20:57:31,109 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-06 20:57:31,109 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-06 20:57:31,109 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-06 20:57:31,109 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/Clog4j/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-06 20:57:35,751 ERROR SysUtils - Could not process external command
+2019-04-05 12:44:52,974 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 12:44:52,974 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/Clog4j/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 12:44:57,488 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-05 12:44:57,488 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-05 12:44:57,488 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-05 12:44:57,488 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/Clog4j/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-05 12:45:01,935 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -617,27 +614,26 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-06 20:57:35,751 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 12:45:01,935 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/Clog4j/build.gradle' line: 100
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/Clog4j/build.gradle' line: 100
 
 * What went wrong:
 A problem occurred configuring project ':Clog4j'.
@@ -749,8 +745,8 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getMissingProperty(AbstractDynamicObject.java:83)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:61)
 	at org.gradle.api.internal.project.DefaultProject.property(DefaultProject.java:1032)
-	at org.gradle.api.Project$property$5.call(Unknown Source)
-	at build_44p4h4z8ubzhtfgj5j9u8jtq8$_run_closure6$_closure11.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/Clog4j/build.gradle:100)
+	at org.gradle.api.Project$property$4.call(Unknown Source)
+	at build_36lj4raosmuzy08ttlpil5d5c$_run_closure6$_closure11.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/Clog4j/build.gradle:100)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -765,7 +761,7 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
-	at build_44p4h4z8ubzhtfgj5j9u8jtq8$_run_closure6.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783006083-0/src/clog-master/Clog4j/build.gradle:99)
+	at build_36lj4raosmuzy08ttlpil5d5c$_run_closure6.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443052733-0/src/clog-master/Clog4j/build.gradle:99)
 	at org.gradle.configuration.internal.DefaultListenerBuildOperationDecorator$BuildOperationEmittingClosure$1$1.run(DefaultListenerBuildOperationDecorator.java:186)
 	at org.gradle.configuration.internal.DefaultUserCodeApplicationContext.reapply(DefaultUserCodeApplicationContext.java:58)
 	at org.gradle.configuration.internal.DefaultListenerBuildOperationDecorator$BuildOperationEmittingClosure$1.run(DefaultListenerBuildOperationDecorator.java:181)
@@ -801,5 +797,5 @@ See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:com
 
 BUILD FAILED in 4s
 
-2019-01-06 20:57:35,756 ERROR FullProcessService - Project build has not produced APK file
-2019-01-06 20:57:35,760 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-05 12:45:01,940 ERROR FullProcessService - Project build has not produced APK file
+2019-04-05 12:45:01,944 ERROR FullProcessService - Could not find generated or existed APK file

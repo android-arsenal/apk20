@@ -1,35 +1,35 @@
-2018-10-14 04:24:10,891 INFO  DownloadService - Downloading "https://github.com/Pulimet/GpsDetector-Library/archive/master.zip", attempt 3
-2018-10-14 04:24:11,365 INFO  DownloadService - Downloaded https://github.com/Pulimet/GpsDetector-Library/archive/master.zip, attempt 3
-2018-10-14 04:24:11,366 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/master.zip": 58 KB
-2018-10-14 04:24:11,366 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-14 04:24:11,371 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/master.zip: true
-2018-10-14 04:24:11,372 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/src'.
-2018-10-14 04:24:11,396 INFO  FullProcessService - Size of directory with sources: 58 KB
-2018-10-14 04:24:11,397 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/src]
-2018-10-14 04:24:11,413 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/src/.git/
+2019-04-05 12:44:11,787 INFO  DownloadService - Downloading "https://github.com/Pulimet/GpsDetector-Library/archive/master.zip", attempt 3
+2019-04-05 12:44:12,606 INFO  DownloadService - Downloaded https://github.com/Pulimet/GpsDetector-Library/archive/master.zip, attempt 3
+2019-04-05 12:44:12,606 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/master.zip": 58 KB
+2019-04-05 12:44:12,606 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-05 12:44:12,612 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/master.zip: true
+2019-04-05 12:44:12,612 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/src'.
+2019-04-05 12:44:12,632 INFO  FullProcessService - Size of directory with sources: 58 KB
+2019-04-05 12:44:12,632 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/src]
+2019-04-05 12:44:12,652 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/src/.git/
 
-2018-10-14 04:24:11,416 INFO  ProjectBuildService - Gradle wrapper(s): none
-2018-10-14 04:24:11,416 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2018-10-14 04:24:11,419 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/src/GpsDetector-Library-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/src/GpsDetector-Library-master/gps/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/src/GpsDetector-Library-master/build.gradle
-2018-10-14 04:24:11,422 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/src/GpsDetector-Library-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/src/GpsDetector-Library-master/gps/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/src/GpsDetector-Library-master/gps/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/src/GpsDetector-Library-master/gps/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/src/GpsDetector-Library-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/src/GpsDetector-Library-master/settings.gradle
-2018-10-14 04:24:11,425 INFO  ProjectBuildService - Remote scripts: none
-2018-10-14 04:24:11,425 INFO  ProjectFixService - Fixing project...
-2018-10-14 04:24:11,433 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/src/GpsDetector-Library-master/app/local.properties
-2018-10-14 04:24:11,433 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/src/GpsDetector-Library-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-10-14 04:24:11,434 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/src/GpsDetector-Library-master/gps/local.properties
-2018-10-14 04:24:11,434 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/src/GpsDetector-Library-master/gps/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-10-14 04:24:11,435 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/src/GpsDetector-Library-master/local.properties
-2018-10-14 04:24:11,436 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-10-14 04:24:11,436 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-10-14 04:24:11,437 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/src/GpsDetector-Library-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-10-14 04:24:11,437 INFO  ProjectFixService - Project was maybe fixed
-2018-10-14 04:24:11,437 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 04:24:11,438 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/src/GpsDetector-Library-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 04:24:11,442 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-10-14 04:24:11,442 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 04:24:11,442 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 04:24:11,442 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/src/GpsDetector-Library-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 04:24:11,447 ERROR SysUtils - Could not process external command
+2019-04-05 12:44:12,656 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-04-05 12:44:12,656 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-04-05 12:44:12,660 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/src/GpsDetector-Library-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/src/GpsDetector-Library-master/gps/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/src/GpsDetector-Library-master/build.gradle
+2019-04-05 12:44:12,664 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/src/GpsDetector-Library-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/src/GpsDetector-Library-master/gps/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/src/GpsDetector-Library-master/gps/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/src/GpsDetector-Library-master/gps/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/src/GpsDetector-Library-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/src/GpsDetector-Library-master/settings.gradle
+2019-04-05 12:44:12,664 INFO  ProjectBuildService - Remote scripts: none
+2019-04-05 12:44:12,664 INFO  ProjectFixService - Fixing project...
+2019-04-05 12:44:12,672 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/src/GpsDetector-Library-master/app/local.properties
+2019-04-05 12:44:12,672 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/src/GpsDetector-Library-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-04-05 12:44:12,673 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/src/GpsDetector-Library-master/gps/local.properties
+2019-04-05 12:44:12,673 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/src/GpsDetector-Library-master/gps/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-04-05 12:44:12,673 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/src/GpsDetector-Library-master/local.properties
+2019-04-05 12:44:12,674 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-04-05 12:44:12,674 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-04-05 12:44:12,674 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/src/GpsDetector-Library-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-04-05 12:44:12,674 INFO  ProjectFixService - Project was maybe fixed
+2019-04-05 12:44:12,675 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 12:44:12,675 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/src/GpsDetector-Library-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 12:44:12,679 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-04-05 12:44:12,679 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-05 12:44:12,679 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-05 12:44:12,679 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/src/GpsDetector-Library-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-05 12:44:12,684 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -46,8 +46,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -66,15 +65,15 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
-	... 29 common frames omitted
-2018-10-14 04:24:11,447 INFO  SysUtils - 
-2018-10-14 04:24:11,450 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 04:24:11,450 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/src/GpsDetector-Library-master/gps/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 04:24:11,454 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-10-14 04:24:11,454 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 04:24:11,454 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 04:24:11,454 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/src/GpsDetector-Library-master/gps/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 04:24:11,458 ERROR SysUtils - Could not process external command
+	... 28 common frames omitted
+2019-04-05 12:44:12,684 INFO  SysUtils - 
+2019-04-05 12:44:12,687 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 12:44:12,687 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/src/GpsDetector-Library-master/gps/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 12:44:12,692 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-04-05 12:44:12,692 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-05 12:44:12,692 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-05 12:44:12,692 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/src/GpsDetector-Library-master/gps/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-05 12:44:12,696 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -91,8 +90,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -111,15 +109,15 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
-	... 29 common frames omitted
-2018-10-14 04:24:11,459 INFO  SysUtils - 
-2018-10-14 04:24:11,462 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 04:24:11,462 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/src/GpsDetector-Library-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 04:24:11,466 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-10-14 04:24:11,466 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 04:24:11,466 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 04:24:11,466 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539465850888-0/src/GpsDetector-Library-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 04:24:11,471 ERROR SysUtils - Could not process external command
+	... 28 common frames omitted
+2019-04-05 12:44:12,696 INFO  SysUtils - 
+2019-04-05 12:44:12,700 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 12:44:12,700 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/src/GpsDetector-Library-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 12:44:12,704 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-04-05 12:44:12,704 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-05 12:44:12,704 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-05 12:44:12,704 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443051785-0/src/GpsDetector-Library-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-05 12:44:12,709 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -136,8 +134,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -156,7 +153,7 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
-	... 29 common frames omitted
-2018-10-14 04:24:11,471 INFO  SysUtils - 
-2018-10-14 04:24:11,474 ERROR FullProcessService - Project build has not produced APK file
-2018-10-14 04:24:11,477 ERROR FullProcessService - Could not find generated or existed APK file
+	... 28 common frames omitted
+2019-04-05 12:44:12,709 INFO  SysUtils - 
+2019-04-05 12:44:12,712 ERROR FullProcessService - Project build has not produced APK file
+2019-04-05 12:44:12,715 ERROR FullProcessService - Could not find generated or existed APK file

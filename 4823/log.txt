@@ -1,37 +1,40 @@
-2018-10-14 20:52:56,422 INFO  DownloadService - Downloading "https://github.com/sahildave/ArcLayout/archive/master.zip", attempt 3
-2018-10-14 20:52:56,883 INFO  DownloadService - Downloaded https://github.com/sahildave/ArcLayout/archive/master.zip, attempt 3
-2018-10-14 20:52:56,883 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/master.zip": 118 KB
-2018-10-14 20:52:56,883 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-14 20:52:56,889 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/master.zip: true
-2018-10-14 20:52:56,889 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src'.
-2018-10-14 20:52:56,905 INFO  FullProcessService - Size of directory with sources: 141 KB
-2018-10-14 20:52:56,905 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src]
-2018-10-14 20:52:56,923 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/.git/
+2019-04-05 14:57:04,275 INFO  DownloadService - Downloading "https://github.com/sahildave/ArcLayout/archive/master.zip", attempt 3
+2019-04-05 14:58:04,809 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-05 14:58:06,107 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-05 14:58:06,108 INFO  DownloadService - Downloading "https://github.com/sahildave/ArcLayout/archive/master.zip", attempt 3
+2019-04-05 14:59:07,597 DEBUG FullProcessService - Repository https://github.com/sahildave/ArcLayout available: true
+2019-04-05 14:59:07,597 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-05 14:59:07,597 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/sahildave/ArcLayout, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src]
+2019-04-05 14:59:09,553 INFO  SysUtils - 
+2019-04-05 14:59:09,580 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/.git": true
+2019-04-05 14:59:09,582 INFO  FullProcessService - Size of directory with sources: 141 KB
+2019-04-05 14:59:09,582 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src]
+2019-04-05 14:59:09,599 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/.git/
 
-2018-10-14 20:52:56,925 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/gradlew
-2018-10-14 20:52:56,927 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/arclayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/build.gradle
-2018-10-14 20:52:56,930 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/arclayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/gradle/install-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/gradle/bintray-java-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/gradle/bintray-android-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/settings.gradle
-2018-10-14 20:52:56,930 INFO  ProjectBuildService - Remote scripts: none
-2018-10-14 20:52:56,930 INFO  ProjectFixService - Fixing project...
-2018-10-14 20:52:56,937 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/app/local.properties
-2018-10-14 20:52:56,940 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/app/build.gradle": [buildToolsVersion=25,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
-2018-10-14 20:52:56,940 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/app/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-14 20:52:56,941 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/arclayout/local.properties
-2018-10-14 20:52:56,943 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/arclayout/build.gradle": [buildToolsVersion=25,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
-2018-10-14 20:52:56,944 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/arclayout/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-14 20:52:56,945 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/local.properties
-2018-10-14 20:52:56,945 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-14 20:52:56,945 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-14 20:52:56,947 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/build.gradle": [buildToolsVersion=25,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
-2018-10-14 20:52:56,947 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-14 20:52:56,948 INFO  ProjectFixService - Project was maybe fixed
-2018-10-14 20:52:56,948 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 20:52:56,948 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 20:53:01,175 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 20:53:01,175 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 20:53:01,175 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 20:53:01,175 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 20:53:05,312 ERROR SysUtils - Could not process external command
+2019-04-05 14:59:09,601 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/gradlew
+2019-04-05 14:59:09,604 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/arclayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/build.gradle
+2019-04-05 14:59:09,606 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/arclayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/gradle/install-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/gradle/bintray-java-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/gradle/bintray-android-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/settings.gradle
+2019-04-05 14:59:09,607 INFO  ProjectBuildService - Remote scripts: none
+2019-04-05 14:59:09,607 INFO  ProjectFixService - Fixing project...
+2019-04-05 14:59:09,613 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/app/local.properties
+2019-04-05 14:59:09,615 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/app/build.gradle": [buildToolsVersion=25,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-04-05 14:59:09,615 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/app/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-05 14:59:09,616 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/arclayout/local.properties
+2019-04-05 14:59:09,619 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/arclayout/build.gradle": [buildToolsVersion=25,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-04-05 14:59:09,619 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/arclayout/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-05 14:59:09,620 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/local.properties
+2019-04-05 14:59:09,620 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-05 14:59:09,620 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-05 14:59:09,622 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/build.gradle": [buildToolsVersion=25,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-04-05 14:59:09,622 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-05 14:59:09,622 INFO  ProjectFixService - Project was maybe fixed
+2019-04-05 14:59:09,622 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 14:59:09,622 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 14:59:13,655 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-05 14:59:13,655 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-05 14:59:13,655 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-05 14:59:13,655 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-05 14:59:18,299 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,7 +47,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -58,7 +61,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 20:53:05,313 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 14:59:18,299 INFO  SysUtils - Configuration on demand is an incubating feature.
 Failed to notify ProjectEvaluationListener.afterEvaluate(), but primary configuration failure takes precedence.
 java.lang.IllegalStateException: buildToolsVersion is not specified.
 	at com.google.common.base.Preconditions.checkState(Preconditions.java:173)
@@ -145,7 +148,7 @@ java.lang.IllegalStateException: buildToolsVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/app/build.gradle' line: 5
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/app/build.gradle' line: 5
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
@@ -224,7 +227,7 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getMissingProperty(AbstractDynamicObject.java:85)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:62)
 	at org.gradle.api.internal.project.DefaultProject_Decorated.getProperty(Unknown Source)
-	at build_efccuu5isit61sae087dp340i$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/app/build.gradle:5)
+	at build_cwo41ozo1l8h8tbhpced2x74y$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/app/build.gradle:5)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.plugins.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:145)
 	at org.gradle.api.internal.plugins.ExtensionsStorage.configureExtension(ExtensionsStorage.java:69)
@@ -233,22 +236,22 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:79)
-	at build_efccuu5isit61sae087dp340i.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/app/build.gradle:3)
+	at build_cwo41ozo1l8h8tbhpced2x74y.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/app/build.gradle:3)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 63 more
 
 
 BUILD FAILED
 
-Total time: 3.52 secs
+Total time: 3.957 secs
 
-2018-10-14 20:53:05,316 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 20:53:05,316 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/arclayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 20:53:09,365 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 20:53:09,365 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 20:53:09,365 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 20:53:09,365 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/arclayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 20:53:13,285 ERROR SysUtils - Could not process external command
+2019-04-05 14:59:18,302 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 14:59:18,302 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/arclayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 14:59:22,565 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-05 14:59:22,565 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-05 14:59:22,565 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-05 14:59:22,565 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/arclayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-05 14:59:26,684 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -261,7 +264,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -275,7 +278,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 20:53:13,286 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 14:59:26,684 INFO  SysUtils - Configuration on demand is an incubating feature.
 Failed to notify ProjectEvaluationListener.afterEvaluate(), but primary configuration failure takes precedence.
 java.lang.IllegalStateException: buildToolsVersion is not specified.
 	at com.google.common.base.Preconditions.checkState(Preconditions.java:173)
@@ -291,7 +294,7 @@ java.lang.IllegalStateException: buildToolsVersion is not specified.
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:540)
@@ -362,7 +365,7 @@ java.lang.IllegalStateException: buildToolsVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/arclayout/build.gradle' line: 5
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/arclayout/build.gradle' line: 5
 
 * What went wrong:
 A problem occurred evaluating project ':arclayout'.
@@ -441,7 +444,7 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getMissingProperty(AbstractDynamicObject.java:85)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:62)
 	at org.gradle.api.internal.project.DefaultProject_Decorated.getProperty(Unknown Source)
-	at build_ebsh34occug6ih1c5tm75rog5$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/arclayout/build.gradle:5)
+	at build_9z36lizlt87xs2qogq20gwe7h$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/arclayout/build.gradle:5)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.plugins.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:145)
 	at org.gradle.api.internal.plugins.ExtensionsStorage.configureExtension(ExtensionsStorage.java:69)
@@ -450,22 +453,22 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:79)
-	at build_ebsh34occug6ih1c5tm75rog5.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/arclayout/build.gradle:3)
+	at build_9z36lizlt87xs2qogq20gwe7h.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/arclayout/build.gradle:3)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 63 more
 
 
 BUILD FAILED
 
-Total time: 3.293 secs
+Total time: 3.51 secs
 
-2018-10-14 20:53:13,289 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 20:53:13,289 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 20:53:17,427 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 20:53:17,427 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 20:53:17,427 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 20:53:17,427 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 20:53:21,477 ERROR SysUtils - Could not process external command
+2019-04-05 14:59:26,688 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 14:59:26,688 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 14:59:30,719 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-05 14:59:30,720 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-05 14:59:30,720 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-05 14:59:30,720 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-05 14:59:34,728 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -478,7 +481,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -492,7 +495,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 20:53:21,477 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 14:59:34,728 INFO  SysUtils - Configuration on demand is an incubating feature.
 Failed to notify ProjectEvaluationListener.afterEvaluate(), but primary configuration failure takes precedence.
 java.lang.IllegalStateException: buildToolsVersion is not specified.
 	at com.google.common.base.Preconditions.checkState(Preconditions.java:173)
@@ -579,7 +582,7 @@ java.lang.IllegalStateException: buildToolsVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/app/build.gradle' line: 5
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/app/build.gradle' line: 5
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
@@ -658,7 +661,7 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getMissingProperty(AbstractDynamicObject.java:85)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:62)
 	at org.gradle.api.internal.project.DefaultProject_Decorated.getProperty(Unknown Source)
-	at build_efccuu5isit61sae087dp340i$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/app/build.gradle:5)
+	at build_cwo41ozo1l8h8tbhpced2x74y$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/app/build.gradle:5)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.plugins.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:145)
 	at org.gradle.api.internal.plugins.ExtensionsStorage.configureExtension(ExtensionsStorage.java:69)
@@ -667,14 +670,14 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:79)
-	at build_efccuu5isit61sae087dp340i.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539525176420-0/src/ArcLayout-master/app/build.gradle:3)
+	at build_cwo41ozo1l8h8tbhpced2x74y.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451024273-0/src/app/build.gradle:3)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 63 more
 
 
 BUILD FAILED
 
-Total time: 3.417 secs
+Total time: 3.396 secs
 
-2018-10-14 20:53:21,481 ERROR FullProcessService - Project build has not produced APK file
-2018-10-14 20:53:21,484 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-05 14:59:34,731 ERROR FullProcessService - Project build has not produced APK file
+2019-04-05 14:59:34,734 ERROR FullProcessService - Could not find generated or existed APK file

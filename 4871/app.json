@@ -7,8 +7,12 @@
     "versionCode" : 1,
     "installLocation" : null,
     "minSdkVersion" : "14",
-    "targetSdkVersion" : "26",
+    "targetSdkVersion" : "28",
     "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "1",
+    "platformBuildVersionName" : "{4:1065353216}",
     "glEsVersion" : null,
     "anyDensity" : false,
     "smallScreens" : false,
@@ -21,13 +25,14 @@
   "icon" : {
     "path" : "res/drawable/ic_launcher.png",
     "density" : 0,
-    "data" : "iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAyVBMVEVrU7RqUrNrUrVqUbN0UblqUrNqUrNrU7JtUrRrU7NyWLlsUbJrUrVqUrRtUraAgP9qUbNtVLRqUrNsU7VwWLdrUbNrUrNrUrNtVbZqUbNrUrNrU7VrUbJtUrZrUbNrUrNrUrJqUbNqUbRqUrOAgL9sUbZrUbOAVdVtUbNrUrJqVb9rUrJrUrNsVLJqUrNqUbJ2YsRrVLNrUbJrUbNrUrNqUrJrUrJqU7RwYL9rUrIAAADx7/i6rtvw7fe5rdttVbP///+6r9tqUbIvGUw6AAAAO3RSTlNf2h/MFruoiEt1HXQ+lRwCuT2vNCDZq3wV/u03qTjGhsTChIkEQvsGXvMM+bhJxd8NQ+zSrOmFixDUAIOJY7UAAAOiSURBVHja1dtnY6JAEAbgNfaO/bCgKIq9YIzlTmPm//+oM6aZSNllWYa8nzF5EhCG3RlycJNdY/jUnM7XC2MyMRbr+bT5NGzsXP0owvqB8WyrbsA0G3U7GwsF6P2uMgDbDJRuXxcEaGXrQJV6tuU9oFyrAEMqtbKngFJRBsbIxZJngIIEriIVPAGsVHAddcUNyFWBK9UcF0BLj4Azo7TmHpDZgwfZZ1wCtLgMnkSOa24AqQ54lk6OHZAwwMMYCUZAvieDp5F7eRaAHgPPE9PpAcsoCEh0SQuIhEFIwn/oAA8hEJTQAw0gIuz3XwQRZ8AyDAITXjoB9CgITVS3B+RjIDixvC2gB8LTswMkZPEAOWENSBngQ4yUFUDrgC/paBaAOPiUuDkgI/sFkDNmAG0PvmWvmQCS4GOS94DcyE/AKHcHeARf8/gTsLI89Pl0PN/leHrmFKx+AKzfv05n05w4Aep3QMH6yKM54Mh7EgrfADbvv2dBAOkWUAJmwIn7OizdAIqsAP6LEKD4BSjLjgARN+TyJ6AGGACofQJCOIDKB6AFOABovQOyWIDsG0CvYwHq+hXQBywA9K+ALh6gewUoeADlFTAe4AEG4wtgBqwA0wrhfPzn4u48uwC2zACLCuH8wg7YXgAqM8CiQjj/dVOWkMMGE7A5kB1gngLYkYbTIce7+sfDixAahDgdcrKpf/i/okPSdjrk8vda1j/8gDZp8nycH9AkEi5AIgouQCFrXMCaLHABC2LgAgwywQVM8AHopwD9IkT/Gs5xAXMyFQWwe4h9ZSruYXSiWsZoOj+O3QKOVAs5T2QoCkB3fQydSzKxgIZzUSoWsHMuy4UCNhQvJkIBKsWrGVvJzgjYUrycCi3ZZxSv5yJL9uvr+YGrLOV7Tig0SzQiAV2aRSqRgD7NMp1AwPsyncNCpUBAlmqpViDgY6n2UMEBVOiW66nvCKarJnafqdFtWDDcE9kANxsWtls2DE8FNkCRctOKC2BXkpUot+24ToFNUSrRblxyXIS2ZXmBdutWUFTqzWtB+bl5faj6+/urwWtgOKT9BKSD2MSC3saD38iE38qF3syG386H39CI39KJ3tSK39aL39iM39otsLk98lva+/EHHPBHPPCHXLwe80n9xkEn/FGv139Ckn/YLckx7PZarXO2+z7yjfsFYOAxACOfARh6fRv7ZXpGhjwe+w3A4HMQRr8DMPx+M/5P2k1J+Rj/V6Rmm7gc//8P+F3O8fA4HBQAAAAASUVORK5CYII="
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAyVBMVEVrU7RqUrNrUrVqUbN0UblqUrNqUrNrU7JtUrRrU7NyWLlsUbJrUrVqUrRtUraAgP9qUbNtVLRqUrNsU7VwWLdrUbNrUrNrUrNtVbZqUbNrUrNrU7VrUbJtUrZrUbNrUrNrUrJqUbNqUbRqUrOAgL9sUbZrUbOAVdVtUbNrUrJqVb9rUrJrUrNsVLJqUrNqUbJ2YsRrVLNrUbJrUbNrUrNqUrJrUrJqU7RwYL9rUrIAAADx7/i6rtvw7fe5rdttVbP///+6r9tqUbIvGUw6AAAAO3RSTlNf2h/MFruoiEt1HXQ+lRwCuT2vNCDZq3wV/u03qTjGhsTChIkEQvsGXvMM+bhJxd8NQ+zSrOmFixDUAIOJY7UAAAOiSURBVHja1dtnY6JAEAbgNfaO/bCgKIq9YIzlTmPm//+oM6aZSNllWYa8nzF5EhCG3RlycJNdY/jUnM7XC2MyMRbr+bT5NGzsXP0owvqB8WyrbsA0G3U7GwsF6P2uMgDbDJRuXxcEaGXrQJV6tuU9oFyrAEMqtbKngFJRBsbIxZJngIIEriIVPAGsVHAddcUNyFWBK9UcF0BLj4Azo7TmHpDZgwfZZ1wCtLgMnkSOa24AqQ54lk6OHZAwwMMYCUZAvieDp5F7eRaAHgPPE9PpAcsoCEh0SQuIhEFIwn/oAA8hEJTQAw0gIuz3XwQRZ8AyDAITXjoB9CgITVS3B+RjIDixvC2gB8LTswMkZPEAOWENSBngQ4yUFUDrgC/paBaAOPiUuDkgI/sFkDNmAG0PvmWvmQCS4GOS94DcyE/AKHcHeARf8/gTsLI89Pl0PN/leHrmFKx+AKzfv05n05w4Aep3QMH6yKM54Mh7EgrfADbvv2dBAOkWUAJmwIn7OizdAIqsAP6LEKD4BSjLjgARN+TyJ6AGGACofQJCOIDKB6AFOABovQOyWIDsG0CvYwHq+hXQBywA9K+ALh6gewUoeADlFTAe4AEG4wtgBqwA0wrhfPzn4u48uwC2zACLCuH8wg7YXgAqM8CiQjj/dVOWkMMGE7A5kB1gngLYkYbTIce7+sfDixAahDgdcrKpf/i/okPSdjrk8vda1j/8gDZp8nycH9AkEi5AIgouQCFrXMCaLHABC2LgAgwywQVM8AHopwD9IkT/Gs5xAXMyFQWwe4h9ZSruYXSiWsZoOj+O3QKOVAs5T2QoCkB3fQydSzKxgIZzUSoWsHMuy4UCNhQvJkIBKsWrGVvJzgjYUrycCi3ZZxSv5yJL9uvr+YGrLOV7Tig0SzQiAV2aRSqRgD7NMp1AwPsyncNCpUBAlmqpViDgY6n2UMEBVOiW66nvCKarJnafqdFtWDDcE9kANxsWtls2DE8FNkCRctOKC2BXkpUot+24ToFNUSrRblxyXIS2ZXmBdutWUFTqzWtB+bl5faj6+/urwWtgOKT9BKSD2MSC3saD38iE38qF3syG386H39CI39KJ3tSK39aL39iM39otsLk98lva+/EHHPBHPPCHXLwe80n9xkEn/FGv139Ckn/YLckx7PZarXO2+z7yjfsFYOAxACOfARh6fRv7ZXpGhjwe+w3A4HMQRr8DMPx+M/5P2k1J+Rj/V6Rmm7gc//8P+F3O8fA4HBQAAAAASUVORK5CYII=",
+    "file" : true
   },
-  "dexClasses" : 1896,
-  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
-  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.facebook.fbui.textlayoutbuilder.sample\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"26\" />\n\t<application android:theme=\"resourceId:0x7f0b0005\" android:label=\"TextLayoutBuilder Sample\" android:icon=\"res/drawable/ic_launcher.png\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.facebook.fbui.textlayoutbuilder.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
-  "fileSize" : 1607469,
-  "crc32" : 2617086355,
-  "sha256" : "3aafeba15cea1abd5fa721a6900d2bf18d2f3815da0c932cc76fb4a0720fc5e6",
-  "buildTime" : 1526028943000
+  "dexClasses" : 2162,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.facebook.fbui.textlayoutbuilder.sample\" platformBuildVersionCode=\"1\" platformBuildVersionName=\"{4:1065353216}\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0b0005\" android:label=\"TextLayoutBuilder Sample\" android:icon=\"res/drawable/ic_launcher.png\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.facebook.fbui.textlayoutbuilder.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1783974,
+  "crc32" : 707687744,
+  "sha256" : "dee3fbb9a2448492a81d9768852362a431d4d2829313d655537e3b18f80f5664",
+  "buildTime" : 1554446470000
 }
