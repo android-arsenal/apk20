@@ -1,28 +1,28 @@
-2019-04-05 12:58:50,167 INFO  DownloadService - Downloading "https://github.com/skedgo/DateTimeRangePicker/archive/master.zip", attempt 3
-2019-04-05 12:58:50,860 INFO  DownloadService - Downloaded https://github.com/skedgo/DateTimeRangePicker/archive/master.zip, attempt 3
-2019-04-05 12:58:50,860 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443930160-0/master.zip": 267 KB
-2019-04-05 12:58:50,860 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-05 12:58:50,865 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443930160-0/master.zip: true
-2019-04-05 12:58:50,866 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443930160-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443930160-0/src'.
-2019-04-05 12:58:50,882 INFO  FullProcessService - Size of directory with sources: 294 KB
-2019-04-05 12:58:50,882 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443930160-0/src]
-2019-04-05 12:58:50,901 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443930160-0/src/.git/
+2019-04-06 15:02:51,637 INFO  DownloadService - Downloading "https://github.com/skedgo/DateTimeRangePicker/archive/master.zip", attempt 3
+2019-04-06 15:02:52,477 INFO  DownloadService - Downloaded https://github.com/skedgo/DateTimeRangePicker/archive/master.zip, attempt 3
+2019-04-06 15:02:52,477 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537771634-0/master.zip": 267 KB
+2019-04-06 15:02:52,477 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-06 15:02:52,479 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537771634-0/master.zip: true
+2019-04-06 15:02:52,479 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537771634-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537771634-0/src'.
+2019-04-06 15:02:52,495 INFO  FullProcessService - Size of directory with sources: 294 KB
+2019-04-06 15:02:52,496 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537771634-0/src]
+2019-04-06 15:02:52,518 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537771634-0/src/.git/
 
-2019-04-05 12:58:50,903 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443930160-0/src/DateTimeRangePicker-master/gradlew
-2019-04-05 12:58:50,906 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443930160-0/src/DateTimeRangePicker-master/build.gradle
-2019-04-05 12:58:50,908 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443930160-0/src/DateTimeRangePicker-master/build.gradle
-2019-04-05 12:58:50,908 INFO  ProjectBuildService - Remote scripts: none
-2019-04-05 12:58:50,908 INFO  ProjectFixService - Fixing project...
-2019-04-05 12:58:50,912 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443930160-0/src/DateTimeRangePicker-master/local.properties
-2019-04-05 12:58:50,912 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.2.1-bin.zip
-2019-04-05 12:58:50,913 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443930160-0/src/DateTimeRangePicker-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2019-04-05 12:58:50,913 INFO  ProjectFixService - Project was maybe fixed
-2019-04-05 12:58:50,913 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 12:58:50,913 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443930160-0/src/DateTimeRangePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443930160-0/src/DateTimeRangePicker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 12:59:30,070 INFO  ProjectTaskService - Detected possible tasks: 80
-2019-04-05 12:59:30,070 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-04-05 12:59:30,071 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443930160-0/src/DateTimeRangePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443930160-0/src/DateTimeRangePicker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-04-05 12:59:56,927 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 15:02:52,520 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537771634-0/src/DateTimeRangePicker-master/gradlew
+2019-04-06 15:02:52,523 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537771634-0/src/DateTimeRangePicker-master/build.gradle
+2019-04-06 15:02:52,525 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537771634-0/src/DateTimeRangePicker-master/build.gradle
+2019-04-06 15:02:52,525 INFO  ProjectBuildService - Remote scripts: none
+2019-04-06 15:02:52,525 INFO  ProjectFixService - Fixing project...
+2019-04-06 15:02:52,529 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537771634-0/src/DateTimeRangePicker-master/local.properties
+2019-04-06 15:02:52,530 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.2.1-bin.zip
+2019-04-06 15:02:52,530 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537771634-0/src/DateTimeRangePicker-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-04-06 15:02:52,530 INFO  ProjectFixService - Project was maybe fixed
+2019-04-06 15:02:52,530 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 15:02:52,530 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537771634-0/src/DateTimeRangePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537771634-0/src/DateTimeRangePicker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 15:02:59,505 INFO  ProjectTaskService - Detected possible tasks: 79
+2019-04-06 15:02:59,508 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-04-06 15:02:59,508 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537771634-0/src/DateTimeRangePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537771634-0/src/DateTimeRangePicker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-04-06 15:03:26,968 INFO  SysUtils - Configuration on demand is an incubating feature.
 The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
 	at org.gradle.api.internal.tasks.DefaultTaskInputs.source(DefaultTaskInputs.java:144)
 	at com.android.build.gradle.tasks.factory.AndroidUnitTest$ConfigAction.configureSources(AndroidUnitTest.java:191)
@@ -152,7 +152,7 @@ The TaskInputs.source(Object) method has been deprecated and is scheduled to be 
 :incrementalDebugJavaCompilationSafeguard
 :compileDebugKotlin
 :compileDebugJavaWithJavac
-Destination for generated sources was modified by kapt. Previous value = /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443930160-0/src/DateTimeRangePicker-master/build/generated/source/apt/debug
+Destination for generated sources was modified by kapt. Previous value = /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537771634-0/src/DateTimeRangePicker-master/build/generated/source/apt/debug
 :compileDebugKotlinAfterJava
 :copyDebugKotlinClasses
 :extractDebugAnnotations
@@ -190,7 +190,7 @@ Destination for generated sources was modified by kapt. Previous value = /privat
 :incrementalReleaseJavaCompilationSafeguard
 :compileReleaseKotlin
 :compileReleaseJavaWithJavac
-Destination for generated sources was modified by kapt. Previous value = /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554443930160-0/src/DateTimeRangePicker-master/build/generated/source/apt/release
+Destination for generated sources was modified by kapt. Previous value = /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537771634-0/src/DateTimeRangePicker-master/build/generated/source/apt/release
 :compileReleaseKotlinAfterJava
 :copyReleaseKotlinClasses
 :extractReleaseAnnotations
@@ -215,7 +215,7 @@ Destination for generated sources was modified by kapt. Previous value = /privat
 
 BUILD SUCCESSFUL
 
-Total time: 26.195 secs
+Total time: 26.729 secs
 
-2019-04-05 12:59:57,139 ERROR FullProcessService - Project build has not produced APK file
-2019-04-05 12:59:57,305 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-06 15:03:27,142 ERROR FullProcessService - Project build has not produced APK file
+2019-04-06 15:03:27,289 ERROR FullProcessService - Could not find generated or existed APK file
