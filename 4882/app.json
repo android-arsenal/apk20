@@ -31,8 +31,8 @@
   "dexClasses" : 2513,
   "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.freegeek.android.materialbanner.demo\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0e0007\" android:label=\"MaterialBanner\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.freegeek.android.materialbanner.demo.MainActivity\" />\n\t\t<activity android:name=\"com.freegeek.android.materialbanner.demo.SimpleActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"TestActivity\" android:name=\"com.freegeek.android.materialbanner.demo.TestActivity\" />\n\t\t<provider android:name=\"com.squareup.picasso.PicassoProvider\" android:exported=\"false\" android:authorities=\"com.freegeek.android.materialbanner.demo.com.squareup.picasso\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 3597318,
-  "crc32" : 2000737487,
-  "sha256" : "1f086549f140c6dd47b3179a72b221812cb825d16190a71c01dd9284a48c18a7",
-  "buildTime" : 1554445716000
+  "fileSize" : 3597209,
+  "crc32" : 3879222485,
+  "sha256" : "45ca71db31ec1dacec65863806f954b5ee9e97a11f4ae2b61f1077b42afbd57d",
+  "buildTime" : 1554550189000
 }

@@ -1,36 +1,36 @@
-2019-04-05 13:26:01,005 INFO  DownloadService - Downloading "https://github.com/nex3z/ToggleButtonGroup/archive/master.zip", attempt 3
-2019-04-05 13:26:03,899 INFO  DownloadService - Downloaded https://github.com/nex3z/ToggleButtonGroup/archive/master.zip, attempt 3
-2019-04-05 13:26:03,899 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/master.zip": 3 MB
-2019-04-05 13:26:03,899 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-05 13:26:03,905 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/master.zip: true
-2019-04-05 13:26:03,906 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/src'.
-2019-04-05 13:26:03,959 INFO  FullProcessService - Size of directory with sources: 3 MB
-2019-04-05 13:26:03,959 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/src]
-2019-04-05 13:26:03,977 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/src/.git/
+2019-04-06 18:26:59,967 INFO  DownloadService - Downloading "https://github.com/nex3z/ToggleButtonGroup/archive/master.zip", attempt 3
+2019-04-06 18:27:03,089 INFO  DownloadService - Downloaded https://github.com/nex3z/ToggleButtonGroup/archive/master.zip, attempt 3
+2019-04-06 18:27:03,090 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/master.zip": 3 MB
+2019-04-06 18:27:03,090 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-06 18:27:03,095 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/master.zip: true
+2019-04-06 18:27:03,096 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src'.
+2019-04-06 18:27:03,151 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-04-06 18:27:03,151 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src]
+2019-04-06 18:27:03,169 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/.git/
 
-2019-04-05 13:26:03,981 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/src/ToggleButtonGroup-master/gradlew
-2019-04-05 13:26:03,985 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/src/ToggleButtonGroup-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/src/ToggleButtonGroup-master/togglebuttongroup/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/src/ToggleButtonGroup-master/build.gradle
-2019-04-05 13:26:03,989 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/src/ToggleButtonGroup-master/togglebuttongroup/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/src/ToggleButtonGroup-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/src/ToggleButtonGroup-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/src/ToggleButtonGroup-master/settings.gradle
-2019-04-05 13:26:03,989 INFO  ProjectBuildService - Remote scripts: none
-2019-04-05 13:26:03,989 INFO  ProjectFixService - Fixing project...
-2019-04-05 13:26:03,998 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/src/ToggleButtonGroup-master/sample/local.properties
-2019-04-05 13:26:03,998 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/src/ToggleButtonGroup-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:26:03,999 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/src/ToggleButtonGroup-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:26:03,999 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/src/ToggleButtonGroup-master/togglebuttongroup/local.properties
-2019-04-05 13:26:04,000 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/src/ToggleButtonGroup-master/togglebuttongroup/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:26:04,000 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/src/ToggleButtonGroup-master/togglebuttongroup/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:26:04,001 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/src/ToggleButtonGroup-master/local.properties
-2019-04-05 13:26:04,001 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-04-05 13:26:04,001 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-04-05 13:26:04,002 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/src/ToggleButtonGroup-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:26:04,002 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/src/ToggleButtonGroup-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:26:04,002 INFO  ProjectFixService - Project was maybe fixed
-2019-04-05 13:26:04,003 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 13:26:04,003 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/src/ToggleButtonGroup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/src/ToggleButtonGroup-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 13:26:11,244 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-04-05 13:26:11,244 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-05 13:26:11,244 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/src/ToggleButtonGroup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/src/ToggleButtonGroup-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-05 13:26:35,285 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 18:27:03,173 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/gradlew
+2019-04-06 18:27:03,178 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/togglebuttongroup/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/build.gradle
+2019-04-06 18:27:03,182 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/togglebuttongroup/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/settings.gradle
+2019-04-06 18:27:03,182 INFO  ProjectBuildService - Remote scripts: none
+2019-04-06 18:27:03,182 INFO  ProjectFixService - Fixing project...
+2019-04-06 18:27:03,191 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/sample/local.properties
+2019-04-06 18:27:03,192 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:27:03,192 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:27:03,193 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/togglebuttongroup/local.properties
+2019-04-06 18:27:03,194 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/togglebuttongroup/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:27:03,194 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/togglebuttongroup/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:27:03,194 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/local.properties
+2019-04-06 18:27:03,195 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-04-06 18:27:03,195 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-04-06 18:27:03,196 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:27:03,196 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:27:03,196 INFO  ProjectFixService - Project was maybe fixed
+2019-04-06 18:27:03,196 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 18:27:03,196 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 18:27:10,739 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-04-06 18:27:10,739 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-06 18:27:10,739 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-06 18:27:36,821 INFO  SysUtils - Configuration on demand is an incubating feature.
 :sample:checkDebugClasspath
 :sample:preBuild UP-TO-DATE
 :togglebuttongroup:preBuild UP-TO-DATE
@@ -162,7 +162,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :sample:assemble
 :sample:build
 
-BUILD SUCCESSFUL in 23s
+BUILD SUCCESSFUL in 25s
 90 actionable tasks: 90 executed
 
-2019-04-05 13:26:35,377 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445561003-0/src/ToggleButtonGroup-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-04-06 18:27:36,911 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

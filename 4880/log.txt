@@ -1,31 +1,31 @@
-2019-04-05 13:35:05,820 INFO  DownloadService - Downloading "https://github.com/zurche/open-weather-map-android-wrapper/archive/master.zip", attempt 3
-2019-04-05 13:35:07,866 INFO  DownloadService - Downloaded https://github.com/zurche/open-weather-map-android-wrapper/archive/master.zip, attempt 3
-2019-04-05 13:35:07,866 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446105818-0/master.zip": 97 KB
-2019-04-05 13:35:07,866 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-05 13:35:07,871 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446105818-0/master.zip: true
-2019-04-05 13:35:07,872 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446105818-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446105818-0/src'.
-2019-04-05 13:35:07,898 INFO  FullProcessService - Size of directory with sources: 128 KB
-2019-04-05 13:35:07,898 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446105818-0/src]
-2019-04-05 13:35:07,923 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446105818-0/src/.git/
+2019-04-06 18:31:35,945 INFO  DownloadService - Downloading "https://github.com/zurche/open-weather-map-android-wrapper/archive/master.zip", attempt 3
+2019-04-06 18:31:37,863 INFO  DownloadService - Downloaded https://github.com/zurche/open-weather-map-android-wrapper/archive/master.zip, attempt 3
+2019-04-06 18:31:37,863 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550295942-0/master.zip": 97 KB
+2019-04-06 18:31:37,863 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-06 18:31:37,863 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550295942-0/master.zip: true
+2019-04-06 18:31:37,863 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550295942-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550295942-0/src'.
+2019-04-06 18:31:37,885 INFO  FullProcessService - Size of directory with sources: 128 KB
+2019-04-06 18:31:37,885 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550295942-0/src]
+2019-04-06 18:31:37,905 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550295942-0/src/.git/
 
-2019-04-05 13:35:07,926 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446105818-0/src/open-weather-map-android-wrapper-master/gradlew
-2019-04-05 13:35:07,929 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446105818-0/src/open-weather-map-android-wrapper-master/OWApi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446105818-0/src/open-weather-map-android-wrapper-master/build.gradle
-2019-04-05 13:35:07,932 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446105818-0/src/open-weather-map-android-wrapper-master/OWApi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446105818-0/src/open-weather-map-android-wrapper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446105818-0/src/open-weather-map-android-wrapper-master/settings.gradle
-2019-04-05 13:35:07,932 INFO  ProjectBuildService - Remote scripts: none
-2019-04-05 13:35:07,932 INFO  ProjectFixService - Fixing project...
-2019-04-05 13:35:07,938 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446105818-0/src/open-weather-map-android-wrapper-master/OWApi/local.properties
-2019-04-05 13:35:07,939 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446105818-0/src/open-weather-map-android-wrapper-master/OWApi/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
-2019-04-05 13:35:07,939 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446105818-0/src/open-weather-map-android-wrapper-master/local.properties
-2019-04-05 13:35:07,939 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2019-04-05 13:35:07,939 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2019-04-05 13:35:07,940 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446105818-0/src/open-weather-map-android-wrapper-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
-2019-04-05 13:35:07,940 INFO  ProjectFixService - Project was maybe fixed
-2019-04-05 13:35:07,940 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 13:35:07,940 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446105818-0/src/open-weather-map-android-wrapper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446105818-0/src/open-weather-map-android-wrapper-master/OWApi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 13:35:16,296 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-04-05 13:35:16,296 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-04-05 13:35:16,296 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446105818-0/src/open-weather-map-android-wrapper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446105818-0/src/open-weather-map-android-wrapper-master/OWApi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-04-05 13:35:28,767 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 18:31:37,908 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550295942-0/src/open-weather-map-android-wrapper-master/gradlew
+2019-04-06 18:31:37,911 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550295942-0/src/open-weather-map-android-wrapper-master/OWApi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550295942-0/src/open-weather-map-android-wrapper-master/build.gradle
+2019-04-06 18:31:37,914 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550295942-0/src/open-weather-map-android-wrapper-master/OWApi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550295942-0/src/open-weather-map-android-wrapper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550295942-0/src/open-weather-map-android-wrapper-master/settings.gradle
+2019-04-06 18:31:37,914 INFO  ProjectBuildService - Remote scripts: none
+2019-04-06 18:31:37,914 INFO  ProjectFixService - Fixing project...
+2019-04-06 18:31:37,922 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550295942-0/src/open-weather-map-android-wrapper-master/OWApi/local.properties
+2019-04-06 18:31:37,922 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550295942-0/src/open-weather-map-android-wrapper-master/OWApi/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-04-06 18:31:37,923 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550295942-0/src/open-weather-map-android-wrapper-master/local.properties
+2019-04-06 18:31:37,923 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-06 18:31:37,924 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-06 18:31:37,925 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550295942-0/src/open-weather-map-android-wrapper-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-04-06 18:31:37,925 INFO  ProjectFixService - Project was maybe fixed
+2019-04-06 18:31:37,925 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 18:31:37,925 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550295942-0/src/open-weather-map-android-wrapper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550295942-0/src/open-weather-map-android-wrapper-master/OWApi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 18:31:45,539 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-04-06 18:31:45,540 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-04-06 18:31:45,540 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550295942-0/src/open-weather-map-android-wrapper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550295942-0/src/open-weather-map-android-wrapper-master/OWApi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-04-06 18:31:56,444 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :OWApi:preBuild UP-TO-DATE
 :OWApi:preDebugBuild UP-TO-DATE
@@ -109,14 +109,14 @@ Incremental java compilation is an incubating feature.
 
 BUILD SUCCESSFUL
 
-Total time: 11.852 secs
+Total time: 10.312 secs
 
-2019-04-05 13:35:28,841 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 13:35:28,841 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446105818-0/src/open-weather-map-android-wrapper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446105818-0/src/open-weather-map-android-wrapper-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 13:35:35,324 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-04-05 13:35:35,324 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-04-05 13:35:35,325 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446105818-0/src/open-weather-map-android-wrapper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446105818-0/src/open-weather-map-android-wrapper-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-04-05 13:35:42,363 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 18:31:56,510 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 18:31:56,510 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550295942-0/src/open-weather-map-android-wrapper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550295942-0/src/open-weather-map-android-wrapper-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 18:32:02,599 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-04-06 18:32:02,600 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-04-06 18:32:02,600 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550295942-0/src/open-weather-map-android-wrapper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550295942-0/src/open-weather-map-android-wrapper-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-04-06 18:32:09,213 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :OWApi:preBuild UP-TO-DATE
 :OWApi:preDebugBuild UP-TO-DATE
@@ -198,7 +198,7 @@ Incremental java compilation is an incubating feature.
 
 BUILD SUCCESSFUL
 
-Total time: 6.463 secs
+Total time: 6.019 secs
 
-2019-04-05 13:35:42,426 ERROR FullProcessService - Project build has not produced APK file
-2019-04-05 13:35:42,486 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-06 18:32:09,280 ERROR FullProcessService - Project build has not produced APK file
+2019-04-06 18:32:09,336 ERROR FullProcessService - Could not find generated or existed APK file

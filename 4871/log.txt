@@ -1,39 +1,39 @@
-2019-04-05 13:40:00,026 INFO  DownloadService - Downloading "https://github.com/facebook/TextLayoutBuilder/archive/master.zip", attempt 3
-2019-04-05 13:40:01,001 INFO  DownloadService - Downloaded https://github.com/facebook/TextLayoutBuilder/archive/master.zip, attempt 3
-2019-04-05 13:40:01,002 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/master.zip": 304 KB
-2019-04-05 13:40:01,002 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-05 13:40:01,003 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/master.zip: true
-2019-04-05 13:40:01,004 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src'.
-2019-04-05 13:40:01,042 INFO  FullProcessService - Size of directory with sources: 616 KB
-2019-04-05 13:40:01,042 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src]
-2019-04-05 13:40:01,059 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/.git/
+2019-04-06 18:36:10,629 INFO  DownloadService - Downloading "https://github.com/facebook/TextLayoutBuilder/archive/master.zip", attempt 3
+2019-04-06 18:36:11,169 INFO  DownloadService - Downloaded https://github.com/facebook/TextLayoutBuilder/archive/master.zip, attempt 3
+2019-04-06 18:36:11,169 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/master.zip": 304 KB
+2019-04-06 18:36:11,170 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-06 18:36:11,175 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/master.zip: true
+2019-04-06 18:36:11,175 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src'.
+2019-04-06 18:36:11,211 INFO  FullProcessService - Size of directory with sources: 616 KB
+2019-04-06 18:36:11,211 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src]
+2019-04-06 18:36:11,230 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/.git/
 
-2019-04-05 13:40:01,064 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/gradlew
-2019-04-05 13:40:01,069 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/library/libs/android-text/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/library/libs/androidx-core-text/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/library/libs/proxy/build.gradle
-2019-04-05 13:40:01,074 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/library/libs/proxy/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/library/libs/androidx-core-text/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/library/libs/android-text/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/gradle/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/gradle/android-tasks.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/gradle/android-maven-install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/release.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/release-sonatype.gradle
-2019-04-05 13:40:01,075 INFO  ProjectBuildService - Remote scripts: none
-2019-04-05 13:40:01,075 INFO  ProjectFixService - Fixing project...
-2019-04-05 13:40:01,088 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/library/local.properties
-2019-04-05 13:40:01,092 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
-2019-04-05 13:40:01,092 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/sample/local.properties
-2019-04-05 13:40:01,095 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-04-05 13:40:01,096 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/local.properties
-2019-04-05 13:40:01,096 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-04-05 13:40:01,096 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-04-05 13:40:01,097 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
-2019-04-05 13:40:01,097 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/library/libs/android-text/local.properties
-2019-04-05 13:40:01,100 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/library/libs/android-text/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
-2019-04-05 13:40:01,101 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/library/libs/androidx-core-text/local.properties
-2019-04-05 13:40:01,107 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/library/libs/androidx-core-text/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
-2019-04-05 13:40:01,107 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/library/libs/proxy/local.properties
-2019-04-05 13:40:01,110 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/library/libs/proxy/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
-2019-04-05 13:40:01,110 INFO  ProjectFixService - Project was maybe fixed
-2019-04-05 13:40:01,110 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 13:40:01,110 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 13:40:12,186 INFO  ProjectTaskService - Detected possible tasks: 81
-2019-04-05 13:40:12,186 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-04-05 13:40:12,186 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-04-05 13:40:26,578 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 18:36:11,236 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/gradlew
+2019-04-06 18:36:11,242 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/library/libs/android-text/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/library/libs/androidx-core-text/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/library/libs/proxy/build.gradle
+2019-04-06 18:36:11,247 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/library/libs/proxy/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/library/libs/androidx-core-text/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/library/libs/android-text/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/gradle/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/gradle/android-tasks.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/gradle/android-maven-install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/release.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/release-sonatype.gradle
+2019-04-06 18:36:11,248 INFO  ProjectBuildService - Remote scripts: none
+2019-04-06 18:36:11,248 INFO  ProjectFixService - Fixing project...
+2019-04-06 18:36:11,262 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/library/local.properties
+2019-04-06 18:36:11,266 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
+2019-04-06 18:36:11,267 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/sample/local.properties
+2019-04-06 18:36:11,270 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-06 18:36:11,270 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/local.properties
+2019-04-06 18:36:11,270 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-04-06 18:36:11,271 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-04-06 18:36:11,271 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
+2019-04-06 18:36:11,271 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/library/libs/android-text/local.properties
+2019-04-06 18:36:11,275 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/library/libs/android-text/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
+2019-04-06 18:36:11,275 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/library/libs/androidx-core-text/local.properties
+2019-04-06 18:36:11,279 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/library/libs/androidx-core-text/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
+2019-04-06 18:36:11,279 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/library/libs/proxy/local.properties
+2019-04-06 18:36:11,283 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/library/libs/proxy/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
+2019-04-06 18:36:11,283 INFO  ProjectFixService - Project was maybe fixed
+2019-04-06 18:36:11,283 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 18:36:11,283 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 18:36:20,006 INFO  ProjectTaskService - Detected possible tasks: 81
+2019-04-06 18:36:20,006 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-04-06 18:36:20,006 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-04-06 18:36:32,497 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :library
 WARNING: Configuration 'androidTestApi' is obsolete and has been replaced with 'androidTestImplementation'.
@@ -96,7 +96,7 @@ warning: [options] bootstrap class path not set in conjunction with -source 1.7
 > Task :library:javaPreCompileDebug
 
 > Task :library:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/library/src/main/java/com/facebook/fbui/textlayoutbuilder/StaticLayoutHelper.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/library/src/main/java/com/facebook/fbui/textlayoutbuilder/StaticLayoutHelper.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :library:extractDebugAnnotations
@@ -132,7 +132,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :library:javaPreCompileRelease
 
 > Task :library:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/library/src/main/java/com/facebook/fbui/textlayoutbuilder/StaticLayoutHelper.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/library/src/main/java/com/facebook/fbui/textlayoutbuilder/StaticLayoutHelper.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :library:extractReleaseAnnotations
@@ -168,15 +168,15 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :library:libs:proxy:assemble
 > Task :library:libs:proxy:build
 
-BUILD SUCCESSFUL in 14s
+BUILD SUCCESSFUL in 12s
 57 actionable tasks: 57 executed
 
-2019-04-05 13:40:26,599 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 13:40:26,599 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 13:40:33,044 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-04-05 13:40:33,044 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-05 13:40:33,044 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-05 13:41:11,390 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 18:36:32,514 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 18:36:32,514 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 18:36:38,843 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-04-06 18:36:38,844 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-06 18:36:38,844 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-06 18:37:07,759 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :library
 WARNING: Configuration 'androidTestApi' is obsolete and has been replaced with 'androidTestImplementation'.
@@ -259,9 +259,7 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Transform full.jar (project :library) with IdentityTransform
 > Transform staticlayout-proxy.jar (project :library:libs:proxy) with DexingTransform
 > Task :sample:mergeExtDexDebug
-> Transform full.jar (project :library) with DexingTransform
 > Task :sample:transformClassesWithDexBuilderForDebug
-> Task :sample:mergeDexDebug
 > Task :sample:validateSigningDebug
 > Task :sample:signingConfigWriterDebug
 > Transform staticlayout-proxy.jar (project :library:libs:proxy) with IdentityTransform
@@ -271,7 +269,9 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :library:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
 > Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :sample:mergeDebugJniLibFolders
+> Transform full.jar (project :library) with DexingTransform
 > Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:mergeDexDebug
 > Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :sample:processDebugJavaRes NO-SOURCE
 > Task :sample:transformResourcesWithMergeJavaResForDebug
@@ -312,18 +312,15 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseNdk NO-SOURCE
 > Task :sample:compileReleaseSources
-
 > Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/37aa07e87ce11fc181b2e5a8cb8fb191/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
 > Task :library:createFullJarRelease
 > Transform full.jar (project :library) with IdentityTransform
 > Transform staticlayout-proxy.jar (project :library:libs:proxy) with DexingTransform
 > Task :sample:mergeExtDexRelease
-> Transform full.jar (project :library) with DexingTransform
 > Task :sample:transformClassesWithDexBuilderForRelease
-> Task :sample:mergeDexRelease
+> Transform full.jar (project :library) with DexingTransform
 > Task :library:mergeReleaseShaders UP-TO-DATE
+> Task :sample:mergeDexRelease
 > Task :library:compileReleaseShaders UP-TO-DATE
 > Task :library:generateReleaseAssets UP-TO-DATE
 > Task :library:packageReleaseAssets UP-TO-DATE
@@ -347,7 +344,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :sample:assemble
 > Task :sample:build
 
-BUILD SUCCESSFUL in 37s
+BUILD SUCCESSFUL in 28s
 98 actionable tasks: 59 executed, 39 up-to-date
 
-2019-04-05 13:41:11,480 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446400024-0/src/TextLayoutBuilder-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-04-06 18:37:07,851 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550570626-0/src/TextLayoutBuilder-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

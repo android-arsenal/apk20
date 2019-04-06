@@ -1,34 +1,34 @@
-2019-04-05 13:38:35,548 INFO  DownloadService - Downloading "https://github.com/gjiazhe/MultiChoicesCircleButton/archive/master.zip", attempt 3
-2019-04-05 13:38:36,901 INFO  DownloadService - Downloaded https://github.com/gjiazhe/MultiChoicesCircleButton/archive/master.zip, attempt 3
-2019-04-05 13:38:36,901 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/master.zip": 840 KB
-2019-04-05 13:38:36,901 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-05 13:38:36,901 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/master.zip: true
-2019-04-05 13:38:36,901 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src'.
-2019-04-05 13:38:36,921 INFO  FullProcessService - Size of directory with sources: 905 KB
-2019-04-05 13:38:36,921 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src]
-2019-04-05 13:38:36,939 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/.git/
+2019-04-06 18:34:47,486 INFO  DownloadService - Downloading "https://github.com/gjiazhe/MultiChoicesCircleButton/archive/master.zip", attempt 3
+2019-04-06 18:34:48,581 INFO  DownloadService - Downloaded https://github.com/gjiazhe/MultiChoicesCircleButton/archive/master.zip, attempt 3
+2019-04-06 18:34:48,582 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/master.zip": 840 KB
+2019-04-06 18:34:48,582 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-06 18:34:48,587 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/master.zip: true
+2019-04-06 18:34:48,588 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src'.
+2019-04-06 18:34:48,611 INFO  FullProcessService - Size of directory with sources: 905 KB
+2019-04-06 18:34:48,611 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src]
+2019-04-06 18:34:48,628 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/.git/
 
-2019-04-05 13:38:36,941 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/MultiChoicesCircleButton-master/gradlew
-2019-04-05 13:38:36,944 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/MultiChoicesCircleButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/MultiChoicesCircleButton-master/multichoicescirclebutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/MultiChoicesCircleButton-master/build.gradle
-2019-04-05 13:38:36,946 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/MultiChoicesCircleButton-master/multichoicescirclebutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/MultiChoicesCircleButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/MultiChoicesCircleButton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/MultiChoicesCircleButton-master/settings.gradle
-2019-04-05 13:38:36,946 INFO  ProjectBuildService - Remote scripts: none
-2019-04-05 13:38:36,946 INFO  ProjectFixService - Fixing project...
-2019-04-05 13:38:36,952 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/MultiChoicesCircleButton-master/app/local.properties
-2019-04-05 13:38:36,952 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/MultiChoicesCircleButton-master/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
-2019-04-05 13:38:36,952 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/MultiChoicesCircleButton-master/multichoicescirclebutton/local.properties
-2019-04-05 13:38:36,953 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/MultiChoicesCircleButton-master/multichoicescirclebutton/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
-2019-04-05 13:38:36,953 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/MultiChoicesCircleButton-master/local.properties
-2019-04-05 13:38:36,953 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2019-04-05 13:38:36,953 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2019-04-05 13:38:36,954 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/MultiChoicesCircleButton-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
-2019-04-05 13:38:36,954 INFO  ProjectFixService - Project was maybe fixed
-2019-04-05 13:38:36,954 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 13:38:36,954 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/MultiChoicesCircleButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/MultiChoicesCircleButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 13:38:43,522 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-05 13:38:43,523 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-05 13:38:43,523 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-05 13:38:43,523 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/MultiChoicesCircleButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/MultiChoicesCircleButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-05 13:38:49,960 ERROR SysUtils - Could not process external command
+2019-04-06 18:34:48,630 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/MultiChoicesCircleButton-master/gradlew
+2019-04-06 18:34:48,633 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/MultiChoicesCircleButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/MultiChoicesCircleButton-master/multichoicescirclebutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/MultiChoicesCircleButton-master/build.gradle
+2019-04-06 18:34:48,635 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/MultiChoicesCircleButton-master/multichoicescirclebutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/MultiChoicesCircleButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/MultiChoicesCircleButton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/MultiChoicesCircleButton-master/settings.gradle
+2019-04-06 18:34:48,635 INFO  ProjectBuildService - Remote scripts: none
+2019-04-06 18:34:48,635 INFO  ProjectFixService - Fixing project...
+2019-04-06 18:34:48,641 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/MultiChoicesCircleButton-master/app/local.properties
+2019-04-06 18:34:48,642 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/MultiChoicesCircleButton-master/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2019-04-06 18:34:48,642 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/MultiChoicesCircleButton-master/multichoicescirclebutton/local.properties
+2019-04-06 18:34:48,642 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/MultiChoicesCircleButton-master/multichoicescirclebutton/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2019-04-06 18:34:48,643 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/MultiChoicesCircleButton-master/local.properties
+2019-04-06 18:34:48,643 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-06 18:34:48,643 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-06 18:34:48,644 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/MultiChoicesCircleButton-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2019-04-06 18:34:48,644 INFO  ProjectFixService - Project was maybe fixed
+2019-04-06 18:34:48,644 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 18:34:48,644 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/MultiChoicesCircleButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/MultiChoicesCircleButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 18:34:55,016 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-06 18:34:55,016 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-06 18:34:55,016 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-06 18:34:55,016 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/MultiChoicesCircleButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/MultiChoicesCircleButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-06 18:35:01,416 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,7 +41,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -55,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-05 13:38:49,960 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 18:35:01,416 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -159,22 +159,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 5.845 secs
+Total time: 5.79 secs
 
-2019-04-05 13:38:49,964 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 13:38:49,964 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/MultiChoicesCircleButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/MultiChoicesCircleButton-master/multichoicescirclebutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 13:38:57,414 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-05 13:38:57,414 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-05 13:38:57,414 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-05 13:38:57,414 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/MultiChoicesCircleButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/MultiChoicesCircleButton-master/multichoicescirclebutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-05 13:39:09,873 ERROR SysUtils - Could not process external command
+2019-04-06 18:35:01,419 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 18:35:01,420 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/MultiChoicesCircleButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/MultiChoicesCircleButton-master/multichoicescirclebutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 18:35:07,841 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-06 18:35:07,841 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-06 18:35:07,841 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-06 18:35:07,841 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/MultiChoicesCircleButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/MultiChoicesCircleButton-master/multichoicescirclebutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-06 18:35:19,550 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -187,7 +187,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -201,7 +201,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-05 13:39:09,873 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 18:35:19,550 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :multichoicescirclebutton:preBuild UP-TO-DATE
 :multichoicescirclebutton:preDebugBuild UP-TO-DATE
@@ -385,15 +385,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 11.868 secs
+Total time: 11.131 secs
 
-2019-04-05 13:39:09,951 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 13:39:09,951 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/MultiChoicesCircleButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/MultiChoicesCircleButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 13:39:16,351 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-05 13:39:16,351 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-05 13:39:16,351 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-05 13:39:16,351 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/MultiChoicesCircleButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446315540-0/src/MultiChoicesCircleButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-05 13:39:23,105 ERROR SysUtils - Could not process external command
+2019-04-06 18:35:19,619 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 18:35:19,619 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/MultiChoicesCircleButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/MultiChoicesCircleButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 18:35:26,364 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-06 18:35:26,364 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-06 18:35:26,364 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-06 18:35:26,364 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/MultiChoicesCircleButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550487481-0/src/MultiChoicesCircleButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-06 18:35:33,676 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -406,7 +406,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -420,7 +420,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-05 13:39:23,105 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 18:35:33,676 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -524,14 +524,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 6.156 secs
+Total time: 6.706 secs
 
-2019-04-05 13:39:23,184 ERROR FullProcessService - Project build has not produced APK file
-2019-04-05 13:39:23,252 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-06 18:35:33,748 ERROR FullProcessService - Project build has not produced APK file
+2019-04-06 18:35:33,810 ERROR FullProcessService - Could not find generated or existed APK file

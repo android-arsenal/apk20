@@ -32,7 +32,7 @@
   "locales" : [ "" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"io.victoralbertos.deviceanimationtestrule\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"24\" />\n\t<uses-permission android:name=\"android.permission.SET_ANIMATION_SCALE\" />\n\t<application android:label=\"DeviceAnimationTestRule\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"io.victoralbertos.deviceanimationtestrule.AnimationSampleActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
   "fileSize" : 33961,
-  "crc32" : 359742328,
-  "sha256" : "f49cd43cd1a9284e51cdc16ae9f892124aba5a36c8fc1d0f043f0d9359ed7d74",
-  "buildTime" : 1554446510000
+  "crc32" : 2865585364,
+  "sha256" : "90d25109bc9e0d3cbf80908766fbd978c57bd70225aac433f4a027b7d3bc41bf",
+  "buildTime" : 1554550666000
 }

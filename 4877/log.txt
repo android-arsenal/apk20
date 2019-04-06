@@ -1,34 +1,34 @@
-2019-04-05 13:36:40,439 INFO  DownloadService - Downloading "https://github.com/Hitomis/CrazyShadow/archive/master.zip", attempt 3
-2019-04-05 13:36:41,449 INFO  DownloadService - Downloaded https://github.com/Hitomis/CrazyShadow/archive/master.zip, attempt 3
-2019-04-05 13:36:41,449 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/master.zip": 271 KB
-2019-04-05 13:36:41,449 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-05 13:36:41,454 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/master.zip: true
-2019-04-05 13:36:41,454 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src'.
-2019-04-05 13:36:41,475 INFO  FullProcessService - Size of directory with sources: 340 KB
-2019-04-05 13:36:41,475 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src]
-2019-04-05 13:36:41,498 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/.git/
+2019-04-06 18:32:58,099 INFO  DownloadService - Downloading "https://github.com/Hitomis/CrazyShadow/archive/master.zip", attempt 3
+2019-04-06 18:32:58,751 INFO  DownloadService - Downloaded https://github.com/Hitomis/CrazyShadow/archive/master.zip, attempt 3
+2019-04-06 18:32:58,751 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/master.zip": 271 KB
+2019-04-06 18:32:58,751 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-06 18:32:58,752 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/master.zip: true
+2019-04-06 18:32:58,752 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src'.
+2019-04-06 18:32:58,776 INFO  FullProcessService - Size of directory with sources: 340 KB
+2019-04-06 18:32:58,776 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src]
+2019-04-06 18:32:58,805 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/.git/
 
-2019-04-05 13:36:41,501 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/gradlew
-2019-04-05 13:36:41,504 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/cslibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/build.gradle
-2019-04-05 13:36:41,507 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/cslibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/settings.gradle
-2019-04-05 13:36:41,507 INFO  ProjectBuildService - Remote scripts: none
-2019-04-05 13:36:41,507 INFO  ProjectFixService - Fixing project...
-2019-04-05 13:36:41,514 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/app/local.properties
-2019-04-05 13:36:41,514 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2019-04-05 13:36:41,515 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/cslibrary/local.properties
-2019-04-05 13:36:41,515 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/cslibrary/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2019-04-05 13:36:41,515 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/local.properties
-2019-04-05 13:36:41,515 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2019-04-05 13:36:41,516 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2019-04-05 13:36:41,516 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2019-04-05 13:36:41,516 INFO  ProjectFixService - Project was maybe fixed
-2019-04-05 13:36:41,516 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 13:36:41,516 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 13:36:48,166 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-05 13:36:48,166 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-05 13:36:48,166 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-05 13:36:48,167 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-05 13:36:55,225 ERROR SysUtils - Could not process external command
+2019-04-06 18:32:58,808 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/gradlew
+2019-04-06 18:32:58,812 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/cslibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/build.gradle
+2019-04-06 18:32:58,816 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/cslibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/settings.gradle
+2019-04-06 18:32:58,817 INFO  ProjectBuildService - Remote scripts: none
+2019-04-06 18:32:58,817 INFO  ProjectFixService - Fixing project...
+2019-04-06 18:32:58,827 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/app/local.properties
+2019-04-06 18:32:58,828 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-04-06 18:32:58,828 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/cslibrary/local.properties
+2019-04-06 18:32:58,829 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/cslibrary/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-04-06 18:32:58,829 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/local.properties
+2019-04-06 18:32:58,829 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-06 18:32:58,830 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-06 18:32:58,831 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-04-06 18:32:58,831 INFO  ProjectFixService - Project was maybe fixed
+2019-04-06 18:32:58,831 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 18:32:58,831 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 18:33:05,525 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-06 18:33:05,525 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-06 18:33:05,525 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-06 18:33:05,525 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-06 18:33:11,627 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,7 +41,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -55,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-05 13:36:55,225 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 18:33:11,627 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -159,22 +159,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 6.462 secs
+Total time: 5.503 secs
 
-2019-04-05 13:36:55,230 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 13:36:55,230 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/cslibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 13:37:02,264 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-05 13:37:02,265 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-05 13:37:02,265 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-05 13:37:02,265 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/cslibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-05 13:37:10,613 ERROR SysUtils - Could not process external command
+2019-04-06 18:33:11,631 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 18:33:11,632 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/cslibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 18:33:18,056 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-06 18:33:18,056 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-06 18:33:18,056 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-06 18:33:18,056 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/cslibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-06 18:33:25,402 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -187,7 +187,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -201,7 +201,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-05 13:37:10,613 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 18:33:25,402 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :cslibrary:preBuild UP-TO-DATE
 :cslibrary:preDebugBuild UP-TO-DATE
@@ -228,35 +228,35 @@ Incremental java compilation is an incubating feature.
 :cslibrary:incrementalDebugJavaCompilationSafeguard
 :cslibrary:compileDebugJavaWithJavac
 :cslibrary:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/cslibrary/src/main/java/com/hitomi/cslibrary/base/CrazyShadowAttr.java:3: error: package android.support.v4.graphics does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/cslibrary/src/main/java/com/hitomi/cslibrary/base/CrazyShadowAttr.java:3: error: package android.support.v4.graphics does not exist
 import android.support.v4.graphics.ColorUtils;
                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/cslibrary/src/main/java/com/hitomi/cslibrary/wrap/ShadowWrapper.java:5: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/cslibrary/src/main/java/com/hitomi/cslibrary/wrap/ShadowWrapper.java:5: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/cslibrary/src/main/java/com/hitomi/cslibrary/base/CrazyShadowDirection.java:3: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/cslibrary/src/main/java/com/hitomi/cslibrary/base/CrazyShadowDirection.java:3: error: package android.support.annotation does not exist
 import android.support.annotation.IntDef;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/cslibrary/src/main/java/com/hitomi/cslibrary/base/CrazyShadowDirection.java:8: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/cslibrary/src/main/java/com/hitomi/cslibrary/base/CrazyShadowDirection.java:8: error: cannot find symbol
 @IntDef(flag = true, value = {CrazyShadowDirection.LEFT, CrazyShadowDirection.TOP,
  ^
   symbol: class IntDef
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/cslibrary/src/main/java/com/hitomi/cslibrary/wrap/ShadowWrapper.java:63: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/cslibrary/src/main/java/com/hitomi/cslibrary/wrap/ShadowWrapper.java:63: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class ShadowWrapper
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/cslibrary/src/main/java/com/hitomi/cslibrary/base/CrazyShadowAttr.java:65: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/cslibrary/src/main/java/com/hitomi/cslibrary/base/CrazyShadowAttr.java:65: error: cannot find symbol
             colors[0] = ColorUtils.setAlphaComponent(baseShadowColor, 255);
                         ^
   symbol:   variable ColorUtils
   location: class CrazyShadowAttr
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/cslibrary/src/main/java/com/hitomi/cslibrary/base/CrazyShadowAttr.java:66: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/cslibrary/src/main/java/com/hitomi/cslibrary/base/CrazyShadowAttr.java:66: error: cannot find symbol
             colors[1] = ColorUtils.setAlphaComponent(baseShadowColor, 128);
                         ^
   symbol:   variable ColorUtils
   location: class CrazyShadowAttr
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/cslibrary/src/main/java/com/hitomi/cslibrary/base/CrazyShadowAttr.java:67: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/cslibrary/src/main/java/com/hitomi/cslibrary/base/CrazyShadowAttr.java:67: error: cannot find symbol
             colors[2] = ColorUtils.setAlphaComponent(baseShadowColor, 0);
                         ^
   symbol:   variable ColorUtils
@@ -363,15 +363,15 @@ Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Com
 
 BUILD FAILED
 
-Total time: 7.729 secs
+Total time: 6.671 secs
 
-2019-04-05 13:37:10,621 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 13:37:10,621 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 13:37:17,730 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-05 13:37:17,730 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-05 13:37:17,730 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-05 13:37:17,730 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446200436-0/src/CrazyShadow-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-05 13:37:24,960 ERROR SysUtils - Could not process external command
+2019-04-06 18:33:25,410 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 18:33:25,410 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 18:33:31,531 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-06 18:33:31,531 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-06 18:33:31,531 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-06 18:33:31,532 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550378091-0/src/CrazyShadow-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-06 18:33:37,906 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -384,7 +384,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -398,7 +398,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-05 13:37:24,961 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 18:33:37,906 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -502,14 +502,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 6.558 secs
+Total time: 5.765 secs
 
-2019-04-05 13:37:24,966 ERROR FullProcessService - Project build has not produced APK file
-2019-04-05 13:37:24,973 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-06 18:33:37,914 ERROR FullProcessService - Project build has not produced APK file
+2019-04-06 18:33:37,922 ERROR FullProcessService - Could not find generated or existed APK file

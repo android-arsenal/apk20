@@ -1,37 +1,37 @@
-2019-04-05 13:35:43,707 INFO  DownloadService - Downloading "https://github.com/tikivn/ABTesting/archive/master.zip", attempt 3
-2019-04-05 13:35:44,260 INFO  DownloadService - Downloaded https://github.com/tikivn/ABTesting/archive/master.zip, attempt 3
-2019-04-05 13:35:44,261 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/master.zip": 122 KB
-2019-04-05 13:35:44,261 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-05 13:35:44,261 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/master.zip: true
-2019-04-05 13:35:44,261 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src'.
-2019-04-05 13:35:44,279 INFO  FullProcessService - Size of directory with sources: 154 KB
-2019-04-05 13:35:44,280 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src]
-2019-04-05 13:35:44,297 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/.git/
+2019-04-06 18:32:10,959 INFO  DownloadService - Downloading "https://github.com/tikivn/ABTesting/archive/master.zip", attempt 3
+2019-04-06 18:32:11,475 INFO  DownloadService - Downloaded https://github.com/tikivn/ABTesting/archive/master.zip, attempt 3
+2019-04-06 18:32:11,476 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/master.zip": 122 KB
+2019-04-06 18:32:11,476 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-06 18:32:11,481 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/master.zip: true
+2019-04-06 18:32:11,481 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src'.
+2019-04-06 18:32:11,500 INFO  FullProcessService - Size of directory with sources: 154 KB
+2019-04-06 18:32:11,501 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src]
+2019-04-06 18:32:11,518 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/.git/
 
-2019-04-05 13:35:44,300 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/gradlew
-2019-04-05 13:35:44,302 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/build.gradle
-2019-04-05 13:35:44,305 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/settings.gradle
-2019-04-05 13:35:44,305 INFO  ProjectBuildService - Remote scripts: none
-2019-04-05 13:35:44,305 INFO  ProjectFixService - Fixing project...
-2019-04-05 13:35:44,313 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/local.properties
-2019-04-05 13:35:44,314 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=<null>]
-2019-04-05 13:35:44,314 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:35:44,315 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/app/local.properties
-2019-04-05 13:35:44,316 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=<null>]
-2019-04-05 13:35:44,316 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:35:44,317 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/local.properties
-2019-04-05 13:35:44,318 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2019-04-05 13:35:44,318 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2019-04-05 13:35:44,320 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=<null>]
-2019-04-05 13:35:44,320 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:35:44,320 INFO  ProjectFixService - Project was maybe fixed
-2019-04-05 13:35:44,320 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 13:35:44,320 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 13:35:53,384 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-05 13:35:53,384 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-05 13:35:53,384 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-05 13:35:53,384 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-05 13:36:24,594 ERROR SysUtils - Could not process external command
+2019-04-06 18:32:11,520 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/gradlew
+2019-04-06 18:32:11,523 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/build.gradle
+2019-04-06 18:32:11,526 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/settings.gradle
+2019-04-06 18:32:11,527 INFO  ProjectBuildService - Remote scripts: none
+2019-04-06 18:32:11,527 INFO  ProjectFixService - Fixing project...
+2019-04-06 18:32:11,535 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/local.properties
+2019-04-06 18:32:11,537 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=<null>]
+2019-04-06 18:32:11,537 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:32:11,538 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/app/local.properties
+2019-04-06 18:32:11,540 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=<null>]
+2019-04-06 18:32:11,540 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:32:11,541 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/local.properties
+2019-04-06 18:32:11,542 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-06 18:32:11,542 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-06 18:32:11,544 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=<null>]
+2019-04-06 18:32:11,544 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:32:11,544 INFO  ProjectFixService - Project was maybe fixed
+2019-04-06 18:32:11,544 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 18:32:11,545 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 18:32:19,937 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-06 18:32:19,937 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-06 18:32:19,937 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-06 18:32:19,937 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-06 18:32:43,994 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,7 +44,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -58,124 +58,124 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-05 13:36:24,600 INFO  SysUtils - Configuration on demand is an incubating feature.
-:abtesting:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:4: error: package android.support.annotation does not exist
+2019-04-06 18:32:43,996 INFO  SysUtils - Configuration on demand is an incubating feature.
+:abtesting:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:4: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:5: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:5: error: package android.support.annotation does not exist
 import android.support.annotation.Nullable;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:6: error: package com.google.android.gms.tasks does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:6: error: package com.google.android.gms.tasks does not exist
 import com.google.android.gms.tasks.OnCompleteListener;
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:7: error: package com.google.android.gms.tasks does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:7: error: package com.google.android.gms.tasks does not exist
 import com.google.android.gms.tasks.OnFailureListener;
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:8: error: package com.google.android.gms.tasks does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:8: error: package com.google.android.gms.tasks does not exist
 import com.google.android.gms.tasks.OnSuccessListener;
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:9: error: package com.google.android.gms.tasks does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:9: error: package com.google.android.gms.tasks does not exist
 import com.google.android.gms.tasks.Task;
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:10: error: package com.google.firebase.remoteconfig does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:10: error: package com.google.firebase.remoteconfig does not exist
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:11: error: package com.google.firebase.remoteconfig does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:11: error: package com.google.firebase.remoteconfig does not exist
 import com.google.firebase.remoteconfig.FirebaseRemoteConfigValue;
                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:14: error: package rx does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:14: error: package rx does not exist
 import rx.AsyncEmitter;
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:15: error: package rx does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:15: error: package rx does not exist
 import rx.Observable;
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:16: error: package rx.functions does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:16: error: package rx.functions does not exist
 import rx.functions.Action1;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:17: error: package rx.functions does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:17: error: package rx.functions does not exist
 import rx.functions.Func1;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:25: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:25: error: cannot find symbol
   private final FirebaseRemoteConfig remoteConfig;
                 ^
   symbol:   class FirebaseRemoteConfig
   location: class ValueRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:31: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:31: error: cannot find symbol
   ValueRequest(@Nullable Activity activity, FirebaseRemoteConfig remoteConfig, long cacheExpiration,
                                             ^
   symbol:   class FirebaseRemoteConfig
   location: class ValueRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:40: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:40: error: cannot find symbol
   public <T> Observable<T> parseValue(final ValueParser<T> valueParser) {
              ^
   symbol:   class Observable
   location: class ValueRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:48: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:48: error: cannot find symbol
   public Observable<String> stringValue() {
          ^
   symbol:   class Observable
   location: class ValueRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:56: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:56: error: cannot find symbol
   public Observable<Boolean> booleanValue() {
          ^
   symbol:   class Observable
   location: class ValueRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:64: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:64: error: cannot find symbol
   private Observable<FirebaseRemoteConfigValue> getValue() {
           ^
   symbol:   class Observable
   location: class ValueRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:64: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:64: error: cannot find symbol
   private Observable<FirebaseRemoteConfigValue> getValue() {
                      ^
   symbol:   class FirebaseRemoteConfigValue
   location: class ValueRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/AbTesting.java:4: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/AbTesting.java:4: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/AbTesting.java:5: error: package com.google.firebase.remoteconfig does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/AbTesting.java:5: error: package com.google.firebase.remoteconfig does not exist
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/AbTesting.java:6: error: package com.google.firebase.remoteconfig does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/AbTesting.java:6: error: package com.google.firebase.remoteconfig does not exist
 import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings;
                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/AbTesting.java:10: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/AbTesting.java:10: error: cannot find symbol
   private final FirebaseRemoteConfig firebaseRemoteConfig;
                 ^
   symbol:   class FirebaseRemoteConfig
   location: class AbTesting
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/RequestBuilder.java:4: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/RequestBuilder.java:4: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/RequestBuilder.java:5: error: package com.google.firebase.remoteconfig does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/RequestBuilder.java:5: error: package com.google.firebase.remoteconfig does not exist
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/RequestBuilder.java:15: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/RequestBuilder.java:15: error: cannot find symbol
   private final FirebaseRemoteConfig remoteConfig;
                 ^
   symbol:   class FirebaseRemoteConfig
   location: class RequestBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/RequestBuilder.java:19: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/RequestBuilder.java:19: error: cannot find symbol
   RequestBuilder(@NonNull FirebaseRemoteConfig remoteConfig, @NonNull Activity activity,
                           ^
   symbol:   class FirebaseRemoteConfig
   location: class RequestBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:31: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/ValueRequest.java:31: error: cannot find symbol
   ValueRequest(@Nullable Activity activity, FirebaseRemoteConfig remoteConfig, long cacheExpiration,
                 ^
   symbol:   class Nullable
   location: class ValueRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/AbTesting.java:31: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/AbTesting.java:31: error: cannot find symbol
   public RequestBuilder request(@NonNull Activity activity) {
                                  ^
   symbol:   class NonNull
   location: class AbTesting
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/RequestBuilder.java:19: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/RequestBuilder.java:19: error: cannot find symbol
   RequestBuilder(@NonNull FirebaseRemoteConfig remoteConfig, @NonNull Activity activity,
                   ^
   symbol:   class NonNull
   location: class RequestBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/RequestBuilder.java:19: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/src/main/java/vn/tiki/ab/RequestBuilder.java:19: error: cannot find symbol
   RequestBuilder(@NonNull FirebaseRemoteConfig remoteConfig, @NonNull Activity activity,
                                                               ^
   symbol:   class NonNull
@@ -310,8 +310,6 @@ javadoc: warning - Class NonNull not found.
 :abtesting:signArchives SKIPPED
 :abtesting:assemble
 :abtesting:checkstyle
-Download https://jcenter.bintray.com/com/puppycrawl/tools/checkstyle/5.9/checkstyle-5.9.jar
-Download https://jcenter.bintray.com/com/google/guava/guava-jdk5/14.0.1/guava-jdk5-14.0.1.jar
 :abtesting:lint FAILED
 
 FAILURE: Build failed with an exception.
@@ -408,6 +406,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 30.448 secs
+Total time: 23.239 secs
 
-2019-04-05 13:36:24,690 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446143704-0/src/ABTesting-master/abtesting/build/outputs/apk/abtesting-debug-androidTest.apk
+2019-04-06 18:32:44,089 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550330956-0/src/ABTesting-master/abtesting/build/outputs/apk/abtesting-debug-androidTest.apk

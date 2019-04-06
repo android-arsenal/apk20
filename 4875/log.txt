@@ -1,52 +1,52 @@
-2019-04-05 13:38:11,831 INFO  DownloadService - Downloading "https://github.com/facebook/screenshot-tests-for-android/archive/master.zip", attempt 3
-2019-04-05 13:38:12,661 INFO  DownloadService - Downloaded https://github.com/facebook/screenshot-tests-for-android/archive/master.zip, attempt 3
-2019-04-05 13:38:12,661 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/master.zip": 681 KB
-2019-04-05 13:38:12,661 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-05 13:38:12,663 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/master.zip: true
-2019-04-05 13:38:12,663 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src'.
-2019-04-05 13:38:12,722 INFO  FullProcessService - Size of directory with sources: 891 KB
-2019-04-05 13:38:12,722 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src]
-2019-04-05 13:38:12,739 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/.git/
+2019-04-06 18:34:23,741 INFO  DownloadService - Downloading "https://github.com/facebook/screenshot-tests-for-android/archive/master.zip", attempt 3
+2019-04-06 18:34:24,558 INFO  DownloadService - Downloaded https://github.com/facebook/screenshot-tests-for-android/archive/master.zip, attempt 3
+2019-04-06 18:34:24,558 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/master.zip": 682 KB
+2019-04-06 18:34:24,558 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-06 18:34:24,564 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/master.zip: true
+2019-04-06 18:34:24,564 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src'.
+2019-04-06 18:34:24,623 INFO  FullProcessService - Size of directory with sources: 891 KB
+2019-04-06 18:34:24,623 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src]
+2019-04-06 18:34:24,640 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/.git/
 
-2019-04-05 13:38:12,746 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/gradlew
-2019-04-05 13:38:12,754 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/layout-hierarchy-common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/layout-hierarchy-litho/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/plugin/build.gradle
-2019-04-05 13:38:12,761 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/layout-hierarchy-common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/layout-hierarchy-litho/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/release.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/settings.gradle
-2019-04-05 13:38:12,761 INFO  ProjectBuildService - Remote scripts: none
-2019-04-05 13:38:12,761 INFO  ProjectFixService - Fixing project...
-2019-04-05 13:38:12,781 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/core/local.properties
-2019-04-05 13:38:12,786 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
-2019-04-05 13:38:12,786 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:38:12,787 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/layout-hierarchy-common/local.properties
-2019-04-05 13:38:12,791 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/layout-hierarchy-common/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
-2019-04-05 13:38:12,791 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/layout-hierarchy-common/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:38:12,792 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/layout-hierarchy-litho/local.properties
-2019-04-05 13:38:12,795 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/layout-hierarchy-litho/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
-2019-04-05 13:38:12,795 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/layout-hierarchy-litho/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:38:12,796 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/sample/local.properties
-2019-04-05 13:38:12,799 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
-2019-04-05 13:38:12,799 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:38:12,800 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/local.properties
-2019-04-05 13:38:12,800 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-bin.zip
-2019-04-05 13:38:12,804 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
-2019-04-05 13:38:12,804 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:38:12,805 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/plugin/local.properties
-2019-04-05 13:38:12,808 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/plugin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
-2019-04-05 13:38:12,808 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/plugin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:38:12,809 INFO  ProjectFixService - Project was maybe fixed
-2019-04-05 13:38:12,809 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 13:38:12,809 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 13:38:20,942 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-04-05 13:38:20,942 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-04-05 13:38:20,943 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-04-05 13:38:34,506 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 18:34:24,648 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/gradlew
+2019-04-06 18:34:24,656 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/layout-hierarchy-common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/layout-hierarchy-litho/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/plugin/build.gradle
+2019-04-06 18:34:24,663 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/layout-hierarchy-common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/layout-hierarchy-litho/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/release.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/settings.gradle
+2019-04-06 18:34:24,664 INFO  ProjectBuildService - Remote scripts: none
+2019-04-06 18:34:24,664 INFO  ProjectFixService - Fixing project...
+2019-04-06 18:34:24,683 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/core/local.properties
+2019-04-06 18:34:24,687 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-04-06 18:34:24,687 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:34:24,687 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/layout-hierarchy-common/local.properties
+2019-04-06 18:34:24,691 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/layout-hierarchy-common/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-04-06 18:34:24,691 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/layout-hierarchy-common/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:34:24,692 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/layout-hierarchy-litho/local.properties
+2019-04-06 18:34:24,696 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/layout-hierarchy-litho/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-04-06 18:34:24,696 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/layout-hierarchy-litho/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:34:24,697 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/sample/local.properties
+2019-04-06 18:34:24,700 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-04-06 18:34:24,700 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:34:24,701 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/local.properties
+2019-04-06 18:34:24,701 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-bin.zip
+2019-04-06 18:34:24,705 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-04-06 18:34:24,706 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:34:24,706 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/plugin/local.properties
+2019-04-06 18:34:24,710 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/plugin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-04-06 18:34:24,710 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/plugin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:34:24,711 INFO  ProjectFixService - Project was maybe fixed
+2019-04-06 18:34:24,711 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 18:34:24,711 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 18:34:32,616 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-04-06 18:34:32,616 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-04-06 18:34:32,616 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-04-06 18:34:46,477 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Task :core:androidJavadoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/ViewHelpers.java:66: warning - @returns is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/RecordBuilderImpl.java:56: warning - @inherit is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/RecordBuilderImpl.java:70: warning - @inherit is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/RecordBuilderImpl.java:114: warning - @inherit is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/RecordBuilderImpl.java:120: warning - @inherit is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/RecordBuilderImpl.java:150: warning - @inherit is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/ViewHelpers.java:66: warning - @returns is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/RecordBuilderImpl.java:57: warning - @inherit is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/RecordBuilderImpl.java:71: warning - @inherit is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/RecordBuilderImpl.java:115: warning - @inherit is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/RecordBuilderImpl.java:121: warning - @inherit is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/RecordBuilderImpl.java:151: warning - @inherit is an unknown tag.
 6 warnings
 
 > Task :core:androidJavadocJar
@@ -88,46 +88,47 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :core:bundleDebugAar
 > Task :core:compileDebugSources
 > Task :core:assembleDebug
-> Transform runtime.aar (android.arch.core:runtime:1.1.0) with IdentityTransform
+> Transform support-compat.aar (com.android.support:support-compat:27.1.1) with IdentityTransform
 > Transform runtime.aar (android.arch.lifecycle:runtime:1.1.0) with IdentityTransform
+> Transform support-core-utils.aar (com.android.support:support-core-utils:27.1.1) with IdentityTransform
 > Transform livedata-core.aar (android.arch.lifecycle:livedata-core:1.1.0) with IdentityTransform
+> Transform runtime.aar (android.arch.core:runtime:1.1.0) with IdentityTransform
+> Transform viewmodel.aar (android.arch.lifecycle:viewmodel:1.1.0) with IdentityTransform
 > Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:27.1.1) with IdentityTransform
 > Transform support-core-ui.aar (com.android.support:support-core-ui:27.1.1) with IdentityTransform
-> Transform viewmodel.aar (android.arch.lifecycle:viewmodel:1.1.0) with IdentityTransform
-> Transform support-core-utils.aar (com.android.support:support-core-utils:27.1.1) with IdentityTransform
-> Transform support-compat.aar (com.android.support:support-compat:27.1.1) with IdentityTransform
 > Transform support-compat.aar (com.android.support:support-compat:27.1.1) with ExtractAarTransform
 > Transform viewmodel.aar (android.arch.lifecycle:viewmodel:1.1.0) with ExtractAarTransform
-> Transform runtime.aar (android.arch.lifecycle:runtime:1.1.0) with ExtractAarTransform
-> Transform runtime.aar (android.arch.core:runtime:1.1.0) with ExtractAarTransform
-> Transform support-core-ui.aar (com.android.support:support-core-ui:27.1.1) with ExtractAarTransform
-> Transform support-core-utils.aar (com.android.support:support-core-utils:27.1.1) with ExtractAarTransform
-> Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:27.1.1) with ExtractAarTransform
 > Transform livedata-core.aar (android.arch.lifecycle:livedata-core:1.1.0) with ExtractAarTransform
-> Transform runtime.aar (android.arch.lifecycle:runtime:1.1.0) with AarTransform
+> Transform support-core-ui.aar (com.android.support:support-core-ui:27.1.1) with ExtractAarTransform
+> Transform runtime.aar (android.arch.core:runtime:1.1.0) with ExtractAarTransform
+> Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:27.1.1) with ExtractAarTransform
+> Transform runtime.aar (android.arch.lifecycle:runtime:1.1.0) with ExtractAarTransform
+> Transform support-core-utils.aar (com.android.support:support-core-utils:27.1.1) with ExtractAarTransform
+> Transform support-compat.aar (com.android.support:support-compat:27.1.1) with AarTransform
 > Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:27.1.1) with IdentityTransform
-> Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:27.1.1) with ExtractAarTransform
 > Transform runtime.aar (android.arch.core:runtime:1.1.0) with AarTransform
+> Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:27.1.1) with ExtractAarTransform
 > Transform support-fragment.aar (com.android.support:support-fragment:27.1.1) with IdentityTransform
 > Transform support-fragment.aar (com.android.support:support-fragment:27.1.1) with ExtractAarTransform
 > Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:27.1.1) with AarTransform
 > Transform appcompat-v7.aar (com.android.support:appcompat-v7:27.1.1) with IdentityTransform
 > Transform appcompat-v7.aar (com.android.support:appcompat-v7:27.1.1) with ExtractAarTransform
-> Transform viewmodel.aar (android.arch.lifecycle:viewmodel:1.1.0) with AarTransform
+> Transform livedata-core.aar (android.arch.lifecycle:livedata-core:1.1.0) with AarTransform
 > Task :core:preReleaseBuild UP-TO-DATE
-> Transform support-compat.aar (com.android.support:support-compat:27.1.1) with AarTransform
-> Transform common.jar (android.arch.core:common:1.1.0) with IdentityTransform
-> Transform common.jar (android.arch.core:common:1.1.0) with IdentityTransform
+> Transform viewmodel.aar (android.arch.lifecycle:viewmodel:1.1.0) with AarTransform
 > Transform runtime.aar (android.arch.core:runtime:1.1.0) with AarTransform
+> Transform runtime.aar (android.arch.lifecycle:runtime:1.1.0) with AarTransform
+> Transform common.jar (android.arch.core:common:1.1.0) with IdentityTransform
 > Transform common.jar (android.arch.lifecycle:common:1.1.0) with IdentityTransform
 > Transform runtime.aar (android.arch.lifecycle:runtime:1.1.0) with AarTransform
+> Transform common.jar (android.arch.core:common:1.1.0) with IdentityTransform
 > Transform common.jar (android.arch.lifecycle:common:1.1.0) with IdentityTransform
 > Transform viewmodel.aar (android.arch.lifecycle:viewmodel:1.1.0) with AarTransform
 > Transform livedata-core.aar (android.arch.lifecycle:livedata-core:1.1.0) with AarTransform
 > Transform support-annotations.jar (com.android.support:support-annotations:27.1.1) with IdentityTransform
 > Transform support-compat.aar (com.android.support:support-compat:27.1.1) with AarTransform
-> Transform support-core-utils.aar (com.android.support:support-core-utils:27.1.1) with AarTransform
 > Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:27.1.1) with AarTransform
+> Transform support-core-utils.aar (com.android.support:support-core-utils:27.1.1) with AarTransform
 > Transform support-annotations.jar (com.android.support:support-annotations:27.1.1) with IdentityTransform
 > Transform support-core-utils.aar (com.android.support:support-core-utils:27.1.1) with AarTransform
 > Transform support-core-ui.aar (com.android.support:support-core-ui:27.1.1) with AarTransform
@@ -136,20 +137,19 @@ Note: Recompile with -Xlint:unchecked for details.
 > Transform appcompat-v7.aar (com.android.support:appcompat-v7:27.1.1) with AarTransform
 > Transform jsr305.jar (com.google.code.findbugs:jsr305:3.0.2) with IdentityTransform
 > Transform runtime.aar (android.arch.core:runtime:1.1.0) with AarTransform
-> Transform runtime.aar (android.arch.lifecycle:runtime:1.1.0) with AarTransform
 > Transform jsr305.jar (com.google.code.findbugs:jsr305:3.0.2) with IdentityTransform
+> Transform support-core-ui.aar (com.android.support:support-core-ui:27.1.1) with AarTransform
+> Transform runtime.aar (android.arch.lifecycle:runtime:1.1.0) with AarTransform
 > Transform viewmodel.aar (android.arch.lifecycle:viewmodel:1.1.0) with AarTransform
-> Transform livedata-core.aar (android.arch.lifecycle:livedata-core:1.1.0) with AarTransform
 > Transform livedata-core.aar (android.arch.lifecycle:livedata-core:1.1.0) with AarTransform
 > Transform support-compat.aar (com.android.support:support-compat:27.1.1) with AarTransform
 > Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:27.1.1) with AarTransform
 > Transform support-core-utils.aar (com.android.support:support-core-utils:27.1.1) with AarTransform
+> Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:27.1.1) with AarTransform
 > Transform support-core-ui.aar (com.android.support:support-core-ui:27.1.1) with AarTransform
 > Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:27.1.1) with AarTransform
 > Transform support-fragment.aar (com.android.support:support-fragment:27.1.1) with AarTransform
 > Transform appcompat-v7.aar (com.android.support:appcompat-v7:27.1.1) with AarTransform
-> Transform support-core-ui.aar (com.android.support:support-core-ui:27.1.1) with AarTransform
-> Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:27.1.1) with AarTransform
 > Transform support-fragment.aar (com.android.support:support-fragment:27.1.1) with AarTransform
 > Transform appcompat-v7.aar (com.android.support:appcompat-v7:27.1.1) with AarTransform
 > Task :core:checkReleaseManifest
@@ -196,4 +196,4 @@ Note: Recompile with -Xlint:unchecked for details.
 BUILD SUCCESSFUL in 13s
 49 actionable tasks: 49 executed
 
-2019-04-05 13:38:34,562 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554446291828-0/src/screenshot-tests-for-android-master/plugin/src/py/android_screenshot_tests/example.apk
+2019-04-06 18:34:46,532 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550463737-0/src/screenshot-tests-for-android-master/plugin/src/py/android_screenshot_tests/example.apk

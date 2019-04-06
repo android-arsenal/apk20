@@ -1,64 +1,64 @@
-2019-04-05 13:21:27,723 INFO  DownloadService - Downloading "https://github.com/yongjhih/kotlin-extensions/archive/master.zip", attempt 3
-2019-04-05 13:21:28,373 INFO  DownloadService - Downloaded https://github.com/yongjhih/kotlin-extensions/archive/master.zip, attempt 3
-2019-04-05 13:21:28,373 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/master.zip": 195 KB
-2019-04-05 13:21:28,373 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-05 13:21:28,379 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/master.zip: true
-2019-04-05 13:21:28,379 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src'.
-2019-04-05 13:21:28,415 INFO  FullProcessService - Size of directory with sources: 225 KB
-2019-04-05 13:21:28,416 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src]
-2019-04-05 13:21:28,434 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/.git/
+2019-04-06 18:15:41,975 INFO  DownloadService - Downloading "https://github.com/yongjhih/kotlin-extensions/archive/master.zip", attempt 3
+2019-04-06 18:15:44,219 INFO  DownloadService - Downloaded https://github.com/yongjhih/kotlin-extensions/archive/master.zip, attempt 3
+2019-04-06 18:15:44,220 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/master.zip": 195 KB
+2019-04-06 18:15:44,220 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-06 18:15:44,225 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/master.zip: true
+2019-04-06 18:15:44,226 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src'.
+2019-04-06 18:15:44,262 INFO  FullProcessService - Size of directory with sources: 225 KB
+2019-04-06 18:15:44,263 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src]
+2019-04-06 18:15:44,283 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/.git/
 
-2019-04-05 13:21:28,440 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/gradlew
-2019-04-05 13:21:28,446 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-database/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-notification/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-sharedpreferences/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-support-v4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-system-services/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-gson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-math/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-threetenbp/build.gradle
-2019-04-05 13:21:28,451 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-system-services/android-javadoc.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-system-services/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-view/android-javadoc.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-database/android-javadoc.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-database/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-support-v4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-gson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-threetenbp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-sharedpreferences/android-javadoc.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-sharedpreferences/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-notification/android-javadoc.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-notification/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-math/build.gradle
-2019-04-05 13:21:28,455 INFO  ProjectBuildService - Remote scripts: none
-2019-04-05 13:21:28,455 INFO  ProjectFixService - Fixing project...
-2019-04-05 13:21:28,468 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/app/local.properties
-2019-04-05 13:21:28,471 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
-2019-04-05 13:21:28,471 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:21:28,472 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-app/local.properties
-2019-04-05 13:21:28,475 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
-2019-04-05 13:21:28,475 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:21:28,475 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-database/local.properties
-2019-04-05 13:21:28,478 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-database/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
-2019-04-05 13:21:28,478 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-database/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:21:28,479 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-notification/local.properties
-2019-04-05 13:21:28,482 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-notification/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
-2019-04-05 13:21:28,482 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-notification/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:21:28,483 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-sharedpreferences/local.properties
-2019-04-05 13:21:28,486 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-sharedpreferences/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
-2019-04-05 13:21:28,486 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-sharedpreferences/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:21:28,486 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-support-v4/local.properties
-2019-04-05 13:21:28,489 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-support-v4/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
-2019-04-05 13:21:28,489 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-support-v4/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:21:28,489 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-system-services/local.properties
-2019-04-05 13:21:28,493 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-system-services/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
-2019-04-05 13:21:28,493 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-system-services/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:21:28,493 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-view/local.properties
-2019-04-05 13:21:28,496 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-view/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
-2019-04-05 13:21:28,496 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-view/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:21:28,497 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/local.properties
-2019-04-05 13:21:28,497 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2019-04-05 13:21:28,498 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2019-04-05 13:21:28,499 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
-2019-04-05 13:21:28,500 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:21:28,500 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-gson/local.properties
-2019-04-05 13:21:28,503 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-gson/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
-2019-04-05 13:21:28,503 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-gson/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:21:28,504 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-math/local.properties
-2019-04-05 13:21:28,507 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-math/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
-2019-04-05 13:21:28,507 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-math/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:21:28,508 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-threetenbp/local.properties
-2019-04-05 13:21:28,511 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-threetenbp/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
-2019-04-05 13:21:28,512 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-threetenbp/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 13:21:28,512 INFO  ProjectFixService - Project was maybe fixed
-2019-04-05 13:21:28,512 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 13:21:28,512 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 13:21:47,387 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-05 13:21:47,387 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-05 13:21:47,387 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-05 13:21:47,387 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-05 13:21:52,851 ERROR SysUtils - Could not process external command
+2019-04-06 18:15:44,289 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/gradlew
+2019-04-06 18:15:44,295 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-database/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-notification/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-sharedpreferences/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-support-v4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-system-services/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-gson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-math/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-threetenbp/build.gradle
+2019-04-06 18:15:44,301 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-system-services/android-javadoc.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-system-services/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-view/android-javadoc.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-database/android-javadoc.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-database/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-support-v4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-gson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-threetenbp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-sharedpreferences/android-javadoc.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-sharedpreferences/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-notification/android-javadoc.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-notification/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-math/build.gradle
+2019-04-06 18:15:44,302 INFO  ProjectBuildService - Remote scripts: none
+2019-04-06 18:15:44,302 INFO  ProjectFixService - Fixing project...
+2019-04-06 18:15:44,316 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/app/local.properties
+2019-04-06 18:15:44,320 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
+2019-04-06 18:15:44,320 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:15:44,321 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-app/local.properties
+2019-04-06 18:15:44,328 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
+2019-04-06 18:15:44,329 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:15:44,330 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-database/local.properties
+2019-04-06 18:15:44,333 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-database/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
+2019-04-06 18:15:44,333 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-database/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:15:44,334 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-notification/local.properties
+2019-04-06 18:15:44,337 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-notification/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
+2019-04-06 18:15:44,338 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-notification/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:15:44,339 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-sharedpreferences/local.properties
+2019-04-06 18:15:44,342 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-sharedpreferences/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
+2019-04-06 18:15:44,342 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-sharedpreferences/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:15:44,343 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-support-v4/local.properties
+2019-04-06 18:15:44,346 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-support-v4/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
+2019-04-06 18:15:44,346 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-support-v4/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:15:44,347 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-system-services/local.properties
+2019-04-06 18:15:44,350 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-system-services/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
+2019-04-06 18:15:44,351 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-system-services/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:15:44,351 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-view/local.properties
+2019-04-06 18:15:44,355 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-view/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
+2019-04-06 18:15:44,355 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-view/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:15:44,356 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/local.properties
+2019-04-06 18:15:44,356 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-04-06 18:15:44,357 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-04-06 18:15:44,359 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
+2019-04-06 18:15:44,359 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:15:44,360 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-gson/local.properties
+2019-04-06 18:15:44,363 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-gson/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
+2019-04-06 18:15:44,363 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-gson/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:15:44,364 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-math/local.properties
+2019-04-06 18:15:44,368 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-math/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
+2019-04-06 18:15:44,368 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-math/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:15:44,368 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-threetenbp/local.properties
+2019-04-06 18:15:44,372 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-threetenbp/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
+2019-04-06 18:15:44,372 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-threetenbp/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 18:15:44,372 INFO  ProjectFixService - Project was maybe fixed
+2019-04-06 18:15:44,372 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 18:15:44,373 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 18:15:51,916 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-06 18:15:51,917 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-06 18:15:51,917 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-06 18:15:51,917 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-06 18:15:57,668 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -71,7 +71,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -85,7 +86,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-05 13:21:52,851 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 18:15:57,668 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
 
 FAILURE: Build failed with an exception.
@@ -224,13 +225,13 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2019-04-05 13:21:52,858 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 13:21:52,859 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 13:21:58,398 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-05 13:21:58,398 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-05 13:21:58,398 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-05 13:21:58,398 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-05 13:22:03,877 ERROR SysUtils - Could not process external command
+2019-04-06 18:15:57,677 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 18:15:57,677 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 18:16:03,291 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-06 18:16:03,291 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-06 18:16:03,291 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-06 18:16:03,291 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-06 18:16:08,860 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -243,7 +244,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -257,7 +259,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-05 13:22:03,877 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 18:16:08,860 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -395,13 +397,13 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2019-04-05 13:22:03,885 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 13:22:03,885 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-database/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 13:22:09,606 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-05 13:22:09,606 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-05 13:22:09,606 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-05 13:22:09,606 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-database/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-05 13:22:15,357 ERROR SysUtils - Could not process external command
+2019-04-06 18:16:08,866 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 18:16:08,866 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-database/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 18:16:14,881 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-06 18:16:14,881 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-06 18:16:14,881 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-06 18:16:14,881 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-database/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-06 18:16:20,455 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -414,7 +416,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -428,7 +431,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-05 13:22:15,357 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 18:16:20,455 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':kotlinx-android-database' is deprecated. Use 'implementation' instead.
 
 FAILURE: Build failed with an exception.
@@ -558,7 +561,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
@@ -567,13 +570,13 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2019-04-05 13:22:15,364 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 13:22:15,364 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-notification/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 13:22:21,037 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-05 13:22:21,037 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-05 13:22:21,037 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-05 13:22:21,037 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-notification/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-05 13:22:26,664 ERROR SysUtils - Could not process external command
+2019-04-06 18:16:20,463 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 18:16:20,463 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-notification/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 18:16:26,168 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-06 18:16:26,168 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-06 18:16:26,168 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-06 18:16:26,168 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-notification/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-06 18:16:32,041 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -586,7 +589,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -600,7 +604,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-05 13:22:26,664 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 18:16:32,041 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':kotlinx-android-notification' is deprecated. Use 'implementation' instead.
 
 FAILURE: Build failed with an exception.
@@ -730,7 +734,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
@@ -739,13 +743,13 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2019-04-05 13:22:26,671 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 13:22:26,671 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-sharedpreferences/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 13:22:32,619 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-05 13:22:32,620 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-05 13:22:32,620 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-05 13:22:32,620 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-sharedpreferences/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-05 13:22:38,153 ERROR SysUtils - Could not process external command
+2019-04-06 18:16:32,047 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 18:16:32,047 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-sharedpreferences/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 18:16:38,087 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-06 18:16:38,087 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-06 18:16:38,087 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-06 18:16:38,087 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-sharedpreferences/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-06 18:16:43,895 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -758,7 +762,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -772,7 +777,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-05 13:22:38,153 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 18:16:43,895 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':kotlinx-android-sharedpreferences' is deprecated. Use 'implementation' instead.
 
 FAILURE: Build failed with an exception.
@@ -911,13 +916,13 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2019-04-05 13:22:38,161 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 13:22:38,161 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-support-v4/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 13:22:43,585 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-05 13:22:43,585 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-05 13:22:43,585 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-05 13:22:43,585 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-support-v4/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-05 13:22:49,154 ERROR SysUtils - Could not process external command
+2019-04-06 18:16:43,904 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 18:16:43,904 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-support-v4/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 18:16:49,633 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-06 18:16:49,633 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-06 18:16:49,633 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-06 18:16:49,633 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-support-v4/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-06 18:16:55,501 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -930,7 +935,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -944,7 +950,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-05 13:22:49,154 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 18:16:55,501 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -1082,13 +1088,13 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2019-04-05 13:22:49,162 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 13:22:49,162 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-system-services/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 13:22:54,968 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-05 13:22:54,968 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-05 13:22:54,968 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-05 13:22:54,968 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-system-services/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-05 13:23:00,630 ERROR SysUtils - Could not process external command
+2019-04-06 18:16:55,509 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 18:16:55,509 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-system-services/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 18:17:01,314 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-06 18:17:01,315 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-06 18:17:01,315 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-06 18:17:01,315 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-system-services/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-06 18:17:07,142 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1101,7 +1107,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -1115,7 +1122,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-05 13:23:00,630 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 18:17:07,142 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':kotlinx-android-system-services' is deprecated. Use 'implementation' instead.
 
 FAILURE: Build failed with an exception.
@@ -1254,13 +1261,13 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2019-04-05 13:23:00,638 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 13:23:00,638 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-view/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 13:23:06,309 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-05 13:23:06,310 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-05 13:23:06,310 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-05 13:23:06,310 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-android-view/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-05 13:23:12,024 ERROR SysUtils - Could not process external command
+2019-04-06 18:17:07,151 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 18:17:07,151 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-view/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 18:17:12,789 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-06 18:17:12,789 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-06 18:17:12,789 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-06 18:17:12,789 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-android-view/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-06 18:17:18,384 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1273,7 +1280,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -1287,7 +1295,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-05 13:23:12,024 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 18:17:18,384 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':kotlinx-android-view' is deprecated. Use 'implementation' instead.
 
 FAILURE: Build failed with an exception.
@@ -1426,13 +1434,13 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2019-04-05 13:23:12,032 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 13:23:12,033 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 13:23:17,662 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-05 13:23:17,662 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-05 13:23:17,662 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-05 13:23:17,662 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-05 13:23:23,059 ERROR SysUtils - Could not process external command
+2019-04-06 18:17:18,392 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 18:17:18,392 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 18:17:23,785 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-06 18:17:23,785 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-06 18:17:23,785 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-06 18:17:23,785 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-06 18:17:29,250 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1445,7 +1453,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -1459,7 +1468,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-05 13:23:23,059 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 18:17:29,250 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
 
 FAILURE: Build failed with an exception.
@@ -1589,7 +1598,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
@@ -1598,12 +1607,12 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2019-04-05 13:23:23,066 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 13:23:23,066 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-gson/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 13:23:26,347 INFO  ProjectTaskService - Detected possible tasks: 39
-2019-04-05 13:23:26,347 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2019-04-05 13:23:26,347 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-gson/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2019-04-05 13:23:34,169 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 18:17:29,258 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 18:17:29,258 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-gson/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 18:17:32,735 INFO  ProjectTaskService - Detected possible tasks: 39
+2019-04-06 18:17:32,735 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
+2019-04-06 18:17:32,735 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-gson/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2019-04-06 18:17:40,739 INFO  SysUtils - Configuration on demand is an incubating feature.
 :kotlinx-gson:compileKotlin
 Using Kotlin incremental compilation
 :kotlinx-gson:compileJava NO-SOURCE
@@ -1616,12 +1625,12 @@ Using Kotlin incremental compilation
 BUILD SUCCESSFUL in 7s
 2 actionable tasks: 2 executed
 
-2019-04-05 13:23:34,178 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 13:23:34,178 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-math/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 13:23:37,505 INFO  ProjectTaskService - Detected possible tasks: 39
-2019-04-05 13:23:37,505 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2019-04-05 13:23:37,505 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-math/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2019-04-05 13:23:45,951 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 18:17:40,748 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 18:17:40,748 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-math/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 18:17:43,952 INFO  ProjectTaskService - Detected possible tasks: 39
+2019-04-06 18:17:43,952 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
+2019-04-06 18:17:43,953 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-math/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2019-04-06 18:17:52,409 INFO  SysUtils - Configuration on demand is an incubating feature.
 :kotlinx-math:compileKotlin
 Using Kotlin incremental compilation
 :kotlinx-math:compileJava NO-SOURCE
@@ -1634,14 +1643,13 @@ Using Kotlin incremental compilation
 BUILD SUCCESSFUL in 7s
 2 actionable tasks: 2 executed
 
-2019-04-05 13:23:45,963 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 13:23:45,963 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-threetenbp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 13:23:49,298 INFO  ProjectTaskService - Detected possible tasks: 39
-2019-04-05 13:23:49,298 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2019-04-05 13:23:49,299 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554445287721-0/src/kotlin-extensions-master/kotlinx-threetenbp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2019-04-05 13:23:59,786 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 18:17:52,422 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 18:17:52,422 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-threetenbp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 18:17:55,905 INFO  ProjectTaskService - Detected possible tasks: 39
+2019-04-06 18:17:55,906 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
+2019-04-06 18:17:55,906 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554549341967-0/src/kotlin-extensions-master/kotlinx-threetenbp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2019-04-06 18:18:03,698 INFO  SysUtils - Configuration on demand is an incubating feature.
 :kotlinx-threetenbp:compileKotlin
-Download https://jcenter.bintray.com/org/threeten/threetenbp/1.3.3/threetenbp-1.3.3-no-tzdb.jar
 Using Kotlin incremental compilation
 :kotlinx-threetenbp:compileJava NO-SOURCE
 :kotlinx-threetenbp:processResources NO-SOURCE
@@ -1650,8 +1658,8 @@ Using Kotlin incremental compilation
 :kotlinx-threetenbp:assemble
 :kotlinx-threetenbp:build
 
-BUILD SUCCESSFUL in 9s
+BUILD SUCCESSFUL in 7s
 2 actionable tasks: 2 executed
 
-2019-04-05 13:23:59,801 ERROR FullProcessService - Project build has not produced APK file
-2019-04-05 13:23:59,813 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-06 18:18:03,713 ERROR FullProcessService - Project build has not produced APK file
+2019-04-06 18:18:03,727 ERROR FullProcessService - Could not find generated or existed APK file
