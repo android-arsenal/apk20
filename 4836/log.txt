@@ -1,38 +1,38 @@
-2019-04-05 14:30:04,202 INFO  DownloadService - Downloading "https://github.com/bendikv/simple-range-view/archive/master.zip", attempt 3
-2019-04-05 14:31:04,953 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-04-05 14:31:06,026 INFO  GithubDownloadService - Default branch of this repository: master
-2019-04-05 14:31:06,026 INFO  DownloadService - Downloading "https://github.com/bendikv/simple-range-view/archive/master.zip", attempt 3
-2019-04-05 14:32:07,571 DEBUG FullProcessService - Repository https://github.com/bendikv/simple-range-view available: true
-2019-04-05 14:32:07,571 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-04-05 14:32:07,571 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/bendikv/simple-range-view, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554449404200-0/src]
-2019-04-05 14:32:09,674 INFO  SysUtils - 
-2019-04-05 14:32:09,699 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554449404200-0/src/.git": true
-2019-04-05 14:32:09,701 INFO  FullProcessService - Size of directory with sources: 375 KB
-2019-04-05 14:32:09,701 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554449404200-0/src]
-2019-04-05 14:32:09,718 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554449404200-0/src/.git/
+2019-04-06 22:45:02,289 INFO  DownloadService - Downloading "https://github.com/bendikv/simple-range-view/archive/master.zip", attempt 3
+2019-04-06 22:46:02,962 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-06 22:46:04,171 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-06 22:46:04,171 INFO  DownloadService - Downloading "https://github.com/bendikv/simple-range-view/archive/master.zip", attempt 3
+2019-04-06 22:47:05,504 DEBUG FullProcessService - Repository https://github.com/bendikv/simple-range-view available: true
+2019-04-06 22:47:05,504 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-06 22:47:05,504 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/bendikv/simple-range-view, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565502287-0/src]
+2019-04-06 22:47:09,187 INFO  SysUtils - 
+2019-04-06 22:47:09,212 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565502287-0/src/.git": true
+2019-04-06 22:47:09,215 INFO  FullProcessService - Size of directory with sources: 375 KB
+2019-04-06 22:47:09,215 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565502287-0/src]
+2019-04-06 22:47:09,231 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565502287-0/src/.git/
 
-2019-04-05 14:32:09,721 INFO  ProjectBuildService - Gradle wrapper(s): none
-2019-04-05 14:32:09,721 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2019-04-05 14:32:09,723 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554449404200-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554449404200-0/src/simplerangeview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554449404200-0/src/build.gradle
-2019-04-05 14:32:09,725 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554449404200-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554449404200-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554449404200-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554449404200-0/src/simplerangeview/build.gradle
-2019-04-05 14:32:09,725 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
-2019-04-05 14:32:10,505 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
-2019-04-05 14:32:10,505 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
-2019-04-05 14:32:10,505 INFO  ProjectFixService - Fixing project...
-2019-04-05 14:32:10,513 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554449404200-0/src/app/local.properties
-2019-04-05 14:32:10,514 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554449404200-0/src/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2019-04-05 14:32:10,514 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554449404200-0/src/simplerangeview/local.properties
-2019-04-05 14:32:10,514 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554449404200-0/src/simplerangeview/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2019-04-05 14:32:10,515 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554449404200-0/src/local.properties
-2019-04-05 14:32:10,516 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554449404200-0/src/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2019-04-05 14:32:10,516 INFO  ProjectFixService - Project was maybe fixed
-2019-04-05 14:32:10,516 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 14:32:10,516 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554449404200-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 14:32:10,521 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-04-05 14:32:10,522 INFO  ProjectTaskService - Detected possible tasks: 4
-2019-04-05 14:32:10,522 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2019-04-05 14:32:10,522 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554449404200-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2019-04-05 14:32:10,527 ERROR SysUtils - Could not process external command
+2019-04-06 22:47:09,233 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-04-06 22:47:09,233 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-04-06 22:47:09,236 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565502287-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565502287-0/src/simplerangeview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565502287-0/src/build.gradle
+2019-04-06 22:47:09,238 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565502287-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565502287-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565502287-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565502287-0/src/simplerangeview/build.gradle
+2019-04-06 22:47:09,238 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2019-04-06 22:47:10,084 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
+2019-04-06 22:47:10,084 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
+2019-04-06 22:47:10,084 INFO  ProjectFixService - Fixing project...
+2019-04-06 22:47:10,093 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565502287-0/src/app/local.properties
+2019-04-06 22:47:10,093 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565502287-0/src/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-04-06 22:47:10,094 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565502287-0/src/simplerangeview/local.properties
+2019-04-06 22:47:10,094 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565502287-0/src/simplerangeview/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-04-06 22:47:10,094 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565502287-0/src/local.properties
+2019-04-06 22:47:10,095 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565502287-0/src/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-04-06 22:47:10,096 INFO  ProjectFixService - Project was maybe fixed
+2019-04-06 22:47:10,096 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 22:47:10,096 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565502287-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 22:47:10,107 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-04-06 22:47:10,107 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-04-06 22:47:10,107 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-04-06 22:47:10,107 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565502287-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-04-06 22:47:10,112 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -49,7 +49,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -69,14 +69,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 28 common frames omitted
-2019-04-05 14:32:10,527 INFO  SysUtils - 
-2019-04-05 14:32:10,530 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 14:32:10,530 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554449404200-0/src/simplerangeview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 14:32:10,536 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-04-05 14:32:10,536 INFO  ProjectTaskService - Detected possible tasks: 4
-2019-04-05 14:32:10,536 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2019-04-05 14:32:10,536 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554449404200-0/src/simplerangeview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2019-04-05 14:32:10,541 ERROR SysUtils - Could not process external command
+2019-04-06 22:47:10,112 INFO  SysUtils - 
+2019-04-06 22:47:10,115 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 22:47:10,115 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565502287-0/src/simplerangeview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 22:47:10,120 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-04-06 22:47:10,120 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-04-06 22:47:10,120 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-04-06 22:47:10,120 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565502287-0/src/simplerangeview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-04-06 22:47:10,124 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -93,7 +93,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -113,14 +113,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 28 common frames omitted
-2019-04-05 14:32:10,541 INFO  SysUtils - 
-2019-04-05 14:32:10,543 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 14:32:10,544 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554449404200-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 14:32:10,548 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-04-05 14:32:10,548 INFO  ProjectTaskService - Detected possible tasks: 4
-2019-04-05 14:32:10,548 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2019-04-05 14:32:10,548 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554449404200-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2019-04-05 14:32:10,553 ERROR SysUtils - Could not process external command
+2019-04-06 22:47:10,124 INFO  SysUtils - 
+2019-04-06 22:47:10,126 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 22:47:10,127 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565502287-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 22:47:10,131 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-04-06 22:47:10,131 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-04-06 22:47:10,131 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-04-06 22:47:10,131 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565502287-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-04-06 22:47:10,135 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -137,7 +137,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -157,6 +157,6 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 28 common frames omitted
-2019-04-05 14:32:10,553 INFO  SysUtils - 
-2019-04-05 14:32:10,555 ERROR FullProcessService - Project build has not produced APK file
-2019-04-05 14:32:10,558 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-06 22:47:10,135 INFO  SysUtils - 
+2019-04-06 22:47:10,138 ERROR FullProcessService - Project build has not produced APK file
+2019-04-06 22:47:10,140 ERROR FullProcessService - Could not find generated or existed APK file
