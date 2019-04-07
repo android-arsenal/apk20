@@ -1,31 +1,31 @@
-2018-10-15 00:09:30,028 INFO  DownloadService - Downloading "https://github.com/UFOnaut/SimpleTabBar/archive/master.zip", attempt 3
-2018-10-15 00:09:30,505 INFO  DownloadService - Downloaded https://github.com/UFOnaut/SimpleTabBar/archive/master.zip, attempt 3
-2018-10-15 00:09:30,505 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539536970023-0/master.zip": 12 KB
-2018-10-15 00:09:30,505 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-15 00:09:30,511 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539536970023-0/master.zip: true
-2018-10-15 00:09:30,511 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539536970023-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539536970023-0/src'.
-2018-10-15 00:09:30,518 INFO  FullProcessService - Size of directory with sources: 19 KB
-2018-10-15 00:09:30,519 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539536970023-0/src]
-2018-10-15 00:09:30,540 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539536970023-0/src/.git/
+2019-04-07 21:59:16,038 INFO  DownloadService - Downloading "https://github.com/UFOnaut/SimpleTabBar/archive/master.zip", attempt 3
+2019-04-07 21:59:16,540 INFO  DownloadService - Downloaded https://github.com/UFOnaut/SimpleTabBar/archive/master.zip, attempt 3
+2019-04-07 21:59:16,541 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554649156035-0/master.zip": 12 KB
+2019-04-07 21:59:16,541 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-07 21:59:16,546 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554649156035-0/master.zip: true
+2019-04-07 21:59:16,547 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554649156035-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554649156035-0/src'.
+2019-04-07 21:59:16,556 INFO  FullProcessService - Size of directory with sources: 19 KB
+2019-04-07 21:59:16,556 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554649156035-0/src]
+2019-04-07 21:59:16,578 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554649156035-0/src/.git/
 
-2018-10-15 00:09:30,542 INFO  ProjectBuildService - Gradle wrapper(s): none
-2018-10-15 00:09:30,542 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2018-10-15 00:09:30,545 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539536970023-0/src/SimpleTabBar-master/simpletabbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539536970023-0/src/SimpleTabBar-master/build.gradle
-2018-10-15 00:09:30,547 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539536970023-0/src/SimpleTabBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539536970023-0/src/SimpleTabBar-master/simpletabbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539536970023-0/src/SimpleTabBar-master/settings.gradle
-2018-10-15 00:09:30,548 INFO  ProjectBuildService - Remote scripts: none
-2018-10-15 00:09:30,548 INFO  ProjectFixService - Fixing project...
-2018-10-15 00:09:30,553 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539536970023-0/src/SimpleTabBar-master/simpletabbar/local.properties
-2018-10-15 00:09:30,554 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539536970023-0/src/SimpleTabBar-master/simpletabbar/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-15 00:09:30,555 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539536970023-0/src/SimpleTabBar-master/local.properties
-2018-10-15 00:09:30,556 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539536970023-0/src/SimpleTabBar-master/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-15 00:09:30,556 INFO  ProjectFixService - Project was maybe fixed
-2018-10-15 00:09:30,556 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 00:09:30,556 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539536970023-0/src/SimpleTabBar-master/simpletabbar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 00:09:30,562 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-10-15 00:09:30,562 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 00:09:30,562 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 00:09:30,562 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539536970023-0/src/SimpleTabBar-master/simpletabbar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 00:09:30,568 ERROR SysUtils - Could not process external command
+2019-04-07 21:59:16,580 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-04-07 21:59:16,580 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-04-07 21:59:16,583 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554649156035-0/src/SimpleTabBar-master/simpletabbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554649156035-0/src/SimpleTabBar-master/build.gradle
+2019-04-07 21:59:16,585 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554649156035-0/src/SimpleTabBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554649156035-0/src/SimpleTabBar-master/simpletabbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554649156035-0/src/SimpleTabBar-master/settings.gradle
+2019-04-07 21:59:16,585 INFO  ProjectBuildService - Remote scripts: none
+2019-04-07 21:59:16,585 INFO  ProjectFixService - Fixing project...
+2019-04-07 21:59:16,589 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554649156035-0/src/SimpleTabBar-master/simpletabbar/local.properties
+2019-04-07 21:59:16,590 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554649156035-0/src/SimpleTabBar-master/simpletabbar/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-04-07 21:59:16,590 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554649156035-0/src/SimpleTabBar-master/local.properties
+2019-04-07 21:59:16,591 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554649156035-0/src/SimpleTabBar-master/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-04-07 21:59:16,591 INFO  ProjectFixService - Project was maybe fixed
+2019-04-07 21:59:16,591 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-07 21:59:16,591 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554649156035-0/src/SimpleTabBar-master/simpletabbar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-07 21:59:16,597 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-04-07 21:59:16,597 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-07 21:59:16,597 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-07 21:59:16,597 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554649156035-0/src/SimpleTabBar-master/simpletabbar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-07 21:59:16,602 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -42,8 +42,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -62,15 +61,15 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
-	... 29 common frames omitted
-2018-10-15 00:09:30,569 INFO  SysUtils - 
-2018-10-15 00:09:30,571 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 00:09:30,571 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539536970023-0/src/SimpleTabBar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 00:09:30,577 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-10-15 00:09:30,577 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 00:09:30,577 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 00:09:30,577 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539536970023-0/src/SimpleTabBar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 00:09:30,582 ERROR SysUtils - Could not process external command
+	... 28 common frames omitted
+2019-04-07 21:59:16,602 INFO  SysUtils - 
+2019-04-07 21:59:16,604 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-07 21:59:16,604 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554649156035-0/src/SimpleTabBar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-07 21:59:16,610 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-04-07 21:59:16,610 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-07 21:59:16,610 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-07 21:59:16,610 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554649156035-0/src/SimpleTabBar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-07 21:59:16,615 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -87,8 +86,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -107,7 +105,7 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
-	... 29 common frames omitted
-2018-10-15 00:09:30,583 INFO  SysUtils - 
-2018-10-15 00:09:30,585 ERROR FullProcessService - Project build has not produced APK file
-2018-10-15 00:09:30,587 ERROR FullProcessService - Could not find generated or existed APK file
+	... 28 common frames omitted
+2019-04-07 21:59:16,616 INFO  SysUtils - 
+2019-04-07 21:59:16,618 ERROR FullProcessService - Project build has not produced APK file
+2019-04-07 21:59:16,620 ERROR FullProcessService - Could not find generated or existed APK file

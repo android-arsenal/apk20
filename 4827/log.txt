@@ -1,36 +1,33 @@
-2019-04-05 14:48:56,390 INFO  DownloadService - Downloading "https://github.com/kibotu/TimeBomb/archive/master.zip", attempt 3
-2019-04-05 14:49:56,968 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-04-05 14:49:58,230 INFO  GithubDownloadService - Default branch of this repository: master
-2019-04-05 14:49:58,230 INFO  DownloadService - Downloading "https://github.com/kibotu/TimeBomb/archive/master.zip", attempt 3
-2019-04-05 14:50:59,657 DEBUG FullProcessService - Repository https://github.com/kibotu/TimeBomb available: true
-2019-04-05 14:50:59,657 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-04-05 14:50:59,657 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/kibotu/TimeBomb, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src]
-2019-04-05 14:51:01,829 INFO  SysUtils - 
-2019-04-05 14:51:01,857 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/.git": true
-2019-04-05 14:51:01,860 INFO  FullProcessService - Size of directory with sources: 172 KB
-2019-04-05 14:51:01,860 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src]
-2019-04-05 14:51:01,876 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/.git/
+2019-04-07 21:49:19,383 INFO  DownloadService - Downloading "https://github.com/kibotu/TimeBomb/archive/master.zip", attempt 3
+2019-04-07 21:49:19,893 INFO  DownloadService - Downloaded https://github.com/kibotu/TimeBomb/archive/master.zip, attempt 3
+2019-04-07 21:49:19,893 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/master.zip": 133 KB
+2019-04-07 21:49:19,893 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-07 21:49:19,899 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/master.zip: true
+2019-04-07 21:49:19,899 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src'.
+2019-04-07 21:49:19,918 INFO  FullProcessService - Size of directory with sources: 172 KB
+2019-04-07 21:49:19,918 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src]
+2019-04-07 21:49:19,936 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/.git/
 
-2019-04-05 14:51:01,879 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/gradlew
-2019-04-05 14:51:01,882 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/build.gradle
-2019-04-05 14:51:01,884 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/settings.gradle
-2019-04-05 14:51:01,884 INFO  ProjectBuildService - Remote scripts: none
-2019-04-05 14:51:01,884 INFO  ProjectFixService - Fixing project...
-2019-04-05 14:51:01,891 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/app/local.properties
-2019-04-05 14:51:01,892 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/app/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2019-04-05 14:51:01,892 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/local.properties
-2019-04-05 14:51:01,892 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2019-04-05 14:51:01,893 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/local.properties
-2019-04-05 14:51:01,893 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.1-bin.zip
-2019-04-05 14:51:01,894 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2019-04-05 14:51:01,894 INFO  ProjectFixService - Project was maybe fixed
-2019-04-05 14:51:01,894 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 14:51:01,894 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 14:51:11,436 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-05 14:51:11,436 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-05 14:51:11,437 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-05 14:51:11,437 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-05 14:51:16,714 ERROR SysUtils - Could not process external command
+2019-04-07 21:49:19,939 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/gradlew
+2019-04-07 21:49:19,942 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/build.gradle
+2019-04-07 21:49:19,944 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/settings.gradle
+2019-04-07 21:49:19,945 INFO  ProjectBuildService - Remote scripts: none
+2019-04-07 21:49:19,945 INFO  ProjectFixService - Fixing project...
+2019-04-07 21:49:19,954 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/app/local.properties
+2019-04-07 21:49:19,954 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/app/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-04-07 21:49:19,955 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/local.properties
+2019-04-07 21:49:19,955 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-04-07 21:49:19,956 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/local.properties
+2019-04-07 21:49:19,956 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.1-bin.zip
+2019-04-07 21:49:19,957 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-04-07 21:49:19,957 INFO  ProjectFixService - Project was maybe fixed
+2019-04-07 21:49:19,957 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-07 21:49:19,958 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-07 21:49:26,273 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-07 21:49:26,273 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-07 21:49:26,273 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-07 21:49:26,273 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-07 21:49:31,768 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -43,7 +40,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -57,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-05 14:51:16,714 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-07 21:49:31,768 INFO  SysUtils - Configuration on demand is an incubating feature.
 Creating release version name. Format: major.minor.build
 Getting build number from Jenkins or Travis.
 Getting branch name from Jenkins or Travis or from git directly.
@@ -70,7 +68,7 @@ Use '--' to separate paths from revisions, like this:
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/build.gradle' line: 334
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/build.gradle' line: 334
 
 * What went wrong:
 A problem occurred evaluating project ':lib'.
@@ -189,9 +187,9 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.api.internal.project.DefaultProject.exec(DefaultProject.java:889)
 	at org.gradle.groovy.scripts.DefaultScript.exec(DefaultScript.java:239)
 	at org.gradle.api.Script$exec$1.callCurrent(Unknown Source)
-	at build_1zuye6q7py4koq96uw2r47k4l.branchNameByGit(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/build.gradle:334)
-	at build_1zuye6q7py4koq96uw2r47k4l.branchName(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/build.gradle:313)
-	at build_1zuye6q7py4koq96uw2r47k4l.simpleReleaseVersionName(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/build.gradle:254)
+	at build_4nu9w1d2rktkmgog8ok7v3dhe.branchNameByGit(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/build.gradle:334)
+	at build_4nu9w1d2rktkmgog8ok7v3dhe.branchName(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/build.gradle:313)
+	at build_4nu9w1d2rktkmgog8ok7v3dhe.simpleReleaseVersionName(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/build.gradle:254)
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:382)
 	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:80)
@@ -199,7 +197,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:405)
 	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:80)
-	at build_1zuye6q7py4koq96uw2r47k4l$_run_closure1$_closure19.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/build.gradle:17)
+	at build_4nu9w1d2rktkmgog8ok7v3dhe$_run_closure1$_closure19.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/build.gradle:17)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -211,7 +209,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.internal.metaobject.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:96)
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:59)
-	at build_1zuye6q7py4koq96uw2r47k4l$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/build.gradle:11)
+	at build_4nu9w1d2rktkmgog8ok7v3dhe$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/build.gradle:11)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -223,22 +221,22 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:83)
-	at build_1zuye6q7py4koq96uw2r47k4l.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/build.gradle:7)
+	at build_4nu9w1d2rktkmgog8ok7v3dhe.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/build.gradle:7)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 100 more
 
 
 BUILD FAILED
 
-Total time: 4.989 secs
+Total time: 5.267 secs
 
-2019-04-05 14:51:16,717 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 14:51:16,717 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 14:51:21,403 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-05 14:51:21,403 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-05 14:51:21,403 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-05 14:51:21,403 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-05 14:51:26,336 ERROR SysUtils - Could not process external command
+2019-04-07 21:49:31,772 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-07 21:49:31,773 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-07 21:49:37,163 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-07 21:49:37,163 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-07 21:49:37,163 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-07 21:49:37,163 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-07 21:49:42,499 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -251,7 +249,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -265,7 +264,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-05 14:51:26,336 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-07 21:49:42,500 INFO  SysUtils - Configuration on demand is an incubating feature.
 Creating release version name. Format: major.minor.build
 Getting build number from Jenkins or Travis.
 Getting branch name from Jenkins or Travis or from git directly.
@@ -278,7 +277,7 @@ Use '--' to separate paths from revisions, like this:
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/build.gradle' line: 334
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/build.gradle' line: 334
 
 * What went wrong:
 A problem occurred evaluating project ':lib'.
@@ -358,9 +357,9 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.api.internal.project.DefaultProject.exec(DefaultProject.java:889)
 	at org.gradle.groovy.scripts.DefaultScript.exec(DefaultScript.java:239)
 	at org.gradle.api.Script$exec$1.callCurrent(Unknown Source)
-	at build_1zuye6q7py4koq96uw2r47k4l.branchNameByGit(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/build.gradle:334)
-	at build_1zuye6q7py4koq96uw2r47k4l.branchName(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/build.gradle:313)
-	at build_1zuye6q7py4koq96uw2r47k4l.simpleReleaseVersionName(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/build.gradle:254)
+	at build_4nu9w1d2rktkmgog8ok7v3dhe.branchNameByGit(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/build.gradle:334)
+	at build_4nu9w1d2rktkmgog8ok7v3dhe.branchName(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/build.gradle:313)
+	at build_4nu9w1d2rktkmgog8ok7v3dhe.simpleReleaseVersionName(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/build.gradle:254)
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:382)
 	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:80)
@@ -368,7 +367,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:405)
 	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:80)
-	at build_1zuye6q7py4koq96uw2r47k4l$_run_closure1$_closure19.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/build.gradle:17)
+	at build_4nu9w1d2rktkmgog8ok7v3dhe$_run_closure1$_closure19.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/build.gradle:17)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -380,7 +379,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.internal.metaobject.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:96)
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:59)
-	at build_1zuye6q7py4koq96uw2r47k4l$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/build.gradle:11)
+	at build_4nu9w1d2rktkmgog8ok7v3dhe$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/build.gradle:11)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -392,22 +391,22 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:83)
-	at build_1zuye6q7py4koq96uw2r47k4l.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/build.gradle:7)
+	at build_4nu9w1d2rktkmgog8ok7v3dhe.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/build.gradle:7)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 61 more
 
 
 BUILD FAILED
 
-Total time: 4.708 secs
+Total time: 5.092 secs
 
-2019-04-05 14:51:26,339 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 14:51:26,340 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 14:51:31,318 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-05 14:51:31,318 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-05 14:51:31,318 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-05 14:51:31,318 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-05 14:51:36,554 ERROR SysUtils - Could not process external command
+2019-04-07 21:49:42,503 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-07 21:49:42,503 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-07 21:49:47,857 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-07 21:49:47,857 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-07 21:49:47,857 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-07 21:49:47,857 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-07 21:49:53,601 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -420,7 +419,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -434,7 +434,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-05 14:51:36,554 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-07 21:49:53,601 INFO  SysUtils - Configuration on demand is an incubating feature.
 Creating release version name. Format: major.minor.build
 Getting build number from Jenkins or Travis.
 Getting branch name from Jenkins or Travis or from git directly.
@@ -447,7 +447,7 @@ Use '--' to separate paths from revisions, like this:
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/build.gradle' line: 334
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/build.gradle' line: 334
 
 * What went wrong:
 A problem occurred evaluating project ':lib'.
@@ -566,9 +566,9 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.api.internal.project.DefaultProject.exec(DefaultProject.java:889)
 	at org.gradle.groovy.scripts.DefaultScript.exec(DefaultScript.java:239)
 	at org.gradle.api.Script$exec$1.callCurrent(Unknown Source)
-	at build_1zuye6q7py4koq96uw2r47k4l.branchNameByGit(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/build.gradle:334)
-	at build_1zuye6q7py4koq96uw2r47k4l.branchName(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/build.gradle:313)
-	at build_1zuye6q7py4koq96uw2r47k4l.simpleReleaseVersionName(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/build.gradle:254)
+	at build_4nu9w1d2rktkmgog8ok7v3dhe.branchNameByGit(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/build.gradle:334)
+	at build_4nu9w1d2rktkmgog8ok7v3dhe.branchName(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/build.gradle:313)
+	at build_4nu9w1d2rktkmgog8ok7v3dhe.simpleReleaseVersionName(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/build.gradle:254)
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:382)
 	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:80)
@@ -576,7 +576,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:405)
 	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:80)
-	at build_1zuye6q7py4koq96uw2r47k4l$_run_closure1$_closure19.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/build.gradle:17)
+	at build_4nu9w1d2rktkmgog8ok7v3dhe$_run_closure1$_closure19.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/build.gradle:17)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -588,7 +588,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.internal.metaobject.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:96)
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:59)
-	at build_1zuye6q7py4koq96uw2r47k4l$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/build.gradle:11)
+	at build_4nu9w1d2rktkmgog8ok7v3dhe$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/build.gradle:11)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -600,14 +600,14 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:83)
-	at build_1zuye6q7py4koq96uw2r47k4l.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554450536387-0/src/lib/build.gradle:7)
+	at build_4nu9w1d2rktkmgog8ok7v3dhe.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648559380-0/src/TimeBomb-master/lib/build.gradle:7)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 100 more
 
 
 BUILD FAILED
 
-Total time: 4.931 secs
+Total time: 5.494 secs
 
-2019-04-05 14:51:36,558 ERROR FullProcessService - Project build has not produced APK file
-2019-04-05 14:51:36,561 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-07 21:49:53,605 ERROR FullProcessService - Project build has not produced APK file
+2019-04-07 21:49:53,608 ERROR FullProcessService - Could not find generated or existed APK file

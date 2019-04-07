@@ -1,14 +1,11 @@
-2019-04-05 15:11:03,655 INFO  DownloadService - Downloading "https://github.com/sevar83/android-spatialite/archive/master.zip", attempt 3
-2019-04-05 15:12:04,361 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-04-05 15:12:05,507 INFO  GithubDownloadService - Default branch of this repository: master
-2019-04-05 15:12:05,507 INFO  DownloadService - Downloading "https://github.com/sevar83/android-spatialite/archive/master.zip", attempt 3
-2019-04-05 15:13:06,967 DEBUG FullProcessService - Repository https://github.com/sevar83/android-spatialite available: true
-2019-04-05 15:13:06,978 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-04-05 15:13:06,978 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/sevar83/android-spatialite, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451863653-0/src]
-2019-04-05 15:13:37,194 INFO  SysUtils - 
-2019-04-05 15:13:37,305 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554451863653-0/src/.git": true
-2019-04-05 15:13:37,557 INFO  FullProcessService - Size of directory with sources: 123 MB
-2019-04-05 15:13:37,557 ERROR FullProcessService - Source directory should be less than 50 MB
-2019-04-05 15:13:37,557 ERROR FullProcessService - Project will not be processed
-2019-04-05 15:13:37,557 ERROR FullProcessService - Project build has not produced APK file
-2019-04-05 15:13:37,714 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-07 21:54:43,257 INFO  DownloadService - Downloading "https://github.com/sevar83/android-spatialite/archive/master.zip", attempt 3
+2019-04-07 21:54:54,441 INFO  DownloadService - Downloaded https://github.com/sevar83/android-spatialite/archive/master.zip, attempt 3
+2019-04-07 21:54:54,442 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648883254-0/master.zip": 31 MB
+2019-04-07 21:54:54,442 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-07 21:54:54,460 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648883254-0/master.zip: true
+2019-04-07 21:54:54,460 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648883254-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648883254-0/src'.
+2019-04-07 21:54:57,764 INFO  FullProcessService - Size of directory with sources: 123 MB
+2019-04-07 21:54:57,764 ERROR FullProcessService - Source directory should be less than 50 MB
+2019-04-07 21:54:57,764 ERROR FullProcessService - Project will not be processed
+2019-04-07 21:54:57,764 ERROR FullProcessService - Project build has not produced APK file
+2019-04-07 21:54:57,960 ERROR FullProcessService - Could not find generated or existed APK file
