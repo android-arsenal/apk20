@@ -1,32 +1,32 @@
-2018-10-15 00:15:47,741 INFO  DownloadService - Downloading "https://github.com/evant/PokeMVVM/archive/master.zip", attempt 3
-2018-10-15 00:15:48,209 INFO  DownloadService - Downloaded https://github.com/evant/PokeMVVM/archive/master.zip, attempt 3
-2018-10-15 00:15:48,209 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537347733-0/master.zip": 138 KB
-2018-10-15 00:15:48,209 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-15 00:15:48,214 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537347733-0/master.zip: true
-2018-10-15 00:15:48,215 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537347733-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537347733-0/src'.
-2018-10-15 00:15:48,245 INFO  FullProcessService - Size of directory with sources: 193 KB
-2018-10-15 00:15:48,245 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537347733-0/src]
-2018-10-15 00:15:48,265 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537347733-0/src/.git/
+2019-04-07 22:51:27,523 INFO  DownloadService - Downloading "https://github.com/evant/PokeMVVM/archive/master.zip", attempt 3
+2019-04-07 22:51:28,064 INFO  DownloadService - Downloaded https://github.com/evant/PokeMVVM/archive/master.zip, attempt 3
+2019-04-07 22:51:28,065 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652287515-0/master.zip": 138 KB
+2019-04-07 22:51:28,065 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-07 22:51:28,066 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652287515-0/master.zip: true
+2019-04-07 22:51:28,066 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652287515-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652287515-0/src'.
+2019-04-07 22:51:28,096 INFO  FullProcessService - Size of directory with sources: 193 KB
+2019-04-07 22:51:28,096 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652287515-0/src]
+2019-04-07 22:51:28,116 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652287515-0/src/.git/
 
-2018-10-15 00:15:48,269 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537347733-0/src/PokeMVVM-master/gradlew
-2018-10-15 00:15:48,273 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537347733-0/src/PokeMVVM-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537347733-0/src/PokeMVVM-master/build.gradle
-2018-10-15 00:15:48,276 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537347733-0/src/PokeMVVM-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537347733-0/src/PokeMVVM-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537347733-0/src/PokeMVVM-master/settings.gradle
-2018-10-15 00:15:48,277 INFO  ProjectBuildService - Remote scripts: none
-2018-10-15 00:15:48,277 INFO  ProjectFixService - Fixing project...
-2018-10-15 00:15:48,285 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537347733-0/src/PokeMVVM-master/app/local.properties
-2018-10-15 00:15:48,286 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537347733-0/src/PokeMVVM-master/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=21,targetSdkVersion=24]
-2018-10-15 00:15:48,287 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537347733-0/src/PokeMVVM-master/local.properties
-2018-10-15 00:15:48,287 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-15 00:15:48,288 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-15 00:15:48,289 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537347733-0/src/PokeMVVM-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=21,targetSdkVersion=24]
-2018-10-15 00:15:48,289 INFO  ProjectFixService - Project was maybe fixed
-2018-10-15 00:15:48,290 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 00:15:48,290 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537347733-0/src/PokeMVVM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537347733-0/src/PokeMVVM-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 00:15:54,852 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 00:15:54,852 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 00:15:54,852 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 00:15:54,852 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537347733-0/src/PokeMVVM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537347733-0/src/PokeMVVM-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 00:16:01,459 ERROR SysUtils - Could not process external command
+2019-04-07 22:51:28,120 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652287515-0/src/PokeMVVM-master/gradlew
+2019-04-07 22:51:28,124 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652287515-0/src/PokeMVVM-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652287515-0/src/PokeMVVM-master/build.gradle
+2019-04-07 22:51:28,128 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652287515-0/src/PokeMVVM-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652287515-0/src/PokeMVVM-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652287515-0/src/PokeMVVM-master/settings.gradle
+2019-04-07 22:51:28,128 INFO  ProjectBuildService - Remote scripts: none
+2019-04-07 22:51:28,128 INFO  ProjectFixService - Fixing project...
+2019-04-07 22:51:28,137 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652287515-0/src/PokeMVVM-master/app/local.properties
+2019-04-07 22:51:28,138 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652287515-0/src/PokeMVVM-master/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=21,targetSdkVersion=24]
+2019-04-07 22:51:28,138 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652287515-0/src/PokeMVVM-master/local.properties
+2019-04-07 22:51:28,138 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-07 22:51:28,139 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-07 22:51:28,139 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652287515-0/src/PokeMVVM-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=21,targetSdkVersion=24]
+2019-04-07 22:51:28,140 INFO  ProjectFixService - Project was maybe fixed
+2019-04-07 22:51:28,140 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-07 22:51:28,140 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652287515-0/src/PokeMVVM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652287515-0/src/PokeMVVM-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-07 22:52:25,548 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-07 22:52:25,549 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-07 22:52:25,549 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-07 22:52:25,549 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652287515-0/src/PokeMVVM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652287515-0/src/PokeMVVM-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-07 22:52:32,731 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -54,7 +54,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 00:16:01,460 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-07 22:52:32,731 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -157,22 +157,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 5.986 secs
+Total time: 6.548 secs
 
-2018-10-15 00:16:01,464 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 00:16:01,464 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537347733-0/src/PokeMVVM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537347733-0/src/PokeMVVM-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 00:16:07,958 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 00:16:07,958 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 00:16:07,958 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 00:16:07,958 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537347733-0/src/PokeMVVM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537347733-0/src/PokeMVVM-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 00:16:14,525 ERROR SysUtils - Could not process external command
+2019-04-07 22:52:32,736 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-07 22:52:32,736 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652287515-0/src/PokeMVVM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652287515-0/src/PokeMVVM-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-07 22:52:39,724 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-07 22:52:39,725 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-07 22:52:39,725 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-07 22:52:39,725 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652287515-0/src/PokeMVVM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652287515-0/src/PokeMVVM-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-07 22:52:46,498 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -200,7 +200,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 00:16:14,525 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-07 22:52:46,499 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -310,7 +310,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.96 secs
+Total time: 6.123 secs
 
-2018-10-15 00:16:14,529 ERROR FullProcessService - Project build has not produced APK file
-2018-10-15 00:16:14,533 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-07 22:52:46,506 ERROR FullProcessService - Project build has not produced APK file
+2019-04-07 22:52:46,512 ERROR FullProcessService - Could not find generated or existed APK file

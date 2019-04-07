@@ -37,8 +37,8 @@
   "dexClasses" : 1453,
   "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.kevalpatel2106.sample\" platformBuildVersionCode=\"1\" platformBuildVersionName=\"{4:1065353216}\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\" />\n\t<uses-feature android:name=\"android.hardware.camera.autofocus\" android:required=\"false\" />\n\t<uses-feature android:name=\"android.hardware.Camera\" android:required=\"false\" />\n\t<uses-permission android:name=\"android.permission.CAMERA\" />\n\t<application android:theme=\"resourceId:0x7f0c0005\" android:label=\"Android Hidden Camera\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.kevalpatel2106.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.kevalpatel2106.sample.DemoCamActivity\" />\n\t\t<service android:name=\"com.kevalpatel2106.sample.DemoCamService\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 1521588,
-  "crc32" : 1853227745,
-  "sha256" : "c544ef2db75df707ddc548e31ca50cad6146e1549c8517565ca7eb3f3e889c7a",
-  "buildTime" : 1542039457000
+  "fileSize" : 1521602,
+  "crc32" : 1674558293,
+  "sha256" : "8c2df530bffe8619388c3363a27315b86117b87ac5c42a5aefe2e84418be15b0",
+  "buildTime" : 1554652459000
 }

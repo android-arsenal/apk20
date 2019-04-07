@@ -1,32 +1,32 @@
-2018-10-15 00:18:43,117 INFO  DownloadService - Downloading "https://github.com/lopei/collageview/archive/master.zip", attempt 3
-2018-10-15 00:18:43,593 INFO  DownloadService - Downloaded https://github.com/lopei/collageview/archive/master.zip, attempt 3
-2018-10-15 00:18:43,594 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537523114-0/master.zip": 171 KB
-2018-10-15 00:18:43,594 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-15 00:18:43,599 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537523114-0/master.zip: true
-2018-10-15 00:18:43,599 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537523114-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537523114-0/src'.
-2018-10-15 00:18:43,612 INFO  FullProcessService - Size of directory with sources: 198 KB
-2018-10-15 00:18:43,612 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537523114-0/src]
-2018-10-15 00:18:43,630 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537523114-0/src/.git/
+2019-04-07 22:55:52,986 INFO  DownloadService - Downloading "https://github.com/lopei/collageview/archive/master.zip", attempt 3
+2019-04-07 22:55:53,683 INFO  DownloadService - Downloaded https://github.com/lopei/collageview/archive/master.zip, attempt 3
+2019-04-07 22:55:53,683 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652552983-0/master.zip": 171 KB
+2019-04-07 22:55:53,683 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-07 22:55:53,688 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652552983-0/master.zip: true
+2019-04-07 22:55:53,689 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652552983-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652552983-0/src'.
+2019-04-07 22:55:53,702 INFO  FullProcessService - Size of directory with sources: 198 KB
+2019-04-07 22:55:53,702 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652552983-0/src]
+2019-04-07 22:55:53,727 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652552983-0/src/.git/
 
-2018-10-15 00:18:43,632 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537523114-0/src/collageview-master/gradlew
-2018-10-15 00:18:43,634 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537523114-0/src/collageview-master/collageview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537523114-0/src/collageview-master/build.gradle
-2018-10-15 00:18:43,636 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537523114-0/src/collageview-master/collageview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537523114-0/src/collageview-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537523114-0/src/collageview-master/settings.gradle
-2018-10-15 00:18:43,636 INFO  ProjectBuildService - Remote scripts: none
-2018-10-15 00:18:43,636 INFO  ProjectFixService - Fixing project...
-2018-10-15 00:18:43,641 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537523114-0/src/collageview-master/collageview/local.properties
-2018-10-15 00:18:43,641 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537523114-0/src/collageview-master/collageview/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
-2018-10-15 00:18:43,642 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537523114-0/src/collageview-master/local.properties
-2018-10-15 00:18:43,642 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2018-10-15 00:18:43,643 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2018-10-15 00:18:43,643 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537523114-0/src/collageview-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
-2018-10-15 00:18:43,643 INFO  ProjectFixService - Project was maybe fixed
-2018-10-15 00:18:43,643 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 00:18:43,643 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537523114-0/src/collageview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537523114-0/src/collageview-master/collageview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 00:18:50,446 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 00:18:50,446 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 00:18:50,446 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 00:18:50,446 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537523114-0/src/collageview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537523114-0/src/collageview-master/collageview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 00:18:56,362 ERROR SysUtils - Could not process external command
+2019-04-07 22:55:53,730 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652552983-0/src/collageview-master/gradlew
+2019-04-07 22:55:53,733 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652552983-0/src/collageview-master/collageview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652552983-0/src/collageview-master/build.gradle
+2019-04-07 22:55:53,735 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652552983-0/src/collageview-master/collageview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652552983-0/src/collageview-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652552983-0/src/collageview-master/settings.gradle
+2019-04-07 22:55:53,735 INFO  ProjectBuildService - Remote scripts: none
+2019-04-07 22:55:53,735 INFO  ProjectFixService - Fixing project...
+2019-04-07 22:55:53,741 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652552983-0/src/collageview-master/collageview/local.properties
+2019-04-07 22:55:53,742 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652552983-0/src/collageview-master/collageview/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2019-04-07 22:55:53,742 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652552983-0/src/collageview-master/local.properties
+2019-04-07 22:55:53,743 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-04-07 22:55:53,743 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-04-07 22:55:53,744 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652552983-0/src/collageview-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2019-04-07 22:55:53,744 INFO  ProjectFixService - Project was maybe fixed
+2019-04-07 22:55:53,744 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-07 22:55:53,744 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652552983-0/src/collageview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652552983-0/src/collageview-master/collageview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-07 22:56:01,768 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-07 22:56:01,768 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-07 22:56:01,768 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-07 22:56:01,768 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652552983-0/src/collageview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652552983-0/src/collageview-master/collageview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-07 22:56:10,383 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -53,7 +53,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 00:18:56,362 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-07 22:56:10,384 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -161,15 +161,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.528 secs
+Total time: 8.045 secs
 
-2018-10-15 00:18:56,365 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 00:18:56,365 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537523114-0/src/collageview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537523114-0/src/collageview-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 00:19:02,420 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 00:19:02,420 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 00:19:02,421 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 00:19:02,421 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537523114-0/src/collageview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537523114-0/src/collageview-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 00:19:08,282 ERROR SysUtils - Could not process external command
+2019-04-07 22:56:10,387 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-07 22:56:10,387 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652552983-0/src/collageview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652552983-0/src/collageview-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-07 22:56:16,870 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-07 22:56:16,870 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-07 22:56:16,870 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-07 22:56:16,870 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652552983-0/src/collageview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652552983-0/src/collageview-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-07 22:56:23,598 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -196,7 +196,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 00:19:08,282 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-07 22:56:23,598 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -304,7 +304,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.497 secs
+Total time: 6.209 secs
 
-2018-10-15 00:19:08,285 ERROR FullProcessService - Project build has not produced APK file
-2018-10-15 00:19:08,287 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-07 22:56:23,601 ERROR FullProcessService - Project build has not produced APK file
+2019-04-07 22:56:23,605 ERROR FullProcessService - Could not find generated or existed APK file

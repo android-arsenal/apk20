@@ -1,36 +1,36 @@
-2018-10-15 00:14:56,663 INFO  DownloadService - Downloading "https://github.com/enginebai/SwagPoints/archive/master.zip", attempt 3
-2018-10-15 00:14:59,505 INFO  DownloadService - Downloaded https://github.com/enginebai/SwagPoints/archive/master.zip, attempt 3
-2018-10-15 00:14:59,506 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/master.zip": 805 KB
-2018-10-15 00:14:59,506 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-15 00:14:59,511 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/master.zip: true
-2018-10-15 00:14:59,512 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src'.
-2018-10-15 00:14:59,548 INFO  FullProcessService - Size of directory with sources: 866 KB
-2018-10-15 00:14:59,548 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src]
-2018-10-15 00:14:59,567 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/.git/
+2019-04-07 22:50:32,934 INFO  DownloadService - Downloading "https://github.com/enginebai/SwagPoints/archive/master.zip", attempt 3
+2019-04-07 22:50:35,704 INFO  DownloadService - Downloaded https://github.com/enginebai/SwagPoints/archive/master.zip, attempt 3
+2019-04-07 22:50:35,704 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/master.zip": 805 KB
+2019-04-07 22:50:35,704 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-07 22:50:35,710 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/master.zip: true
+2019-04-07 22:50:35,710 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src'.
+2019-04-07 22:50:35,742 INFO  FullProcessService - Size of directory with sources: 866 KB
+2019-04-07 22:50:35,742 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src]
+2019-04-07 22:50:35,759 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/.git/
 
-2018-10-15 00:14:59,571 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/SwagPoints-master/gradlew
-2018-10-15 00:14:59,575 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/SwagPoints-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/SwagPoints-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/SwagPoints-master/build.gradle
-2018-10-15 00:14:59,579 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/SwagPoints-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/SwagPoints-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/SwagPoints-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/SwagPoints-master/settings.gradle
-2018-10-15 00:14:59,584 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
-2018-10-15 00:15:00,471 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
-2018-10-15 00:15:00,472 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
-2018-10-15 00:15:00,472 INFO  ProjectFixService - Fixing project...
-2018-10-15 00:15:00,494 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/SwagPoints-master/app/local.properties
-2018-10-15 00:15:00,495 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/SwagPoints-master/app/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-15 00:15:00,496 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/SwagPoints-master/library/local.properties
-2018-10-15 00:15:00,496 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/SwagPoints-master/library/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-15 00:15:00,497 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/SwagPoints-master/local.properties
-2018-10-15 00:15:00,498 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-15 00:15:00,499 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-15 00:15:00,500 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/SwagPoints-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-15 00:15:00,500 INFO  ProjectFixService - Project was maybe fixed
-2018-10-15 00:15:00,500 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 00:15:00,500 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/SwagPoints-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/SwagPoints-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 00:15:07,355 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 00:15:07,356 INFO  ProjectTaskService - Detected possible tasks: 4
-2018-10-15 00:15:07,356 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2018-10-15 00:15:07,356 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/SwagPoints-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/SwagPoints-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2018-10-15 00:15:13,895 ERROR SysUtils - Could not process external command
+2019-04-07 22:50:35,763 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/SwagPoints-master/gradlew
+2019-04-07 22:50:35,768 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/SwagPoints-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/SwagPoints-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/SwagPoints-master/build.gradle
+2019-04-07 22:50:35,772 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/SwagPoints-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/SwagPoints-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/SwagPoints-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/SwagPoints-master/settings.gradle
+2019-04-07 22:50:35,772 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2019-04-07 22:50:36,014 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
+2019-04-07 22:50:36,014 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
+2019-04-07 22:50:36,014 INFO  ProjectFixService - Fixing project...
+2019-04-07 22:50:36,025 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/SwagPoints-master/app/local.properties
+2019-04-07 22:50:36,026 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/SwagPoints-master/app/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-04-07 22:50:36,026 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/SwagPoints-master/library/local.properties
+2019-04-07 22:50:36,027 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/SwagPoints-master/library/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-04-07 22:50:36,027 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/SwagPoints-master/local.properties
+2019-04-07 22:50:36,028 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-07 22:50:36,028 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-07 22:50:36,029 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/SwagPoints-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-04-07 22:50:36,029 INFO  ProjectFixService - Project was maybe fixed
+2019-04-07 22:50:36,029 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-07 22:50:36,029 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/SwagPoints-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/SwagPoints-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-07 22:50:43,772 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-07 22:50:43,772 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-04-07 22:50:43,772 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-04-07 22:50:43,773 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/SwagPoints-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/SwagPoints-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-04-07 22:50:50,356 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -58,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 00:15:13,895 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-07 22:50:50,356 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -159,15 +159,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.934 secs
+Total time: 5.987 secs
 
-2018-10-15 00:15:13,900 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 00:15:13,900 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/SwagPoints-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/SwagPoints-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 00:15:22,252 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 00:15:22,252 INFO  ProjectTaskService - Detected possible tasks: 4
-2018-10-15 00:15:22,252 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2018-10-15 00:15:22,252 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/SwagPoints-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/SwagPoints-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2018-10-15 00:15:34,795 ERROR SysUtils - Could not process external command
+2019-04-07 22:50:50,361 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-07 22:50:50,362 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/SwagPoints-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/SwagPoints-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-07 22:50:59,522 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-07 22:50:59,522 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-04-07 22:50:59,522 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-04-07 22:50:59,522 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/SwagPoints-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/SwagPoints-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-04-07 22:51:12,377 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -195,7 +195,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 00:15:34,795 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-07 22:51:12,377 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
@@ -371,15 +371,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 11.932 secs
+Total time: 12.213 secs
 
-2018-10-15 00:15:34,861 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 00:15:34,861 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/SwagPoints-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/SwagPoints-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 00:15:40,950 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 00:15:40,950 INFO  ProjectTaskService - Detected possible tasks: 4
-2018-10-15 00:15:40,950 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2018-10-15 00:15:40,950 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/SwagPoints-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537296655-0/src/SwagPoints-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2018-10-15 00:15:47,197 ERROR SysUtils - Could not process external command
+2019-04-07 22:51:12,452 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-07 22:51:12,452 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/SwagPoints-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/SwagPoints-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-07 22:51:20,028 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-07 22:51:20,028 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-04-07 22:51:20,028 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-04-07 22:51:20,028 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/SwagPoints-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652232930-0/src/SwagPoints-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-04-07 22:51:27,036 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -407,7 +407,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 00:15:47,197 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-07 22:51:27,036 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -509,7 +509,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.636 secs
+Total time: 6.36 secs
 
-2018-10-15 00:15:47,263 ERROR FullProcessService - Project build has not produced APK file
-2018-10-15 00:15:47,321 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-07 22:51:27,108 ERROR FullProcessService - Project build has not produced APK file
+2019-04-07 22:51:27,176 ERROR FullProcessService - Could not find generated or existed APK file
