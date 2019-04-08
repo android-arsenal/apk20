@@ -1,38 +1,38 @@
-2018-10-15 00:26:16,912 INFO  DownloadService - Downloading "https://github.com/Hariofspades/IncDec/archive/master.zip", attempt 3
-2018-10-15 00:26:17,434 INFO  DownloadService - Downloaded https://github.com/Hariofspades/IncDec/archive/master.zip, attempt 3
-2018-10-15 00:26:17,434 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/master.zip": 365 KB
-2018-10-15 00:26:17,434 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-15 00:26:17,440 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/master.zip: true
-2018-10-15 00:26:17,440 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src'.
-2018-10-15 00:26:17,461 INFO  FullProcessService - Size of directory with sources: 431 KB
-2018-10-15 00:26:17,461 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src]
-2018-10-15 00:26:17,477 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/.git/
+2019-04-08 11:07:49,245 INFO  DownloadService - Downloading "https://github.com/Hariofspades/IncDec/archive/master.zip", attempt 3
+2019-04-08 11:07:50,148 INFO  DownloadService - Downloaded https://github.com/Hariofspades/IncDec/archive/master.zip, attempt 3
+2019-04-08 11:07:50,148 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/master.zip": 365 KB
+2019-04-08 11:07:50,149 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-08 11:07:50,154 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/master.zip: true
+2019-04-08 11:07:50,154 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src'.
+2019-04-08 11:07:50,179 INFO  FullProcessService - Size of directory with sources: 431 KB
+2019-04-08 11:07:50,179 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src]
+2019-04-08 11:07:50,197 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/.git/
 
-2018-10-15 00:26:17,480 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/IncDec-master/gradlew
-2018-10-15 00:26:17,483 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/IncDec-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/IncDec-master/incdeclibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/IncDec-master/build.gradle
-2018-10-15 00:26:17,486 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/IncDec-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/IncDec-master/incdeclibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/IncDec-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/IncDec-master/settings.gradle
-2018-10-15 00:26:17,487 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/brightec/JCenter/master/installv1.gradle", attempt 3
-2018-10-15 00:26:17,716 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/brightec/JCenter/master/installv1.gradle, attempt 3
-2018-10-15 00:26:17,716 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/brightec/JCenter/master/bintrayv1.gradle", attempt 3
-2018-10-15 00:26:17,946 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/brightec/JCenter/master/bintrayv1.gradle, attempt 3
-2018-10-15 00:26:17,947 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/brightec/JCenter/master/installv1.gradle https://raw.githubusercontent.com/brightec/JCenter/master/bintrayv1.gradle
-2018-10-15 00:26:17,947 INFO  ProjectFixService - Fixing project...
-2018-10-15 00:26:17,958 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/IncDec-master/app/local.properties
-2018-10-15 00:26:17,959 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/IncDec-master/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2018-10-15 00:26:17,959 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/IncDec-master/incdeclibrary/local.properties
-2018-10-15 00:26:17,960 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/IncDec-master/incdeclibrary/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2018-10-15 00:26:17,960 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/IncDec-master/local.properties
-2018-10-15 00:26:17,960 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2018-10-15 00:26:17,961 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2018-10-15 00:26:17,961 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/IncDec-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2018-10-15 00:26:17,961 INFO  ProjectFixService - Project was maybe fixed
-2018-10-15 00:26:17,961 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 00:26:17,962 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/IncDec-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/IncDec-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 00:26:24,057 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 00:26:24,057 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-15 00:26:24,057 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-15 00:26:24,057 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/IncDec-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/IncDec-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-15 00:26:28,121 ERROR SysUtils - Could not process external command
+2019-04-08 11:07:50,201 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/IncDec-master/gradlew
+2019-04-08 11:07:50,205 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/IncDec-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/IncDec-master/incdeclibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/IncDec-master/build.gradle
+2019-04-08 11:07:50,208 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/IncDec-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/IncDec-master/incdeclibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/IncDec-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/IncDec-master/settings.gradle
+2019-04-08 11:07:50,209 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/brightec/JCenter/master/installv1.gradle", attempt 3
+2019-04-08 11:07:50,473 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/brightec/JCenter/master/installv1.gradle, attempt 3
+2019-04-08 11:07:50,473 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/brightec/JCenter/master/bintrayv1.gradle", attempt 3
+2019-04-08 11:07:50,714 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/brightec/JCenter/master/bintrayv1.gradle, attempt 3
+2019-04-08 11:07:50,714 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/brightec/JCenter/master/installv1.gradle https://raw.githubusercontent.com/brightec/JCenter/master/bintrayv1.gradle
+2019-04-08 11:07:50,714 INFO  ProjectFixService - Fixing project...
+2019-04-08 11:07:50,728 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/IncDec-master/app/local.properties
+2019-04-08 11:07:50,729 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/IncDec-master/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2019-04-08 11:07:50,729 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/IncDec-master/incdeclibrary/local.properties
+2019-04-08 11:07:50,730 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/IncDec-master/incdeclibrary/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2019-04-08 11:07:50,730 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/IncDec-master/local.properties
+2019-04-08 11:07:50,731 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-04-08 11:07:50,731 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-04-08 11:07:50,733 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/IncDec-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2019-04-08 11:07:50,733 INFO  ProjectFixService - Project was maybe fixed
+2019-04-08 11:07:50,733 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-08 11:07:50,733 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/IncDec-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/IncDec-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-08 11:07:55,647 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-08 11:07:55,647 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-04-08 11:07:55,647 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-04-08 11:07:55,647 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/IncDec-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/IncDec-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-04-08 11:07:59,644 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -45,7 +45,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -59,7 +60,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 00:26:28,121 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-08 11:07:59,644 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -211,13 +212,13 @@ Required by:
 
 BUILD FAILED in 3s
 
-2018-10-15 00:26:28,126 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 00:26:28,126 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/IncDec-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/IncDec-master/incdeclibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 00:26:32,181 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 00:26:32,181 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-15 00:26:32,181 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-15 00:26:32,182 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/IncDec-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/IncDec-master/incdeclibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-15 00:26:36,529 ERROR SysUtils - Could not process external command
+2019-04-08 11:07:59,649 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-08 11:07:59,649 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/IncDec-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/IncDec-master/incdeclibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-08 11:08:03,827 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-08 11:08:03,827 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-04-08 11:08:03,827 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-04-08 11:08:03,828 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/IncDec-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/IncDec-master/incdeclibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-04-08 11:08:08,127 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -230,7 +231,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -244,7 +246,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 00:26:36,529 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-08 11:08:08,127 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -396,13 +398,13 @@ Required by:
 
 BUILD FAILED in 4s
 
-2018-10-15 00:26:36,533 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 00:26:36,533 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/IncDec-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/IncDec-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 00:26:40,658 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 00:26:40,658 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-15 00:26:40,658 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-15 00:26:40,659 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/IncDec-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537976910-0/src/IncDec-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-15 00:26:44,904 ERROR SysUtils - Could not process external command
+2019-04-08 11:08:08,132 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-08 11:08:08,132 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/IncDec-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/IncDec-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-08 11:08:12,427 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-08 11:08:12,427 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-04-08 11:08:12,427 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-04-08 11:08:12,427 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/IncDec-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696469242-0/src/IncDec-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-04-08 11:08:17,352 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -415,7 +417,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -429,7 +432,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 00:26:44,904 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-08 11:08:17,352 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -581,5 +584,5 @@ Required by:
 
 BUILD FAILED in 4s
 
-2018-10-15 00:26:44,908 ERROR FullProcessService - Project build has not produced APK file
-2018-10-15 00:26:44,912 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-08 11:08:17,357 ERROR FullProcessService - Project build has not produced APK file
+2019-04-08 11:08:17,361 ERROR FullProcessService - Could not find generated or existed APK file

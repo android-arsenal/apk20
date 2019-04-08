@@ -1,36 +1,36 @@
-2018-10-15 00:23:52,212 INFO  DownloadService - Downloading "https://github.com/akiraspeirs/Cinder/archive/master.zip", attempt 3
-2018-10-15 00:23:52,681 INFO  DownloadService - Downloaded https://github.com/akiraspeirs/Cinder/archive/master.zip, attempt 3
-2018-10-15 00:23:52,682 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/master.zip": 149 KB
-2018-10-15 00:23:52,682 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-15 00:23:52,687 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/master.zip: true
-2018-10-15 00:23:52,688 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src'.
-2018-10-15 00:23:52,719 INFO  FullProcessService - Size of directory with sources: 260 KB
-2018-10-15 00:23:52,720 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src]
-2018-10-15 00:23:52,735 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/.git/
+2019-04-08 11:05:03,342 INFO  DownloadService - Downloading "https://github.com/akiraspeirs/Cinder/archive/master.zip", attempt 3
+2019-04-08 11:05:03,999 INFO  DownloadService - Downloaded https://github.com/akiraspeirs/Cinder/archive/master.zip, attempt 3
+2019-04-08 11:05:03,999 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/master.zip": 149 KB
+2019-04-08 11:05:03,999 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-08 11:05:04,000 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/master.zip: true
+2019-04-08 11:05:04,000 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src'.
+2019-04-08 11:05:04,033 INFO  FullProcessService - Size of directory with sources: 260 KB
+2019-04-08 11:05:04,034 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src]
+2019-04-08 11:05:04,051 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/.git/
 
-2018-10-15 00:23:52,739 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/gradlew
-2018-10-15 00:23:52,744 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/cinder-rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/cinder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/cinderexample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/build.gradle
-2018-10-15 00:23:52,747 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/cinder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/cinder-rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/cinderexample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/coverage.gradle
-2018-10-15 00:23:52,748 INFO  ProjectBuildService - Remote scripts: none
-2018-10-15 00:23:52,748 INFO  ProjectFixService - Fixing project...
-2018-10-15 00:23:52,757 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/cinder-rx/local.properties
-2018-10-15 00:23:52,757 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/cinder-rx/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=10,targetSdkVersion=25]
-2018-10-15 00:23:52,758 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/cinder/local.properties
-2018-10-15 00:23:52,758 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/cinder/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=10,targetSdkVersion=25]
-2018-10-15 00:23:52,759 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/cinderexample/local.properties
-2018-10-15 00:23:52,759 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/cinderexample/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-15 00:23:52,759 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/local.properties
-2018-10-15 00:23:52,760 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-15 00:23:52,760 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-15 00:23:52,761 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=10,targetSdkVersion=25]
-2018-10-15 00:23:52,761 INFO  ProjectFixService - Project was maybe fixed
-2018-10-15 00:23:52,761 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 00:23:52,761 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/cinder-rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 00:24:00,419 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 00:24:00,419 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 00:24:00,419 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 00:24:00,419 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/cinder-rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 00:24:13,998 ERROR SysUtils - Could not process external command
+2019-04-08 11:05:04,056 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/gradlew
+2019-04-08 11:05:04,062 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/cinder-rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/cinder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/cinderexample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/build.gradle
+2019-04-08 11:05:04,067 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/cinder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/cinder-rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/cinderexample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/coverage.gradle
+2019-04-08 11:05:04,070 INFO  ProjectBuildService - Remote scripts: none
+2019-04-08 11:05:04,070 INFO  ProjectFixService - Fixing project...
+2019-04-08 11:05:04,083 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/cinder-rx/local.properties
+2019-04-08 11:05:04,083 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/cinder-rx/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=10,targetSdkVersion=25]
+2019-04-08 11:05:04,084 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/cinder/local.properties
+2019-04-08 11:05:04,085 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/cinder/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=10,targetSdkVersion=25]
+2019-04-08 11:05:04,085 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/cinderexample/local.properties
+2019-04-08 11:05:04,086 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/cinderexample/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-04-08 11:05:04,086 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/local.properties
+2019-04-08 11:05:04,087 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-08 11:05:04,087 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-08 11:05:04,089 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=10,targetSdkVersion=25]
+2019-04-08 11:05:04,089 INFO  ProjectFixService - Project was maybe fixed
+2019-04-08 11:05:04,089 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-08 11:05:04,089 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/cinder-rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-08 11:05:19,139 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-08 11:05:19,139 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-08 11:05:19,139 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-08 11:05:19,140 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/cinder-rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-08 11:05:33,542 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -43,7 +43,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -57,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 00:24:14,001 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-08 11:05:33,542 INFO  SysUtils - Configuration on demand is an incubating feature.
 extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
 extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
 extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
@@ -95,6 +96,7 @@ extractReleaseAnnotations is incompatible with java 8 sources and has been disab
 Note: Recompile with -Xlint:unchecked for details.
 
 :cinder:compileRetrolambdaRelease
+Download https://jcenter.bintray.com/net/orfjackal/retrolambda/retrolambda/2.1.0/retrolambda-2.1.0.jar
 :cinder:extractReleaseAnnotations
 :cinder:mergeReleaseShaders
 :cinder:compileReleaseShaders
@@ -287,15 +289,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 12.976 secs
+Total time: 13.821 secs
 
-2018-10-15 00:24:14,033 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 00:24:14,033 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/cinder/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 00:24:21,681 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 00:24:21,681 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 00:24:21,681 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 00:24:21,681 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/cinder/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 00:24:32,929 ERROR SysUtils - Could not process external command
+2019-04-08 11:05:33,585 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-08 11:05:33,585 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/cinder/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-08 11:05:41,262 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-08 11:05:41,262 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-08 11:05:41,262 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-08 11:05:41,262 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/cinder/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-08 11:05:54,331 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -308,7 +310,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -322,7 +325,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 00:24:32,929 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-08 11:05:54,331 INFO  SysUtils - Configuration on demand is an incubating feature.
 extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
 extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
 :cinder:preBuild UP-TO-DATE
@@ -508,15 +511,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 10.666 secs
+Total time: 12.492 secs
 
-2018-10-15 00:24:32,974 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 00:24:32,974 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/cinderexample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 00:24:40,358 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 00:24:40,359 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 00:24:40,359 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 00:24:40,359 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/cinderexample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 00:24:47,771 ERROR SysUtils - Could not process external command
+2019-04-08 11:05:54,378 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-08 11:05:54,378 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/cinderexample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-08 11:06:06,284 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-08 11:06:06,285 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-08 11:06:06,285 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-08 11:06:06,285 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/cinderexample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-08 11:06:14,375 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -529,7 +532,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -543,7 +547,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 00:24:47,771 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-08 11:06:14,375 INFO  SysUtils - Configuration on demand is an incubating feature.
 extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
 extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
 extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
@@ -658,15 +662,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.764 secs
+Total time: 7.428 secs
 
-2018-10-15 00:24:47,813 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 00:24:47,813 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 00:24:55,327 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 00:24:55,327 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 00:24:55,327 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 00:24:55,327 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539537832205-0/src/Cinder-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 00:25:02,888 ERROR SysUtils - Could not process external command
+2019-04-08 11:06:14,421 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-08 11:06:14,421 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-08 11:06:22,235 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-08 11:06:22,235 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-08 11:06:22,236 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-08 11:06:22,236 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554696303339-0/src/Cinder-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-08 11:06:29,738 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -679,7 +683,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -693,7 +698,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 00:25:02,888 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-08 11:06:29,738 INFO  SysUtils - Configuration on demand is an incubating feature.
 extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
 extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
 extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
@@ -808,7 +813,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.95 secs
+Total time: 6.919 secs
 
-2018-10-15 00:25:02,928 ERROR FullProcessService - Project build has not produced APK file
-2018-10-15 00:25:02,961 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-08 11:06:29,785 ERROR FullProcessService - Project build has not produced APK file
+2019-04-08 11:06:29,826 ERROR FullProcessService - Could not find generated or existed APK file

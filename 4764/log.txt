@@ -1,1 +1,14 @@
-2018-12-13 01:56:43,606 INFO  DownloadService - Downloading "https://github.com/googlesamples/leanback-showcase/archive/master.zip", attempt 3
+2019-04-08 11:47:49,912 INFO  DownloadService - Downloading "https://github.com/googlesamples/leanback-showcase/archive/master.zip", attempt 3
+2019-04-08 11:48:50,476 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-08 11:48:51,733 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-08 11:48:51,733 INFO  DownloadService - Downloading "https://github.com/googlesamples/leanback-showcase/archive/master.zip", attempt 3
+2019-04-08 11:49:53,061 DEBUG FullProcessService - Repository https://github.com/googlesamples/leanback-showcase available: true
+2019-04-08 11:49:53,061 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-08 11:49:53,061 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/googlesamples/leanback-showcase, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554698869909-0/src]
+2019-04-08 11:50:09,924 INFO  SysUtils - 
+2019-04-08 11:50:09,942 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554698869909-0/src/.git": true
+2019-04-08 11:50:09,955 INFO  FullProcessService - Size of directory with sources: 58 MB
+2019-04-08 11:50:09,955 ERROR FullProcessService - Source directory should be less than 50 MB
+2019-04-08 11:50:09,955 ERROR FullProcessService - Project will not be processed
+2019-04-08 11:50:09,955 ERROR FullProcessService - Project build has not produced APK file
+2019-04-08 11:50:09,963 ERROR FullProcessService - Could not find generated or existed APK file
