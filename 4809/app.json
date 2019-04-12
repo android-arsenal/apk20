@@ -31,8 +31,8 @@
   "dexClasses" : 2143,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "zh", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.github.florent37.sample.singledateandtimepicker\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0e0006\" android:label=\"SingleDateAndTimePicker\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"android.support.multidex.MultiDexApplication\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"android.support.v4.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.github.florent37.sample.singledateandtimepicker.SingleDatePickerMainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
-  "fileSize" : 2175098,
-  "crc32" : 443541421,
-  "sha256" : "160d7d22e7ffaa8b51e526809525fb87df347c7634c636aa1cec3c3cda68bfdf",
-  "buildTime" : 1554649286000
+  "fileSize" : 2175152,
+  "crc32" : 179516603,
+  "sha256" : "671af169cb21dcf33652eb5d04df599de09de96ea4ababc3f196618d09637747",
+  "buildTime" : 1555047964000
 }

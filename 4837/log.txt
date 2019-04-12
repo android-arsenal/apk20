@@ -1,44 +1,41 @@
-2019-04-06 22:41:27,455 INFO  DownloadService - Downloading "https://github.com/MarkusAmshove/Kluent/archive/master.zip", attempt 3
-2019-04-06 22:42:28,018 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-04-06 22:42:29,033 INFO  GithubDownloadService - Default branch of this repository: master
-2019-04-06 22:42:29,033 INFO  DownloadService - Downloading "https://github.com/MarkusAmshove/Kluent/archive/master.zip", attempt 3
-2019-04-06 22:43:30,566 DEBUG FullProcessService - Repository https://github.com/MarkusAmshove/Kluent available: true
-2019-04-06 22:43:30,566 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-04-06 22:43:30,566 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/MarkusAmshove/Kluent, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src]
-2019-04-06 22:43:32,794 INFO  SysUtils - 
-2019-04-06 22:43:32,804 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/.git": true
-2019-04-06 22:43:32,812 INFO  FullProcessService - Size of directory with sources: 417 KB
-2019-04-06 22:43:32,812 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src]
-2019-04-06 22:43:32,828 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/.git/
+2019-04-12 12:43:39,256 INFO  DownloadService - Downloading "https://github.com/MarkusAmshove/Kluent/archive/master.zip", attempt 3
+2019-04-12 12:43:41,548 INFO  DownloadService - Downloaded https://github.com/MarkusAmshove/Kluent/archive/master.zip, attempt 3
+2019-04-12 12:43:41,548 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/master.zip": 206 KB
+2019-04-12 12:43:41,548 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-12 12:43:41,554 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/master.zip: true
+2019-04-12 12:43:41,555 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src'.
+2019-04-12 12:43:41,618 INFO  FullProcessService - Size of directory with sources: 417 KB
+2019-04-12 12:43:41,618 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src]
+2019-04-12 12:43:41,644 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/.git/
 
-2019-04-06 22:43:32,835 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/gradlew
-2019-04-06 22:43:32,841 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/js/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/native/build.gradle
-2019-04-06 22:43:32,847 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/native/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/js/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/settings.gradle
-2019-04-06 22:43:32,848 INFO  ProjectBuildService - Remote scripts: none
-2019-04-06 22:43:32,848 INFO  ProjectFixService - Fixing project...
-2019-04-06 22:43:32,862 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/local.properties
-2019-04-06 22:43:32,862 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.8.1-bin.zip
-2019-04-06 22:43:32,867 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-06 22:43:32,867 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-06 22:43:32,869 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/common/local.properties
-2019-04-06 22:43:32,873 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/common/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-06 22:43:32,873 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/common/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-06 22:43:32,874 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/js/local.properties
-2019-04-06 22:43:32,877 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/js/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-06 22:43:32,877 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/js/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-06 22:43:32,878 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/jvm/local.properties
-2019-04-06 22:43:32,880 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/jvm/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-06 22:43:32,880 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/jvm/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-06 22:43:32,882 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/native/local.properties
-2019-04-06 22:43:32,885 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/native/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-06 22:43:32,885 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/native/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-06 22:43:32,885 INFO  ProjectFixService - Project was maybe fixed
-2019-04-06 22:43:32,885 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-06 22:43:32,885 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-06 22:43:41,839 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-04-06 22:43:41,839 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-04-06 22:43:41,839 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-04-06 22:44:30,495 INFO  SysUtils - Skipping JVM build
+2019-04-12 12:43:41,652 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/gradlew
+2019-04-12 12:43:41,660 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/js/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/native/build.gradle
+2019-04-12 12:43:41,672 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/native/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/js/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/settings.gradle
+2019-04-12 12:43:41,672 INFO  ProjectBuildService - Remote scripts: none
+2019-04-12 12:43:41,672 INFO  ProjectFixService - Fixing project...
+2019-04-12 12:43:41,699 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/local.properties
+2019-04-12 12:43:41,700 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.8.1-bin.zip
+2019-04-12 12:43:41,706 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-12 12:43:41,706 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-12 12:43:41,709 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/common/local.properties
+2019-04-12 12:43:41,715 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/common/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-12 12:43:41,715 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/common/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-12 12:43:41,717 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/js/local.properties
+2019-04-12 12:43:41,734 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/js/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-12 12:43:41,735 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/js/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-12 12:43:41,737 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/jvm/local.properties
+2019-04-12 12:43:41,742 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/jvm/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-12 12:43:41,742 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/jvm/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-12 12:43:41,748 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/native/local.properties
+2019-04-12 12:43:41,754 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/native/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-12 12:43:41,755 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/native/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-12 12:43:41,756 INFO  ProjectFixService - Project was maybe fixed
+2019-04-12 12:43:41,756 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-12 12:43:41,756 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-12 12:43:51,956 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-04-12 12:43:51,957 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-04-12 12:43:51,957 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-04-12 12:44:54,509 INFO  SysUtils - Skipping JVM build
 Configuration on demand is an incubating feature.
 
 > Configure project :kluent-common
@@ -74,25 +71,25 @@ Configuration(s) specified but the install task does not exist in project :kluen
 > Task :kluent-native:checkKonanCompiler
 
 > Task :kluent-native:compileKonanKluent-nativeMacos_x64
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/common/src/main/kotlin/org/amshove/kluent/Basic.kt:20:2: warning: this class can only be used with the compiler argument '-Xuse-experimental=kotlin.Experimental'
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/common/src/main/kotlin/org/amshove/kluent/Basic.kt:20:2: warning: this class can only be used with the compiler argument '-Xuse-experimental=kotlin.Experimental'
 @UseExperimental(ExperimentalContracts::class)
  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/common/src/main/kotlin/org/amshove/kluent/Basic.kt:29:2: warning: this class can only be used with the compiler argument '-Xuse-experimental=kotlin.Experimental'
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/common/src/main/kotlin/org/amshove/kluent/Basic.kt:29:2: warning: this class can only be used with the compiler argument '-Xuse-experimental=kotlin.Experimental'
 @UseExperimental(ExperimentalContracts::class)
  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/common/src/main/kotlin/org/amshove/kluent/Basic.kt:38:2: warning: this class can only be used with the compiler argument '-Xuse-experimental=kotlin.Experimental'
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/common/src/main/kotlin/org/amshove/kluent/Basic.kt:38:2: warning: this class can only be used with the compiler argument '-Xuse-experimental=kotlin.Experimental'
 @UseExperimental(ExperimentalContracts::class)
  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/common/src/main/kotlin/org/amshove/kluent/Basic.kt:47:2: warning: this class can only be used with the compiler argument '-Xuse-experimental=kotlin.Experimental'
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/common/src/main/kotlin/org/amshove/kluent/Basic.kt:47:2: warning: this class can only be used with the compiler argument '-Xuse-experimental=kotlin.Experimental'
 @UseExperimental(ExperimentalContracts::class)
  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/common/src/main/kotlin/org/amshove/kluent/Basic.kt:56:2: warning: this class can only be used with the compiler argument '-Xuse-experimental=kotlin.Experimental'
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/common/src/main/kotlin/org/amshove/kluent/Basic.kt:56:2: warning: this class can only be used with the compiler argument '-Xuse-experimental=kotlin.Experimental'
 @UseExperimental(ExperimentalContracts::class)
  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/common/src/main/kotlin/org/amshove/kluent/CharSequence.kt:67:2: warning: this class can only be used with the compiler argument '-Xuse-experimental=kotlin.Experimental'
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/common/src/main/kotlin/org/amshove/kluent/CharSequence.kt:67:2: warning: this class can only be used with the compiler argument '-Xuse-experimental=kotlin.Experimental'
 @UseExperimental(ExperimentalContracts::class)
  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/common/src/main/kotlin/org/amshove/kluent/CharSequence.kt:79:2: warning: this class can only be used with the compiler argument '-Xuse-experimental=kotlin.Experimental'
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/common/src/main/kotlin/org/amshove/kluent/CharSequence.kt:79:2: warning: this class can only be used with the compiler argument '-Xuse-experimental=kotlin.Experimental'
 @UseExperimental(ExperimentalContracts::class)
  ^
 
@@ -112,7 +109,7 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.basic.ShouldBeDigitShould.failWhenTestingAnyNonDigit
 [       OK ] org.amshove.kluent.basic.ShouldBeDigitShould.failWhenTestingAnyNonDigit (0 ms)
 [ RUN      ] org.amshove.kluent.basic.ShouldBeDigitShould.failWhenTestingAnyNonDigitUnicode
-[       OK ] org.amshove.kluent.basic.ShouldBeDigitShould.failWhenTestingAnyNonDigitUnicode (1 ms)
+[       OK ] org.amshove.kluent.basic.ShouldBeDigitShould.failWhenTestingAnyNonDigitUnicode (0 ms)
 [----------] 4 tests from org.amshove.kluent.basic.ShouldBeDigitShould (3 ms total)
 
 [----------] 3 tests from org.amshove.kluent.basic.ShouldBeFalseShould
@@ -170,9 +167,9 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.basic.ShouldNotBeDigitShould.passWhenTestingAnyNonDigitUnicode
 [       OK ] org.amshove.kluent.basic.ShouldNotBeDigitShould.passWhenTestingAnyNonDigitUnicode (0 ms)
 [ RUN      ] org.amshove.kluent.basic.ShouldNotBeDigitShould.failWhenTestingAnyDigit
-[       OK ] org.amshove.kluent.basic.ShouldNotBeDigitShould.failWhenTestingAnyDigit (0 ms)
+[       OK ] org.amshove.kluent.basic.ShouldNotBeDigitShould.failWhenTestingAnyDigit (1 ms)
 [ RUN      ] org.amshove.kluent.basic.ShouldNotBeDigitShould.failWhenTestingAnyUnicodeDigit
-[       OK ] org.amshove.kluent.basic.ShouldNotBeDigitShould.failWhenTestingAnyUnicodeDigit (1 ms)
+[       OK ] org.amshove.kluent.basic.ShouldNotBeDigitShould.failWhenTestingAnyUnicodeDigit (0 ms)
 [----------] 4 tests from org.amshove.kluent.basic.ShouldNotBeDigitShould (2 ms total)
 
 [----------] 2 tests from org.amshove.kluent.basic.ShouldNotBeFalseShould
@@ -180,7 +177,7 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [       OK ] org.amshove.kluent.basic.ShouldNotBeFalseShould.passWhenPassingTrue (0 ms)
 [ RUN      ] org.amshove.kluent.basic.ShouldNotBeFalseShould.failWhenPassingFalse
 [       OK ] org.amshove.kluent.basic.ShouldNotBeFalseShould.failWhenPassingFalse (0 ms)
-[----------] 2 tests from org.amshove.kluent.basic.ShouldNotBeFalseShould (0 ms total)
+[----------] 2 tests from org.amshove.kluent.basic.ShouldNotBeFalseShould (1 ms total)
 
 [----------] 4 tests from org.amshove.kluent.basic.ShouldNotBeNullShould
 [ RUN      ] org.amshove.kluent.basic.ShouldNotBeNullShould.passWhenPassingNonNullReference
@@ -220,13 +217,13 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [       OK ] org.amshove.kluent.basic.ShouldNotEqualShould.failWhenCheckingEqualDataObjects (0 ms)
 [ RUN      ] org.amshove.kluent.basic.ShouldNotEqualShould.returnTheTestedInstance
 [       OK ] org.amshove.kluent.basic.ShouldNotEqualShould.returnTheTestedInstance (0 ms)
-[----------] 6 tests from org.amshove.kluent.basic.ShouldNotEqualShould (1 ms total)
+[----------] 6 tests from org.amshove.kluent.basic.ShouldNotEqualShould (0 ms total)
 
 [----------] 7 tests from org.amshove.kluent.basic.ShouldShould
 [ RUN      ] org.amshove.kluent.basic.ShouldShould.makeItPossibleToChainAssertions
 [       OK ] org.amshove.kluent.basic.ShouldShould.makeItPossibleToChainAssertions (0 ms)
 [ RUN      ] org.amshove.kluent.basic.ShouldShould.passWhenPassingALambdaThatReturnsTrue
-[       OK ] org.amshove.kluent.basic.ShouldShould.passWhenPassingALambdaThatReturnsTrue (0 ms)
+[       OK ] org.amshove.kluent.basic.ShouldShould.passWhenPassingALambdaThatReturnsTrue (1 ms)
 [ RUN      ] org.amshove.kluent.basic.ShouldShould.failWhenPassingALambdaThatReturnsFalse
 [       OK ] org.amshove.kluent.basic.ShouldShould.failWhenPassingALambdaThatReturnsFalse (0 ms)
 [ RUN      ] org.amshove.kluent.basic.ShouldShould.passWhenDefiningADomainSpecificAssertionEvaluatingToTrue
@@ -237,7 +234,7 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [       OK ] org.amshove.kluent.basic.ShouldShould.provideTheMessageOfDomainSpecificAssertionWhenFailing (1 ms)
 [ RUN      ] org.amshove.kluent.basic.ShouldShould.failTheDomainSpecificAssertionWhenAnExceptionOccurs
 [       OK ] org.amshove.kluent.basic.ShouldShould.failTheDomainSpecificAssertionWhenAnExceptionOccurs (0 ms)
-[----------] 7 tests from org.amshove.kluent.basic.ShouldShould (1 ms total)
+[----------] 7 tests from org.amshove.kluent.basic.ShouldShould (2 ms total)
 
 [----------] 2 tests from org.amshove.kluent.charsequence.ShouldBeBlankShould
 [ RUN      ] org.amshove.kluent.charsequence.ShouldBeBlankShould.passWhenTestingABlankCharSequence
@@ -257,10 +254,10 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.charsequence.ShouldBeNullOrBlankShould.passWhenTestingABlankCharSequence
 [       OK ] org.amshove.kluent.charsequence.ShouldBeNullOrBlankShould.passWhenTestingABlankCharSequence (0 ms)
 [ RUN      ] org.amshove.kluent.charsequence.ShouldBeNullOrBlankShould.passWhenTestingANullReference
-[       OK ] org.amshove.kluent.charsequence.ShouldBeNullOrBlankShould.passWhenTestingANullReference (0 ms)
+[       OK ] org.amshove.kluent.charsequence.ShouldBeNullOrBlankShould.passWhenTestingANullReference (1 ms)
 [ RUN      ] org.amshove.kluent.charsequence.ShouldBeNullOrBlankShould.failWhenTestingANonBlankCharSequence
 [       OK ] org.amshove.kluent.charsequence.ShouldBeNullOrBlankShould.failWhenTestingANonBlankCharSequence (0 ms)
-[----------] 3 tests from org.amshove.kluent.charsequence.ShouldBeNullOrBlankShould (0 ms total)
+[----------] 3 tests from org.amshove.kluent.charsequence.ShouldBeNullOrBlankShould (1 ms total)
 
 [----------] 3 tests from org.amshove.kluent.charsequence.ShouldBeNullOrEmptyShould
 [ RUN      ] org.amshove.kluent.charsequence.ShouldBeNullOrEmptyShould.passWhenTestingAnEmptyCharSequence
@@ -300,15 +297,15 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.charsequence.ShouldContainSomeShould.passWhenTestingCharSequencesWithAtleastOneBeingInTheOriginalSequence
 [       OK ] org.amshove.kluent.charsequence.ShouldContainSomeShould.passWhenTestingCharSequencesWithAtleastOneBeingInTheOriginalSequence (0 ms)
 [ RUN      ] org.amshove.kluent.charsequence.ShouldContainSomeShould.failWhenTestingCharSequencesWithNoneBeingInTheOriginalSequence
-[       OK ] org.amshove.kluent.charsequence.ShouldContainSomeShould.failWhenTestingCharSequencesWithNoneBeingInTheOriginalSequence (1 ms)
-[----------] 2 tests from org.amshove.kluent.charsequence.ShouldContainSomeShould (1 ms total)
+[       OK ] org.amshove.kluent.charsequence.ShouldContainSomeShould.failWhenTestingCharSequencesWithNoneBeingInTheOriginalSequence (0 ms)
+[----------] 2 tests from org.amshove.kluent.charsequence.ShouldContainSomeShould (0 ms total)
 
 [----------] 2 tests from org.amshove.kluent.charsequence.ShouldEndWithShould
 [ RUN      ] org.amshove.kluent.charsequence.ShouldEndWithShould.passWhenTestingACharSequenceWhichEndsWithASequence
 [       OK ] org.amshove.kluent.charsequence.ShouldEndWithShould.passWhenTestingACharSequenceWhichEndsWithASequence (0 ms)
 [ RUN      ] org.amshove.kluent.charsequence.ShouldEndWithShould.failWhenTestingACharSequenceWhichDoesNotEndWithASequence
-[       OK ] org.amshove.kluent.charsequence.ShouldEndWithShould.failWhenTestingACharSequenceWhichDoesNotEndWithASequence (0 ms)
-[----------] 2 tests from org.amshove.kluent.charsequence.ShouldEndWithShould (0 ms total)
+[       OK ] org.amshove.kluent.charsequence.ShouldEndWithShould.failWhenTestingACharSequenceWhichDoesNotEndWithASequence (1 ms)
+[----------] 2 tests from org.amshove.kluent.charsequence.ShouldEndWithShould (1 ms total)
 
 [----------] 4 tests from org.amshove.kluent.charsequence.ShouldMatchShould
 [ RUN      ] org.amshove.kluent.charsequence.ShouldMatchShould.passWhenTestingIfACharSequenceMatchesARegexRepresentedByAPattern
@@ -339,12 +336,12 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.charsequence.ShouldNotBeNullOrBlankShould.passWhenTestingANonEmptyCharSequence
 [       OK ] org.amshove.kluent.charsequence.ShouldNotBeNullOrBlankShould.passWhenTestingANonEmptyCharSequence (0 ms)
 [ RUN      ] org.amshove.kluent.charsequence.ShouldNotBeNullOrBlankShould.failWhenTestingABlankCharSequence
-[       OK ] org.amshove.kluent.charsequence.ShouldNotBeNullOrBlankShould.failWhenTestingABlankCharSequence (0 ms)
+[       OK ] org.amshove.kluent.charsequence.ShouldNotBeNullOrBlankShould.failWhenTestingABlankCharSequence (1 ms)
 [ RUN      ] org.amshove.kluent.charsequence.ShouldNotBeNullOrBlankShould.failWhenTestingANullReference
 [       OK ] org.amshove.kluent.charsequence.ShouldNotBeNullOrBlankShould.failWhenTestingANullReference (0 ms)
 [ RUN      ] org.amshove.kluent.charsequence.ShouldNotBeNullOrBlankShould.returnANonNullableInstance
 [       OK ] org.amshove.kluent.charsequence.ShouldNotBeNullOrBlankShould.returnANonNullableInstance (0 ms)
-[----------] 4 tests from org.amshove.kluent.charsequence.ShouldNotBeNullOrBlankShould (0 ms total)
+[----------] 4 tests from org.amshove.kluent.charsequence.ShouldNotBeNullOrBlankShould (1 ms total)
 
 [----------] 4 tests from org.amshove.kluent.charsequence.ShouldNotBeNullOrEmptyShould
 [ RUN      ] org.amshove.kluent.charsequence.ShouldNotBeNullOrEmptyShould.passWhenTestingANonEmptyCharSequence
@@ -352,10 +349,10 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.charsequence.ShouldNotBeNullOrEmptyShould.failWhenTestingAnEmptyCharSequence
 [       OK ] org.amshove.kluent.charsequence.ShouldNotBeNullOrEmptyShould.failWhenTestingAnEmptyCharSequence (0 ms)
 [ RUN      ] org.amshove.kluent.charsequence.ShouldNotBeNullOrEmptyShould.failWhenTestingNull
-[       OK ] org.amshove.kluent.charsequence.ShouldNotBeNullOrEmptyShould.failWhenTestingNull (1 ms)
+[       OK ] org.amshove.kluent.charsequence.ShouldNotBeNullOrEmptyShould.failWhenTestingNull (0 ms)
 [ RUN      ] org.amshove.kluent.charsequence.ShouldNotBeNullOrEmptyShould.returnANonNullableInstance
 [       OK ] org.amshove.kluent.charsequence.ShouldNotBeNullOrEmptyShould.returnANonNullableInstance (0 ms)
-[----------] 4 tests from org.amshove.kluent.charsequence.ShouldNotBeNullOrEmptyShould (1 ms total)
+[----------] 4 tests from org.amshove.kluent.charsequence.ShouldNotBeNullOrEmptyShould (0 ms total)
 
 [----------] 2 tests from org.amshove.kluent.charsequence.ShouldNotContainAllShould
 [ RUN      ] org.amshove.kluent.charsequence.ShouldNotContainAllShould.passWhenTestingAListWhereSomeItemsAreNotWithinTheOriginalSequence
@@ -388,10 +385,10 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.charsequence.ShouldNotMatchShould.passWhenTestingACharSequenceWhichDoesNotMatchARegex
 [       OK ] org.amshove.kluent.charsequence.ShouldNotMatchShould.passWhenTestingACharSequenceWhichDoesNotMatchARegex (0 ms)
 [ RUN      ] org.amshove.kluent.charsequence.ShouldNotMatchShould.failWhenTestingACharSequenceWhichDoesMatchAPattern
-[       OK ] org.amshove.kluent.charsequence.ShouldNotMatchShould.failWhenTestingACharSequenceWhichDoesMatchAPattern (1 ms)
+[       OK ] org.amshove.kluent.charsequence.ShouldNotMatchShould.failWhenTestingACharSequenceWhichDoesMatchAPattern (0 ms)
 [ RUN      ] org.amshove.kluent.charsequence.ShouldNotMatchShould.failWhenTestingACharSequenceWhichDoesMatchARegex
 [       OK ] org.amshove.kluent.charsequence.ShouldNotMatchShould.failWhenTestingACharSequenceWhichDoesMatchARegex (0 ms)
-[----------] 4 tests from org.amshove.kluent.charsequence.ShouldNotMatchShould (1 ms total)
+[----------] 4 tests from org.amshove.kluent.charsequence.ShouldNotMatchShould (0 ms total)
 
 [----------] 2 tests from org.amshove.kluent.charsequence.ShouldNotStartWithShould
 [ RUN      ] org.amshove.kluent.charsequence.ShouldNotStartWithShould.passWhenTestingACharSequenceWhichDoesNotStartWithAnotherSequence
@@ -411,7 +408,7 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldBeEmptyShould.passWhenTestingAnEmptyArray
 [       OK ] org.amshove.kluent.collections.ShouldBeEmptyShould.passWhenTestingAnEmptyArray (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldBeEmptyShould.passWhenTestingAnEmptyIterable
-[       OK ] org.amshove.kluent.collections.ShouldBeEmptyShould.passWhenTestingAnEmptyIterable (0 ms)
+[       OK ] org.amshove.kluent.collections.ShouldBeEmptyShould.passWhenTestingAnEmptyIterable (1 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldBeEmptyShould.passWhenTestingAnEmptyMap
 [       OK ] org.amshove.kluent.collections.ShouldBeEmptyShould.passWhenTestingAnEmptyMap (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldBeEmptyShould.failWhenTestingANonEmptyArray
@@ -427,7 +424,7 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldBeEmptyShould.passWhenTestingAPrimitiveLongArrayWhichIsEmpty
 [       OK ] org.amshove.kluent.collections.ShouldBeEmptyShould.passWhenTestingAPrimitiveLongArrayWhichIsEmpty (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldBeEmptyShould.failWhenTestingAPrimitiveLongArrayWhichIsNotEmpty
-[       OK ] org.amshove.kluent.collections.ShouldBeEmptyShould.failWhenTestingAPrimitiveLongArrayWhichIsNotEmpty (1 ms)
+[       OK ] org.amshove.kluent.collections.ShouldBeEmptyShould.failWhenTestingAPrimitiveLongArrayWhichIsNotEmpty (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldBeEmptyShould.passWhenTestingAPrimitiveShortArrayWhichIsEmpty
 [       OK ] org.amshove.kluent.collections.ShouldBeEmptyShould.passWhenTestingAPrimitiveShortArrayWhichIsEmpty (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldBeEmptyShould.failWhenTestingAPrimitiveShortArrayWhichIsNotEmpty
@@ -443,7 +440,7 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldBeEmptyShould.passWhenTestingAPrimitiveByteArrayWhichIsEmpty
 [       OK ] org.amshove.kluent.collections.ShouldBeEmptyShould.passWhenTestingAPrimitiveByteArrayWhichIsEmpty (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldBeEmptyShould.failWhenTestingAPrimitiveByteArrayWhichIsNotEmpty
-[       OK ] org.amshove.kluent.collections.ShouldBeEmptyShould.failWhenTestingAPrimitiveByteArrayWhichIsNotEmpty (0 ms)
+[       OK ] org.amshove.kluent.collections.ShouldBeEmptyShould.failWhenTestingAPrimitiveByteArrayWhichIsNotEmpty (1 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldBeEmptyShould.passWhenTestingAPrimitiveCharArrayWhichIsEmpty
 [       OK ] org.amshove.kluent.collections.ShouldBeEmptyShould.passWhenTestingAPrimitiveCharArrayWhichIsEmpty (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldBeEmptyShould.failWhenTestingAPrimitiveCharArrayWhichIsNotEmpty
@@ -452,19 +449,19 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [       OK ] org.amshove.kluent.collections.ShouldBeEmptyShould.passWhenTestingAPrimitiveBooleanArrayWhichIsEmpty (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldBeEmptyShould.failWhenTestingAPrimitiveBooleanArrayWhichIsNotEmpty
 [       OK ] org.amshove.kluent.collections.ShouldBeEmptyShould.failWhenTestingAPrimitiveBooleanArrayWhichIsNotEmpty (0 ms)
-[----------] 22 tests from org.amshove.kluent.collections.ShouldBeEmptyShould (1 ms total)
+[----------] 22 tests from org.amshove.kluent.collections.ShouldBeEmptyShould (2 ms total)
 
 [----------] 18 tests from org.amshove.kluent.collections.ShouldBeInShould
 [ RUN      ] org.amshove.kluent.collections.ShouldBeInShould.passWhenTestingAnObjectWhichIsWithinAnArray
 [       OK ] org.amshove.kluent.collections.ShouldBeInShould.passWhenTestingAnObjectWhichIsWithinAnArray (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldBeInShould.failWhenTestingAnObjectWhichIsNotWithinAnArray
-[       OK ] org.amshove.kluent.collections.ShouldBeInShould.failWhenTestingAnObjectWhichIsNotWithinAnArray (1 ms)
+[       OK ] org.amshove.kluent.collections.ShouldBeInShould.failWhenTestingAnObjectWhichIsNotWithinAnArray (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldBeInShould.passWhenTestingAnObjectWhichIsInAnIterable
 [       OK ] org.amshove.kluent.collections.ShouldBeInShould.passWhenTestingAnObjectWhichIsInAnIterable (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldBeInShould.failWhenTestingAnObjectWhichIsNotWithinAnIterable
-[       OK ] org.amshove.kluent.collections.ShouldBeInShould.failWhenTestingAnObjectWhichIsNotWithinAnIterable (0 ms)
+[       OK ] org.amshove.kluent.collections.ShouldBeInShould.failWhenTestingAnObjectWhichIsNotWithinAnIterable (1 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldBeInShould.passWhenTestingAPrimitiveIntegerWhichIsWithinAnArray
-[       OK ] org.amshove.kluent.collections.ShouldBeInShould.passWhenTestingAPrimitiveIntegerWhichIsWithinAnArray (1 ms)
+[       OK ] org.amshove.kluent.collections.ShouldBeInShould.passWhenTestingAPrimitiveIntegerWhichIsWithinAnArray (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldBeInShould.failWhenTestingAPrimitiveIntegerWhichIsNotWithinAnArray
 [       OK ] org.amshove.kluent.collections.ShouldBeInShould.failWhenTestingAPrimitiveIntegerWhichIsNotWithinAnArray (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldBeInShould.passWhenTestingAPrimitiveLongWhichIsWithinAnArray
@@ -478,7 +475,7 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldBeInShould.passWhenTestingAPrimitiveDoubleWhichIsWithinAnArray
 [       OK ] org.amshove.kluent.collections.ShouldBeInShould.passWhenTestingAPrimitiveDoubleWhichIsWithinAnArray (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldBeInShould.failWhenTestingAPrimitiveDoubleWhichIsNotWithinAnArray
-[       OK ] org.amshove.kluent.collections.ShouldBeInShould.failWhenTestingAPrimitiveDoubleWhichIsNotWithinAnArray (1 ms)
+[       OK ] org.amshove.kluent.collections.ShouldBeInShould.failWhenTestingAPrimitiveDoubleWhichIsNotWithinAnArray (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldBeInShould.passWhenTestingAPrimitiveFloatWhichIsWithinAnArray
 [       OK ] org.amshove.kluent.collections.ShouldBeInShould.passWhenTestingAPrimitiveFloatWhichIsWithinAnArray (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldBeInShould.failWhenTestingAPrimitiveFloatWhichIsNotWithinAnArray
@@ -486,7 +483,7 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldBeInShould.passWhenTestingAPrimitiveCharWhichIsWithinAnArray
 [       OK ] org.amshove.kluent.collections.ShouldBeInShould.passWhenTestingAPrimitiveCharWhichIsWithinAnArray (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldBeInShould.failWhenTestingAPrimitiveCharWhichIsNotWithinAnArray
-[       OK ] org.amshove.kluent.collections.ShouldBeInShould.failWhenTestingAPrimitiveCharWhichIsNotWithinAnArray (0 ms)
+[       OK ] org.amshove.kluent.collections.ShouldBeInShould.failWhenTestingAPrimitiveCharWhichIsNotWithinAnArray (1 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldBeInShould.passWhenTestingAPrimitiveBooleanWhichIsWithinAnArray
 [       OK ] org.amshove.kluent.collections.ShouldBeInShould.passWhenTestingAPrimitiveBooleanWhichIsWithinAnArray (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldBeInShould.failWhenTestingAPrimitiveBooleanWhichIsNotWithinAnArray
@@ -537,12 +534,12 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldContainAllShould.passWhenTestingAMapWhichContainsAllValues
 [       OK ] org.amshove.kluent.collections.ShouldContainAllShould.passWhenTestingAMapWhichContainsAllValues (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainAllShould.failWhenTestingAMapWhichDoesNotContainAllValues
-[       OK ] org.amshove.kluent.collections.ShouldContainAllShould.failWhenTestingAMapWhichDoesNotContainAllValues (0 ms)
+[       OK ] org.amshove.kluent.collections.ShouldContainAllShould.failWhenTestingAMapWhichDoesNotContainAllValues (1 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainAllShould.passWhenTestingAnIterableWhichContainsAllValuesOfAnArray
 [       OK ] org.amshove.kluent.collections.ShouldContainAllShould.passWhenTestingAnIterableWhichContainsAllValuesOfAnArray (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainAllShould.passWhenTestingAnArrayWhichContainsAllValuesOfAnIterable
 [       OK ] org.amshove.kluent.collections.ShouldContainAllShould.passWhenTestingAnArrayWhichContainsAllValuesOfAnIterable (0 ms)
-[----------] 24 tests from org.amshove.kluent.collections.ShouldContainAllShould (5 ms total)
+[----------] 24 tests from org.amshove.kluent.collections.ShouldContainAllShould (6 ms total)
 
 [----------] 20 tests from org.amshove.kluent.collections.ShouldContainNoneShould
 [ RUN      ] org.amshove.kluent.collections.ShouldContainNoneShould.passWhenTestingAnArrayWhichDoesNotContainAtLeastOneElement
@@ -558,11 +555,11 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldContainNoneShould.failWhenTestingAPrimitiveIntegerArrayWhichContainsAtLeastOneElement
 [       OK ] org.amshove.kluent.collections.ShouldContainNoneShould.failWhenTestingAPrimitiveIntegerArrayWhichContainsAtLeastOneElement (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainNoneShould.passWhenTestingAPrimitiveLongArrayWhichDoesNotContainAtLeastOneElement
-[       OK ] org.amshove.kluent.collections.ShouldContainNoneShould.passWhenTestingAPrimitiveLongArrayWhichDoesNotContainAtLeastOneElement (1 ms)
+[       OK ] org.amshove.kluent.collections.ShouldContainNoneShould.passWhenTestingAPrimitiveLongArrayWhichDoesNotContainAtLeastOneElement (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainNoneShould.failWhenTestingAPrimitiveLongArrayWhichContainsAtLeastOneElement
 [       OK ] org.amshove.kluent.collections.ShouldContainNoneShould.failWhenTestingAPrimitiveLongArrayWhichContainsAtLeastOneElement (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainNoneShould.passWhenTestingAPrimitiveShortArrayWhichDoesNotContainAtLeastOneElement
-[       OK ] org.amshove.kluent.collections.ShouldContainNoneShould.passWhenTestingAPrimitiveShortArrayWhichDoesNotContainAtLeastOneElement (0 ms)
+[       OK ] org.amshove.kluent.collections.ShouldContainNoneShould.passWhenTestingAPrimitiveShortArrayWhichDoesNotContainAtLeastOneElement (1 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainNoneShould.failWhenTestingAPrimitiveShortArrayWhichContainsAtLeastOneElement
 [       OK ] org.amshove.kluent.collections.ShouldContainNoneShould.failWhenTestingAPrimitiveShortArrayWhichContainsAtLeastOneElement (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainNoneShould.passWhenTestingAPrimitiveByteArrayWhichDoesNotContainAtLeastOneElement
@@ -582,9 +579,9 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldContainNoneShould.failWhenTestingAPrimitiveCharArrayWhichContainsAtLeastOneElement
 [       OK ] org.amshove.kluent.collections.ShouldContainNoneShould.failWhenTestingAPrimitiveCharArrayWhichContainsAtLeastOneElement (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainNoneShould.passWhenTestingAPrimitiveBooleanArrayWhichDoesNotContainAtLeastOneElement
-[       OK ] org.amshove.kluent.collections.ShouldContainNoneShould.passWhenTestingAPrimitiveBooleanArrayWhichDoesNotContainAtLeastOneElement (0 ms)
+[       OK ] org.amshove.kluent.collections.ShouldContainNoneShould.passWhenTestingAPrimitiveBooleanArrayWhichDoesNotContainAtLeastOneElement (1 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainNoneShould.failWhenTestingAPrimitiveBooleanArrayWhichContainsAtLeastOneElement
-[       OK ] org.amshove.kluent.collections.ShouldContainNoneShould.failWhenTestingAPrimitiveBooleanArrayWhichContainsAtLeastOneElement (1 ms)
+[       OK ] org.amshove.kluent.collections.ShouldContainNoneShould.failWhenTestingAPrimitiveBooleanArrayWhichContainsAtLeastOneElement (0 ms)
 [----------] 20 tests from org.amshove.kluent.collections.ShouldContainNoneShould (2 ms total)
 
 [----------] 24 tests from org.amshove.kluent.collections.ShouldContainSameShould
@@ -603,9 +600,9 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldContainSameShould.passWhenTestingAByteArrayWhichContainsSameValues
 [       OK ] org.amshove.kluent.collections.ShouldContainSameShould.passWhenTestingAByteArrayWhichContainsSameValues (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainSameShould.failWhenTestingAByteArrayWhichDoesNotContainSameValues
-[       OK ] org.amshove.kluent.collections.ShouldContainSameShould.failWhenTestingAByteArrayWhichDoesNotContainSameValues (0 ms)
+[       OK ] org.amshove.kluent.collections.ShouldContainSameShould.failWhenTestingAByteArrayWhichDoesNotContainSameValues (1 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainSameShould.passWhenTestingACharArrayWhichContainsSameValues
-[       OK ] org.amshove.kluent.collections.ShouldContainSameShould.passWhenTestingACharArrayWhichContainsSameValues (1 ms)
+[       OK ] org.amshove.kluent.collections.ShouldContainSameShould.passWhenTestingACharArrayWhichContainsSameValues (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainSameShould.failWhenTestingACharArrayWhichDoesNotContainSameValues
 [       OK ] org.amshove.kluent.collections.ShouldContainSameShould.failWhenTestingACharArrayWhichDoesNotContainSameValues (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainSameShould.passWhenTestingADoubleArrayWhichContainsSameValues
@@ -629,14 +626,14 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldContainSameShould.failWhenTestingAnIterableWhichDoesNotContainSameValues
 [       OK ] org.amshove.kluent.collections.ShouldContainSameShould.failWhenTestingAnIterableWhichDoesNotContainSameValues (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainSameShould.passWhenTestingAMapWhichContainsSameValues
-[       OK ] org.amshove.kluent.collections.ShouldContainSameShould.passWhenTestingAMapWhichContainsSameValues (0 ms)
+[       OK ] org.amshove.kluent.collections.ShouldContainSameShould.passWhenTestingAMapWhichContainsSameValues (1 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainSameShould.failWhenTestingAMapWhichDoesNotContainSameValues
 [       OK ] org.amshove.kluent.collections.ShouldContainSameShould.failWhenTestingAMapWhichDoesNotContainSameValues (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainSameShould.passWhenTestingAnIterableWhichContainsSameValuesOfAnArray
 [       OK ] org.amshove.kluent.collections.ShouldContainSameShould.passWhenTestingAnIterableWhichContainsSameValuesOfAnArray (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainSameShould.passWhenTestingAnArrayWhichContainsSameValuesOfAnIterable
 [       OK ] org.amshove.kluent.collections.ShouldContainSameShould.passWhenTestingAnArrayWhichContainsSameValuesOfAnIterable (0 ms)
-[----------] 24 tests from org.amshove.kluent.collections.ShouldContainSameShould (6 ms total)
+[----------] 24 tests from org.amshove.kluent.collections.ShouldContainSameShould (8 ms total)
 
 [----------] 24 tests from org.amshove.kluent.collections.ShouldContainShould
 [ RUN      ] org.amshove.kluent.collections.ShouldContainShould.passWhenTestingAnArrayWhichContainsTheValue
@@ -654,11 +651,11 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldContainShould.passWhenTestingAMapWhichContainsAPairOfObjects
 [       OK ] org.amshove.kluent.collections.ShouldContainShould.passWhenTestingAMapWhichContainsAPairOfObjects (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainShould.failWhenTestingAMapWhichDoesNotContainAPairOfObjects
-[       OK ] org.amshove.kluent.collections.ShouldContainShould.failWhenTestingAMapWhichDoesNotContainAPairOfObjects (0 ms)
+[       OK ] org.amshove.kluent.collections.ShouldContainShould.failWhenTestingAMapWhichDoesNotContainAPairOfObjects (1 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainShould.passWhenTestingAPrimitiveIntegerArrayContainingTheValue
 [       OK ] org.amshove.kluent.collections.ShouldContainShould.passWhenTestingAPrimitiveIntegerArrayContainingTheValue (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainShould.failWhenTestingAPrimitiveIntegerArrayWhichDoesNotContainTheValue
-[       OK ] org.amshove.kluent.collections.ShouldContainShould.failWhenTestingAPrimitiveIntegerArrayWhichDoesNotContainTheValue (1 ms)
+[       OK ] org.amshove.kluent.collections.ShouldContainShould.failWhenTestingAPrimitiveIntegerArrayWhichDoesNotContainTheValue (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainShould.passWhenTestingAPrimitiveLongArrayContainingTheValue
 [       OK ] org.amshove.kluent.collections.ShouldContainShould.passWhenTestingAPrimitiveLongArrayContainingTheValue (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainShould.failWhenTestingAPrimitiveLongArrayWhichDoesNotContainTheValue
@@ -670,7 +667,7 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldContainShould.passWhenTestingAPrimitiveDoubleArrayContainingTheValue
 [       OK ] org.amshove.kluent.collections.ShouldContainShould.passWhenTestingAPrimitiveDoubleArrayContainingTheValue (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainShould.failWhenTestingAPrimitiveDoubleArrayWhichDoesNotContainTheValue
-[       OK ] org.amshove.kluent.collections.ShouldContainShould.failWhenTestingAPrimitiveDoubleArrayWhichDoesNotContainTheValue (0 ms)
+[       OK ] org.amshove.kluent.collections.ShouldContainShould.failWhenTestingAPrimitiveDoubleArrayWhichDoesNotContainTheValue (1 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainShould.passWhenTestingAPrimitiveFloatArrayContainingTheValue
 [       OK ] org.amshove.kluent.collections.ShouldContainShould.passWhenTestingAPrimitiveFloatArrayContainingTheValue (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainShould.failWhenTestingAPrimitiveFloatArrayWhichDoesNotContainTheValue
@@ -678,7 +675,7 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldContainShould.passWhenTestingAPrimitiveByteArrayContainingTheValue
 [       OK ] org.amshove.kluent.collections.ShouldContainShould.passWhenTestingAPrimitiveByteArrayContainingTheValue (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainShould.failWhenTestingAPrimitiveByteArrayWhichDoesNotContainTheValue
-[       OK ] org.amshove.kluent.collections.ShouldContainShould.failWhenTestingAPrimitiveByteArrayWhichDoesNotContainTheValue (1 ms)
+[       OK ] org.amshove.kluent.collections.ShouldContainShould.failWhenTestingAPrimitiveByteArrayWhichDoesNotContainTheValue (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainShould.passWhenTestingAPrimitiveCharArrayContainingTheValue
 [       OK ] org.amshove.kluent.collections.ShouldContainShould.passWhenTestingAPrimitiveCharArrayContainingTheValue (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainShould.failWhenTestingAPrimitiveCharArrayWhichDoesNotContainTheValue
@@ -687,7 +684,7 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [       OK ] org.amshove.kluent.collections.ShouldContainShould.passWhenTestingAPrimitiveBooleanArrayContainingTheValue (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainShould.failWhenTestingAPrimitiveBooleanArrayWhichDoesNotContainTheValue
 [       OK ] org.amshove.kluent.collections.ShouldContainShould.failWhenTestingAPrimitiveBooleanArrayWhichDoesNotContainTheValue (0 ms)
-[----------] 24 tests from org.amshove.kluent.collections.ShouldContainShould (3 ms total)
+[----------] 24 tests from org.amshove.kluent.collections.ShouldContainShould (4 ms total)
 
 [----------] 20 tests from org.amshove.kluent.collections.ShouldContainSomeShould
 [ RUN      ] org.amshove.kluent.collections.ShouldContainSomeShould.passWhenTestingAListWhichContainsAtLeastOneElement
@@ -705,7 +702,7 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldContainSomeShould.passWhenTestingAPrimitiveLongArrayContainsAtLeastOneElement
 [       OK ] org.amshove.kluent.collections.ShouldContainSomeShould.passWhenTestingAPrimitiveLongArrayContainsAtLeastOneElement (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainSomeShould.failWhenTestingAPrimitiveLongArrayWhichDoesNotContainAtLeastOneElement
-[       OK ] org.amshove.kluent.collections.ShouldContainSomeShould.failWhenTestingAPrimitiveLongArrayWhichDoesNotContainAtLeastOneElement (1 ms)
+[       OK ] org.amshove.kluent.collections.ShouldContainSomeShould.failWhenTestingAPrimitiveLongArrayWhichDoesNotContainAtLeastOneElement (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainSomeShould.passWhenTestingAPrimitiveShortArrayContainsAtLeastOneElement
 [       OK ] org.amshove.kluent.collections.ShouldContainSomeShould.passWhenTestingAPrimitiveShortArrayContainsAtLeastOneElement (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainSomeShould.failWhenTestingAPrimitiveShortArrayWhichDoesNotContainAtLeastOneElement
@@ -713,7 +710,7 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldContainSomeShould.passWhenTestingAPrimitiveByteArrayContainsAtLeastOneElement
 [       OK ] org.amshove.kluent.collections.ShouldContainSomeShould.passWhenTestingAPrimitiveByteArrayContainsAtLeastOneElement (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainSomeShould.failWhenTestingAPrimitiveByteArrayWhichDoesNotContainAtLeastOneElement
-[       OK ] org.amshove.kluent.collections.ShouldContainSomeShould.failWhenTestingAPrimitiveByteArrayWhichDoesNotContainAtLeastOneElement (0 ms)
+[       OK ] org.amshove.kluent.collections.ShouldContainSomeShould.failWhenTestingAPrimitiveByteArrayWhichDoesNotContainAtLeastOneElement (1 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainSomeShould.passWhenTestingAPrimitiveDoubleArrayContainsAtLeastOneElement
 [       OK ] org.amshove.kluent.collections.ShouldContainSomeShould.passWhenTestingAPrimitiveDoubleArrayContainsAtLeastOneElement (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldContainSomeShould.failWhenTestingAPrimitiveDoubleArrayWhichDoesNotContainAtLeastOneElement
@@ -736,9 +733,9 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldEqualShould.passWhenTestingEqualArrays
 [       OK ] org.amshove.kluent.collections.ShouldEqualShould.passWhenTestingEqualArrays (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldEqualShould.failWhenTestingUnequalArrays
-[       OK ] org.amshove.kluent.collections.ShouldEqualShould.failWhenTestingUnequalArrays (1 ms)
+[       OK ] org.amshove.kluent.collections.ShouldEqualShould.failWhenTestingUnequalArrays (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldEqualShould.passWhenTestingEqualIterable
-[       OK ] org.amshove.kluent.collections.ShouldEqualShould.passWhenTestingEqualIterable (0 ms)
+[       OK ] org.amshove.kluent.collections.ShouldEqualShould.passWhenTestingEqualIterable (1 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldEqualShould.failWhenTestingDifferentIterable
 [       OK ] org.amshove.kluent.collections.ShouldEqualShould.failWhenTestingDifferentIterable (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldEqualShould.passWhenTestingEqualMaps
@@ -756,11 +753,11 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldEqualShould.passWhenTestingEqualByteArrays
 [       OK ] org.amshove.kluent.collections.ShouldEqualShould.passWhenTestingEqualByteArrays (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldEqualShould.failWhenTestingUnequalByteArrays
-[       OK ] org.amshove.kluent.collections.ShouldEqualShould.failWhenTestingUnequalByteArrays (1 ms)
+[       OK ] org.amshove.kluent.collections.ShouldEqualShould.failWhenTestingUnequalByteArrays (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldEqualShould.passWhenTestingEqualCharArrays
 [       OK ] org.amshove.kluent.collections.ShouldEqualShould.passWhenTestingEqualCharArrays (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldEqualShould.failWhenTestingUnequalCharArrays
-[       OK ] org.amshove.kluent.collections.ShouldEqualShould.failWhenTestingUnequalCharArrays (0 ms)
+[       OK ] org.amshove.kluent.collections.ShouldEqualShould.failWhenTestingUnequalCharArrays (1 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldEqualShould.passWhenTestingEqualDoubleArrays
 [       OK ] org.amshove.kluent.collections.ShouldEqualShould.passWhenTestingEqualDoubleArrays (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldEqualShould.failWhenTestingUnequalDoubleArrays
@@ -772,11 +769,11 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldEqualShould.passWhenTestingEqualLongArrays
 [       OK ] org.amshove.kluent.collections.ShouldEqualShould.passWhenTestingEqualLongArrays (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldEqualShould.failWhenTestingUnequalLongArrays
-[       OK ] org.amshove.kluent.collections.ShouldEqualShould.failWhenTestingUnequalLongArrays (1 ms)
+[       OK ] org.amshove.kluent.collections.ShouldEqualShould.failWhenTestingUnequalLongArrays (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldEqualShould.passWhenTestingEqualShortArrays
 [       OK ] org.amshove.kluent.collections.ShouldEqualShould.passWhenTestingEqualShortArrays (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldEqualShould.failWhenTestingUnequalShortArrays
-[       OK ] org.amshove.kluent.collections.ShouldEqualShould.failWhenTestingUnequalShortArrays (0 ms)
+[       OK ] org.amshove.kluent.collections.ShouldEqualShould.failWhenTestingUnequalShortArrays (1 ms)
 [----------] 22 tests from org.amshove.kluent.collections.ShouldEqualShould (4 ms total)
 
 [----------] 4 tests from org.amshove.kluent.collections.ShouldHaveKeyShould
@@ -827,9 +824,9 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldNotBeEmptyShould.failWhenTestingAPrimitiveShortArrayWhichIsEmpty
 [       OK ] org.amshove.kluent.collections.ShouldNotBeEmptyShould.failWhenTestingAPrimitiveShortArrayWhichIsEmpty (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotBeEmptyShould.passWhenTestingAPrimitiveDoubleArrayWhichIsNotEmpty
-[       OK ] org.amshove.kluent.collections.ShouldNotBeEmptyShould.passWhenTestingAPrimitiveDoubleArrayWhichIsNotEmpty (0 ms)
+[       OK ] org.amshove.kluent.collections.ShouldNotBeEmptyShould.passWhenTestingAPrimitiveDoubleArrayWhichIsNotEmpty (1 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotBeEmptyShould.failWhenTestingAPrimitiveDoubleArrayWhichIsEmpty
-[       OK ] org.amshove.kluent.collections.ShouldNotBeEmptyShould.failWhenTestingAPrimitiveDoubleArrayWhichIsEmpty (1 ms)
+[       OK ] org.amshove.kluent.collections.ShouldNotBeEmptyShould.failWhenTestingAPrimitiveDoubleArrayWhichIsEmpty (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotBeEmptyShould.passWhenTestingAPrimitiveFloatArrayWhichIsNotEmpty
 [       OK ] org.amshove.kluent.collections.ShouldNotBeEmptyShould.passWhenTestingAPrimitiveFloatArrayWhichIsNotEmpty (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotBeEmptyShould.failWhenTestingAPrimitiveFloatArrayWhichIsEmpty
@@ -876,9 +873,9 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldNotBeInShould.passWhenTestingAPrimitiveFloatWhichIsNotWithinAnArray
 [       OK ] org.amshove.kluent.collections.ShouldNotBeInShould.passWhenTestingAPrimitiveFloatWhichIsNotWithinAnArray (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotBeInShould.failWhenTestingAPrimitiveFloatWhichIsWithinAnArray
-[       OK ] org.amshove.kluent.collections.ShouldNotBeInShould.failWhenTestingAPrimitiveFloatWhichIsWithinAnArray (0 ms)
+[       OK ] org.amshove.kluent.collections.ShouldNotBeInShould.failWhenTestingAPrimitiveFloatWhichIsWithinAnArray (1 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotBeInShould.passWhenTestingAPrimitiveCharWhichIsNotWithinAnArray
-[       OK ] org.amshove.kluent.collections.ShouldNotBeInShould.passWhenTestingAPrimitiveCharWhichIsNotWithinAnArray (1 ms)
+[       OK ] org.amshove.kluent.collections.ShouldNotBeInShould.passWhenTestingAPrimitiveCharWhichIsNotWithinAnArray (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotBeInShould.failWhenTestingAPrimitiveCharWhichIsWithinAnArray
 [       OK ] org.amshove.kluent.collections.ShouldNotBeInShould.failWhenTestingAPrimitiveCharWhichIsWithinAnArray (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotBeInShould.passWhenTestingAPrimitiveBooleanWhichIsNotWithinAnArray
@@ -901,9 +898,9 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainAnyShould.failWhenTestingABooleanArrayWithAtLeastOneMatchingValue
 [       OK ] org.amshove.kluent.collections.ShouldNotContainAnyShould.failWhenTestingABooleanArrayWithAtLeastOneMatchingValue (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainAnyShould.passWhenTestingAByteArrayWithNoMatchingValue
-[       OK ] org.amshove.kluent.collections.ShouldNotContainAnyShould.passWhenTestingAByteArrayWithNoMatchingValue (0 ms)
+[       OK ] org.amshove.kluent.collections.ShouldNotContainAnyShould.passWhenTestingAByteArrayWithNoMatchingValue (1 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainAnyShould.failWhenTestingAByteArrayWithAtLeastOneMatchingValue
-[       OK ] org.amshove.kluent.collections.ShouldNotContainAnyShould.failWhenTestingAByteArrayWithAtLeastOneMatchingValue (1 ms)
+[       OK ] org.amshove.kluent.collections.ShouldNotContainAnyShould.failWhenTestingAByteArrayWithAtLeastOneMatchingValue (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainAnyShould.passWhenTestingACharArrayWithNoMatchingValue
 [       OK ] org.amshove.kluent.collections.ShouldNotContainAnyShould.passWhenTestingACharArrayWithNoMatchingValue (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainAnyShould.failWhenTestingACharArrayWithAtLeastOneMatchingValue
@@ -919,11 +916,11 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainAnyShould.passWhenTestingALongArrayWithNoMatchingValue
 [       OK ] org.amshove.kluent.collections.ShouldNotContainAnyShould.passWhenTestingALongArrayWithNoMatchingValue (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainAnyShould.failWhenTestingALongArrayWithAtLeastOneMatchingValue
-[       OK ] org.amshove.kluent.collections.ShouldNotContainAnyShould.failWhenTestingALongArrayWithAtLeastOneMatchingValue (0 ms)
+[       OK ] org.amshove.kluent.collections.ShouldNotContainAnyShould.failWhenTestingALongArrayWithAtLeastOneMatchingValue (1 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainAnyShould.passWhenTestingAShortArrayWithNoMatchingValue
 [       OK ] org.amshove.kluent.collections.ShouldNotContainAnyShould.passWhenTestingAShortArrayWithNoMatchingValue (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainAnyShould.failWhenTestingAShortArrayWithAtLeastOneMatchingValue
-[       OK ] org.amshove.kluent.collections.ShouldNotContainAnyShould.failWhenTestingAShortArrayWithAtLeastOneMatchingValue (1 ms)
+[       OK ] org.amshove.kluent.collections.ShouldNotContainAnyShould.failWhenTestingAShortArrayWithAtLeastOneMatchingValue (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainAnyShould.passWhenTestingAnIterableWithNoMatchingValue
 [       OK ] org.amshove.kluent.collections.ShouldNotContainAnyShould.passWhenTestingAnIterableWithNoMatchingValue (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainAnyShould.failWhenTestingAnIterableWithAtLeastOneMatchingValue
@@ -938,11 +935,11 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainShould.passWhenTestingAnArrayWhichDoesNotContainTheValue
 [       OK ] org.amshove.kluent.collections.ShouldNotContainShould.passWhenTestingAnArrayWhichDoesNotContainTheValue (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainShould.failWhenTestingAnArrayWhichContainsTheValue
-[       OK ] org.amshove.kluent.collections.ShouldNotContainShould.failWhenTestingAnArrayWhichContainsTheValue (0 ms)
+[       OK ] org.amshove.kluent.collections.ShouldNotContainShould.failWhenTestingAnArrayWhichContainsTheValue (1 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainShould.passWhenTestingAnIterableWhichDoesNotContainTheValue
 [       OK ] org.amshove.kluent.collections.ShouldNotContainShould.passWhenTestingAnIterableWhichDoesNotContainTheValue (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainShould.failWhenTestingAnIterableWhichContainsTheValue
-[       OK ] org.amshove.kluent.collections.ShouldNotContainShould.failWhenTestingAnIterableWhichContainsTheValue (1 ms)
+[       OK ] org.amshove.kluent.collections.ShouldNotContainShould.failWhenTestingAnIterableWhichContainsTheValue (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainShould.passWhenTestingAMapWhichDoesNotContainAPair
 [       OK ] org.amshove.kluent.collections.ShouldNotContainShould.passWhenTestingAMapWhichDoesNotContainAPair (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainShould.failWhenTestingAMapWhichContainsAPair
@@ -950,11 +947,11 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainShould.passWhenTestingAMapWhichDoesNotContainAPairOfObjects
 [       OK ] org.amshove.kluent.collections.ShouldNotContainShould.passWhenTestingAMapWhichDoesNotContainAPairOfObjects (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainShould.failWhenTestingAMapWhichContainsAPairOfObjects
-[       OK ] org.amshove.kluent.collections.ShouldNotContainShould.failWhenTestingAMapWhichContainsAPairOfObjects (0 ms)
+[       OK ] org.amshove.kluent.collections.ShouldNotContainShould.failWhenTestingAMapWhichContainsAPairOfObjects (1 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainShould.passWhenTestingAPrimitiveIntegerArrayWhichDoesNotContainTheValue
 [       OK ] org.amshove.kluent.collections.ShouldNotContainShould.passWhenTestingAPrimitiveIntegerArrayWhichDoesNotContainTheValue (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainShould.failWhenTestingAPrimitiveIntegerArrayContainingTheValue
-[       OK ] org.amshove.kluent.collections.ShouldNotContainShould.failWhenTestingAPrimitiveIntegerArrayContainingTheValue (1 ms)
+[       OK ] org.amshove.kluent.collections.ShouldNotContainShould.failWhenTestingAPrimitiveIntegerArrayContainingTheValue (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainShould.passWhenTestingAPrimitiveLongArrayWhichDoesNotContainTheValue
 [       OK ] org.amshove.kluent.collections.ShouldNotContainShould.passWhenTestingAPrimitiveLongArrayWhichDoesNotContainTheValue (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainShould.failWhenTestingAPrimitiveLongArrayContainingTheValue
@@ -970,7 +967,7 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainShould.passWhenTestingAPrimitiveFloatArrayWhichDoesNotContainTheValue
 [       OK ] org.amshove.kluent.collections.ShouldNotContainShould.passWhenTestingAPrimitiveFloatArrayWhichDoesNotContainTheValue (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainShould.failWhenTestingAPrimitiveFloatArrayContainingTheValue
-[       OK ] org.amshove.kluent.collections.ShouldNotContainShould.failWhenTestingAPrimitiveFloatArrayContainingTheValue (0 ms)
+[       OK ] org.amshove.kluent.collections.ShouldNotContainShould.failWhenTestingAPrimitiveFloatArrayContainingTheValue (1 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainShould.passWhenTestingAPrimitiveByteArrayWhichDoesNotContainTheValue
 [       OK ] org.amshove.kluent.collections.ShouldNotContainShould.passWhenTestingAPrimitiveByteArrayWhichDoesNotContainTheValue (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotContainShould.failWhenTestingAPrimitiveByteArrayContainingTheValue
@@ -989,11 +986,11 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldNotEqualShould.passWhenTestingUnequalArrays
 [       OK ] org.amshove.kluent.collections.ShouldNotEqualShould.passWhenTestingUnequalArrays (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotEqualShould.failWhenTestingEqualArrays
-[       OK ] org.amshove.kluent.collections.ShouldNotEqualShould.failWhenTestingEqualArrays (0 ms)
+[       OK ] org.amshove.kluent.collections.ShouldNotEqualShould.failWhenTestingEqualArrays (1 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotEqualShould.passWhenTestingUnequalIterable
 [       OK ] org.amshove.kluent.collections.ShouldNotEqualShould.passWhenTestingUnequalIterable (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotEqualShould.failWhenTestingEqualIterable
-[       OK ] org.amshove.kluent.collections.ShouldNotEqualShould.failWhenTestingEqualIterable (1 ms)
+[       OK ] org.amshove.kluent.collections.ShouldNotEqualShould.failWhenTestingEqualIterable (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotEqualShould.passWhenTestingDifferentMaps
 [       OK ] org.amshove.kluent.collections.ShouldNotEqualShould.passWhenTestingDifferentMaps (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotEqualShould.failWhenTestingEqualMaps
@@ -1005,11 +1002,11 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldNotEqualShould.passWhenTestingUnequalBooleanArrays
 [       OK ] org.amshove.kluent.collections.ShouldNotEqualShould.passWhenTestingUnequalBooleanArrays (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotEqualShould.failWhenTestingEqualBooleanArrays
-[       OK ] org.amshove.kluent.collections.ShouldNotEqualShould.failWhenTestingEqualBooleanArrays (0 ms)
+[       OK ] org.amshove.kluent.collections.ShouldNotEqualShould.failWhenTestingEqualBooleanArrays (1 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotEqualShould.passWhenTestingUnequalByteArrays
 [       OK ] org.amshove.kluent.collections.ShouldNotEqualShould.passWhenTestingUnequalByteArrays (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotEqualShould.failWhenTestingEqualByteArrays
-[       OK ] org.amshove.kluent.collections.ShouldNotEqualShould.failWhenTestingEqualByteArrays (1 ms)
+[       OK ] org.amshove.kluent.collections.ShouldNotEqualShould.failWhenTestingEqualByteArrays (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotEqualShould.passWhenTestingUnequalCharArrays
 [       OK ] org.amshove.kluent.collections.ShouldNotEqualShould.passWhenTestingUnequalCharArrays (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotEqualShould.failWhenTestingEqualCharArrays
@@ -1029,29 +1026,29 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.collections.ShouldNotEqualShould.passWhenTestingUnequalShortArrays
 [       OK ] org.amshove.kluent.collections.ShouldNotEqualShould.passWhenTestingUnequalShortArrays (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotEqualShould.failWhenTestingEqualShortArrays
-[       OK ] org.amshove.kluent.collections.ShouldNotEqualShould.failWhenTestingEqualShortArrays (0 ms)
-[----------] 22 tests from org.amshove.kluent.collections.ShouldNotEqualShould (3 ms total)
+[       OK ] org.amshove.kluent.collections.ShouldNotEqualShould.failWhenTestingEqualShortArrays (1 ms)
+[----------] 22 tests from org.amshove.kluent.collections.ShouldNotEqualShould (4 ms total)
 
 [----------] 4 tests from org.amshove.kluent.collections.ShouldNotHaveKeyShould
 [ RUN      ] org.amshove.kluent.collections.ShouldNotHaveKeyShould.passWhenTestingAMapWhichDoesNotContainTheKey
 [       OK ] org.amshove.kluent.collections.ShouldNotHaveKeyShould.passWhenTestingAMapWhichDoesNotContainTheKey (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotHaveKeyShould.failWhenTestingAMapWhichContainsTheKey
-[       OK ] org.amshove.kluent.collections.ShouldNotHaveKeyShould.failWhenTestingAMapWhichContainsTheKey (1 ms)
+[       OK ] org.amshove.kluent.collections.ShouldNotHaveKeyShould.failWhenTestingAMapWhichContainsTheKey (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotHaveKeyShould.passWhenTestingAMapWhichDoesNotContainTheObjectAsKey
 [       OK ] org.amshove.kluent.collections.ShouldNotHaveKeyShould.passWhenTestingAMapWhichDoesNotContainTheObjectAsKey (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotHaveKeyShould.failWhenTestingAMapWhichContainsTheObjectAsKey
 [       OK ] org.amshove.kluent.collections.ShouldNotHaveKeyShould.failWhenTestingAMapWhichContainsTheObjectAsKey (0 ms)
-[----------] 4 tests from org.amshove.kluent.collections.ShouldNotHaveKeyShould (1 ms total)
+[----------] 4 tests from org.amshove.kluent.collections.ShouldNotHaveKeyShould (0 ms total)
 
 [----------] 4 tests from org.amshove.kluent.collections.ShouldNotHaveValueShould
 [ RUN      ] org.amshove.kluent.collections.ShouldNotHaveValueShould.passWhenTestingAMapWhichDoesNotContainTheValue
 [       OK ] org.amshove.kluent.collections.ShouldNotHaveValueShould.passWhenTestingAMapWhichDoesNotContainTheValue (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotHaveValueShould.failWhenTestingAMapWhichContainsTheValue
-[       OK ] org.amshove.kluent.collections.ShouldNotHaveValueShould.failWhenTestingAMapWhichContainsTheValue (0 ms)
+[       OK ] org.amshove.kluent.collections.ShouldNotHaveValueShould.failWhenTestingAMapWhichContainsTheValue (1 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotHaveValueShould.passWhenTestingAMapWhichDoesNotContainTheObjectAsValue
 [       OK ] org.amshove.kluent.collections.ShouldNotHaveValueShould.passWhenTestingAMapWhichDoesNotContainTheObjectAsValue (0 ms)
 [ RUN      ] org.amshove.kluent.collections.ShouldNotHaveValueShould.failWhenTestingAMapWhichContainsTheObjectAsValue
-[       OK ] org.amshove.kluent.collections.ShouldNotHaveValueShould.failWhenTestingAMapWhichContainsTheObjectAsValue (1 ms)
+[       OK ] org.amshove.kluent.collections.ShouldNotHaveValueShould.failWhenTestingAMapWhichContainsTheObjectAsValue (0 ms)
 [----------] 4 tests from org.amshove.kluent.collections.ShouldNotHaveValueShould (1 ms total)
 
 [----------] 3 tests from org.amshove.kluent.concepts.ChainingAssertionsShould
@@ -1069,7 +1066,7 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.numerical.ShouldBeGreaterOrEqualToShould.passWhenTestingAnIntegerWhichIsEqual
 [       OK ] org.amshove.kluent.numerical.ShouldBeGreaterOrEqualToShould.passWhenTestingAnIntegerWhichIsEqual (0 ms)
 [ RUN      ] org.amshove.kluent.numerical.ShouldBeGreaterOrEqualToShould.failWhenTestingAnIntegerWhichIsSmaller
-[       OK ] org.amshove.kluent.numerical.ShouldBeGreaterOrEqualToShould.failWhenTestingAnIntegerWhichIsSmaller (0 ms)
+[       OK ] org.amshove.kluent.numerical.ShouldBeGreaterOrEqualToShould.failWhenTestingAnIntegerWhichIsSmaller (1 ms)
 [ RUN      ] org.amshove.kluent.numerical.ShouldBeGreaterOrEqualToShould.passWhenTestingADoubleWhichIsGreater
 [       OK ] org.amshove.kluent.numerical.ShouldBeGreaterOrEqualToShould.passWhenTestingADoubleWhichIsGreater (0 ms)
 [ RUN      ] org.amshove.kluent.numerical.ShouldBeGreaterOrEqualToShould.passWhenTestingADoubleWhichIsEqual
@@ -1082,7 +1079,7 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [       OK ] org.amshove.kluent.numerical.ShouldBeGreaterOrEqualToShould.passWhenTestingAFloatWhichIsEqual (0 ms)
 [ RUN      ] org.amshove.kluent.numerical.ShouldBeGreaterOrEqualToShould.failWhenTestingAFloatWhichIsSmaller
 [       OK ] org.amshove.kluent.numerical.ShouldBeGreaterOrEqualToShould.failWhenTestingAFloatWhichIsSmaller (0 ms)
-[----------] 9 tests from org.amshove.kluent.numerical.ShouldBeGreaterOrEqualToShould (0 ms total)
+[----------] 9 tests from org.amshove.kluent.numerical.ShouldBeGreaterOrEqualToShould (1 ms total)
 
 [----------] 9 tests from org.amshove.kluent.numerical.ShouldBeGreaterThanShould
 [ RUN      ] org.amshove.kluent.numerical.ShouldBeGreaterThanShould.passWhenTestingAnIntegerWhichIsGreater
@@ -1102,8 +1099,8 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.numerical.ShouldBeGreaterThanShould.failWhenTestingAFloatWhichIsEqual
 [       OK ] org.amshove.kluent.numerical.ShouldBeGreaterThanShould.failWhenTestingAFloatWhichIsEqual (0 ms)
 [ RUN      ] org.amshove.kluent.numerical.ShouldBeGreaterThanShould.failWhenTestingAFloatWhichIsSmaller
-[       OK ] org.amshove.kluent.numerical.ShouldBeGreaterThanShould.failWhenTestingAFloatWhichIsSmaller (1 ms)
-[----------] 9 tests from org.amshove.kluent.numerical.ShouldBeGreaterThanShould (1 ms total)
+[       OK ] org.amshove.kluent.numerical.ShouldBeGreaterThanShould.failWhenTestingAFloatWhichIsSmaller (0 ms)
+[----------] 9 tests from org.amshove.kluent.numerical.ShouldBeGreaterThanShould (0 ms total)
 
 [----------] 15 tests from org.amshove.kluent.numerical.ShouldBeInRangeShould
 [ RUN      ] org.amshove.kluent.numerical.ShouldBeInRangeShould.passWhenTestingAnIntegerWhichIsWithinTheRange
@@ -1136,7 +1133,7 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [       OK ] org.amshove.kluent.numerical.ShouldBeInRangeShould.failWhenTestingAFloatWhichIsBelowTheRange (0 ms)
 [ RUN      ] org.amshove.kluent.numerical.ShouldBeInRangeShould.failWhenTestingAFloatWhichIsAboveTheRange
 [       OK ] org.amshove.kluent.numerical.ShouldBeInRangeShould.failWhenTestingAFloatWhichIsAboveTheRange (0 ms)
-[----------] 15 tests from org.amshove.kluent.numerical.ShouldBeInRangeShould (0 ms total)
+[----------] 15 tests from org.amshove.kluent.numerical.ShouldBeInRangeShould (1 ms total)
 
 [----------] 9 tests from org.amshove.kluent.numerical.ShouldBeLessOrEqualToShould
 [ RUN      ] org.amshove.kluent.numerical.ShouldBeLessOrEqualToShould.passWhenTestingAnIntegerWhichIsSmaller
@@ -1154,10 +1151,10 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.numerical.ShouldBeLessOrEqualToShould.passWhenTestingAFloatWhichIsSmaller
 [       OK ] org.amshove.kluent.numerical.ShouldBeLessOrEqualToShould.passWhenTestingAFloatWhichIsSmaller (0 ms)
 [ RUN      ] org.amshove.kluent.numerical.ShouldBeLessOrEqualToShould.passWhenTestingAFloatWhichIsEqual
-[       OK ] org.amshove.kluent.numerical.ShouldBeLessOrEqualToShould.passWhenTestingAFloatWhichIsEqual (1 ms)
+[       OK ] org.amshove.kluent.numerical.ShouldBeLessOrEqualToShould.passWhenTestingAFloatWhichIsEqual (0 ms)
 [ RUN      ] org.amshove.kluent.numerical.ShouldBeLessOrEqualToShould.failWhenTestingAFloatWhichIsGreater
 [       OK ] org.amshove.kluent.numerical.ShouldBeLessOrEqualToShould.failWhenTestingAFloatWhichIsGreater (0 ms)
-[----------] 9 tests from org.amshove.kluent.numerical.ShouldBeLessOrEqualToShould (1 ms total)
+[----------] 9 tests from org.amshove.kluent.numerical.ShouldBeLessOrEqualToShould (0 ms total)
 
 [----------] 6 tests from org.amshove.kluent.numerical.ShouldBeLessThanShould
 [ RUN      ] org.amshove.kluent.numerical.ShouldBeLessThanShould.passWhenTestingAnIntegerWhichIsSmaller
@@ -1169,10 +1166,10 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.numerical.ShouldBeLessThanShould.passWhenTestingADoubleWhichIsSmaller
 [       OK ] org.amshove.kluent.numerical.ShouldBeLessThanShould.passWhenTestingADoubleWhichIsSmaller (0 ms)
 [ RUN      ] org.amshove.kluent.numerical.ShouldBeLessThanShould.failWhenTestingADoubleWhichIsEqual
-[       OK ] org.amshove.kluent.numerical.ShouldBeLessThanShould.failWhenTestingADoubleWhichIsEqual (0 ms)
+[       OK ] org.amshove.kluent.numerical.ShouldBeLessThanShould.failWhenTestingADoubleWhichIsEqual (1 ms)
 [ RUN      ] org.amshove.kluent.numerical.ShouldBeLessThanShould.failWhenTestingADoubleWhichIsGreater
 [       OK ] org.amshove.kluent.numerical.ShouldBeLessThanShould.failWhenTestingADoubleWhichIsGreater (0 ms)
-[----------] 6 tests from org.amshove.kluent.numerical.ShouldBeLessThanShould (0 ms total)
+[----------] 6 tests from org.amshove.kluent.numerical.ShouldBeLessThanShould (1 ms total)
 
 [----------] 10 tests from org.amshove.kluent.numerical.ShouldBeNearShould
 [ RUN      ] org.amshove.kluent.numerical.ShouldBeNearShould.passWhenTestingADoubleWhichIsWithinTheDelta
@@ -1213,16 +1210,16 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.numerical.ShouldBeNegativeShould.passWhenTestingANegativeFloat
 [       OK ] org.amshove.kluent.numerical.ShouldBeNegativeShould.passWhenTestingANegativeFloat (0 ms)
 [ RUN      ] org.amshove.kluent.numerical.ShouldBeNegativeShould.failWhenTestingAPositiveFloat
-[       OK ] org.amshove.kluent.numerical.ShouldBeNegativeShould.failWhenTestingAPositiveFloat (1 ms)
+[       OK ] org.amshove.kluent.numerical.ShouldBeNegativeShould.failWhenTestingAPositiveFloat (0 ms)
 [ RUN      ] org.amshove.kluent.numerical.ShouldBeNegativeShould.failWhenTestingZeroFloat
 [       OK ] org.amshove.kluent.numerical.ShouldBeNegativeShould.failWhenTestingZeroFloat (0 ms)
-[----------] 9 tests from org.amshove.kluent.numerical.ShouldBeNegativeShould (1 ms total)
+[----------] 9 tests from org.amshove.kluent.numerical.ShouldBeNegativeShould (0 ms total)
 
 [----------] 9 tests from org.amshove.kluent.numerical.ShouldBePositiveShould
 [ RUN      ] org.amshove.kluent.numerical.ShouldBePositiveShould.passWhenTestingAPositiveInteger
 [       OK ] org.amshove.kluent.numerical.ShouldBePositiveShould.passWhenTestingAPositiveInteger (0 ms)
 [ RUN      ] org.amshove.kluent.numerical.ShouldBePositiveShould.failWhenTestingANegativeInteger
-[       OK ] org.amshove.kluent.numerical.ShouldBePositiveShould.failWhenTestingANegativeInteger (0 ms)
+[       OK ] org.amshove.kluent.numerical.ShouldBePositiveShould.failWhenTestingANegativeInteger (1 ms)
 [ RUN      ] org.amshove.kluent.numerical.ShouldBePositiveShould.failWhenTestingZeroInteger
 [       OK ] org.amshove.kluent.numerical.ShouldBePositiveShould.failWhenTestingZeroInteger (0 ms)
 [ RUN      ] org.amshove.kluent.numerical.ShouldBePositiveShould.passWhenTestingAPositiveDouble
@@ -1237,7 +1234,7 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [       OK ] org.amshove.kluent.numerical.ShouldBePositiveShould.failWhenTestingANegativeFloat (0 ms)
 [ RUN      ] org.amshove.kluent.numerical.ShouldBePositiveShould.failWhenTestingZeroFloat
 [       OK ] org.amshove.kluent.numerical.ShouldBePositiveShould.failWhenTestingZeroFloat (0 ms)
-[----------] 9 tests from org.amshove.kluent.numerical.ShouldBePositiveShould (0 ms total)
+[----------] 9 tests from org.amshove.kluent.numerical.ShouldBePositiveShould (1 ms total)
 
 [----------] 9 tests from org.amshove.kluent.numerical.ShouldNotBeGreaterOrEqualToShould
 [ RUN      ] org.amshove.kluent.numerical.ShouldNotBeGreaterOrEqualToShould.passWhenTestingAnIntegerWhichIsSmaller
@@ -1268,7 +1265,7 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.numerical.ShouldNotBeGreaterThanShould.failWhenTestingAnIntegerWhichIsGreater
 [       OK ] org.amshove.kluent.numerical.ShouldNotBeGreaterThanShould.failWhenTestingAnIntegerWhichIsGreater (0 ms)
 [ RUN      ] org.amshove.kluent.numerical.ShouldNotBeGreaterThanShould.passWhenTestingADoubleWhichIsSmaller
-[       OK ] org.amshove.kluent.numerical.ShouldNotBeGreaterThanShould.passWhenTestingADoubleWhichIsSmaller (0 ms)
+[       OK ] org.amshove.kluent.numerical.ShouldNotBeGreaterThanShould.passWhenTestingADoubleWhichIsSmaller (1 ms)
 [ RUN      ] org.amshove.kluent.numerical.ShouldNotBeGreaterThanShould.passWhenTestingADoubleWhichIsEqual
 [       OK ] org.amshove.kluent.numerical.ShouldNotBeGreaterThanShould.passWhenTestingADoubleWhichIsEqual (0 ms)
 [ RUN      ] org.amshove.kluent.numerical.ShouldNotBeGreaterThanShould.failWhenTestingADoubleWhichIsGreater
@@ -1297,7 +1294,7 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.numerical.ShouldNotBeInRangeShould.passWhenTestingADoubleWhichIsAboveTheRange
 [       OK ] org.amshove.kluent.numerical.ShouldNotBeInRangeShould.passWhenTestingADoubleWhichIsAboveTheRange (0 ms)
 [ RUN      ] org.amshove.kluent.numerical.ShouldNotBeInRangeShould.failWhenTestingADoubleWhichIsWithinTheRange
-[       OK ] org.amshove.kluent.numerical.ShouldNotBeInRangeShould.failWhenTestingADoubleWhichIsWithinTheRange (1 ms)
+[       OK ] org.amshove.kluent.numerical.ShouldNotBeInRangeShould.failWhenTestingADoubleWhichIsWithinTheRange (0 ms)
 [ RUN      ] org.amshove.kluent.numerical.ShouldNotBeInRangeShould.failWhenTestingADoubleWhichIsTheLowerBound
 [       OK ] org.amshove.kluent.numerical.ShouldNotBeInRangeShould.failWhenTestingADoubleWhichIsTheLowerBound (0 ms)
 [ RUN      ] org.amshove.kluent.numerical.ShouldNotBeInRangeShould.failWhenTestingADoubleWhichIsTheUpperBound
@@ -1311,7 +1308,7 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [ RUN      ] org.amshove.kluent.numerical.ShouldNotBeInRangeShould.failWhenTestingAFloatWhichIsTheLowerBound
 [       OK ] org.amshove.kluent.numerical.ShouldNotBeInRangeShould.failWhenTestingAFloatWhichIsTheLowerBound (0 ms)
 [ RUN      ] org.amshove.kluent.numerical.ShouldNotBeInRangeShould.failWhenTestingAFloatWhichIsTheUpperBound
-[       OK ] org.amshove.kluent.numerical.ShouldNotBeInRangeShould.failWhenTestingAFloatWhichIsTheUpperBound (0 ms)
+[       OK ] org.amshove.kluent.numerical.ShouldNotBeInRangeShould.failWhenTestingAFloatWhichIsTheUpperBound (1 ms)
 [----------] 15 tests from org.amshove.kluent.numerical.ShouldNotBeInRangeShould (1 ms total)
 
 [----------] 9 tests from org.amshove.kluent.numerical.ShouldNotBeLessOrEqualToShould
@@ -1341,7 +1338,7 @@ Configuration(s) specified but the install task does not exist in project :kluen
 [----------] 1 tests from TestsRun (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 522 tests from 64 test cases ran. (60 ms total)
+[==========] 522 tests from 64 test cases ran. (68 ms total)
 [  PASSED  ] 522 tests.
 
 > Task :kluent-native:run
@@ -1350,15 +1347,15 @@ Configuration(s) specified but the install task does not exist in project :kluen
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
 See https://docs.gradle.org/4.8.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 48s
+BUILD SUCCESSFUL in 1m 1s
 12 actionable tasks: 12 executed
 
-2019-04-06 22:44:30,515 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-06 22:44:30,515 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-06 22:44:34,410 INFO  ProjectTaskService - Detected possible tasks: 52
-2019-04-06 22:44:34,410 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-04-06 22:44:34,410 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-04-06 22:44:39,029 INFO  SysUtils - Skipping JVM build
+2019-04-12 12:44:54,528 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-12 12:44:54,529 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-12 12:45:00,833 INFO  ProjectTaskService - Detected possible tasks: 52
+2019-04-12 12:45:00,833 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-04-12 12:45:00,834 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-04-12 12:45:06,031 INFO  SysUtils - Skipping JVM build
 Configuration on demand is an incubating feature.
 
 > Configure project :kluent-common
@@ -1381,12 +1378,12 @@ See https://docs.gradle.org/4.8.1/userguide/command_line_interface.html#sec:comm
 BUILD SUCCESSFUL in 4s
 4 actionable tasks: 4 up-to-date
 
-2019-04-06 22:44:39,040 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-06 22:44:39,040 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/js/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-06 22:44:43,211 INFO  ProjectTaskService - Detected possible tasks: 58
-2019-04-06 22:44:43,212 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-04-06 22:44:43,212 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/js/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-04-06 22:44:48,010 INFO  SysUtils - Skipping JVM build
+2019-04-12 12:45:06,049 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-12 12:45:06,049 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/js/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-12 12:45:10,949 INFO  ProjectTaskService - Detected possible tasks: 58
+2019-04-12 12:45:10,950 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-04-12 12:45:10,950 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/js/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-04-12 12:45:15,682 INFO  SysUtils - Skipping JVM build
 Configuration on demand is an incubating feature.
 
 > Configure project :kluent-common
@@ -1419,13 +1416,13 @@ See https://docs.gradle.org/4.8.1/userguide/command_line_interface.html#sec:comm
 BUILD SUCCESSFUL in 4s
 7 actionable tasks: 7 up-to-date
 
-2019-04-06 22:44:48,021 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-06 22:44:48,021 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/jvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-06 22:44:50,133 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-06 22:44:50,133 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-06 22:44:50,133 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-06 22:44:50,133 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/jvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-06 22:44:52,243 ERROR SysUtils - Could not process external command
+2019-04-12 12:45:15,694 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-12 12:45:15,694 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/jvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-12 12:45:17,788 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-12 12:45:17,788 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-12 12:45:17,788 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-12 12:45:17,788 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/jvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-12 12:45:19,787 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1452,13 +1449,13 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-06 22:44:52,243 INFO  SysUtils - Skipping JVM build
+2019-04-12 12:45:19,787 INFO  SysUtils - Skipping JVM build
 Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/jvm/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/jvm/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating root project 'jvm'.
@@ -1568,7 +1565,7 @@ Caused by: org.gradle.api.plugins.UnknownPluginException: Plugin with id 'kotlin
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply.callCurrent(Unknown Source)
-	at build_1mhfopx170fw4cvfpvtriksu0.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/jvm/build.gradle:1)
+	at build_alx65l2biiqie4o4ljr1s4h5p.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/jvm/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 89 more
 
@@ -1580,12 +1577,12 @@ See https://docs.gradle.org/4.8.1/userguide/command_line_interface.html#sec:comm
 
 BUILD FAILED in 1s
 
-2019-04-06 22:44:52,253 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-06 22:44:52,253 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/native/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-06 22:44:55,419 INFO  ProjectTaskService - Detected possible tasks: 42
-2019-04-06 22:44:55,419 INFO  ProjectTaskService - Excluded tasks (1): check
-2019-04-06 22:44:55,419 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/native/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, check, build]
-2019-04-06 22:45:02,215 ERROR SysUtils - Could not process external command
+2019-04-12 12:45:19,798 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-12 12:45:19,798 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/native/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-12 12:45:23,444 INFO  ProjectTaskService - Detected possible tasks: 42
+2019-04-12 12:45:23,444 INFO  ProjectTaskService - Excluded tasks (1): check
+2019-04-12 12:45:23,445 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/native/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, check, build]
+2019-04-12 12:45:29,961 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1612,7 +1609,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-06 22:45:02,215 INFO  SysUtils - Skipping JVM build
+2019-04-12 12:45:29,961 INFO  SysUtils - Skipping JVM build
 Configuration on demand is an incubating feature.
 
 > Configure project :kluent-native
@@ -1622,13 +1619,13 @@ feature GRADLE_METADATA is not enabled: publication is disabled
 > Task :kluent-native:checkKonanCompiler
 
 > Task :kluent-native:compileKonanKluent-nativeMacos_x64 FAILED
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/native/src/main/kotlin/org/amshove/kluent/internal/Platform.kt:3:24: error: actual function 'platformClassName' has no corresponding expected declaration
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/native/src/main/kotlin/org/amshove/kluent/internal/Platform.kt:3:24: error: actual function 'platformClassName' has no corresponding expected declaration
 actual fun <T : Any> T.platformClassName(): String? = this::class.qualifiedName
                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/native/src/main/kotlin/org/amshove/kluent/internal/Platform.kt:6:30: error: actual function 'platformJoinStackTrace' has no corresponding expected declaration
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/native/src/main/kotlin/org/amshove/kluent/internal/Platform.kt:6:30: error: actual function 'platformJoinStackTrace' has no corresponding expected declaration
 actual fun <T : Throwable> T.platformJoinStackTrace(): String = "<no stacktrace on native yet>"
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554565287452-0/src/native/src/main/kotlin/org/amshove/kluent/internal/Platform.kt:9:26: error: actual function 'platformIsDigit' has no corresponding expected declaration
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555047819254-0/src/Kluent-master/native/src/main/kotlin/org/amshove/kluent/internal/Platform.kt:9:26: error: actual function 'platformIsDigit' has no corresponding expected declaration
 internal actual fun Char.platformIsDigit(): Boolean = this.toString().matches(Regex("\\d"))
                          ^
 
@@ -1703,5 +1700,5 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command '/Library
 BUILD FAILED in 6s
 2 actionable tasks: 2 executed
 
-2019-04-06 22:45:02,226 ERROR FullProcessService - Project build has not produced APK file
-2019-04-06 22:45:02,236 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-12 12:45:29,972 ERROR FullProcessService - Project build has not produced APK file
+2019-04-12 12:45:29,983 ERROR FullProcessService - Could not find generated or existed APK file
