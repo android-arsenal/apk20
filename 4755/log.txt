@@ -1,38 +1,38 @@
-2019-01-06 19:03:01,930 INFO  DownloadService - Downloading "https://github.com/hypertrack/smart-scheduler-android/archive/master.zip", attempt 3
-2019-01-06 19:03:02,491 INFO  DownloadService - Downloaded https://github.com/hypertrack/smart-scheduler-android/archive/master.zip, attempt 3
-2019-01-06 19:03:02,491 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/master.zip": 122 KB
-2019-01-06 19:03:02,491 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-06 19:03:02,497 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/master.zip: true
-2019-01-06 19:03:02,497 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src'.
-2019-01-06 19:03:02,517 INFO  FullProcessService - Size of directory with sources: 165 KB
-2019-01-06 19:03:02,517 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src]
-2019-01-06 19:03:02,544 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/.git/
+2019-04-13 19:41:39,597 INFO  DownloadService - Downloading "https://github.com/hypertrack/smart-scheduler-android/archive/master.zip", attempt 3
+2019-04-13 19:41:40,069 INFO  DownloadService - Downloaded https://github.com/hypertrack/smart-scheduler-android/archive/master.zip, attempt 3
+2019-04-13 19:41:40,069 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/master.zip": 122 KB
+2019-04-13 19:41:40,069 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-13 19:41:40,075 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/master.zip: true
+2019-04-13 19:41:40,075 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src'.
+2019-04-13 19:41:40,095 INFO  FullProcessService - Size of directory with sources: 165 KB
+2019-04-13 19:41:40,095 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src]
+2019-04-13 19:41:40,113 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/.git/
 
-2019-01-06 19:03:02,547 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/smart-scheduler-android-master/gradlew
-2019-01-06 19:03:02,551 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/smart-scheduler-android-master/smart-scheduler-demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/smart-scheduler-android-master/smart-scheduler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/smart-scheduler-android-master/build.gradle
-2019-01-06 19:03:02,554 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/smart-scheduler-android-master/smart-scheduler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/smart-scheduler-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/smart-scheduler-android-master/smart-scheduler-demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/smart-scheduler-android-master/settings.gradle
-2019-01-06 19:03:02,555 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-01-06 19:03:02,654 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-01-06 19:03:02,655 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-01-06 19:03:02,767 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-01-06 19:03:02,767 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-01-06 19:03:02,767 INFO  ProjectFixService - Fixing project...
-2019-01-06 19:03:02,778 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/smart-scheduler-android-master/smart-scheduler-demo/local.properties
-2019-01-06 19:03:02,778 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/smart-scheduler-android-master/smart-scheduler-demo/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-01-06 19:03:02,779 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/smart-scheduler-android-master/smart-scheduler/local.properties
-2019-01-06 19:03:02,779 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/smart-scheduler-android-master/smart-scheduler/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-01-06 19:03:02,779 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/smart-scheduler-android-master/local.properties
-2019-01-06 19:03:02,780 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-01-06 19:03:02,780 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-01-06 19:03:02,781 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/smart-scheduler-android-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-01-06 19:03:02,781 INFO  ProjectFixService - Project was maybe fixed
-2019-01-06 19:03:02,781 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-06 19:03:02,781 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/smart-scheduler-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/smart-scheduler-android-master/smart-scheduler-demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-06 19:03:06,220 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-06 19:03:06,221 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-01-06 19:03:06,221 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-01-06 19:03:06,221 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/smart-scheduler-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/smart-scheduler-android-master/smart-scheduler-demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-01-06 19:03:08,542 ERROR SysUtils - Could not process external command
+2019-04-13 19:41:40,116 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/smart-scheduler-android-master/gradlew
+2019-04-13 19:41:40,120 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/smart-scheduler-android-master/smart-scheduler-demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/smart-scheduler-android-master/smart-scheduler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/smart-scheduler-android-master/build.gradle
+2019-04-13 19:41:40,123 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/smart-scheduler-android-master/smart-scheduler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/smart-scheduler-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/smart-scheduler-android-master/smart-scheduler-demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/smart-scheduler-android-master/settings.gradle
+2019-04-13 19:41:40,123 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-04-13 19:41:40,222 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-04-13 19:41:40,222 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-04-13 19:41:40,315 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-04-13 19:41:40,316 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-04-13 19:41:40,316 INFO  ProjectFixService - Fixing project...
+2019-04-13 19:41:40,328 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/smart-scheduler-android-master/smart-scheduler-demo/local.properties
+2019-04-13 19:41:40,328 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/smart-scheduler-android-master/smart-scheduler-demo/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-04-13 19:41:40,329 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/smart-scheduler-android-master/smart-scheduler/local.properties
+2019-04-13 19:41:40,329 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/smart-scheduler-android-master/smart-scheduler/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-04-13 19:41:40,330 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/smart-scheduler-android-master/local.properties
+2019-04-13 19:41:40,330 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-04-13 19:41:40,330 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-04-13 19:41:40,331 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/smart-scheduler-android-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-04-13 19:41:40,331 INFO  ProjectFixService - Project was maybe fixed
+2019-04-13 19:41:40,331 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 19:41:40,332 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/smart-scheduler-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/smart-scheduler-android-master/smart-scheduler-demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 19:41:45,161 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 19:41:45,161 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-04-13 19:41:45,161 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-04-13 19:41:45,161 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/smart-scheduler-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/smart-scheduler-android-master/smart-scheduler-demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-04-13 19:41:47,635 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -53,14 +53,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-06 19:03:08,542 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 19:41:47,635 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -216,13 +216,13 @@ Searched in the following locations:
 
 BUILD FAILED in 2s
 
-2019-01-06 19:03:08,547 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-06 19:03:08,547 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/smart-scheduler-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/smart-scheduler-android-master/smart-scheduler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-06 19:03:11,074 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-06 19:03:11,075 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-01-06 19:03:11,075 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-01-06 19:03:11,075 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/smart-scheduler-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/smart-scheduler-android-master/smart-scheduler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-01-06 19:03:14,039 ERROR SysUtils - Could not process external command
+2019-04-13 19:41:47,640 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 19:41:47,640 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/smart-scheduler-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/smart-scheduler-android-master/smart-scheduler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 19:41:50,104 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 19:41:50,104 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-04-13 19:41:50,105 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-04-13 19:41:50,105 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/smart-scheduler-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/smart-scheduler-android-master/smart-scheduler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-04-13 19:41:52,497 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -243,14 +243,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-06 19:03:14,039 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 19:41:52,497 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -406,13 +406,13 @@ Searched in the following locations:
 
 BUILD FAILED in 2s
 
-2019-01-06 19:03:14,043 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-06 19:03:14,043 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/smart-scheduler-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/smart-scheduler-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-06 19:03:16,851 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-06 19:03:16,851 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-01-06 19:03:16,851 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-01-06 19:03:16,851 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/smart-scheduler-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776181928-0/src/smart-scheduler-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-01-06 19:03:20,257 ERROR SysUtils - Could not process external command
+2019-04-13 19:41:52,501 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 19:41:52,502 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/smart-scheduler-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/smart-scheduler-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 19:41:55,127 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 19:41:55,127 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-04-13 19:41:55,127 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-04-13 19:41:55,127 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/smart-scheduler-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159299594-0/src/smart-scheduler-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-04-13 19:41:57,689 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -433,14 +433,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-06 19:03:20,257 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 19:41:57,689 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -594,7 +594,7 @@ Searched in the following locations:
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 3s
+BUILD FAILED in 2s
 
-2019-01-06 19:03:20,262 ERROR FullProcessService - Project build has not produced APK file
-2019-01-06 19:03:20,266 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-13 19:41:57,693 ERROR FullProcessService - Project build has not produced APK file
+2019-04-13 19:41:57,698 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,40 +1,38 @@
-2019-04-08 11:24:39,021 INFO  DownloadService - Downloading "https://github.com/ittianyu/BottomNavigationViewEx/archive/master.zip", attempt 3
-2019-04-08 11:25:39,652 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-04-08 11:25:40,692 INFO  GithubDownloadService - Default branch of this repository: master
-2019-04-08 11:25:40,693 INFO  DownloadService - Downloading "https://github.com/ittianyu/BottomNavigationViewEx/archive/master.zip", attempt 3
-2019-04-08 11:26:41,990 DEBUG FullProcessService - Repository https://github.com/ittianyu/BottomNavigationViewEx available: true
-2019-04-08 11:26:41,990 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-04-08 11:26:41,990 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ittianyu/BottomNavigationViewEx, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src]
-2019-04-08 11:26:45,116 INFO  SysUtils - 
-2019-04-08 11:26:45,125 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/.git": true
-2019-04-08 11:26:45,130 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-04-08 11:26:45,130 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src]
-2019-04-08 11:26:45,148 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/.git/
+2019-04-13 19:38:03,381 INFO  DownloadService - Downloading "https://github.com/ittianyu/BottomNavigationViewEx/archive/master.zip", attempt 3
+2019-04-13 19:38:06,860 INFO  DownloadService - Downloaded https://github.com/ittianyu/BottomNavigationViewEx/archive/master.zip, attempt 3
+2019-04-13 19:38:06,860 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/master.zip": 1 MB
+2019-04-13 19:38:06,860 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-13 19:38:06,860 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/master.zip: true
+2019-04-13 19:38:06,861 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src'.
+2019-04-13 19:38:06,906 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-04-13 19:38:06,907 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src]
+2019-04-13 19:38:06,925 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src/.git/
 
-2019-04-08 11:26:45,152 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/gradlew
-2019-04-08 11:26:45,160 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/widget/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/build.gradle
-2019-04-08 11:26:45,164 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/widget/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/settings.gradle
-2019-04-08 11:26:45,164 INFO  ProjectBuildService - Remote scripts: none
-2019-04-08 11:26:45,164 INFO  ProjectFixService - Fixing project...
-2019-04-08 11:26:45,174 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/app/local.properties
-2019-04-08 11:26:45,176 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/app/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-04-08 11:26:45,176 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/widget/local.properties
-2019-04-08 11:26:45,177 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/widget/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-04-08 11:26:45,178 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/local.properties
-2019-04-08 11:26:45,178 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-04-08 11:26:45,179 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-04-08 11:26:45,179 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-04-08 11:26:45,179 INFO  ProjectFixService - Project was maybe fixed
-2019-04-08 11:26:45,179 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-08 11:26:45,179 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-08 11:26:53,505 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-04-08 11:26:53,505 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-08 11:26:53,505 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-08 11:27:34,452 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 19:38:06,930 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src/BottomNavigationViewEx-master/gradlew
+2019-04-13 19:38:06,937 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src/BottomNavigationViewEx-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src/BottomNavigationViewEx-master/widget/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src/BottomNavigationViewEx-master/build.gradle
+2019-04-13 19:38:06,941 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src/BottomNavigationViewEx-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src/BottomNavigationViewEx-master/widget/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src/BottomNavigationViewEx-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src/BottomNavigationViewEx-master/settings.gradle
+2019-04-13 19:38:06,942 INFO  ProjectBuildService - Remote scripts: none
+2019-04-13 19:38:06,942 INFO  ProjectFixService - Fixing project...
+2019-04-13 19:38:06,953 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src/BottomNavigationViewEx-master/app/local.properties
+2019-04-13 19:38:06,955 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src/BottomNavigationViewEx-master/app/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-13 19:38:06,955 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src/BottomNavigationViewEx-master/widget/local.properties
+2019-04-13 19:38:06,957 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src/BottomNavigationViewEx-master/widget/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-13 19:38:06,957 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src/BottomNavigationViewEx-master/local.properties
+2019-04-13 19:38:06,958 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-04-13 19:38:06,958 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-04-13 19:38:06,959 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src/BottomNavigationViewEx-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-13 19:38:06,959 INFO  ProjectFixService - Project was maybe fixed
+2019-04-13 19:38:06,959 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 19:38:06,959 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src/BottomNavigationViewEx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src/BottomNavigationViewEx-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 19:38:14,457 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-04-13 19:38:14,457 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-13 19:38:14,458 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src/BottomNavigationViewEx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src/BottomNavigationViewEx-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-13 19:38:47,046 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
-Download https://dl.google.com/dl/android/maven2/com/android/databinding/library/3.2.0/library-3.2.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/databinding/adapters/3.2.0/adapters-3.2.0.aar
-Download https://jcenter.bintray.com/q/rorbin/badgeview/1.1.0/badgeview-1.1.0.aar
+Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-watcher/1.5.4/leakcanary-watcher-1.5.4.jar
+Download https://jcenter.bintray.com/com/squareup/haha/haha/2.0.3/haha-2.0.3.jar
+Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-analyzer/1.5.4/leakcanary-analyzer-1.5.4.aar
+Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-android/1.5.4/leakcanary-android-1.5.4.aar
 :app:preBuild UP-TO-DATE
 :widget:preBuild UP-TO-DATE
 :widget:preDebugBuild UP-TO-DATE
@@ -71,16 +69,15 @@ Download https://jcenter.bintray.com/q/rorbin/badgeview/1.1.0/badgeview-1.1.0.aa
 :widget:prepareLintJar
 :widget:generateDebugSources
 :widget:javaPreCompileDebug
-:widget:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/widget/src/main/java/com/ittianyu/bottomnavigationviewex/BottomNavigationViewEx.java uses or overrides a deprecated API.
+:widget:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src/BottomNavigationViewEx-master/widget/src/main/java/com/ittianyu/bottomnavigationviewex/BottomNavigationViewEx.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/widget/src/main/java/com/ittianyu/bottomnavigationviewex/BottomNavigationViewInner.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src/BottomNavigationViewEx-master/widget/src/main/java/com/ittianyu/bottomnavigationviewex/BottomNavigationViewInner.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :widget:processDebugJavaRes NO-SOURCE
 :widget:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :app:javaPreCompileDebug
-Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-compiler/3.2.0/databinding-compiler-3.2.0.jar
-:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/app/src/main/java/com/ittianyu/bottomnavigationviewexsample/features/style/StyleActivity.java uses or overrides a deprecated API.
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src/BottomNavigationViewEx-master/app/src/main/java/com/ittianyu/bottomnavigationviewexsample/features/style/StyleActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :app:compileDebugNdk NO-SOURCE
@@ -143,21 +140,20 @@ Note: Recompile with -Xlint:deprecation for details.
 :widget:generateReleaseBuildConfig
 :widget:generateReleaseSources
 :widget:javaPreCompileRelease
-:widget:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/widget/src/main/java/com/ittianyu/bottomnavigationviewex/BottomNavigationViewEx.java uses or overrides a deprecated API.
+:widget:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src/BottomNavigationViewEx-master/widget/src/main/java/com/ittianyu/bottomnavigationviewex/BottomNavigationViewEx.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/widget/src/main/java/com/ittianyu/bottomnavigationviewex/BottomNavigationViewInner.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src/BottomNavigationViewEx-master/widget/src/main/java/com/ittianyu/bottomnavigationviewex/BottomNavigationViewInner.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :widget:processReleaseJavaRes NO-SOURCE
 :widget:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 :app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/app/src/main/java/com/ittianyu/bottomnavigationviewexsample/features/style/StyleActivity.java uses or overrides a deprecated API.
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src/BottomNavigationViewEx-master/app/src/main/java/com/ittianyu/bottomnavigationviewexsample/features/style/StyleActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :app:compileReleaseNdk NO-SOURCE
 :app:compileReleaseSources
 :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/758c8038d725799687bb38d0d6899f8b/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 :app:mergeReleaseShaders
 :app:compileReleaseShaders
 :app:generateReleaseAssets
@@ -185,7 +181,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 40s
+BUILD SUCCESSFUL in 31s
 100 actionable tasks: 100 executed
 
-2019-04-08 11:27:34,568 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554697479018-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-04-13 19:38:47,169 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159083379-0/src/BottomNavigationViewEx-master/app/build/outputs/apk/debug/app-debug.apk

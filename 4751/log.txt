@@ -1,33 +1,33 @@
-2018-10-15 13:03:37,621 INFO  DownloadService - Downloading "https://github.com/yingLanNull/HideKeyboard/archive/master.zip", attempt 3
-2018-10-15 13:03:42,368 INFO  DownloadService - Downloaded https://github.com/yingLanNull/HideKeyboard/archive/master.zip, attempt 3
-2018-10-15 13:03:42,369 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/master.zip": 2 MB
-2018-10-15 13:03:42,369 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-15 13:03:42,371 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/master.zip: true
-2018-10-15 13:03:42,371 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src'.
-2018-10-15 13:03:42,411 INFO  FullProcessService - Size of directory with sources: 2 MB
-2018-10-15 13:03:42,411 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src]
-2018-10-15 13:03:42,429 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/.git/
+2019-04-13 19:44:05,982 INFO  DownloadService - Downloading "https://github.com/yingLanNull/HideKeyboard/archive/master.zip", attempt 3
+2019-04-13 19:44:07,456 INFO  DownloadService - Downloaded https://github.com/yingLanNull/HideKeyboard/archive/master.zip, attempt 3
+2019-04-13 19:44:07,456 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159445979-0/master.zip": 2 MB
+2019-04-13 19:44:07,456 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-13 19:44:07,456 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159445979-0/master.zip: true
+2019-04-13 19:44:07,457 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159445979-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159445979-0/src'.
+2019-04-13 19:44:07,493 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-04-13 19:44:07,493 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159445979-0/src]
+2019-04-13 19:44:07,514 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159445979-0/src/.git/
 
-2018-10-15 13:03:42,432 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/gradlew
-2018-10-15 13:03:42,435 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/hidekeyboard/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/build.gradle
-2018-10-15 13:03:42,437 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/hidekeyboard/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/settings.gradle
-2018-10-15 13:03:42,438 INFO  ProjectBuildService - Remote scripts: none
-2018-10-15 13:03:42,438 INFO  ProjectFixService - Fixing project...
-2018-10-15 13:03:42,445 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/demo/local.properties
-2018-10-15 13:03:42,445 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/demo/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=24]
-2018-10-15 13:03:42,446 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/hidekeyboard/local.properties
-2018-10-15 13:03:42,446 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/hidekeyboard/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=24]
-2018-10-15 13:03:42,447 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/local.properties
-2018-10-15 13:03:42,447 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-10-15 13:03:42,448 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-10-15 13:03:42,449 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=24]
-2018-10-15 13:03:42,449 INFO  ProjectFixService - Project was maybe fixed
-2018-10-15 13:03:42,449 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 13:03:42,450 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 13:03:49,637 INFO  ProjectTaskService - Detected possible tasks: 68
-2018-10-15 13:03:49,637 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-15 13:03:49,637 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-15 13:04:11,995 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 19:44:07,517 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159445979-0/src/HideKeyboard-master/gradlew
+2019-04-13 19:44:07,521 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159445979-0/src/HideKeyboard-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159445979-0/src/HideKeyboard-master/hidekeyboard/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159445979-0/src/HideKeyboard-master/build.gradle
+2019-04-13 19:44:07,524 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159445979-0/src/HideKeyboard-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159445979-0/src/HideKeyboard-master/hidekeyboard/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159445979-0/src/HideKeyboard-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159445979-0/src/HideKeyboard-master/settings.gradle
+2019-04-13 19:44:07,525 INFO  ProjectBuildService - Remote scripts: none
+2019-04-13 19:44:07,525 INFO  ProjectFixService - Fixing project...
+2019-04-13 19:44:07,533 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159445979-0/src/HideKeyboard-master/demo/local.properties
+2019-04-13 19:44:07,533 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159445979-0/src/HideKeyboard-master/demo/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=24]
+2019-04-13 19:44:07,533 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159445979-0/src/HideKeyboard-master/hidekeyboard/local.properties
+2019-04-13 19:44:07,534 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159445979-0/src/HideKeyboard-master/hidekeyboard/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=24]
+2019-04-13 19:44:07,534 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159445979-0/src/HideKeyboard-master/local.properties
+2019-04-13 19:44:07,535 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-04-13 19:44:07,535 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-04-13 19:44:07,536 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159445979-0/src/HideKeyboard-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=24]
+2019-04-13 19:44:07,536 INFO  ProjectFixService - Project was maybe fixed
+2019-04-13 19:44:07,536 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 19:44:07,536 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159445979-0/src/HideKeyboard-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159445979-0/src/HideKeyboard-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 19:44:15,965 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-04-13 19:44:15,966 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-13 19:44:15,966 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159445979-0/src/HideKeyboard-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159445979-0/src/HideKeyboard-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-13 19:44:56,867 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
 It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
 WARNING: Configuration 'androidTestCompile' is obsolete and has been replaced with 'androidTestImplementation' and 'androidTestApi'.
@@ -52,6 +52,16 @@ To suppress this warning, remove "buildToolsVersion '26.0.2'" from your build.gr
 :hidekeyboard:checkDebugManifest
 :hidekeyboard:processDebugManifest
 :demo:preDebugBuild
+Download https://maven.google.com/com/android/support/support-core-ui/26.0.1/support-core-ui-26.0.1.aar
+Download https://maven.google.com/com/android/support/animated-vector-drawable/26.0.1/animated-vector-drawable-26.0.1.aar
+Download https://maven.google.com/com/android/support/support-vector-drawable/26.0.1/support-vector-drawable-26.0.1.aar
+Download https://maven.google.com/com/android/support/recyclerview-v7/26.0.1/recyclerview-v7-26.0.1.aar
+Download https://maven.google.com/com/android/support/support-v4/26.0.1/support-v4-26.0.1.aar
+Download https://maven.google.com/com/android/support/support-media-compat/26.0.1/support-media-compat-26.0.1.aar
+Download https://maven.google.com/com/android/support/support-core-utils/26.0.1/support-core-utils-26.0.1.aar
+Download https://maven.google.com/com/android/support/appcompat-v7/26.0.1/appcompat-v7-26.0.1.aar
+Download https://maven.google.com/com/android/support/support-compat/26.0.1/support-compat-26.0.1.aar
+Download https://maven.google.com/com/android/support/support-fragment/26.0.1/support-fragment-26.0.1.aar
 :hidekeyboard:compileDebugAidl
 :demo:compileDebugAidl
 :hidekeyboard:packageDebugRenderscript NO-SOURCE
@@ -74,6 +84,7 @@ To suppress this warning, remove "buildToolsVersion '26.0.2'" from your build.gr
 :hidekeyboard:generateDebugBuildConfig
 :hidekeyboard:prepareLintJar
 :hidekeyboard:javaPreCompileDebug
+Download https://maven.google.com/com/android/support/support-annotations/26.0.1/support-annotations-26.0.1.jar
 :hidekeyboard:processDebugJavaRes NO-SOURCE
 :demo:compileDebugNdk NO-SOURCE
 :demo:mergeDebugShaders
@@ -159,6 +170,14 @@ To suppress this warning, remove "buildToolsVersion '26.0.2'" from your build.gr
 :demo:compileReleaseJavaWithJavac
 :demo:compileReleaseSources
 :demo:lintVitalRelease
+Download https://maven.google.com/com/android/tools/lint/lint-kotlin/26.1.4/lint-kotlin-26.1.4.jar
+Download https://maven.google.com/com/android/tools/lint/lint-checks/26.1.4/lint-checks-26.1.4.jar
+Download https://maven.google.com/com/android/tools/lint/lint/26.1.4/lint-26.1.4.jar
+Download https://maven.google.com/com/android/tools/lint/lint-api/26.1.4/lint-api-26.1.4.jar
+Download https://maven.google.com/com/android/tools/external/com-intellij/kotlin-compiler/26.1.4/kotlin-compiler-26.1.4.jar
+Download https://maven.google.com/com/android/tools/external/org-jetbrains/uast/26.1.4/uast-26.1.4.jar
+Download https://maven.google.com/com/android/tools/lint/lint-gradle/26.1.4/lint-gradle-26.1.4.jar
+Download https://maven.google.com/com/android/tools/external/com-intellij/intellij-core/26.1.4/intellij-core-26.1.4.jar
 :demo:transformClassesWithDexBuilderForRelease
 :demo:transformDexArchiveWithExternalLibsDexMergerForRelease
 :demo:transformDexArchiveWithDexMergerForRelease
@@ -170,7 +189,7 @@ To suppress this warning, remove "buildToolsVersion '26.0.2'" from your build.gr
 :demo:assemble
 :demo:build
 
-BUILD SUCCESSFUL in 22s
+BUILD SUCCESSFUL in 40s
 91 actionable tasks: 91 executed
 
-2018-10-15 13:04:12,057 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583417617-0/src/HideKeyboard-master/demo/build/outputs/apk/release/demo-release-unsigned.apk
+2019-04-13 19:44:56,954 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159445979-0/src/HideKeyboard-master/demo/build/outputs/apk/release/demo-release-unsigned.apk

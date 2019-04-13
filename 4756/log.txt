@@ -1,32 +1,32 @@
-2019-01-12 19:56:05,140 INFO  DownloadService - Downloading "https://github.com/MartinRGB/RapidInterpolator/archive/master.zip", attempt 3
-2019-01-12 19:56:19,226 INFO  DownloadService - Downloaded https://github.com/MartinRGB/RapidInterpolator/archive/master.zip, attempt 3
-2019-01-12 19:56:19,227 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547297765132-0/master.zip": 22 MB
-2019-01-12 19:56:19,227 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-12 19:56:19,233 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547297765132-0/master.zip: true
-2019-01-12 19:56:19,234 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547297765132-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547297765132-0/src'.
-2019-01-12 19:56:19,528 INFO  FullProcessService - Size of directory with sources: 47 MB
-2019-01-12 19:56:19,529 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547297765132-0/src]
-2019-01-12 19:56:19,547 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547297765132-0/src/.git/
+2019-04-13 19:41:08,135 INFO  DownloadService - Downloading "https://github.com/MartinRGB/RapidInterpolator/archive/master.zip", attempt 3
+2019-04-13 19:41:22,328 INFO  DownloadService - Downloaded https://github.com/MartinRGB/RapidInterpolator/archive/master.zip, attempt 3
+2019-04-13 19:41:22,328 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159268132-0/master.zip": 22 MB
+2019-04-13 19:41:22,328 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-13 19:41:22,331 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159268132-0/master.zip: true
+2019-04-13 19:41:22,331 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159268132-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159268132-0/src'.
+2019-04-13 19:41:22,626 INFO  FullProcessService - Size of directory with sources: 47 MB
+2019-04-13 19:41:22,627 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159268132-0/src]
+2019-04-13 19:41:22,645 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159268132-0/src/.git/
 
-2019-01-12 19:56:19,552 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547297765132-0/src/RapidInterpolator-master/gradlew
-2019-01-12 19:56:19,557 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547297765132-0/src/RapidInterpolator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547297765132-0/src/RapidInterpolator-master/build.gradle
-2019-01-12 19:56:19,562 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547297765132-0/src/RapidInterpolator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547297765132-0/src/RapidInterpolator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547297765132-0/src/RapidInterpolator-master/settings.gradle
-2019-01-12 19:56:19,562 INFO  ProjectBuildService - Remote scripts: none
-2019-01-12 19:56:19,562 INFO  ProjectFixService - Fixing project...
-2019-01-12 19:56:19,572 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547297765132-0/src/RapidInterpolator-master/app/local.properties
-2019-01-12 19:56:19,573 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547297765132-0/src/RapidInterpolator-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=25,minSdkVersion=22,targetSdkVersion=25]
-2019-01-12 19:56:19,574 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547297765132-0/src/RapidInterpolator-master/local.properties
-2019-01-12 19:56:19,574 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2019-01-12 19:56:19,575 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2019-01-12 19:56:19,575 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547297765132-0/src/RapidInterpolator-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=25,minSdkVersion=22,targetSdkVersion=25]
-2019-01-12 19:56:19,576 INFO  ProjectFixService - Project was maybe fixed
-2019-01-12 19:56:19,576 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-12 19:56:19,576 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547297765132-0/src/RapidInterpolator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547297765132-0/src/RapidInterpolator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-12 19:56:25,014 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-12 19:56:25,014 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-12 19:56:25,015 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-12 19:56:25,015 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547297765132-0/src/RapidInterpolator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547297765132-0/src/RapidInterpolator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-12 19:56:29,145 ERROR SysUtils - Could not process external command
+2019-04-13 19:41:22,650 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159268132-0/src/RapidInterpolator-master/gradlew
+2019-04-13 19:41:22,655 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159268132-0/src/RapidInterpolator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159268132-0/src/RapidInterpolator-master/build.gradle
+2019-04-13 19:41:22,660 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159268132-0/src/RapidInterpolator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159268132-0/src/RapidInterpolator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159268132-0/src/RapidInterpolator-master/settings.gradle
+2019-04-13 19:41:22,660 INFO  ProjectBuildService - Remote scripts: none
+2019-04-13 19:41:22,660 INFO  ProjectFixService - Fixing project...
+2019-04-13 19:41:22,670 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159268132-0/src/RapidInterpolator-master/app/local.properties
+2019-04-13 19:41:22,671 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159268132-0/src/RapidInterpolator-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=25,minSdkVersion=22,targetSdkVersion=25]
+2019-04-13 19:41:22,672 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159268132-0/src/RapidInterpolator-master/local.properties
+2019-04-13 19:41:22,672 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-04-13 19:41:22,673 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-04-13 19:41:22,674 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159268132-0/src/RapidInterpolator-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=25,minSdkVersion=22,targetSdkVersion=25]
+2019-04-13 19:41:22,674 INFO  ProjectFixService - Project was maybe fixed
+2019-04-13 19:41:22,674 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 19:41:22,674 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159268132-0/src/RapidInterpolator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159268132-0/src/RapidInterpolator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 19:41:27,833 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 19:41:27,833 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-13 19:41:27,833 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-13 19:41:27,833 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159268132-0/src/RapidInterpolator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159268132-0/src/RapidInterpolator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-13 19:41:31,767 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -47,14 +47,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-12 19:56:29,145 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 19:41:31,767 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -204,15 +204,15 @@ Required by:
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 3s
 
-2019-01-12 19:56:29,151 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-12 19:56:29,151 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547297765132-0/src/RapidInterpolator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547297765132-0/src/RapidInterpolator-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-12 19:56:33,136 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-12 19:56:33,136 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-12 19:56:33,136 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-12 19:56:33,136 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547297765132-0/src/RapidInterpolator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547297765132-0/src/RapidInterpolator-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-12 19:56:37,379 ERROR SysUtils - Could not process external command
+2019-04-13 19:41:31,773 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 19:41:31,774 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159268132-0/src/RapidInterpolator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159268132-0/src/RapidInterpolator-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 19:41:35,764 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 19:41:35,764 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-13 19:41:35,764 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-13 19:41:35,765 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159268132-0/src/RapidInterpolator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159268132-0/src/RapidInterpolator-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-13 19:41:39,552 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -233,14 +233,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-12 19:56:37,379 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 19:41:39,552 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -390,7 +390,7 @@ Required by:
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 3s
 
-2019-01-12 19:56:37,385 ERROR FullProcessService - Project build has not produced APK file
-2019-01-12 19:56:37,391 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-13 19:41:39,558 ERROR FullProcessService - Project build has not produced APK file
+2019-04-13 19:41:39,562 ERROR FullProcessService - Could not find generated or existed APK file
