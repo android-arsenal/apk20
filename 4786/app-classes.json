@@ -48,5 +48,5 @@
   "com.flask.colorpicker.renderer" : [ "AbsColorWheelRenderer", "ColorWheelRenderOption", "ColorWheelRenderer", "FlowerColorWheelRenderer", "SimpleColorWheelRenderer" ],
   "com.flask.colorpicker.slider" : [ "AbsCustomSlider", "AlphaSlider", "LightnessSlider", "OnValueChangedListener" ],
   "com.xenione.demos.digit" : [ "BuildConfig", "ClockFragment", "ClockView", "ColorChooserView", "ColorChooserView$1", "ColorChooserView$2", "ColorChooserView$OnColorChooserSelectListener", "ConfigFragment", "ConfigFragment$1", "ConfigFragment$2", "ConfigFragment$3", "ConfigFragment$4", "ConfigFragment$5", "CountdownFragment", "CountdownView", "MainActivity", "R", "R$anim", "R$attr", "R$bool", "R$color", "R$dimen", "R$drawable", "R$id", "R$integer", "R$layout", "R$menu", "R$mipmap", "R$string", "R$style", "R$styleable" ],
-  "com.xenione.digit" : [ "BuildConfig", "MatrixHelper", "R", "R$anim", "R$attr", "R$bool", "R$color", "R$dimen", "R$drawable", "R$id", "R$integer", "R$layout", "R$string", "R$style", "R$styleable", "TabDigit", "TabDigit$Tab" ]
+  "com.xenione.digit" : [ "AbstractTabAnimation", "BuildConfig", "MatrixHelper", "R", "R$anim", "R$attr", "R$bool", "R$color", "R$dimen", "R$drawable", "R$id", "R$integer", "R$layout", "R$string", "R$style", "R$styleable", "TabAnimationDown", "TabAnimationUp", "TabDigit", "TabDigit$Tab" ]
 }
