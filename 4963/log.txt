@@ -1,39 +1,39 @@
-2019-01-06 23:31:28,365 INFO  DownloadService - Downloading "https://github.com/nisrulz/screenshott/archive/master.zip", attempt 3
-2019-01-06 23:31:31,603 INFO  DownloadService - Downloaded https://github.com/nisrulz/screenshott/archive/master.zip, attempt 3
-2019-01-06 23:31:31,604 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/master.zip": 487 KB
-2019-01-06 23:31:31,604 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-06 23:31:31,609 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/master.zip: true
-2019-01-06 23:31:31,609 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src'.
-2019-01-06 23:31:31,634 INFO  FullProcessService - Size of directory with sources: 517 KB
-2019-01-06 23:31:31,634 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src]
-2019-01-06 23:31:31,652 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/.git/
+2019-06-17 12:10:54,033 INFO  DownloadService - Downloading "https://github.com/nisrulz/screenshott/archive/master.zip", attempt 3
+2019-06-17 12:10:56,614 INFO  DownloadService - Downloaded https://github.com/nisrulz/screenshott/archive/master.zip, attempt 3
+2019-06-17 12:10:56,615 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/master.zip": 487 KB
+2019-06-17 12:10:56,615 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-17 12:10:56,620 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/master.zip: true
+2019-06-17 12:10:56,620 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src'.
+2019-06-17 12:10:56,641 INFO  FullProcessService - Size of directory with sources: 517 KB
+2019-06-17 12:10:56,642 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src]
+2019-06-17 12:10:56,688 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/.git/
 
-2019-01-06 23:31:31,656 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/gradlew
-2019-01-06 23:31:31,660 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/screenshott/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/build.gradle
-2019-01-06 23:31:31,664 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/screenshott/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/settings.gradle
-2019-01-06 23:31:31,664 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nisrulz/JCenter/master/nishant-config.gradle", attempt 3
-2019-01-06 23:31:31,895 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nisrulz/JCenter/master/nishant-config.gradle, attempt 3
-2019-01-06 23:31:31,896 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nisrulz/JCenter/master/nishant-config.gradle
-2019-01-06 23:31:31,896 INFO  ProjectFixService - Fixing project...
-2019-01-06 23:31:31,905 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/sample/local.properties
-2019-01-06 23:31:31,907 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/sample/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=26]
-2019-01-06 23:31:31,908 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/sample/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
-2019-01-06 23:31:31,909 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/screenshott/local.properties
-2019-01-06 23:31:31,911 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/screenshott/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=26]
-2019-01-06 23:31:31,911 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/screenshott/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
-2019-01-06 23:31:31,912 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/local.properties
-2019-01-06 23:31:31,913 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.0-all.zip
-2019-01-06 23:31:31,913 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.0-bin.zip)
-2019-01-06 23:31:31,914 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=26]
-2019-01-06 23:31:31,914 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
-2019-01-06 23:31:31,914 INFO  ProjectFixService - Project was maybe fixed
-2019-01-06 23:31:31,915 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-06 23:31:31,915 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-06 23:31:32,044 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-06 23:31:32,044 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-06 23:31:32,044 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-06 23:31:32,044 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-06 23:31:32,202 ERROR SysUtils - Could not process external command
+2019-06-17 12:10:56,692 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/gradlew
+2019-06-17 12:10:56,695 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/screenshott/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/build.gradle
+2019-06-17 12:10:56,698 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/screenshott/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/settings.gradle
+2019-06-17 12:10:56,699 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nisrulz/JCenter/master/nishant-config.gradle", attempt 3
+2019-06-17 12:10:56,939 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nisrulz/JCenter/master/nishant-config.gradle, attempt 3
+2019-06-17 12:10:56,940 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nisrulz/JCenter/master/nishant-config.gradle
+2019-06-17 12:10:56,940 INFO  ProjectFixService - Fixing project...
+2019-06-17 12:10:56,949 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/sample/local.properties
+2019-06-17 12:10:56,950 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/sample/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=26]
+2019-06-17 12:10:56,951 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/sample/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
+2019-06-17 12:10:56,951 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/screenshott/local.properties
+2019-06-17 12:10:56,953 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/screenshott/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=26]
+2019-06-17 12:10:56,953 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/screenshott/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
+2019-06-17 12:10:56,954 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/local.properties
+2019-06-17 12:10:56,954 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.0-all.zip
+2019-06-17 12:10:56,954 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.0-bin.zip)
+2019-06-17 12:10:56,955 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=26]
+2019-06-17 12:10:56,955 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
+2019-06-17 12:10:56,956 INFO  ProjectFixService - Project was maybe fixed
+2019-06-17 12:10:56,956 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-17 12:10:56,956 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-17 12:10:57,083 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-17 12:10:57,083 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-17 12:10:57,083 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-17 12:10:57,084 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-17 12:10:57,197 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -61,15 +61,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-06 23:31:32,202 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-06-17 12:10:57,197 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2019-01-06 23:31:32,208 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-06 23:31:32,208 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/screenshott/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-06 23:31:32,368 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-06 23:31:32,368 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-06 23:31:32,368 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-06 23:31:32,368 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/screenshott/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-06 23:31:32,505 ERROR SysUtils - Could not process external command
+2019-06-17 12:10:57,200 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-17 12:10:57,200 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/screenshott/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-17 12:10:57,329 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-17 12:10:57,329 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-17 12:10:57,329 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-17 12:10:57,330 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/screenshott/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-17 12:10:57,459 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -97,15 +97,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-06 23:31:32,505 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-06-17 12:10:57,459 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2019-01-06 23:31:32,509 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-06 23:31:32,509 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-06 23:31:32,642 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-06 23:31:32,643 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-06 23:31:32,643 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-06 23:31:32,643 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546792288356-0/src/screenshott-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-06 23:31:32,807 ERROR SysUtils - Could not process external command
+2019-06-17 12:10:57,462 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-17 12:10:57,463 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-17 12:10:57,593 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-17 12:10:57,593 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-17 12:10:57,593 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-17 12:10:57,594 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748254029-0/src/screenshott-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-17 12:10:57,711 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -133,7 +133,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-06 23:31:32,807 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-06-17 12:10:57,711 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2019-01-06 23:31:32,813 ERROR FullProcessService - Project build has not produced APK file
-2019-01-06 23:31:32,818 ERROR FullProcessService - Could not find generated or existed APK file
+2019-06-17 12:10:57,714 ERROR FullProcessService - Project build has not produced APK file
+2019-06-17 12:10:57,717 ERROR FullProcessService - Could not find generated or existed APK file

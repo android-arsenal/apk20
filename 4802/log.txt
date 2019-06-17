@@ -1,34 +1,34 @@
-2019-04-07 22:52:46,546 INFO  DownloadService - Downloading "https://github.com/maiconhellmann/heins-input-dialogs/archive/master.zip", attempt 3
-2019-04-07 22:52:50,073 INFO  DownloadService - Downloaded https://github.com/maiconhellmann/heins-input-dialogs/archive/master.zip, attempt 3
-2019-04-07 22:52:50,073 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/master.zip": 1 MB
-2019-04-07 22:52:50,073 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-07 22:52:50,075 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/master.zip: true
-2019-04-07 22:52:50,075 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/src'.
-2019-04-07 22:52:50,123 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-04-07 22:52:50,124 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/src]
-2019-04-07 22:52:50,146 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/src/.git/
+2019-06-17 12:12:35,675 INFO  DownloadService - Downloading "https://github.com/maiconhellmann/heins-input-dialogs/archive/master.zip", attempt 3
+2019-06-17 12:12:37,466 INFO  DownloadService - Downloaded https://github.com/maiconhellmann/heins-input-dialogs/archive/master.zip, attempt 3
+2019-06-17 12:12:37,467 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/master.zip": 1 MB
+2019-06-17 12:12:37,467 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-17 12:12:37,469 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/master.zip: true
+2019-06-17 12:12:37,469 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/src'.
+2019-06-17 12:12:37,501 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-06-17 12:12:37,501 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/src]
+2019-06-17 12:12:37,525 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/src/.git/
 
-2019-04-07 22:52:50,151 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/src/heins-input-dialogs-master/gradlew
-2019-04-07 22:52:50,157 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/src/heins-input-dialogs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/src/heins-input-dialogs-master/input-dialogs-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/src/heins-input-dialogs-master/build.gradle
-2019-04-07 22:52:50,163 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/src/heins-input-dialogs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/src/heins-input-dialogs-master/input-dialogs-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/src/heins-input-dialogs-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/src/heins-input-dialogs-master/settings.gradle
-2019-04-07 22:52:50,164 INFO  ProjectBuildService - Remote scripts: none
-2019-04-07 22:52:50,164 INFO  ProjectFixService - Fixing project...
-2019-04-07 22:52:50,176 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/src/heins-input-dialogs-master/app/local.properties
-2019-04-07 22:52:50,176 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/src/heins-input-dialogs-master/app/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=12,targetSdkVersion=25]
-2019-04-07 22:52:50,177 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/src/heins-input-dialogs-master/input-dialogs-library/local.properties
-2019-04-07 22:52:50,178 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/src/heins-input-dialogs-master/input-dialogs-library/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=12,targetSdkVersion=25]
-2019-04-07 22:52:50,178 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/src/heins-input-dialogs-master/local.properties
-2019-04-07 22:52:50,179 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2019-04-07 22:52:50,179 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2019-04-07 22:52:50,180 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/src/heins-input-dialogs-master/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=12,targetSdkVersion=25]
-2019-04-07 22:52:50,181 INFO  ProjectFixService - Project was maybe fixed
-2019-04-07 22:52:50,181 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-07 22:52:50,181 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/src/heins-input-dialogs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/src/heins-input-dialogs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-07 22:52:56,857 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-07 22:52:56,857 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-07 22:52:56,857 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-07 22:52:56,858 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/src/heins-input-dialogs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/src/heins-input-dialogs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-07 22:53:03,565 ERROR SysUtils - Could not process external command
+2019-06-17 12:12:37,528 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/src/heins-input-dialogs-master/gradlew
+2019-06-17 12:12:37,532 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/src/heins-input-dialogs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/src/heins-input-dialogs-master/input-dialogs-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/src/heins-input-dialogs-master/build.gradle
+2019-06-17 12:12:37,535 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/src/heins-input-dialogs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/src/heins-input-dialogs-master/input-dialogs-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/src/heins-input-dialogs-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/src/heins-input-dialogs-master/settings.gradle
+2019-06-17 12:12:37,535 INFO  ProjectBuildService - Remote scripts: none
+2019-06-17 12:12:37,535 INFO  ProjectFixService - Fixing project...
+2019-06-17 12:12:37,543 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/src/heins-input-dialogs-master/app/local.properties
+2019-06-17 12:12:37,544 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/src/heins-input-dialogs-master/app/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=12,targetSdkVersion=25]
+2019-06-17 12:12:37,544 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/src/heins-input-dialogs-master/input-dialogs-library/local.properties
+2019-06-17 12:12:37,545 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/src/heins-input-dialogs-master/input-dialogs-library/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=12,targetSdkVersion=25]
+2019-06-17 12:12:37,545 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/src/heins-input-dialogs-master/local.properties
+2019-06-17 12:12:37,545 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-06-17 12:12:37,546 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-06-17 12:12:37,546 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/src/heins-input-dialogs-master/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=12,targetSdkVersion=25]
+2019-06-17 12:12:37,546 INFO  ProjectFixService - Project was maybe fixed
+2019-06-17 12:12:37,546 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-17 12:12:37,547 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/src/heins-input-dialogs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/src/heins-input-dialogs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-17 12:12:44,388 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-17 12:12:44,388 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-17 12:12:44,388 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-17 12:12:44,388 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/src/heins-input-dialogs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/src/heins-input-dialogs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-17 12:12:50,075 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -49,19 +49,19 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-07 22:53:03,565 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-17 12:12:50,075 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/src/heins-input-dialogs-master/input-dialogs-library/build.gradle' line: 21
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/src/heins-input-dialogs-master/input-dialogs-library/build.gradle' line: 21
 
 * What went wrong:
 A problem occurred evaluating project ':input-dialogs-library'.
@@ -210,11 +210,11 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':in
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 Caused by: java.lang.NullPointerException: Cannot invoke method toInteger() on null object
-	at build_60g8663viag8agu97dbgp9cqw$_run_closure1$_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/src/heins-input-dialogs-master/input-dialogs-library/build.gradle:21)
+	at build_1k7ny34l60pslubbutan88zo$_run_closure1$_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/src/heins-input-dialogs-master/input-dialogs-library/build.gradle:21)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at com.android.build.gradle.BaseExtension.defaultConfig(BaseExtension.java:412)
 	at com.android.build.gradle.LibraryExtension_Decorated.defaultConfig(Unknown Source)
-	at build_60g8663viag8agu97dbgp9cqw$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/src/heins-input-dialogs-master/input-dialogs-library/build.gradle:18)
+	at build_1k7ny34l60pslubbutan88zo$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/src/heins-input-dialogs-master/input-dialogs-library/build.gradle:18)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.plugins.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:145)
 	at org.gradle.api.internal.plugins.ExtensionsStorage.configureExtension(ExtensionsStorage.java:69)
@@ -223,13 +223,13 @@ Caused by: java.lang.NullPointerException: Cannot invoke method toInteger() on n
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:79)
-	at build_60g8663viag8agu97dbgp9cqw.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/src/heins-input-dialogs-master/input-dialogs-library/build.gradle:14)
+	at build_1k7ny34l60pslubbutan88zo.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/src/heins-input-dialogs-master/input-dialogs-library/build.gradle:14)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 136 more
 
 
 BUILD FAILED
 
-Total time: 6.071 secs
+Total time: 5.074 secs
 
-2019-04-07 22:53:03,572 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554652366542-0/src/heins-input-dialogs-master/app/app-release.apk
+2019-06-17 12:12:50,081 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748355671-0/src/heins-input-dialogs-master/app/app-release.apk
