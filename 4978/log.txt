@@ -1,34 +1,34 @@
-2018-10-14 02:08:46,849 INFO  DownloadService - Downloading "https://github.com/deepakbaliga/BeautifulGraphSample/archive/master.zip", attempt 3
-2018-10-14 02:08:47,344 INFO  DownloadService - Downloaded https://github.com/deepakbaliga/BeautifulGraphSample/archive/master.zip, attempt 3
-2018-10-14 02:08:47,344 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/master.zip": 209 KB
-2018-10-14 02:08:47,344 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-14 02:08:47,350 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/master.zip: true
-2018-10-14 02:08:47,350 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src'.
-2018-10-14 02:08:47,371 INFO  FullProcessService - Size of directory with sources: 240 KB
-2018-10-14 02:08:47,371 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src]
-2018-10-14 02:08:47,389 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/.git/
+2019-07-05 19:56:52,246 INFO  DownloadService - Downloading "https://github.com/deepakbaliga/BeautifulGraphSample/archive/master.zip", attempt 3
+2019-07-05 19:56:52,970 INFO  DownloadService - Downloaded https://github.com/deepakbaliga/BeautifulGraphSample/archive/master.zip, attempt 3
+2019-07-05 19:56:52,970 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/master.zip": 209 KB
+2019-07-05 19:56:52,971 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 19:56:52,976 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/master.zip: true
+2019-07-05 19:56:52,977 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src'.
+2019-07-05 19:56:52,994 INFO  FullProcessService - Size of directory with sources: 240 KB
+2019-07-05 19:56:52,994 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src]
+2019-07-05 19:56:53,010 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/.git/
 
-2018-10-14 02:08:47,393 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/gradlew
-2018-10-14 02:08:47,396 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/beautifulgraph/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/build.gradle
-2018-10-14 02:08:47,399 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/beautifulgraph/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/settings.gradle
-2018-10-14 02:08:47,400 INFO  ProjectBuildService - Remote scripts: none
-2018-10-14 02:08:47,400 INFO  ProjectFixService - Fixing project...
-2018-10-14 02:08:47,408 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/app/local.properties
-2018-10-14 02:08:47,408 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/app/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2018-10-14 02:08:47,409 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/beautifulgraph/local.properties
-2018-10-14 02:08:47,410 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/beautifulgraph/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
-2018-10-14 02:08:47,410 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/local.properties
-2018-10-14 02:08:47,411 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-14 02:08:47,411 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-14 02:08:47,412 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2018-10-14 02:08:47,412 INFO  ProjectFixService - Project was maybe fixed
-2018-10-14 02:08:47,412 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 02:08:47,412 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 02:08:54,230 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 02:08:54,230 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 02:08:54,231 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 02:08:54,231 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 02:09:00,491 ERROR SysUtils - Could not process external command
+2019-07-05 19:56:53,014 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/gradlew
+2019-07-05 19:56:53,016 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/beautifulgraph/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/build.gradle
+2019-07-05 19:56:53,019 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/beautifulgraph/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/settings.gradle
+2019-07-05 19:56:53,019 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 19:56:53,019 INFO  ProjectFixService - Fixing project...
+2019-07-05 19:56:53,024 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/app/local.properties
+2019-07-05 19:56:53,025 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/app/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2019-07-05 19:56:53,025 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/beautifulgraph/local.properties
+2019-07-05 19:56:53,025 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/beautifulgraph/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2019-07-05 19:56:53,025 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/local.properties
+2019-07-05 19:56:53,026 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-07-05 19:56:53,026 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-07-05 19:56:53,026 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2019-07-05 19:56:53,027 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 19:56:53,027 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 19:56:53,027 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 19:56:58,612 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 19:56:58,612 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 19:56:58,612 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 19:56:58,612 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 19:57:04,325 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,22 +41,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 02:09:00,491 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 19:57:04,325 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -167,15 +166,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.652 secs
+Total time: 5.081 secs
 
-2018-10-14 02:09:00,496 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 02:09:00,497 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/beautifulgraph/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 02:09:07,291 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 02:09:07,291 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 02:09:07,291 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 02:09:07,291 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/beautifulgraph/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 02:09:18,667 ERROR SysUtils - Could not process external command
+2019-07-05 19:57:04,328 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 19:57:04,328 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/beautifulgraph/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 19:57:10,034 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 19:57:10,035 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 19:57:10,035 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 19:57:10,035 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/beautifulgraph/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 19:57:19,722 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -188,22 +187,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 02:09:18,667 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 19:57:19,722 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :beautifulgraph:preBuild UP-TO-DATE
 :beautifulgraph:preDebugBuild UP-TO-DATE
@@ -237,7 +235,7 @@ Incremental java compilation is an incubating feature.
 :beautifulgraph:incrementalDebugJavaCompilationSafeguard
 :beautifulgraph:compileDebugJavaWithJavac
 :beautifulgraph:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/beautifulgraph/src/main/java/com/deepakbaliga/beautifulgraph/Plotter.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/beautifulgraph/src/main/java/com/deepakbaliga/beautifulgraph/Plotter.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :beautifulgraph:extractDebugAnnotations
 :beautifulgraph:mergeDebugShaders
@@ -272,7 +270,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :beautifulgraph:incrementalReleaseJavaCompilationSafeguard
 :beautifulgraph:compileReleaseJavaWithJavac
 :beautifulgraph:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/beautifulgraph/src/main/java/com/deepakbaliga/beautifulgraph/Plotter.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/beautifulgraph/src/main/java/com/deepakbaliga/beautifulgraph/Plotter.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :beautifulgraph:extractReleaseAnnotations
 :beautifulgraph:mergeReleaseShaders
@@ -388,15 +386,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 10.758 secs
+Total time: 9.049 secs
 
-2018-10-14 02:09:18,728 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 02:09:18,728 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 02:09:25,520 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 02:09:25,520 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 02:09:25,520 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 02:09:25,521 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539457726846-0/src/BeautifulGraphSample-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 02:09:32,232 ERROR SysUtils - Could not process external command
+2019-07-05 19:57:19,774 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 19:57:19,774 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 19:57:25,311 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 19:57:25,311 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 19:57:25,311 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 19:57:25,311 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331412243-0/src/BeautifulGraphSample-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 19:57:30,920 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -409,22 +407,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 02:09:32,232 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 19:57:30,921 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -535,7 +532,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.085 secs
+Total time: 4.964 secs
 
-2018-10-14 02:09:32,300 ERROR FullProcessService - Project build has not produced APK file
-2018-10-14 02:09:32,359 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 19:57:30,971 ERROR FullProcessService - Project build has not produced APK file
+2019-07-05 19:57:31,019 ERROR FullProcessService - Could not find generated or existed APK file
