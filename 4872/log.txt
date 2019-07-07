@@ -1,10 +1,10 @@
-2019-07-05 19:59:45,431 INFO  DownloadService - Downloading "https://github.com/benas/random-beans/archive/master.zip", attempt 3
-2019-07-05 19:59:48,493 INFO  DownloadService - Downloaded https://github.com/benas/random-beans/archive/master.zip, attempt 3
-2019-07-05 19:59:48,493 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331585429-0/master.zip": 460 KB
-2019-07-05 19:59:48,493 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-05 19:59:48,500 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331585429-0/master.zip: false
-2019-07-05 19:59:48,500 INFO  FullProcessService - Archive with sources does not contain any build script
-2019-07-05 19:59:48,500 ERROR FullProcessService - Could not find directory with sources
-2019-07-05 19:59:48,500 ERROR FullProcessService - Project will not be processed
-2019-07-05 19:59:48,500 ERROR FullProcessService - Project build has not produced APK file
-2019-07-05 19:59:48,500 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-08 00:17:17,907 INFO  DownloadService - Downloading "https://github.com/benas/random-beans/archive/master.zip", attempt 3
+2019-07-08 00:17:20,074 INFO  DownloadService - Downloaded https://github.com/benas/random-beans/archive/master.zip, attempt 3
+2019-07-08 00:17:20,074 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519837903-0/master.zip": 460 KB
+2019-07-08 00:17:20,074 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 00:17:20,075 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519837903-0/master.zip: false
+2019-07-08 00:17:20,075 INFO  FullProcessService - Archive with sources does not contain any build script
+2019-07-08 00:17:20,075 ERROR FullProcessService - Could not find directory with sources
+2019-07-08 00:17:20,075 ERROR FullProcessService - Project will not be processed
+2019-07-08 00:17:20,075 ERROR FullProcessService - Project build has not produced APK file
+2019-07-08 00:17:20,076 ERROR FullProcessService - Could not find generated or existed APK file
