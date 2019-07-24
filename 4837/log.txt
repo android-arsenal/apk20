@@ -1,41 +1,41 @@
-2019-07-08 00:18:22,545 INFO  DownloadService - Downloading "https://github.com/MarkusAmshove/Kluent/archive/master.zip", attempt 3
-2019-07-08 00:18:24,678 INFO  DownloadService - Downloaded https://github.com/MarkusAmshove/Kluent/archive/master.zip, attempt 3
-2019-07-08 00:18:24,679 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/master.zip": 210 KB
-2019-07-08 00:18:24,679 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-08 00:18:24,685 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/master.zip: true
-2019-07-08 00:18:24,685 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src'.
-2019-07-08 00:18:24,740 INFO  FullProcessService - Size of directory with sources: 430 KB
-2019-07-08 00:18:24,740 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src]
-2019-07-08 00:18:24,756 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/.git/
+2019-07-24 12:56:20,520 INFO  DownloadService - Downloading "https://github.com/MarkusAmshove/Kluent/archive/master.zip", attempt 3
+2019-07-24 12:56:21,175 INFO  DownloadService - Downloaded https://github.com/MarkusAmshove/Kluent/archive/master.zip, attempt 3
+2019-07-24 12:56:21,175 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/master.zip": 212 KB
+2019-07-24 12:56:21,175 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-24 12:56:21,178 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/master.zip: true
+2019-07-24 12:56:21,178 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src'.
+2019-07-24 12:56:21,228 INFO  FullProcessService - Size of directory with sources: 433 KB
+2019-07-24 12:56:21,228 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src]
+2019-07-24 12:56:21,244 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/.git/
 
-2019-07-08 00:18:24,761 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/gradlew
-2019-07-08 00:18:24,766 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/js/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/native/build.gradle
-2019-07-08 00:18:24,770 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/native/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/js/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/settings.gradle
-2019-07-08 00:18:24,771 INFO  ProjectBuildService - Remote scripts: none
-2019-07-08 00:18:24,771 INFO  ProjectFixService - Fixing project...
-2019-07-08 00:18:24,781 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/local.properties
-2019-07-08 00:18:24,782 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.8.1-bin.zip
-2019-07-08 00:18:24,786 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-08 00:18:24,786 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-08 00:18:24,788 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/common/local.properties
-2019-07-08 00:18:24,792 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/common/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-08 00:18:24,792 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/common/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-08 00:18:24,793 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/js/local.properties
-2019-07-08 00:18:24,796 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/js/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-08 00:18:24,796 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/js/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-08 00:18:24,797 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/jvm/local.properties
-2019-07-08 00:18:24,799 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/jvm/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-08 00:18:24,799 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/jvm/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-08 00:18:24,800 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/native/local.properties
-2019-07-08 00:18:24,803 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/native/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-08 00:18:24,803 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/native/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-08 00:18:24,803 INFO  ProjectFixService - Project was maybe fixed
-2019-07-08 00:18:24,803 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 00:18:24,803 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 00:18:33,068 INFO  ProjectTaskService - Detected possible tasks: 74
-2019-07-08 00:18:33,068 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-07-08 00:18:33,069 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-07-08 00:18:58,446 INFO  SysUtils - Skipping JVM build
+2019-07-24 12:56:21,249 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/gradlew
+2019-07-24 12:56:21,254 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/js/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/native/build.gradle
+2019-07-24 12:56:21,259 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/native/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/js/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/settings.gradle
+2019-07-24 12:56:21,259 INFO  ProjectBuildService - Remote scripts: none
+2019-07-24 12:56:21,259 INFO  ProjectFixService - Fixing project...
+2019-07-24 12:56:21,270 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/local.properties
+2019-07-24 12:56:21,270 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.8.1-bin.zip
+2019-07-24 12:56:21,275 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-24 12:56:21,275 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-24 12:56:21,277 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/common/local.properties
+2019-07-24 12:56:21,281 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/common/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-24 12:56:21,281 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/common/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-24 12:56:21,282 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/js/local.properties
+2019-07-24 12:56:21,285 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/js/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-24 12:56:21,285 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/js/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-24 12:56:21,286 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/jvm/local.properties
+2019-07-24 12:56:21,289 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/jvm/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-24 12:56:21,289 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/jvm/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-24 12:56:21,290 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/native/local.properties
+2019-07-24 12:56:21,294 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/native/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-24 12:56:21,294 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/native/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-24 12:56:21,295 INFO  ProjectFixService - Project was maybe fixed
+2019-07-24 12:56:21,295 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 12:56:21,295 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 12:56:34,697 INFO  ProjectTaskService - Detected possible tasks: 74
+2019-07-24 12:56:34,697 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-24 12:56:34,697 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-24 12:57:05,031 INFO  SysUtils - Skipping JVM build
 Configuration on demand is an incubating feature.
 
 > Configure project :kluent-common
@@ -74,15 +74,15 @@ Configuration(s) specified but the install task does not exist in project :kluen
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
 See https://docs.gradle.org/4.8.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 24s
+BUILD SUCCESSFUL in 29s
 10 actionable tasks: 10 executed
 
-2019-07-08 00:18:58,455 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 00:18:58,455 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 00:19:02,033 INFO  ProjectTaskService - Detected possible tasks: 52
-2019-07-08 00:19:02,034 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-07-08 00:19:02,034 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-07-08 00:19:06,065 INFO  SysUtils - Skipping JVM build
+2019-07-24 12:57:05,040 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 12:57:05,040 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 12:57:08,998 INFO  ProjectTaskService - Detected possible tasks: 52
+2019-07-24 12:57:08,999 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-24 12:57:08,999 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-24 12:57:13,359 INFO  SysUtils - Skipping JVM build
 Configuration on demand is an incubating feature.
 
 > Configure project :kluent-common
@@ -102,15 +102,15 @@ Configuration(s) specified but the install task does not exist in project :kluen
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
 See https://docs.gradle.org/4.8.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 3s
+BUILD SUCCESSFUL in 4s
 4 actionable tasks: 4 up-to-date
 
-2019-07-08 00:19:06,072 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 00:19:06,072 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/js/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 00:19:10,004 INFO  ProjectTaskService - Detected possible tasks: 58
-2019-07-08 00:19:10,004 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-07-08 00:19:10,004 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/js/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-07-08 00:19:14,398 INFO  SysUtils - Skipping JVM build
+2019-07-24 12:57:13,367 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 12:57:13,368 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/js/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 12:57:17,560 INFO  ProjectTaskService - Detected possible tasks: 58
+2019-07-24 12:57:17,560 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-24 12:57:17,560 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/js/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-24 12:57:22,213 INFO  SysUtils - Skipping JVM build
 Configuration on demand is an incubating feature.
 
 > Configure project :kluent-common
@@ -143,13 +143,13 @@ See https://docs.gradle.org/4.8.1/userguide/command_line_interface.html#sec:comm
 BUILD SUCCESSFUL in 4s
 7 actionable tasks: 7 up-to-date
 
-2019-07-08 00:19:14,406 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 00:19:14,406 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/jvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 00:19:16,295 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-08 00:19:16,295 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-08 00:19:16,295 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-08 00:19:16,295 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/jvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-08 00:19:18,042 ERROR SysUtils - Could not process external command
+2019-07-24 12:57:22,221 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 12:57:22,222 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/jvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 12:57:24,385 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-24 12:57:24,385 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-24 12:57:24,385 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-24 12:57:24,385 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/jvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-24 12:57:26,235 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -177,13 +177,13 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-08 00:19:18,042 INFO  SysUtils - Skipping JVM build
+2019-07-24 12:57:26,236 INFO  SysUtils - Skipping JVM build
 Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/jvm/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/jvm/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating root project 'jvm'.
@@ -293,7 +293,7 @@ Caused by: org.gradle.api.plugins.UnknownPluginException: Plugin with id 'kotlin
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply.callCurrent(Unknown Source)
-	at build_7eviel9h8lcfqr26acc8ohmd2.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/jvm/build.gradle:1)
+	at build_9en7s94ohjmln37ufwa0um72z.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/jvm/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 89 more
 
@@ -305,12 +305,12 @@ See https://docs.gradle.org/4.8.1/userguide/command_line_interface.html#sec:comm
 
 BUILD FAILED in 1s
 
-2019-07-08 00:19:18,049 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 00:19:18,049 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/native/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 00:19:21,072 INFO  ProjectTaskService - Detected possible tasks: 52
-2019-07-08 00:19:21,072 INFO  ProjectTaskService - Excluded tasks (1): check
-2019-07-08 00:19:21,072 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/native/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, check, build]
-2019-07-08 00:19:26,676 ERROR SysUtils - Could not process external command
+2019-07-24 12:57:26,244 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 12:57:26,244 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/native/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 12:57:29,515 INFO  ProjectTaskService - Detected possible tasks: 52
+2019-07-24 12:57:29,515 INFO  ProjectTaskService - Excluded tasks (1): check
+2019-07-24 12:57:29,515 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/native/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, check, build]
+2019-07-24 12:57:35,352 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -338,18 +338,18 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-08 00:19:26,677 INFO  SysUtils - Skipping JVM build
+2019-07-24 12:57:35,352 INFO  SysUtils - Skipping JVM build
 Configuration on demand is an incubating feature.
 > Task :kluent-native:checkKonanCompiler
 
 > Task :kluent-native:compileDebugMacos_x64KotlinNative FAILED
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/native/src/main/kotlin/org/amshove/kluent/internal/Platform.kt:3:24: error: actual function 'platformClassName' has no corresponding expected declaration
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/native/src/main/kotlin/org/amshove/kluent/internal/Platform.kt:3:24: error: actual function 'platformClassName' has no corresponding expected declaration
 actual fun <T : Any> T.platformClassName(): String? = this::class.qualifiedName
                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/native/src/main/kotlin/org/amshove/kluent/internal/Platform.kt:6:30: error: actual function 'platformJoinStackTrace' has no corresponding expected declaration
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/native/src/main/kotlin/org/amshove/kluent/internal/Platform.kt:6:30: error: actual function 'platformJoinStackTrace' has no corresponding expected declaration
 actual fun <T : Throwable> T.platformJoinStackTrace(): String = "<no stacktrace on native yet>"
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519902541-0/src/Kluent-master/native/src/main/kotlin/org/amshove/kluent/internal/Platform.kt:9:26: error: actual function 'platformIsDigit' has no corresponding expected declaration
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947780515-0/src/Kluent-master/native/src/main/kotlin/org/amshove/kluent/internal/Platform.kt:9:26: error: actual function 'platformIsDigit' has no corresponding expected declaration
 internal actual fun Char.platformIsDigit(): Boolean = this.toString().matches(Regex("\\d"))
                          ^
 
@@ -427,5 +427,5 @@ See https://docs.gradle.org/4.8.1/userguide/command_line_interface.html#sec:comm
 BUILD FAILED in 5s
 2 actionable tasks: 2 executed
 
-2019-07-08 00:19:26,684 ERROR FullProcessService - Project build has not produced APK file
-2019-07-08 00:19:26,690 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-24 12:57:35,358 ERROR FullProcessService - Project build has not produced APK file
+2019-07-24 12:57:35,364 ERROR FullProcessService - Could not find generated or existed APK file
