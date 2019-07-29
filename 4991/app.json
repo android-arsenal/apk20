@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.webianks.hatkemessenger",
+    "label" : "Hatke Messenger",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "2.0",
+    "versionCode" : 2,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "28",
+    "platformBuildVersionName" : "9",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.RECEIVE_SMS", "android.permission.READ_SMS", "android.permission.WRITE_SMS", "android.permission.SEND_SMS", "android.permission.READ_CONTACTS" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADQ0lEQVRoQ+2YTUgUYRjH/8/7jotbRoHpwSCqg2GyhRhEUVSIWVRQF+nSJQ8dlFYLom56q6i2NahL0CU8dOgLIawgDx6CIA8ejD4gM/ALzWV1V3dn3ic8aG7u6jvj7IfpXPf5+P+e/zPvzCxhhV+0wvVjdQEUNPaUSeIWAh1kwJsx9xgmg3pZ8K3wXV/7/L7aDmxq7N7GZHQB2JIx4QsbxRXL2vC9XS9mf9IG2OjvuQ2BK1kUP9v6Uyjgq7QP0NTTAeBYDgDEQwGfxwnAewBHcgAAoYBvbnP0V6ipZw3ALffWHHBrkk7r/OcOBHiHIVUdM5WCYMxOSUQm9gu2Cp1Obck8ZpKxKIzwuCClFj1cUjqQF+RKBfUaQNGSDdMUIKcjVv7QTyKlRKoWKQFkUHUAnPWHlef3kOkJjc65/y/IIgDWJIB1aRqudlkjEjbzh/sdAbB2lzQGyqlJ0zvYtwaQMOMNHqBkvd7YByNAaFovNllUWhxoO06oLdV7deroY5x86Xwb0wJQXgjs2awH0DvG6B7JMQecy7GfuYQDkVDAN7fMCSOVQcu57/Z1psxYDICA9vGA73TSD5rFAK7uJZzarrdCOixRk1H3lvFrYmF0SgCmH0qqE+E7uz/bBrhQTqjeqiNNLyZiAte6GCPRJACxqQHvwPfOOZFMJjN6zZh4PPmgfHB+Rk6uEIg6rUviqM4oVg9ARRFQUezePTCzQs++MWJWkjmnw4EnNYRzO90DiCmgsk2hdyxDAF4DKHbxPTVqAsORFFueDgd0bijXYpYBEAOQ55oQx4XojeUXNTrpiafQffMDFO3TSUxnDAE3TL+8rtMjAcAIxqsY4lU2v8qI8MWU4jDqKeGBlQpmwbFiBPkAgy8TuAz4+6/ETAEGCgCUpCg2TUCfztSSxSggSkCXZYibqKd+3Tq2zkUZMM9A0PMkxRXAFy2/8Ui3sVtxrgAQ0GL6ZbNbouzUWT4A4aE1JhrQTMpOY7dilwdAeGqNifNoppnjNyuXcwCid5aks6inJG/0mWNxBMBAt5KiGg00mjmpyTvZB5DUarGogp++Zlv8TH9bAGjlQ3kSU/F6+pgL4u0D5IrqeTrsObAG4P4EVrwDfwBxw2xAifL/qAAAAABJRU5ErkJggg==",
+    "file" : true
+  },
+  "dexClasses" : 3833,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"2\" android:versionName=\"2.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.webianks.hatkemessenger\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.RECEIVE_SMS\" />\n\t<uses-permission android:name=\"android.permission.READ_SMS\" />\n\t<uses-permission android:name=\"android.permission.WRITE_SMS\" />\n\t<uses-permission android:name=\"android.permission.SEND_SMS\" />\n\t<uses-permission android:name=\"android.permission.READ_CONTACTS\" />\n\t<application android:theme=\"resourceId:0x7f100007\" android:label=\"Hatke Messenger\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.webianks.hatkemessenger.activities.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t\t<meta-data android:name=\"android.app.searchable\" android:resource=\"res/xml/searchable.xml\" />\n\t\t</activity>\n\t\t<activity android:name=\"com.webianks.hatkemessenger.activities.NewSMSActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.SEND\" />\n\t\t\t\t<action android:name=\"android.intent.action.SENDTO\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t\t<category android:name=\"android.intent.category.BROWSABLE\" />\n\t\t\t\t<data android:scheme=\"SMS\" />\n\t\t\t\t<data android:scheme=\"smsto\" />\n\t\t\t\t<data android:scheme=\"mms\" />\n\t\t\t\t<data android:scheme=\"mmsto\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<receiver android:name=\"com.webianks.hatkemessenger.receivers.SmsReceiver\" android:permission=\"android.permission.BROADCAST_SMS\" android:enabled=\"true\" android:exported=\"true\">\n\t\t\t<intent-filter android:priority=\"999\">\n\t\t\t\t<action android:name=\"android.provider.Telephony.SMS_RECEIVED\" />\n\t\t\t\t<action android:name=\"android.provider.Telephony.SMS_DELIVER\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t\t<receiver android:name=\"com.webianks.hatkemessenger.receivers.MmsReceiver\" android:permission=\"android.permission.BROADCAST_WAP_PUSH\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.provider.Telephony.WAP_PUSH_DELIVER\" />\n\t\t\t\t<data android:mimeType=\"application/vnd.wap.mms-message\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t\t<service android:name=\"com.webianks.hatkemessenger.services.HeadlessSmsSendService\" android:permission=\"android.permission.SEND_RESPOND_VIA_MESSAGE\" android:exported=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.RESPOND_VIA_MESSAGE\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t\t<data android:scheme=\"SMS\" />\n\t\t\t\t<data android:scheme=\"smsto\" />\n\t\t\t\t<data android:scheme=\"mms\" />\n\t\t\t\t<data android:scheme=\"mmsto\" />\n\t\t\t</intent-filter>\n\t\t</service>\n\t\t<service android:name=\"com.webianks.hatkemessenger.services.SaveSmsService\" android:exported=\"false\" />\n\t\t<activity android:name=\"com.webianks.hatkemessenger.activities.SmsDetailedView\" />\n\t\t<activity android:label=\"Settings\" android:name=\"com.webianks.hatkemessenger.activities.SettingsActivity\" />\n\t\t<service android:name=\"com.webianks.hatkemessenger.services.UpdateSMSService\" />\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"com.google.android.gms.common.api.GoogleApiActivity\" android:exported=\"false\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"12451000\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 3222502,
+  "crc32" : 2211316542,
+  "sha256" : "63df26e85855744d7707f4bfa225871db4c852c4e2df3ac94cd3cac5f807ff1e",
+  "buildTime" : 1564371539000
+}
