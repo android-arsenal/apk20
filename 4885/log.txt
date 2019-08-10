@@ -1,168 +1,191 @@
-2019-04-06 18:26:59,967 INFO  DownloadService - Downloading "https://github.com/nex3z/ToggleButtonGroup/archive/master.zip", attempt 3
-2019-04-06 18:27:03,089 INFO  DownloadService - Downloaded https://github.com/nex3z/ToggleButtonGroup/archive/master.zip, attempt 3
-2019-04-06 18:27:03,090 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/master.zip": 3 MB
-2019-04-06 18:27:03,090 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-06 18:27:03,095 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/master.zip: true
-2019-04-06 18:27:03,096 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src'.
-2019-04-06 18:27:03,151 INFO  FullProcessService - Size of directory with sources: 3 MB
-2019-04-06 18:27:03,151 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src]
-2019-04-06 18:27:03,169 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/.git/
+2019-08-10 20:31:16,171 INFO  DownloadService - Downloading "https://github.com/nex3z/ToggleButtonGroup/archive/master.zip", attempt 3
+2019-08-10 20:31:21,094 INFO  DownloadService - Downloaded https://github.com/nex3z/ToggleButtonGroup/archive/master.zip, attempt 3
+2019-08-10 20:31:21,095 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/master.zip": 3 MB
+2019-08-10 20:31:21,095 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-10 20:31:21,096 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/master.zip: true
+2019-08-10 20:31:21,096 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/src'.
+2019-08-10 20:31:21,144 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-08-10 20:31:21,144 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/src]
+2019-08-10 20:31:21,161 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/src/.git/
 
-2019-04-06 18:27:03,173 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/gradlew
-2019-04-06 18:27:03,178 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/togglebuttongroup/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/build.gradle
-2019-04-06 18:27:03,182 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/togglebuttongroup/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/settings.gradle
-2019-04-06 18:27:03,182 INFO  ProjectBuildService - Remote scripts: none
-2019-04-06 18:27:03,182 INFO  ProjectFixService - Fixing project...
-2019-04-06 18:27:03,191 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/sample/local.properties
-2019-04-06 18:27:03,192 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-06 18:27:03,192 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-06 18:27:03,193 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/togglebuttongroup/local.properties
-2019-04-06 18:27:03,194 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/togglebuttongroup/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-06 18:27:03,194 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/togglebuttongroup/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-06 18:27:03,194 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/local.properties
-2019-04-06 18:27:03,195 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-04-06 18:27:03,195 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-04-06 18:27:03,196 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-06 18:27:03,196 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-06 18:27:03,196 INFO  ProjectFixService - Project was maybe fixed
-2019-04-06 18:27:03,196 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-06 18:27:03,196 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-06 18:27:10,739 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-04-06 18:27:10,739 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-06 18:27:10,739 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-06 18:27:36,821 INFO  SysUtils - Configuration on demand is an incubating feature.
-:sample:checkDebugClasspath
-:sample:preBuild UP-TO-DATE
-:togglebuttongroup:preBuild UP-TO-DATE
-:togglebuttongroup:preDebugBuild UP-TO-DATE
-:togglebuttongroup:checkDebugManifest
-:togglebuttongroup:processDebugManifest
-:sample:preDebugBuild
-:togglebuttongroup:compileDebugAidl NO-SOURCE
-:sample:compileDebugAidl NO-SOURCE
-:togglebuttongroup:packageDebugRenderscript NO-SOURCE
-:sample:compileDebugRenderscript
-:sample:checkDebugManifest
-:sample:generateDebugBuildConfig
-:sample:prepareLintJar
-:sample:mainApkListPersistenceDebug
-:sample:generateDebugResValues
-:sample:generateDebugResources
-:togglebuttongroup:compileDebugRenderscript
-:togglebuttongroup:generateDebugResValues
-:togglebuttongroup:generateDebugResources
-:togglebuttongroup:packageDebugResources
-:sample:mergeDebugResources
-:sample:createDebugCompatibleScreenManifests
-:sample:processDebugManifest
-:sample:splitsDiscoveryTaskDebug
-:togglebuttongroup:generateDebugRFile
-:sample:processDebugResources
-:sample:generateDebugSources
-:togglebuttongroup:generateDebugBuildConfig
-:togglebuttongroup:prepareLintJar
-:togglebuttongroup:generateDebugSources
-:togglebuttongroup:javaPreCompileDebug
-:togglebuttongroup:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+2019-08-10 20:31:21,164 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/src/ToggleButtonGroup-master/gradlew
+2019-08-10 20:31:21,168 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/src/ToggleButtonGroup-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/src/ToggleButtonGroup-master/togglebuttongroup/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/src/ToggleButtonGroup-master/build.gradle
+2019-08-10 20:31:21,171 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/src/ToggleButtonGroup-master/togglebuttongroup/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/src/ToggleButtonGroup-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/src/ToggleButtonGroup-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/src/ToggleButtonGroup-master/settings.gradle
+2019-08-10 20:31:21,172 INFO  ProjectBuildService - Remote scripts: none
+2019-08-10 20:31:21,172 INFO  ProjectFixService - Fixing project...
+2019-08-10 20:31:21,180 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/src/ToggleButtonGroup-master/sample/local.properties
+2019-08-10 20:31:21,181 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/src/ToggleButtonGroup-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-08-10 20:31:21,181 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/src/ToggleButtonGroup-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-08-10 20:31:21,182 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/src/ToggleButtonGroup-master/togglebuttongroup/local.properties
+2019-08-10 20:31:21,183 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/src/ToggleButtonGroup-master/togglebuttongroup/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-08-10 20:31:21,183 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/src/ToggleButtonGroup-master/togglebuttongroup/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-08-10 20:31:21,185 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/src/ToggleButtonGroup-master/local.properties
+2019-08-10 20:31:21,185 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-08-10 20:31:21,186 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-08-10 20:31:21,187 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/src/ToggleButtonGroup-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-08-10 20:31:21,187 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/src/ToggleButtonGroup-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-08-10 20:31:21,187 INFO  ProjectFixService - Project was maybe fixed
+2019-08-10 20:31:21,188 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-10 20:31:21,188 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/src/ToggleButtonGroup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/src/ToggleButtonGroup-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-10 20:31:28,654 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-08-10 20:31:28,654 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-10 20:31:28,655 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/src/ToggleButtonGroup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/src/ToggleButtonGroup-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-10 20:32:01,515 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :togglebuttongroup
+WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Task :sample:preBuild UP-TO-DATE
+> Task :togglebuttongroup:preBuild UP-TO-DATE
+> Task :togglebuttongroup:preDebugBuild UP-TO-DATE
+> Task :togglebuttongroup:checkDebugManifest
+> Task :togglebuttongroup:processDebugManifest
+> Task :togglebuttongroup:compileDebugAidl NO-SOURCE
+> Task :sample:preDebugBuild
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :togglebuttongroup:packageDebugRenderscript NO-SOURCE
+> Task :sample:checkDebugManifest
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:generateDebugBuildConfig
+> Task :sample:prepareLintJar
+> Task :sample:generateDebugSources
+> Task :togglebuttongroup:compileDebugRenderscript NO-SOURCE
+> Task :togglebuttongroup:generateDebugBuildConfig
+> Task :togglebuttongroup:generateDebugResValues
+> Task :togglebuttongroup:generateDebugResources
+> Task :togglebuttongroup:prepareLintJar
+> Task :togglebuttongroup:generateDebugSources
+> Task :togglebuttongroup:javaPreCompileDebug
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :togglebuttongroup:packageDebugResources
+> Task :togglebuttongroup:generateDebugRFile
+
+> Task :togglebuttongroup:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:togglebuttongroup:processDebugJavaRes NO-SOURCE
-:togglebuttongroup:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:sample:javaPreCompileDebug
-:sample:compileDebugJavaWithJavac
-:sample:compileDebugNdk NO-SOURCE
-:sample:compileDebugSources
-:sample:mergeDebugShaders
-:sample:compileDebugShaders
-:sample:generateDebugAssets
-:togglebuttongroup:mergeDebugShaders
-:togglebuttongroup:compileDebugShaders
-:togglebuttongroup:generateDebugAssets
-:togglebuttongroup:packageDebugAssets
-:sample:mergeDebugAssets
-:sample:transformClassesWithDexBuilderForDebug
-:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
-:sample:transformDexArchiveWithDexMergerForDebug
-:sample:mergeDebugJniLibFolders
-:togglebuttongroup:compileDebugNdk NO-SOURCE
-:togglebuttongroup:mergeDebugJniLibFolders
-:togglebuttongroup:transformNativeLibsWithMergeJniLibsForDebug
-:togglebuttongroup:transformNativeLibsWithStripDebugSymbolForDebug
-:togglebuttongroup:transformNativeLibsWithIntermediateJniLibsForDebug
-:sample:transformNativeLibsWithMergeJniLibsForDebug
-:sample:transformNativeLibsWithStripDebugSymbolForDebug
-:sample:checkDebugLibraries
-:sample:processDebugJavaRes NO-SOURCE
-:sample:transformResourcesWithMergeJavaResForDebug
-:sample:validateSigningDebug
-:sample:packageDebug
-:sample:assembleDebug
-:sample:checkReleaseClasspath
-:togglebuttongroup:preReleaseBuild UP-TO-DATE
-:togglebuttongroup:checkReleaseManifest
-:togglebuttongroup:processReleaseManifest
-:sample:preReleaseBuild
-:togglebuttongroup:compileReleaseAidl NO-SOURCE
-:sample:compileReleaseAidl NO-SOURCE
-:togglebuttongroup:packageReleaseRenderscript NO-SOURCE
-:sample:compileReleaseRenderscript
-:sample:checkReleaseManifest
-:sample:generateReleaseBuildConfig
-:sample:mainApkListPersistenceRelease
-:sample:generateReleaseResValues
-:sample:generateReleaseResources
-:togglebuttongroup:compileReleaseRenderscript
-:togglebuttongroup:generateReleaseResValues
-:togglebuttongroup:generateReleaseResources
-:togglebuttongroup:packageReleaseResources
-:sample:mergeReleaseResources
-:sample:createReleaseCompatibleScreenManifests
-:sample:processReleaseManifest
-:sample:splitsDiscoveryTaskRelease
-:togglebuttongroup:generateReleaseRFile
-:sample:processReleaseResources
-:sample:generateReleaseSources
-:togglebuttongroup:generateReleaseBuildConfig
-:togglebuttongroup:generateReleaseSources
-:togglebuttongroup:javaPreCompileRelease
-:togglebuttongroup:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+> Task :togglebuttongroup:bundleLibCompileDebug
+> Task :sample:javaPreCompileDebug
+> Task :sample:mergeDebugResources
+> Task :sample:processDebugResources
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :togglebuttongroup:mergeDebugShaders
+> Task :togglebuttongroup:compileDebugShaders
+> Task :togglebuttongroup:generateDebugAssets
+> Task :togglebuttongroup:packageDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :togglebuttongroup:processDebugJavaRes NO-SOURCE
+> Task :togglebuttongroup:bundleLibResDebug
+> Task :togglebuttongroup:bundleLibRuntimeDebug
+> Task :togglebuttongroup:createFullJarDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :togglebuttongroup:mergeDebugJniLibFolders
+> Task :togglebuttongroup:transformNativeLibsWithMergeJniLibsForDebug
+> Task :togglebuttongroup:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :togglebuttongroup:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :togglebuttongroup:preReleaseBuild UP-TO-DATE
+> Task :togglebuttongroup:checkReleaseManifest
+> Task :togglebuttongroup:processReleaseManifest
+> Task :sample:preReleaseBuild
+> Task :togglebuttongroup:compileReleaseAidl NO-SOURCE
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :togglebuttongroup:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript NO-SOURCE
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:generateReleaseSources
+> Task :togglebuttongroup:compileReleaseRenderscript NO-SOURCE
+> Task :togglebuttongroup:generateReleaseBuildConfig
+> Task :togglebuttongroup:generateReleaseResValues
+> Task :togglebuttongroup:generateReleaseResources
+> Task :togglebuttongroup:packageReleaseResources
+> Task :togglebuttongroup:generateReleaseRFile
+> Task :togglebuttongroup:generateReleaseSources
+> Task :togglebuttongroup:javaPreCompileRelease
+
+> Task :togglebuttongroup:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:togglebuttongroup:processReleaseJavaRes NO-SOURCE
-:togglebuttongroup:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:sample:javaPreCompileRelease
-:sample:compileReleaseJavaWithJavac
-:sample:compileReleaseNdk NO-SOURCE
-:sample:compileReleaseSources
-:sample:lintVitalRelease
-:sample:mergeReleaseShaders
-:sample:compileReleaseShaders
-:sample:generateReleaseAssets
-:togglebuttongroup:mergeReleaseShaders
-:togglebuttongroup:compileReleaseShaders
-:togglebuttongroup:generateReleaseAssets
-:togglebuttongroup:packageReleaseAssets
-:sample:mergeReleaseAssets
-:sample:transformClassesWithDexBuilderForRelease
-:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
-:sample:transformDexArchiveWithDexMergerForRelease
-:sample:mergeReleaseJniLibFolders
-:togglebuttongroup:compileReleaseNdk NO-SOURCE
-:togglebuttongroup:mergeReleaseJniLibFolders
-:togglebuttongroup:transformNativeLibsWithMergeJniLibsForRelease
-:togglebuttongroup:transformNativeLibsWithStripDebugSymbolForRelease
-:togglebuttongroup:transformNativeLibsWithIntermediateJniLibsForRelease
-:sample:transformNativeLibsWithMergeJniLibsForRelease
-:sample:transformNativeLibsWithStripDebugSymbolForRelease
-:sample:checkReleaseLibraries
-:sample:processReleaseJavaRes NO-SOURCE
-:sample:transformResourcesWithMergeJavaResForRelease
-:sample:packageRelease
-:sample:assembleRelease
-:sample:assemble
-:sample:build
+> Task :togglebuttongroup:bundleLibCompileRelease
+> Task :sample:javaPreCompileRelease
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:processReleaseResources
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:mergeExtDexDebug
+> Task :sample:mergeDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:compileReleaseSources
+> Task :togglebuttongroup:prepareLintJarForPublish
 
-BUILD SUCCESSFUL in 25s
-90 actionable tasks: 90 executed
+> Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/71ca4155ee4686bd9d38774dd338556b/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-2019-04-06 18:27:36,911 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554550019965-0/src/ToggleButtonGroup-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+> Task :togglebuttongroup:processReleaseJavaRes NO-SOURCE
+> Task :togglebuttongroup:bundleLibResRelease
+> Task :togglebuttongroup:bundleLibRuntimeRelease
+> Task :togglebuttongroup:createFullJarRelease
+> Task :sample:checkReleaseDuplicateClasses
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :togglebuttongroup:mergeReleaseShaders
+> Task :togglebuttongroup:compileReleaseShaders
+> Task :togglebuttongroup:generateReleaseAssets
+> Task :togglebuttongroup:packageReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:signingConfigWriterRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :togglebuttongroup:mergeReleaseJniLibFolders
+> Task :togglebuttongroup:transformNativeLibsWithMergeJniLibsForRelease
+> Task :togglebuttongroup:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :togglebuttongroup:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:mergeExtDexRelease
+> Task :sample:mergeDexRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 32s
+91 actionable tasks: 91 executed
+
+2019-08-10 20:32:01,585 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443876169-0/src/ToggleButtonGroup-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
