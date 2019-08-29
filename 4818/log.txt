@@ -1,11 +1,11 @@
-2019-04-07 21:54:43,257 INFO  DownloadService - Downloading "https://github.com/sevar83/android-spatialite/archive/master.zip", attempt 3
-2019-04-07 21:54:54,441 INFO  DownloadService - Downloaded https://github.com/sevar83/android-spatialite/archive/master.zip, attempt 3
-2019-04-07 21:54:54,442 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648883254-0/master.zip": 31 MB
-2019-04-07 21:54:54,442 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-07 21:54:54,460 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648883254-0/master.zip: true
-2019-04-07 21:54:54,460 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648883254-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554648883254-0/src'.
-2019-04-07 21:54:57,764 INFO  FullProcessService - Size of directory with sources: 123 MB
-2019-04-07 21:54:57,764 ERROR FullProcessService - Source directory should be less than 50 MB
-2019-04-07 21:54:57,764 ERROR FullProcessService - Project will not be processed
-2019-04-07 21:54:57,764 ERROR FullProcessService - Project build has not produced APK file
-2019-04-07 21:54:57,960 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-29 11:47:45,488 INFO  DownloadService - Downloading "https://github.com/sevar83/android-spatialite/archive/master.zip", attempt 3
+2019-08-29 11:48:04,198 INFO  DownloadService - Downloaded https://github.com/sevar83/android-spatialite/archive/master.zip, attempt 3
+2019-08-29 11:48:04,198 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054065484-0/master.zip": 31 MB
+2019-08-29 11:48:04,198 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-29 11:48:04,216 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054065484-0/master.zip: true
+2019-08-29 11:48:04,216 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054065484-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054065484-0/src'.
+2019-08-29 11:48:08,040 INFO  FullProcessService - Size of directory with sources: 123 MB
+2019-08-29 11:48:08,040 ERROR FullProcessService - Source directory should be less than 50 MB
+2019-08-29 11:48:08,040 ERROR FullProcessService - Project will not be processed
+2019-08-29 11:48:08,040 ERROR FullProcessService - Project build has not produced APK file
+2019-08-29 11:48:08,152 ERROR FullProcessService - Could not find generated or existed APK file
