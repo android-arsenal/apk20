@@ -1,352 +1,352 @@
-2019-08-29 11:45:43,533 INFO  DownloadService - Downloading "https://github.com/facebook/screenshot-tests-for-android/archive/master.zip", attempt 3
-2019-08-29 11:45:46,401 INFO  DownloadService - Downloaded https://github.com/facebook/screenshot-tests-for-android/archive/master.zip, attempt 3
-2019-08-29 11:45:46,402 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/master.zip": 691 KB
-2019-08-29 11:45:46,402 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-29 11:45:46,402 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/master.zip: true
-2019-08-29 11:45:46,402 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src'.
-2019-08-29 11:45:46,465 INFO  FullProcessService - Size of directory with sources: 924 KB
-2019-08-29 11:45:46,465 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src]
-2019-08-29 11:45:46,495 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/.git/
+2019-09-08 15:36:01,395 INFO  DownloadService - Downloading "https://github.com/facebook/screenshot-tests-for-android/archive/master.zip", attempt 3
+2019-09-08 15:36:03,757 INFO  DownloadService - Downloaded https://github.com/facebook/screenshot-tests-for-android/archive/master.zip, attempt 3
+2019-09-08 15:36:03,757 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/master.zip": 693 KB
+2019-09-08 15:36:03,757 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-08 15:36:03,764 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/master.zip: true
+2019-09-08 15:36:03,764 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src'.
+2019-09-08 15:36:03,842 INFO  FullProcessService - Size of directory with sources: 927 KB
+2019-09-08 15:36:03,843 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src]
+2019-09-08 15:36:03,871 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/.git/
 
-2019-08-29 11:45:46,501 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/gradlew
-2019-08-29 11:45:46,510 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/layout-hierarchy-common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/layout-hierarchy-litho/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/plugin/build.gradle
-2019-08-29 11:45:46,517 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/layout-hierarchy-common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/layout-hierarchy-litho/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/settings.gradle
-2019-08-29 11:45:46,517 INFO  ProjectBuildService - Remote scripts: none
-2019-08-29 11:45:46,517 INFO  ProjectFixService - Fixing project...
-2019-08-29 11:45:46,538 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/local.properties
-2019-08-29 11:45:46,543 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
-2019-08-29 11:45:46,543 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-08-29 11:45:46,545 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/layout-hierarchy-common/local.properties
-2019-08-29 11:45:46,548 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/layout-hierarchy-common/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
-2019-08-29 11:45:46,548 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/layout-hierarchy-common/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-08-29 11:45:46,549 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/layout-hierarchy-litho/local.properties
-2019-08-29 11:45:46,552 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/layout-hierarchy-litho/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
-2019-08-29 11:45:46,553 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/layout-hierarchy-litho/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-08-29 11:45:46,553 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/sample/local.properties
-2019-08-29 11:45:46,557 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
-2019-08-29 11:45:46,558 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-08-29 11:45:46,559 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/local.properties
-2019-08-29 11:45:46,559 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-bin.zip
-2019-08-29 11:45:46,563 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
-2019-08-29 11:45:46,563 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-08-29 11:45:46,564 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/plugin/local.properties
-2019-08-29 11:45:46,568 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/plugin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
-2019-08-29 11:45:46,568 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/plugin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-08-29 11:45:46,569 INFO  ProjectFixService - Project was maybe fixed
-2019-08-29 11:45:46,569 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-29 11:45:46,569 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-29 11:45:55,579 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-08-29 11:45:55,579 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-08-29 11:45:55,579 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-08-29 11:46:13,442 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-08 15:36:03,880 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/gradlew
+2019-09-08 15:36:03,888 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/layout-hierarchy-common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/layout-hierarchy-litho/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/plugin/build.gradle
+2019-09-08 15:36:03,895 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/layout-hierarchy-common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/layout-hierarchy-litho/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/settings.gradle
+2019-09-08 15:36:03,901 INFO  ProjectBuildService - Remote scripts: none
+2019-09-08 15:36:03,901 INFO  ProjectFixService - Fixing project...
+2019-09-08 15:36:03,929 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/local.properties
+2019-09-08 15:36:03,936 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-09-08 15:36:03,936 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-09-08 15:36:03,938 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/layout-hierarchy-common/local.properties
+2019-09-08 15:36:03,945 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/layout-hierarchy-common/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-09-08 15:36:03,945 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/layout-hierarchy-common/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-09-08 15:36:03,946 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/layout-hierarchy-litho/local.properties
+2019-09-08 15:36:03,951 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/layout-hierarchy-litho/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-09-08 15:36:04,008 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/layout-hierarchy-litho/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-09-08 15:36:04,009 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/sample/local.properties
+2019-09-08 15:36:04,013 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-09-08 15:36:04,014 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-09-08 15:36:04,015 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/local.properties
+2019-09-08 15:36:04,015 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-bin.zip
+2019-09-08 15:36:04,019 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-09-08 15:36:04,019 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-09-08 15:36:04,020 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/plugin/local.properties
+2019-09-08 15:36:04,024 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/plugin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-09-08 15:36:04,025 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/plugin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-09-08 15:36:04,025 INFO  ProjectFixService - Project was maybe fixed
+2019-09-08 15:36:04,025 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-08 15:36:04,026 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-08 15:36:13,098 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-09-08 15:36:13,098 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-09-08 15:36:13,098 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-09-08 15:36:28,376 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Task :core:androidJavadocs
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/AlbumImpl.java:37: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/AlbumImpl.java:37: error: cannot find symbol
 import javax.annotation.Nullable;
                        ^
   symbol:   class Nullable
   location: package javax.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/TestNameDetector.java:20: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/TestNameDetector.java:20: error: cannot find symbol
 import javax.annotation.Nullable;
                        ^
   symbol:   class Nullable
   location: package javax.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/WindowAttachment.java:33: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/WindowAttachment.java:33: error: cannot find symbol
 import javax.annotation.Nullable;
                        ^
   symbol:   class Nullable
   location: package javax.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:28: error: package androidx.core.view does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:28: error: package androidx.core.view does not exist
 import androidx.core.view.ViewCompat;
                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:29: error: package androidx.core.view.accessibility does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:29: error: package androidx.core.view.accessibility does not exist
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:32: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:32: error: cannot find symbol
 import javax.annotation.Nullable;
                        ^
   symbol:   class Nullable
   location: package javax.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:132: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:132: error: cannot find symbol
   public static AccessibilityRole getRole(AccessibilityNodeInfoCompat nodeInfo) {
                                           ^
   symbol:   class AccessibilityNodeInfoCompat
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:154: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:154: error: cannot find symbol
   private static AccessibilityNodeInfoCompat createNodeInfoFromView(@Nullable View view) {
                  ^
   symbol:   class AccessibilityNodeInfoCompat
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:167: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:167: error: cannot find symbol
   private static AccessibilityNodeInfoCompat createNodeInfoFromView(
                  ^
   symbol:   class AccessibilityNodeInfoCompat
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:207: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:207: error: cannot find symbol
   public static boolean hasText(@Nullable AccessibilityNodeInfoCompat node) {
                                           ^
   symbol:   class AccessibilityNodeInfoCompat
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:222: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:222: error: cannot find symbol
       @Nullable AccessibilityNodeInfoCompat node, @Nullable View view) {
                 ^
   symbol:   class AccessibilityNodeInfoCompat
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:249: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:249: error: cannot find symbol
       @Nullable AccessibilityNodeInfoCompat node, @Nullable View view) {
                 ^
   symbol:   class AccessibilityNodeInfoCompat
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:303: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:303: error: cannot find symbol
       @Nullable AccessibilityNodeInfoCompat node, @Nullable View view) {
                 ^
   symbol:   class AccessibilityNodeInfoCompat
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:331: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:331: error: cannot find symbol
       @Nullable AccessibilityNodeInfoCompat node, @Nullable View view) {
                 ^
   symbol:   class AccessibilityNodeInfoCompat
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:373: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:373: error: cannot find symbol
   public static boolean isActionableForAccessibility(@Nullable AccessibilityNodeInfoCompat node) {
                                                                ^
   symbol:   class AccessibilityNodeInfoCompat
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:397: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:397: error: cannot find symbol
       @Nullable AccessibilityNodeInfoCompat node, @Nullable View view) {
                 ^
   symbol:   class AccessibilityNodeInfoCompat
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:440: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:440: error: cannot find symbol
   public static boolean areBoundsIdenticalToWindow(AccessibilityNodeInfoCompat node, View view) {
                                                    ^
   symbol:   class AccessibilityNodeInfoCompat
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:594: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:594: error: cannot find symbol
     private final @Nullable AccessibilityNodeInfoCompat mNodeInfo;
                             ^
   symbol:   class AccessibilityNodeInfoCompat
   location: class AXTreeNode
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:608: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:608: error: cannot find symbol
     public @Nullable AccessibilityNodeInfoCompat getNodeInfo() {
                      ^
   symbol:   class AccessibilityNodeInfoCompat
   location: class AXTreeNode
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityHierarchyDumper.java:21: error: package androidx.core.view.accessibility does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityHierarchyDumper.java:21: error: package androidx.core.view.accessibility does not exist
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityHierarchyDumper.java:22: error: package androidx.core.view.accessibility.AccessibilityNodeInfoCompat does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityHierarchyDumper.java:22: error: package androidx.core.view.accessibility.AccessibilityNodeInfoCompat does not exist
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityActionCompat;
                                                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityHierarchyDumper.java:23: error: package androidx.core.view.accessibility.AccessibilityNodeInfoCompat does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityHierarchyDumper.java:23: error: package androidx.core.view.accessibility.AccessibilityNodeInfoCompat does not exist
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat.CollectionInfoCompat;
                                                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityHierarchyDumper.java:24: error: package androidx.core.view.accessibility.AccessibilityNodeInfoCompat does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityHierarchyDumper.java:24: error: package androidx.core.view.accessibility.AccessibilityNodeInfoCompat does not exist
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat.CollectionItemInfoCompat;
                                                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityHierarchyDumper.java:25: error: package androidx.core.view.accessibility.AccessibilityNodeInfoCompat does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityHierarchyDumper.java:25: error: package androidx.core.view.accessibility.AccessibilityNodeInfoCompat does not exist
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat.RangeInfoCompat;
                                                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityIssuesDumper.java:20: error: package androidx.core.view.accessibility does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityIssuesDumper.java:20: error: package androidx.core.view.accessibility does not exist
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityIssuesDumper.java:21: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityIssuesDumper.java:21: error: cannot find symbol
 import javax.annotation.Nullable;
                        ^
   symbol:   class Nullable
   location: package javax.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/AlbumImpl.java:125: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/AlbumImpl.java:125: error: cannot find symbol
   @Nullable
    ^
   symbol:   class Nullable
   location: class AlbumImpl
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/AlbumImpl.java:138: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/AlbumImpl.java:138: error: cannot find symbol
   @Nullable
    ^
   symbol:   class Nullable
   location: class AlbumImpl
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/TestNameDetector.java:62: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/TestNameDetector.java:62: error: cannot find symbol
   private static @Nullable StackTraceElement getFirstTestElement(StackTraceElement[] stack) {
                   ^
   symbol:   class Nullable
   location: class TestNameDetector
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/WindowAttachment.java:41: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/WindowAttachment.java:41: error: cannot find symbol
   @Nullable private static Object sAttachInfo = null;
    ^
   symbol:   class Nullable
   location: class WindowAttachment
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/WindowAttachment.java:131: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/WindowAttachment.java:131: error: cannot find symbol
   public static @Nullable Object generateAttachInfo(View view) {
                  ^
   symbol:   class Nullable
   location: class WindowAttachment
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:154: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:154: error: cannot find symbol
   private static AccessibilityNodeInfoCompat createNodeInfoFromView(@Nullable View view) {
                                                                      ^
   symbol:   class Nullable
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:153: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:153: error: cannot find symbol
   @Nullable
    ^
   symbol:   class Nullable
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:168: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:168: error: cannot find symbol
       @Nullable View view, int retryCount) {
        ^
   symbol:   class Nullable
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:166: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:166: error: cannot find symbol
   @Nullable
    ^
   symbol:   class Nullable
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:207: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:207: error: cannot find symbol
   public static boolean hasText(@Nullable AccessibilityNodeInfoCompat node) {
                                  ^
   symbol:   class Nullable
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:222: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:222: error: cannot find symbol
       @Nullable AccessibilityNodeInfoCompat node, @Nullable View view) {
        ^
   symbol:   class Nullable
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:222: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:222: error: cannot find symbol
       @Nullable AccessibilityNodeInfoCompat node, @Nullable View view) {
                                                    ^
   symbol:   class Nullable
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:249: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:249: error: cannot find symbol
       @Nullable AccessibilityNodeInfoCompat node, @Nullable View view) {
        ^
   symbol:   class Nullable
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:249: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:249: error: cannot find symbol
       @Nullable AccessibilityNodeInfoCompat node, @Nullable View view) {
                                                    ^
   symbol:   class Nullable
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:303: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:303: error: cannot find symbol
       @Nullable AccessibilityNodeInfoCompat node, @Nullable View view) {
        ^
   symbol:   class Nullable
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:303: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:303: error: cannot find symbol
       @Nullable AccessibilityNodeInfoCompat node, @Nullable View view) {
                                                    ^
   symbol:   class Nullable
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:331: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:331: error: cannot find symbol
       @Nullable AccessibilityNodeInfoCompat node, @Nullable View view) {
        ^
   symbol:   class Nullable
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:331: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:331: error: cannot find symbol
       @Nullable AccessibilityNodeInfoCompat node, @Nullable View view) {
                                                    ^
   symbol:   class Nullable
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:373: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:373: error: cannot find symbol
   public static boolean isActionableForAccessibility(@Nullable AccessibilityNodeInfoCompat node) {
                                                       ^
   symbol:   class Nullable
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:397: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:397: error: cannot find symbol
       @Nullable AccessibilityNodeInfoCompat node, @Nullable View view) {
        ^
   symbol:   class Nullable
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:397: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:397: error: cannot find symbol
       @Nullable AccessibilityNodeInfoCompat node, @Nullable View view) {
                                                    ^
   symbol:   class Nullable
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:578: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:578: error: cannot find symbol
   public static AXTreeNode generateAccessibilityTree(View view, @Nullable AXTreeNode parent) {
                                                                  ^
   symbol:   class Nullable
   location: class AccessibilityUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:86: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:86: error: cannot find symbol
     @Nullable private final String mValue;
      ^
   symbol:   class Nullable
   location: class AccessibilityRole
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:92: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:92: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class AccessibilityRole
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:594: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:594: error: cannot find symbol
     private final @Nullable AccessibilityNodeInfoCompat mNodeInfo;
                    ^
   symbol:   class Nullable
   location: class AXTreeNode
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:596: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:596: error: cannot find symbol
     private final @Nullable AXTreeNode mParent;
                    ^
   symbol:   class Nullable
   location: class AXTreeNode
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:598: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:598: error: cannot find symbol
     public AXTreeNode(View view, @Nullable AXTreeNode parent) {
                                   ^
   symbol:   class Nullable
   location: class AXTreeNode
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:608: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:608: error: cannot find symbol
     public @Nullable AccessibilityNodeInfoCompat getNodeInfo() {
             ^
   symbol:   class Nullable
   location: class AXTreeNode
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:624: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:624: error: cannot find symbol
     public @Nullable AXTreeNode getParent() {
             ^
   symbol:   class Nullable
   location: class AXTreeNode
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityIssuesDumper.java:42: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityIssuesDumper.java:42: error: cannot find symbol
   private static @Nullable JSONObject findTalkbackFocusableElementsWithoutSpokenFeedback(
                   ^
   symbol:   class Nullable
   location: class AccessibilityIssuesDumper
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/ViewHelpers.java:66: warning - @returns is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/ViewHelpers.java:66: warning - @returns is an unknown tag.
 javadoc: warning - Class Nullable not found.
 javadoc: warning - Class Nullable not found.
 javadoc: warning - Class Nullable not found.
 javadoc: warning - Class Nullable not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/RecordBuilderImpl.java:57: warning - @inherit is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/RecordBuilderImpl.java:71: warning - @inherit is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/RecordBuilderImpl.java:115: warning - @inherit is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/RecordBuilderImpl.java:121: warning - @inherit is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/RecordBuilderImpl.java:151: warning - @inherit is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:40: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:40: warning - Tag @link: reference not found: com.googlecode.eyesfree.utils.AccessibilityNodeInfoUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:132: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:396: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:248: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:302: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:221: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:330: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:132: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:132: warning - @param argument "node" is not a parameter name.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/RecordBuilderImpl.java:57: warning - @inherit is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/RecordBuilderImpl.java:71: warning - @inherit is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/RecordBuilderImpl.java:115: warning - @inherit is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/RecordBuilderImpl.java:121: warning - @inherit is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/internal/RecordBuilderImpl.java:151: warning - @inherit is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:40: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:40: warning - Tag @link: reference not found: com.googlecode.eyesfree.utils.AccessibilityNodeInfoUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:132: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:396: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:248: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:302: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:221: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:330: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:132: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:132: warning - @param argument "node" is not a parameter name.
 javadoc: warning - Class Nullable not found.
 javadoc: warning - Class Nullable not found.
 javadoc: warning - Class Nullable not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:221: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:221: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:221: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:221: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
 javadoc: warning - Class Nullable not found.
 javadoc: warning - Class Nullable not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:248: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:248: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:248: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:248: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
 javadoc: warning - Class Nullable not found.
 javadoc: warning - Class Nullable not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:302: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:302: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:302: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:302: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
 javadoc: warning - Class Nullable not found.
 javadoc: warning - Class Nullable not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:330: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:330: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:330: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:330: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
 javadoc: warning - Class Nullable not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:373: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat#isClickable()
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:373: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat#isFocusable()
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:373: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat#isLongClickable()
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:373: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:373: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat#isClickable()
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:373: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat#isFocusable()
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:373: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat#isLongClickable()
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityUtil.java:373: warning - Tag @link: reference not found: AccessibilityNodeInfoCompat
 javadoc: warning - Class Nullable not found.
 javadoc: warning - Class Nullable not found.
 100 warnings
@@ -369,7 +369,7 @@ javadoc: warning - Class Nullable not found.
 > Task :core:javaPreCompileDebug
 
 > Task :core:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityHierarchyDumper.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityHierarchyDumper.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
@@ -406,7 +406,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :core:javaPreCompileRelease
 
 > Task :core:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityHierarchyDumper.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/core/src/main/java/com/facebook/testing/screenshot/layouthierarchy/AccessibilityHierarchyDumper.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
@@ -435,7 +435,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :core:assemble
 > Task :core:build
 
-BUILD SUCCESSFUL in 17s
+BUILD SUCCESSFUL in 14s
 47 actionable tasks: 47 executed
 
-2019-08-29 11:46:13,495 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567053943525-0/src/screenshot-tests-for-android-master/plugin/src/py/android_screenshot_tests/example.apk
+2019-09-08 15:36:28,444 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567931761390-0/src/screenshot-tests-for-android-master/plugin/src/py/android_screenshot_tests/example.apk
